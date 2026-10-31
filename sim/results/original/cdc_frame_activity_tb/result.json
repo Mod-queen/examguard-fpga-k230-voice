@@ -1,0 +1,28 @@
+{
+  "top": "cdc_frame_activity_tb",
+  "status": "passed",
+  "active_modules": [
+    "cdc_frame_activity"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "cdc_frame_activity_tb"
+  ],
+  "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/fullscreen_monitor/cdc_frame_activity_tb.v",
+  "sources": [
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/fullscreen_monitor/cdc_frame_activity_tb.v",
+      "sha256": "0bd5e48c4b98d241ccae8716645d8046aa5e4897189ba3921318853f4d1396d6"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/fullscreen_monitor/cdc_frame_activity.v",
+      "sha256": "88f080cea54fbab9ed75712640e64d9e5bc7f5232ecba9a081fb3e301bf32518"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: cdc_frame_activity"
+  ],
+  "trace_bytes": 3284,
+  "seconds": 0.11
+}

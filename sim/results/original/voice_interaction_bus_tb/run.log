@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: voice_interaction_bus scenarios=8 writes=5 reads=17 starts=52 stops=35
+D:\fpga_race\fpga\src\voice_interaction\voice_interaction_bus_tb.sv:198: $finish called at 465751000 (1ps)

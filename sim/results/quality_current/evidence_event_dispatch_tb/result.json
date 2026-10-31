@@ -1,0 +1,24 @@
+{
+  "top": "evidence_event_dispatch_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/ddr3_test/evidence_event_dispatch_tb.sv",
+      "sha256": "c2a92c9a2dce6cf4912a61fdf20272031db90659061fc845135c8dafc20af845"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_event_dispatch.v",
+      "sha256": "91d1a59a541ae4e524024cf272c03bf1f10cf5dec215126bea0dffd4050a1a09"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.031,
+  "pass_lines": [
+    "dispatch depth=          1 randomized cycles=1600 PASS",
+    "dispatch depth=          3 randomized cycles=1600 PASS",
+    "PASS: evidence_event_dispatch all checks"
+  ],
+  "exit_code": 0
+}

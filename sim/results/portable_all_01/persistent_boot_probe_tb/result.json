@@ -1,0 +1,54 @@
+{
+  "top": "persistent_boot_probe_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/persistence/persistent_boot_probe_tb.sv",
+      "sha256": "170abe3a1becfe59e8f135395b107c9bd534ad50419b117a00372caaf16c891c"
+    },
+    {
+      "path": "src/fpga/local_sources/6757b9ed1223/eeprom_page_writer.sv",
+      "sha256": "386a79443b25ddceaeab9d1053ba53029ea18dd2ee8ce3a29de17bf4ac2b8894"
+    },
+    {
+      "path": "src/fpga/local_sources/1dea5a5ec50d/eeprom_dualslot_store.sv",
+      "sha256": "7755f1cfebe6be4e48988132c47438cf7526afd3ed5401c8b6c7d07ad70f7a13"
+    },
+    {
+      "path": "src/fpga/local_sources/473868420a86/eeprom_record_codec.sv",
+      "sha256": "2650ebdd7c40358b5cea4c2975d1dd48bd4310e373a22b2cc2ba46623f068834"
+    },
+    {
+      "path": "src/fpga/local_sources/682b9b4992fd/i2c_byte_master.sv",
+      "sha256": "4b7471ebdfcd080cbabc516e8a56793526a8ac7ecdbc0f51b42c8740dfd2bc8c"
+    },
+    {
+      "path": "src/fpga/local_sources/f0215bcf904a/persistent_boot_gate.sv",
+      "sha256": "c8d0a6f30842cbbaefa82d0a6670efd11c1fb0ecb128c4ff2bdd63c08801b416"
+    },
+    {
+      "path": "src/fpga/local_sources/0e8d0fe30f17/i2c_register_master.sv",
+      "sha256": "a4d1144965e65a73169a89361a1d9be26d6a499512133b647f28829e8d55e8f0"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v",
+      "sha256": "85fdfaa0de41dbab46fd3fe892d57017a0a4f154c32b2268d198d5456aedfab1"
+    },
+    {
+      "path": "sim/sources/persistence/persistence_inventory_probe.sv",
+      "sha256": "e946df68495104d5df653553da690ba45dbe66b32340d117712ffe370231f71d"
+    },
+    {
+      "path": "sim/sources/persistence/persistent_boot_probe.sv",
+      "sha256": "a421e0e265aa61facb98ced24c07f4edb8b6ebcc2479aa6c8be46753b3b33af0"
+    }
+  ],
+  "repairs": [],
+  "seconds": 17.281,
+  "pass_lines": [
+    "PASS: persistent_boot_probe wireOnlySlave explicitBlankFormat/resetBoot1to3/oldSlot/WP/corrupt/oneAllocation/reservedOnly realUART5x348 START=292 STOP=171 busyNACK=24"
+  ],
+  "exit_code": 0
+}

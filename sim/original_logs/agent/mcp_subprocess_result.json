@@ -1,0 +1,148 @@
+{
+  "passed": true,
+  "scope": "Explicit 2026-10-28 archive, not live accuracy or platform integration",
+  "session": "capture_20261028T122348_bdbea8a129d14698a34cdb9b330917d2.sqlite3",
+  "before_sha256": "af957b1acac3674b9b79f350810459feb65135143b606a9d444e5d903b90b47d",
+  "after_sha256": "af957b1acac3674b9b79f350810459feb65135143b606a9d444e5d903b90b47d",
+  "responses": [
+    {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": {
+        "protocolVersion": "2025-06-18",
+        "capabilities": {
+          "tools": {}
+        },
+        "serverInfo": {
+          "name": "examguard-review",
+          "version": "1.0.0"
+        },
+        "instructions": "只读考场存档查询。疑似事件需人工看图复核。图像工具只返回本机路径和元数据，不提供视觉确认。"
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": {
+        "tools": [
+          {
+            "name": "get_recent_events",
+            "description": "按PC接收时间查当前选定会话最近的疑似ET事件；AL另列不相加；无记录不代表没有发生。",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "time_range": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 1440,
+                  "description": "最近多少分钟，默认30"
+                },
+                "event_code": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 255,
+                  "description": "手机80/资料81/扭头96；省略查全部"
+                },
+                "limit": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 50
+                }
+              },
+              "additionalProperties": false
+            },
+            "annotations": {
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "check_evidence_status",
+            "description": "校验并关联ET、最新EG像素和HR历史结果，返回实际完整性。",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "event_ref": {
+                  "type": "string",
+                  "description": "优先使用get_recent_events返回的完整event_ref；UID只有唯一时才接受"
+                }
+              },
+              "required": [
+                "event_ref"
+              ],
+              "additionalProperties": false
+            },
+            "annotations": {
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "get_image_path",
+            "description": "返回已校验的现有PPM图像路径和帧时间；不能获取不存在的视频。",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "event_ref": {
+                  "type": "string",
+                  "description": "优先使用get_recent_events返回的完整event_ref；UID只有唯一时才接受"
+                }
+              },
+              "required": [
+                "event_ref"
+              ],
+              "additionalProperties": false
+            },
+            "annotations": {
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "get_system_health",
+            "description": "查询最后状态和芯片温度；明确未知或停更。",
+            "inputSchema": {
+              "type": "object",
+              "properties": {},
+              "additionalProperties": false
+            },
+            "annotations": {
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "openWorldHint": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"source\": \"MCP指定存档复核（非实时在线证明）\", \"live_session\": false, \"status\": \"stale\", \"last_status_received_at\": \"2026-10-28T12:30:42.570+00:00\", \"status_age_seconds\": 138371.997, \"stage\": \"考试\", \"reported_health\": \"正常 (0x00)\", \"fpga_temperature_c\": null, \"temperature_status\": \"unknown_or_stale\", \"transport\": \"未知或状态停更；不能据此宣布网络正常\", \"evidence_network_summary\": \"PHY 1000M 全双工\", \"persistence_error\": null, \"persistence_failures\": 0, \"note\": \"温度仅为芯片内部测量；历史存档不代表当前在线，未接收不能报告为正常。\"}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 4,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"source\": \"MCP指定存档复核（非实时在线证明）\", \"host_session_id\": \"bdbea8a129d14698a34cdb9b330917d2\", \"queried_at\": \"2026-10-30T02:56:54.569420+00:00\", \"time_basis\": \"PC接收时间（UTC）；不是事件发生的墙钟时间\", \"time_range_minutes\": 1440, \"events\": [], \"unique_transactions_in_scanned_rows\": 0, \"scanned_receipts\": 0, \"scan_truncated\": false, \"display_truncated\": false, \"legacy_alarm_receipts\": [], \"legacy_receipts_in_scanned_rows\": 0, \"legacy_scan_truncated\": false, \"persistence_error\": null, \"note\": \"ET为已接收的疑似事件；AL单列、不与ET相加；未发现记录不等于没有发生。最多检查最近500条回执。\"}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  ]
+}

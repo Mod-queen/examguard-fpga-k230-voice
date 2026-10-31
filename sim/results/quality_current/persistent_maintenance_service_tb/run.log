@@ -1,0 +1,2 @@
+PASS: persistent_maintenance_service results=7 RA=4 START=193 STOP=125 RTCwrites=22 EEPROMwrites=384 boot-priority/drain/held/save/load/reject/RTC-failure/reset
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\persistence\persistent_maintenance_service_tb.sv:162: $finish called at 8737211000 (1ps)

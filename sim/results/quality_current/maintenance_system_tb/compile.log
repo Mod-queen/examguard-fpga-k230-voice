@@ -1,0 +1,40 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/sim/test_repairs/maintenance_system_tb/maintenance_system_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module maintenance_system_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/cfe9e05c73c5/maintenance_record.sv" into library work
+INFO: [VRFC 10-311] analyzing module maintenance_record
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/c5242e5fe116/pcf8563_setter.sv" into library work
+INFO: [VRFC 10-311] analyzing module pcf8563_setter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/6757b9ed1223/eeprom_page_writer.sv" into library work
+INFO: [VRFC 10-311] analyzing module eeprom_page_writer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/a8328017a7aa/pcf8563_reader.sv" into library work
+INFO: [VRFC 10-311] analyzing module pcf8563_reader
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/1dea5a5ec50d/eeprom_dualslot_store.sv" into library work
+INFO: [VRFC 10-311] analyzing module eeprom_dualslot_store
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/ee27b53745a7/rtc_time_anchor.sv" into library work
+INFO: [VRFC 10-311] analyzing module rtc_time_anchor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/473868420a86/eeprom_record_codec.sv" into library work
+INFO: [VRFC 10-311] analyzing module eeprom_record_codec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/c66e664ded59/pcf8563_calendar.sv" into library work
+INFO: [VRFC 10-311] analyzing module pcf8563_calendar
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/b3552f47b77a/rtc_anchor_record.sv" into library work
+INFO: [VRFC 10-311] analyzing module rtc_anchor_record
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/0663b43ea7cd/persistent_config_decode.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_config_decode
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/682b9b4992fd/i2c_byte_master.sv" into library work
+INFO: [VRFC 10-311] analyzing module i2c_byte_master
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/f0215bcf904a/persistent_boot_gate.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_boot_gate
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/f968173539ff/maintenance_endpoint.sv" into library work
+INFO: [VRFC 10-311] analyzing module maintenance_endpoint
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/709b883505d5/rtc_anchor_client.sv" into library work
+INFO: [VRFC 10-311] analyzing module rtc_anchor_client
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/970a8a9f3bf9/persistent_maintenance_service.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_maintenance_service
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/aff7f4c790db/maintenance_command_rx.sv" into library work
+INFO: [VRFC 10-311] analyzing module maintenance_command_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/49702224756b/persistent_config_manager.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_config_manager
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/0e8d0fe30f17/i2c_register_master.sv" into library work
+INFO: [VRFC 10-311] analyzing module i2c_register_master
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/cb4f400b368e/i2c_transaction_arbiter.sv" into library work
+INFO: [VRFC 10-311] analyzing module i2c_transaction_arbiter

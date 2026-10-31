@@ -1,0 +1,105 @@
+test_api_address_and_remote_plain_http_are_validated (app.test_agent.AgentControllerTests.test_api_address_and_remote_plain_http_are_validated) ... ok
+test_llm_cannot_claim_completion_without_tool_or_after_error (app.test_agent.AgentControllerTests.test_llm_cannot_claim_completion_without_tool_or_after_error) ... ok
+test_local_is_explicit_and_does_not_call_api (app.test_agent.AgentControllerTests.test_local_is_explicit_and_does_not_call_api) ... ok
+test_real_tool_loop_payload_and_key_redaction (app.test_agent.AgentControllerTests.test_real_tool_loop_payload_and_key_redaction) ... ok
+test_secret_echo_in_tool_arguments_is_redacted (app.test_agent.AgentControllerTests.test_secret_echo_in_tool_arguments_is_redacted) ... ok
+test_unknown_tools_and_malformed_calls_do_not_gain_controls (app.test_agent.AgentControllerTests.test_unknown_tools_and_malformed_calls_do_not_gain_controls) ... ok
+test_async_panel_evidence_navigation_and_close (app.test_agent.AgentPanelTests.test_async_panel_evidence_navigation_and_close) ... ok
+test_archive_reads_do_not_modify_database_and_time_range_is_honest (app.test_agent.AgentToolTests.test_archive_reads_do_not_modify_database_and_time_range_is_honest) ... ok
+test_bad_latest_revision_blocks_old_complete_preview (app.test_agent.AgentToolTests.test_bad_latest_revision_blocks_old_complete_preview) ... ok
+test_durable_query_survives_clear_and_deduplicates_et_not_al (app.test_agent.AgentToolTests.test_durable_query_survives_clear_and_deduplicates_et_not_al) ... ok
+test_health_missing_fresh_stale_and_archive_are_distinct (app.test_agent.AgentToolTests.test_health_missing_fresh_stale_and_archive_are_distinct) ... ok
+test_joint_complete_requires_hr_and_images_return_actual_frames (app.test_agent.AgentToolTests.test_joint_complete_requires_hr_and_images_return_actual_frames) ... ok
+test_limit_scan_is_explicit_not_full_range_count (app.test_agent.AgentToolTests.test_limit_scan_is_explicit_not_full_range_count) ... ok
+test_partial_and_hr_only_do_not_become_complete (app.test_agent.AgentToolTests.test_partial_and_hr_only_do_not_become_complete) ... ok
+test_uid_ambiguity_and_same_identity_conflict_refuse_binding (app.test_agent.AgentToolTests.test_uid_ambiguity_and_same_identity_conflict_refuse_binding) ... ok
+test_unknown_event_and_paths_and_arguments_are_rejected (app.test_agent.AgentToolTests.test_unknown_event_and_paths_and_arguments_are_rejected) ... ok
+test_login_attempts_are_limited (app.test_agent.AgentWebTests.test_login_attempts_are_limited) ... ok
+test_login_required_csrf_origin_and_logout (app.test_agent.AgentWebTests.test_login_required_csrf_origin_and_logout) ... ERROR
+test_parallel_asks_cannot_clear_another_requests_busy_flag (app.test_agent.AgentWebTests.test_parallel_asks_cannot_clear_another_requests_busy_flag) ... ok
+test_query_validated_images_and_no_arbitrary_files (app.test_agent.AgentWebTests.test_query_validated_images_and_no_arbitrary_files) ... ok
+test_RA_display_is_separate_from_event_time_and_old_boot_flagged (app.test_dashboard_session.DashboardSessionTests.test_RA_display_is_separate_from_event_time_and_old_boot_flagged) ... ok
+test_burst_history_clear_report_and_close_drains_decoded_queue (app.test_dashboard_session.DashboardSessionTests.test_burst_history_clear_report_and_close_drains_decoded_queue) ... ok
+test_click_verifies_only_target_archive_not_unrelated_windows (app.test_dashboard_session.DashboardSessionTests.test_click_verifies_only_target_archive_not_unrelated_windows) ... ok
+test_countdown_replaces_legacy_channels_and_k230_tab_removed (app.test_dashboard_session.DashboardSessionTests.test_countdown_replaces_legacy_channels_and_k230_tab_removed) ... ok
+test_et_before_image_refresh_exact_preview_report_and_context_conflict (app.test_dashboard_session.DashboardSessionTests.test_et_before_image_refresh_exact_preview_report_and_context_conflict) ... ok
+test_event_selection_survives_ei_refresh (app.test_dashboard_session.DashboardSessionTests.test_event_selection_survives_ei_refresh) ... ok
+test_legacy_alarm_offers_same_boot_new_evidence_without_uid_false_binding (app.test_dashboard_session.DashboardSessionTests.test_legacy_alarm_offers_same_boot_new_evidence_without_uid_false_binding) ... ok
+test_legacy_candidates_refuse_cross_boot_and_keep_multiple_choices (app.test_dashboard_session.DashboardSessionTests.test_legacy_candidates_refuse_cross_boot_and_keep_multiple_choices) ... ok
+test_new_click_cancels_background_full_scan_and_discards_old_result (app.test_dashboard_session.DashboardSessionTests.test_new_click_cancels_background_full_scan_and_discards_old_result) ... ok
+test_new_evidence_health_real_packet_model_and_stale_display (app.test_dashboard_session.DashboardSessionTests.test_new_evidence_health_real_packet_model_and_stale_display) ... ok
+test_persistence_error_stays_visible_after_status_refresh (app.test_dashboard_session.DashboardSessionTests.test_persistence_error_stays_visible_after_status_refresh) ... ok
+test_transaction_received_persisted_displayed_separate_from_legacy (app.test_dashboard_session.DashboardSessionTests.test_transaction_received_persisted_displayed_separate_from_legacy) ... ok
+test_awaiting_sides (app.test_history_association.HistoryAssociationTests.test_awaiting_sides) ... ok
+test_complete (app.test_history_association.HistoryAssociationTests.test_complete) ... ok
+test_failed_result (app.test_history_association.HistoryAssociationTests.test_failed_result) ... ok
+test_gap_degrades_even_with_complete_pixels (app.test_history_association.HistoryAssociationTests.test_gap_degrades_even_with_complete_pixels) ... ok
+test_hr_ok_but_pixels_partial (app.test_history_association.HistoryAssociationTests.test_hr_ok_but_pixels_partial) ... ok
+test_transaction_case_and_raw_hash (app.test_history_association.HistoryAssociationTests.test_transaction_case_and_raw_hash) ... ok
+test_unknown_degrades (app.test_history_association.HistoryAssociationTests.test_unknown_degrades) ... ok
+test_active_checkpoint_duplicate_traffic_and_failed_save_retry (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_active_checkpoint_duplicate_traffic_and_failed_save_retry) ... ok
+test_actual_udp_subprocess_auto_pg_and_eg_stop_resume_and_bad_crc (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_actual_udp_subprocess_auto_pg_and_eg_stop_resume_and_bad_crc) ... ok
+test_capacity_eviction_quiet_and_disk_failure_never_silent_eviction (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_capacity_eviction_quiet_and_disk_failure_never_silent_eviction) ... ok
+test_checkpoint_survives_process_kill_then_late_chunks_resume (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_checkpoint_survives_process_kill_then_late_chunks_resume) ... ok
+test_default_40frame_320x180_window_host_capacity_full_pixels (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_default_40frame_320x180_window_host_capacity_full_pixels) ... ok
+test_disk_reserve_refuses_publish_without_deleting_or_evicting (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_disk_reserve_refuses_publish_without_deleting_or_evicting) ... ok
+test_exact_context_identity_no_legacy_fallback_and_corrupt_latest_rejected (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_exact_context_identity_no_legacy_fallback_and_corrupt_latest_rejected) ... ok
+test_failed_atomic_publication_is_hidden_old_revision_intact (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_failed_atomic_publication_is_hidden_old_revision_intact) ... ok
+test_failed_result_all_pixels_never_success_and_result_only_preserved (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_failed_result_all_pixels_never_success_and_result_only_preserved) ... ok
+test_host_global_capacity_rejection_latches_failed_without_buffer_growth (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_host_global_capacity_rejection_latches_failed_without_buffer_growth) ... ok
+test_ingress_backlog_suppresses_expiry_but_not_checkpoint (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_ingress_backlog_suppresses_expiry_but_not_checkpoint) ... ok
+test_late_conflict_overrides_prior_complete_and_latches_across_restart (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_late_conflict_overrides_prior_complete_and_latches_across_restart) ... ok
+test_one_click_services_owns_actual_eg_receiver_and_graceful_flush (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_one_click_services_owns_actual_eg_receiver_and_graceful_flush) ... ok
+test_partial_raw_chunks_resume_after_stop_restart_and_result_late (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_partial_raw_chunks_resume_after_stop_restart_and_result_late) ... ok
+test_reordered_duplicates_atomic_complete_and_raw_preview_hashes (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_reordered_duplicates_atomic_complete_and_raw_preview_hashes) ... ok
+test_revision_order_survives_pc_wall_clock_rollback (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_revision_order_survives_pc_wall_clock_rollback) ... ok
+test_same_uid_across_boot_and_session_is_separate_and_exact_only (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_same_uid_across_boot_and_session_is_separate_and_exact_only) ... ok
+test_window_byte_limit_failure_survives_restore_and_identity_context_conflict (app.test_evidence_v2_receiver.EvidenceV2ReceiverTests.test_window_byte_limit_failure_survives_restore_and_identity_context_conflict) ... ok
+test_corrupt_export_failure_visible_then_capacity_can_run (app.test_replay_tasks.ReplayTaskTests.test_corrupt_export_failure_visible_then_capacity_can_run) ... ok
+test_destroyed_widget_has_no_worker_Tk_callback (app.test_replay_tasks.ReplayTaskTests.test_destroyed_widget_has_no_worker_Tk_callback) ... ok
+test_export_does_not_block_Tk_live_receipts_or_duplicate_tasks (app.test_replay_tasks.ReplayTaskTests.test_export_does_not_block_Tk_live_receipts_or_duplicate_tasks) ... ok
+test_report_reads_independent_connection_without_live_model_lock (app.test_replay_tasks.ReplayTaskTests.test_report_reads_independent_connection_without_live_model_lock) ... ok
+test_scan_is_background_coalesced_and_old_directory_never_published (app.test_replay_tasks.ReplayTaskTests.test_scan_is_background_coalesced_and_old_directory_never_published) ... ok
+
+======================================================================
+ERROR: test_login_required_csrf_origin_and_logout (app.test_agent.AgentWebTests.test_login_required_csrf_origin_and_logout)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\fpga_race\host\app\test_agent.py", line 262, in test_login_required_csrf_origin_and_logout
+    self.assertEqual(self.request('/api/ask', dict(question='手机'), origin='https://evil.invalid')[0], 403)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\fpga_race\host\app\test_agent.py", line 244, in request
+    response = self.client.open(request, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "D:\python\Lib\urllib\request.py", line 1373, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\urllib\request.py", line 1348, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "D:\python\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+  File "D:\python\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\socket.py", line 708, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+
+----------------------------------------------------------------------
+Ran 62 tests in 40.068s
+
+FAILED (errors=1)

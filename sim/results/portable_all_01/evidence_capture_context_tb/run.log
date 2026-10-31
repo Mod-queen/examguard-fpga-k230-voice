@@ -1,0 +1,2 @@
+PASS: evidence_capture_context time-qualified DDR frames, stale-clock rejection, in-flight B/event common reset, new UID window8pixels packet_sink=0 packets=0
+D:\fpga_race\deploy\submission_20261031\sim\sources\ddr3_test\evidence_capture_context_tb.sv:151: $finish called at 8560000 (1ps)

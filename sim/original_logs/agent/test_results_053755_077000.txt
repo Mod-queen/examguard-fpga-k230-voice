@@ -1,0 +1,15 @@
+test_child_has_only_review_mcp_and_no_key_in_command_or_config (app.test_agent_opencode.FreeBackendTests.test_child_has_only_review_mcp_and_no_key_in_command_or_config) ... ok
+test_controller_does_not_fall_back_to_paid_api (app.test_agent_opencode.FreeBackendTests.test_controller_does_not_fall_back_to_paid_api) ... ok
+test_free_settings_without_key_restore_without_dpapi (app.test_agent_opencode.FreeBackendTests.test_free_settings_without_key_restore_without_dpapi) ... ok
+test_mcp_audit_records_actual_data_and_enforces_call_limit (app.test_agent_opencode.FreeBackendTests.test_mcp_audit_records_actual_data_and_enforces_call_limit) ... ok
+test_native_backend_reads_real_mcp_audit_without_any_cloud_request (app.test_agent_opencode.FreeBackendTests.test_native_backend_reads_real_mcp_audit_without_any_cloud_request) ... ok
+test_paid_model_is_refused_before_client_launch (app.test_agent_opencode.FreeBackendTests.test_paid_model_is_refused_before_client_launch) ... ok
+test_quota_region_and_server_errors_cannot_be_successful (app.test_agent_opencode.FreeBackendTests.test_quota_region_and_server_errors_cannot_be_successful) ... ok
+test_real_receipt_and_answer_are_joined_and_key_redacted (app.test_agent_opencode.FreeBackendTests.test_real_receipt_and_answer_are_joined_and_key_redacted) ... ok
+test_text_alone_is_never_a_successful_review (app.test_agent_opencode.FreeBackendTests.test_text_alone_is_never_a_successful_review) ... ok
+test_web_can_select_free_mode_without_api_endpoint (app.test_agent_opencode.FreeBackendTests.test_web_can_select_free_mode_without_api_endpoint) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.777s
+
+OK

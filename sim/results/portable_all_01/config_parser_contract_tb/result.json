@@ -1,0 +1,22 @@
+{
+  "top": "config_parser_contract_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/verification_20261031/config_parser_contract_tb.sv",
+      "sha256": "99a09d19dc682d5bed919c7081c6214e9b0c8579ed0bccce18fc42d98092deee"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/config_rx.v",
+      "sha256": "480156cd955cac92786c5e82f9ab608c9952da342cc5ecd17a8b033f23da508f"
+    }
+  ],
+  "repairs": [],
+  "seconds": 6.578,
+  "pass_lines": [
+    "PASS: config_parser_contract valid ROI/full boundaries/CRLF/invalid region-X-Y-threshold/malformed/foreign/recovery/reset"
+  ],
+  "exit_code": 0
+}

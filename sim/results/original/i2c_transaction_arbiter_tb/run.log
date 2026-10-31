@@ -1,0 +1,5 @@
+VCD info: dumpfile trace.vcd opened for output.
+ARB saturation 240 complete with alternating grants and independent master/response stalls
+WARNING: Dump file limit (2000000 bytes) exceeded.
+PASS: i2c_transaction_arbiter 720 completed transactions saturation/random/reset-recovery checks=10982
+D:\fpga_race\fpga\src\persistence\i2c_transaction_arbiter_tb.sv:120: $finish called at 220060000 (1ps)

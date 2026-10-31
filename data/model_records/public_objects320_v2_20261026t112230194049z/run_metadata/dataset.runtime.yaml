@@ -1,0 +1,4 @@
+path: "D:/fpga_race/k230_upgrade_20261026/coco_objects/dataset"
+train: images/train
+val: images/val
+names: [phone, book]

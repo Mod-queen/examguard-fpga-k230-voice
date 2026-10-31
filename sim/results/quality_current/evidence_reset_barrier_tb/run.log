@@ -1,0 +1,2 @@
+PASS: evidence_reset_barrier four independent stopped clocks / short pulse / retrigger / no feedback deadlock
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\event_identity\evidence_reset_barrier_tb.sv:35: $finish called at 1960000 (1ps)

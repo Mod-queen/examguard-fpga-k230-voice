@@ -1,0 +1,161 @@
+{
+  "result": "LOCAL_LINEAGE_AND_PRIOR_DEPLOYMENT_EVIDENCE_MATCH",
+  "scope": "Local preserved files and 2026-10-27 board hash evidence; NOT a new current-board readback or accuracy test",
+  "public_training": {
+    "images": 7706,
+    "validation_images": 585,
+    "classes": [
+      "phone",
+      "book"
+    ],
+    "epochs": 30,
+    "best_sha256": "34a183854c1b380001a40c865dadf8e47d2359399c8779c8c39b2a3cafca94de"
+  },
+  "six_class_finetune": {
+    "images": 277,
+    "sessions": [
+      "key_2600271ef652_006"
+    ],
+    "public_replay": 0,
+    "boxes": {
+      "phone": 102,
+      "head_down_writing": 46,
+      "notes": 35,
+      "head_forward": 35,
+      "head_left": 36,
+      "head_right": 40
+    },
+    "epochs": 60,
+    "evaluation_scope": "RESUBSTITUTION_FIT_ONLY_SAME_TRAINING_IMAGES; NOT independent validation/test or K230 event accuracy",
+    "best_sha256": "e4ddc32b27d1387fca6692cdcc7e7357b619ee3ac5faca8596f18c0dcf08c3af"
+  },
+  "not_deployed_object_replay": {
+    "profile": "objects",
+    "names": [
+      "phone",
+      "notes"
+    ],
+    "field_index_sha256": "0616b9d076437818b0a3e83dd7f093632d478f4e79f13a1c1cbcd9a5eff79c23",
+    "field_unique_images": 286,
+    "field_sessions": [
+      "key_2600271ef652_006"
+    ],
+    "train_entries": 2644,
+    "field_sampling_weight": 4,
+    "public_replay_unique_images": 1500,
+    "validation_images": 585,
+    "validation_scope": "PUBLIC_COCO_DEVELOPMENT_ONLY; class1 book appearance proxy mapped to notes; NO independent field test",
+    "field_negative_images": 147,
+    "training_boxes": {
+      "phone": 111,
+      "notes": 35
+    },
+    "public_mapping": "COCO 0 phone/1 book -> 0 phone/1 notes appearance proxy ONLY; not authorization inference",
+    "human_confirmation": {
+      "confirmed": true,
+      "source": "user_message",
+      "text": "补充人工也核实了",
+      "scope": "User reports human verification of this delivered batch; original AI provenance preserved unchanged"
+    }
+  },
+  "deployed_model": {
+    "sha256": "7954b4c1b26da2b86899dbd961564b580519710b16b2e1ff74b0e68b25c3b04b",
+    "bytes": 3178768,
+    "onnx_sha256": "11f0a9526997107e7aef25f574c985646dbce40dd597ecd15cc15a2cdaeae6e9",
+    "calibration_sha256": "6e7e066356416a11af58d82344198c9bd6a49052009ce38a8dad0ab6807c4296"
+  },
+  "observations_from_user": {
+    "object_errors": [
+      "wrong boxes on K230 LCD",
+      "phone/notes confused"
+    ],
+    "head_error": "no head_left/right labels on K230 LCD during side turns",
+    "quantified_false_positive_or_recall_rate": "not measured"
+  },
+  "code_observations": {
+    "lcd_detection_confidence": 0.3,
+    "object_low": 0.3,
+    "object_high": 0.6,
+    "object_confirm": 2,
+    "head_confidence": 0.6,
+    "head_margin": 0.15,
+    "head_side_confirm": 3,
+    "head_side_ms": 400,
+    "fpga_away_samples": 5,
+    "note": "LCD displays decoded rows before Policy confirmation; Policy/FPGA changes alone cannot fix wrong LCD class boxes"
+  },
+  "captured_log": {
+    "path": "D:\\fpga_race\\host\\logs\\launch_20261028_202349_fc0d8f92\\k230.log",
+    "bytes": 213042,
+    "sha256": "ff6e92e0b691fb6f28d9de50ae2286a3e24726006e709e29070c7ffaa7f6d197",
+    "nul_bytes": 21,
+    "sampled_states": [
+      {
+        "head": "unknown",
+        "object": "none",
+        "samples": 73
+      },
+      {
+        "head": "head_down_writing",
+        "object": "none",
+        "samples": 4
+      },
+      {
+        "head": "unknown",
+        "object": "phone",
+        "samples": 11
+      },
+      {
+        "head": "head_down_writing",
+        "object": "phone",
+        "samples": 1
+      },
+      {
+        "head": "pending_head_down_writing",
+        "object": "notes",
+        "samples": 1
+      },
+      {
+        "head": "head_forward",
+        "object": "none",
+        "samples": 5
+      },
+      {
+        "head": "head_left",
+        "object": "none",
+        "samples": 2
+      },
+      {
+        "head": "pending_head_right",
+        "object": "none",
+        "samples": 5
+      },
+      {
+        "head": "pending_head_forward",
+        "object": "none",
+        "samples": 2
+      },
+      {
+        "head": "pending_head_left",
+        "object": "none",
+        "samples": 3
+      },
+      {
+        "head": "unknown",
+        "object": "notes",
+        "samples": 6
+      },
+      {
+        "head": "pending_head_left",
+        "object": "phone",
+        "samples": 1
+      },
+      {
+        "head": "pending_head_down_writing",
+        "object": "none",
+        "samples": 1
+      }
+    ],
+    "limitations": "Sparse state printout; no raw scores, exact source images or synchronized action labels. Counts are NOT accuracy."
+  }
+}

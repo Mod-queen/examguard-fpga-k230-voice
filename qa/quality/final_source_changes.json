@@ -1,0 +1,27 @@
+[
+  {
+    "path": "src/fpga/ov5640_ddr3_hdmi_vga.xpr",
+    "before_sha256": "c44b5e42a86400e7660fbef230955f58d0ce26456a641579506f21dc2ff63421",
+    "after_sha256": "c7540b8612a0bac44ac6b8ac2137270166c0fa64b0a5b3dcc8303d6f49678f4c"
+  },
+  {
+    "path": "src/fpga/local_sources/quality/display_output_pipeline.v",
+    "before_sha256": null,
+    "after_sha256": "dd31e7ec5e74fa30d45bdb5d3c9210d1916e3d3a8daaae50f993ebfb44acfdbd"
+  },
+  {
+    "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ai_link/ai_link_rx.v",
+    "before_sha256": "edf76874e811ec99ecebc2361261e44ba2467992f6d39f2b20036b6f834f4daa",
+    "after_sha256": "67a65aeeeb4c424e5dfa731bcd49f2bb7efeacdb0e27a52573dc02b9ec95cee1"
+  },
+  {
+    "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/phy_reg_config.v",
+    "before_sha256": "b6750d4d9fc88082ec422ef05fe8e820e90eb0c027904eca738f00dfe11e71ef",
+    "after_sha256": "08d898999ff6d32b96ea9f0ecc82eb022a09cb03b3cb5f1d5ea989299c75aa7f"
+  },
+  {
+    "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/top/ov5640_ddr3_hdmi_vga.v",
+    "before_sha256": "2a9ed3cefc19bb7104676c3d2ca61bd94c8119af161350cb24f047e630f076e6",
+    "after_sha256": "cc29bf9a627da35e9d9f2e3bfc5f9d4a9a2a00c3fb80d69e67eaa13b987510eb"
+  }
+]

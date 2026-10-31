@@ -1,0 +1,20 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/case_snapshot/xsim_script.tcl
+# xsim {case_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/verification_out/quality_20261031/display_01/dvi_pipeline_contract_tb/run.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/verification_out/quality_20261031/display_01/dvi_pipeline_contract_tb/run.tcl
+## open_vcd trace.vcd
+## set signals [get_objects -quiet {/dvi_pipeline_contract_tb/rst /dvi_pipeline_contract_tb/reset /dvi_pipeline_contract_tb/rst_n /dvi_pipeline_contract_tb/request /dvi_pipeline_contract_tb/accepted /dvi_pipeline_contract_tb/rejected /dvi_pipeline_contract_tb/event_valid /dvi_pipeline_contract_tb/result_valid /dvi_pipeline_contract_tb/result_ok /dvi_pipeline_contract_tb/protocol_fault /dvi_pipeline_contract_tb/video_fault /dvi_pipeline_contract_tb/frame_done /dvi_pipeline_contract_tb/init_done /dvi_pipeline_contract_tb/tx_qualified /dvi_pipeline_contract_tb/link_up /dvi_pipeline_contract_tb/errors /dvi_pipeline_contract_tb/state}]
+## if {[llength $signals]} {log_vcd $signals}
+## run all
+PASS: dvi_pipeline_contract one aligned pixel stage then actual encoder/serializer three RGB channels/independent decode/four blue controls/blanking/serialized lane mapping/both edges/clock pair decode=3087 bits=41160
+$finish called at time : 20820 ns : File "D:/fpga_race/deploy/engineering_quality_20261031/sim/sources/quality/dvi_pipeline_contract_tb.sv" Line 69
+## close_vcd
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 23:22:13 2026...

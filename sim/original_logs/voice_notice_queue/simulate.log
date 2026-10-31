@@ -1,0 +1,12 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+scenario 1: selftest/duplicate verification suppressed
+scenario 2: latest stage wins
+scenario 3: five simultaneous alarm types survive
+scenario 4: per-type cooldown and rearm
+scenario 5: stale backlog expires without replay
+scenario 6: stalled offer expiry
+scenario 7: phase cancellation and timeout wording
+scenario 8: exact completion, old round drain, no failed-write retry
+PASS: voice_notice_queue scenarios=9
+$finish called at time : 3866 ns : File "D:/fpga_race/fpga/src/voice_interaction/voice_notice_queue_tb.sv" Line 153

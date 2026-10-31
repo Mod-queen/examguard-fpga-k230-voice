@@ -1,0 +1,27 @@
+{
+  "top": "tmds_serializer_contract_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/verification_20261031/tmds_serializer_contract_tb.sv",
+      "sha256": "3ef6e6706b3bcc3bf4510976f52dca887958e92b3735c24881c0b0ea298a5d04"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/serdes_4b_10to1.v",
+      "sha256": "193faf53b9674b42338d6ffe75466132d39153da0f1e6814811cc9cf8210a810"
+    },
+    {
+      "path": "@vivado/glbl.v",
+      "sha256": "c48753ff3481f46872a09160eee14b5596b37444c1bf2b84bf2acd922e7c982d"
+    }
+  ],
+  "repairs": [],
+  "seconds": 6.89,
+  "pass_lines": [
+    "PASS: tmds_serializer_contract actual UNISIM ODDR/OBUFDS/four lanes/40 patterns/LSB-first ten bits/both edges/differential polarity bits=3200"
+  ],
+  "exit_code": 0,
+  "trace_bytes": 115
+}

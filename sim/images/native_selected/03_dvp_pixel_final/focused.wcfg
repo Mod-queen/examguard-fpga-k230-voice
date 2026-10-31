@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/fpga_race/verification_out/refinement_20261031/cases/dvp_capture_contract_tb/focus_snapshot.wdb" id="1">
+         <top_modules>
+            <top_module name="dvp_capture_contract_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+   <ZoomStartTime time="2200000000fs" /><ZoomEndTime time="2360000000fs" /><Cursor1Time time="2200000000fs" /></zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/dvp_capture_contract_tb/PCLK" type="logic">
+      <obj_property name="ElementShortName">PCLK</obj_property>
+      <obj_property name="ObjectShortName">PCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dvp_capture_contract_tb/Rst_p" type="logic">
+      <obj_property name="ElementShortName">Rst_p</obj_property>
+      <obj_property name="ObjectShortName">Rst_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dvp_capture_contract_tb/Href" type="logic">
+      <obj_property name="ElementShortName">Href</obj_property>
+      <obj_property name="ObjectShortName">Href</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dvp_capture_contract_tb/Data" type="array">
+      <obj_property name="ElementShortName">Data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dvp_capture_contract_tb/DataValid" type="logic">
+      <obj_property name="ElementShortName">DataValid</obj_property>
+      <obj_property name="ObjectShortName">DataValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dvp_capture_contract_tb/DataPixel" type="array">
+      <obj_property name="ElementShortName">DataPixel[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DataPixel[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dvp_capture_contract_tb/Xaddr" type="array">
+      <obj_property name="ElementShortName">Xaddr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Xaddr[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dvp_capture_contract_tb/Yaddr" type="array">
+      <obj_property name="ElementShortName">Yaddr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Yaddr[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dvp_capture_contract_tb/received" type="array">
+      <obj_property name="ElementShortName">received[31:0]</obj_property>
+      <obj_property name="ObjectShortName">received[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

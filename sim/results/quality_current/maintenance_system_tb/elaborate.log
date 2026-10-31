@@ -1,0 +1,39 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/vivado2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe --relax --debug typical -L unisims_ver -L unimacro_ver -L secureip work.maintenance_system_tb -s case_snapshot 
+Multi-threading is on. Using 22 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.persistent_boot_gate
+Compiling module work.persistent_config_decode
+Compiling module work.persistent_config_manager
+Compiling module work.eeprom_record_codec
+Compiling module work.eeprom_page_writer(MAX_POLLS=4)
+Compiling module work.eeprom_dualslot_store(MAX_POLLS=...
+Compiling module work.pcf8563_calendar
+Compiling module work.pcf8563_reader(STALE_CYCLES=32'b...
+Compiling module work.rtc_time_anchor(STALE_CYCLES=32'...
+Compiling module work.rtc_anchor_record
+Compiling module work.rtc_anchor_client(STALE_CYCLES=3...
+Compiling module work.pcf8563_reader(MAX_READ_CYCLES=3...
+Compiling module work.pcf8563_setter(MAX_READ_CYCLES=3...
+Compiling module work.i2c_transaction_arbiter
+Compiling module work.i2c_byte_master(QUARTER_CYCLES=4...
+Compiling module work.i2c_register_master(QUARTER_CYCL...
+Compiling module work.persistent_maintenance_service(S...
+Compiling module work.maintenance_command_rx
+Compiling module work.maintenance_record
+Compiling module work.maintenance_endpoint
+Compiling module work.maintenance_system_tb
+Built simulation snapshot case_snapshot
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/fpga_race/verification_out/quality_20261031/rtl_all_01/maintenance_system_tb/xsim.dir/case_snapshot/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 31 23:08:35 2026...

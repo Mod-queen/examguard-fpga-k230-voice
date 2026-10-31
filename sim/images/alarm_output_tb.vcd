@@ -1,0 +1,23 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module alarm_output_tb $end
+$var wire 1 ! warning_active $end
+$var wire 1 " alarm_active $end
+$var wire 4 # risk_level $end
+$var wire 4 $ risk_level $end
+$upscope $end
+$enddefinitions $end
+#0
+b0 $
+b0 #
+0"
+0!
+#1000
+1!
+b1 #
+b1 $
+#2000
+0!
+1"
+b10 #
+b10 $

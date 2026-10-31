@@ -1,0 +1,2 @@
+PASS: axi_read_burst_buffer capture/stall/attributes/reset/overflow all checks
+D:\fpga_race\deploy\submission_20261031\sim\sources\ddr3_test\axi_read_burst_buffer_tb.sv:48: $finish called at 2330000 (1ps)

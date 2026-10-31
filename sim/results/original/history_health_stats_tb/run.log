@@ -1,0 +1,4 @@
+VCD info: dumpfile trace.vcd opened for output.
+WARNING: Dump file limit (2000000 bytes) exceeded.
+PASS: history_health_stats canonicalWords/reservedZero/counters/dualPacketSaturation/independentReset/realUART320
+D:\fpga_race\fpga\src\health\history_health_stats_tb.sv:75: $finish called at 29799170000 (1ps)

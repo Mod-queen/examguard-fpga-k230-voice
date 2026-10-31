@@ -1,0 +1,37 @@
+{
+  "top": "gmii_rgmii_contract_tb",
+  "status": "passed",
+  "engine": "AMD XSim 2018.3",
+  "sources": [
+    {
+      "path": "sim/sources/verification_20261031/gmii_rgmii_contract_tb.sv",
+      "sha256": "5abff63af2b49c650e073eaeeb91611a777e7c7bcf93c932f04315b3e2d6992e"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/gmii_to_rgmii.v",
+      "sha256": "9d57394703bfbcfc1de6aefc01d573a0a562abe58f712a46f19fbd6f693dadd7"
+    },
+    {
+      "path": "@vivado/glbl.v",
+      "sha256": "c48753ff3481f46872a09160eee14b5596b37444c1bf2b84bf2acd922e7c982d"
+    }
+  ],
+  "source_trace": "verification_out/refinement_20261031/cases/gmii_rgmii_contract_tb/trace.vcd.gz",
+  "source_trace_sha256": "f138f8557b2151ccfe7f385c94e5f17bf5d5f09821b575f6eabc37a649888a75",
+  "result_record": "verification_out/refinement_20261031/cases/gmii_rgmii_contract_tb/result.json",
+  "selected_signals": [
+    "gmii_tx_clk",
+    "gmii_txd",
+    "gmii_txen",
+    "gmii_txer",
+    "rgmii_tx_clk",
+    "rgmii_txd",
+    "rgmii_txen"
+  ],
+  "seconds": 6.219,
+  "pass_lines": [
+    "PASS: gmii_rgmii_contract actual UNISIM ODDR/300 random bytes/both edges/TX_EN XOR TX_ER/forwarded clock/reset"
+  ],
+  "hardware_access": false,
+  "full_selected_signal_recording": true
+}

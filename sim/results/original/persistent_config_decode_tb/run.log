@@ -1,0 +1,20 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/case_snapshot/xsim_script.tcl
+# xsim {case_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/verification_out/optimization_20261031/simulation/xsim_round3/persistent_config_decode_tb/run.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/verification_out/optimization_20261031/simulation/xsim_round3/persistent_config_decode_tb/run.tcl
+## open_vcd trace.vcd
+## log_vcd [get_objects /persistent_config_decode_tb/*]
+INFO: HDL object /persistent_config_decode_tb/vectors is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+## run all
+PASS: persistent_config_decode 317 host vectors/defaults/boundaries/single-bit-reserved
+$finish called at time : 317 ns : File "D:/fpga_race/verification_out/optimization_20261031/simulation/xsim_round3/persistent_config_decode_tb/persistent_config_decode_tb.sv" Line 17
+## close_vcd
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 17:10:48 2026...

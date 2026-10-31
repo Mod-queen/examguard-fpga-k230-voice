@@ -1,0 +1,22 @@
+{
+  "top": "motion_detect_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/motion_detect/motion_detect_tb.v",
+      "sha256": "de545b926d0a91c97d070db39c0c714f6df236f4584c477e161ebe7dc49a42a9"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/motion_detect/motion_detect.v",
+      "sha256": "97a9e5a6cca67404d379eccfadea655dbe3db0bb6cb5474cbfccb637187787c7"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.047,
+  "pass_lines": [
+    "PASS: frame-difference motion detector"
+  ],
+  "exit_code": 0
+}

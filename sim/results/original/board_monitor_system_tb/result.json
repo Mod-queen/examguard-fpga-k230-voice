@@ -1,0 +1,54 @@
+{
+  "top": "board_monitor_system_tb",
+  "engine": "AMD XSim 2018.3",
+  "status": "passed",
+  "active_modules": [
+    "board_monitor_record",
+    "cdc_event_transaction",
+    "cdc_stats_snapshot"
+  ],
+  "repairs": [
+    "Use reproducible fixture xadc_sim_analog_20261021.txt"
+  ],
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "D:\\fpga_race\\verification_out\\optimization_20261031\\simulation\\xsim_round2\\board_monitor_system_tb\\board_monitor_system_tb.sv",
+      "sha256": "c129e55f70a1f1fe1197e3e18e1351044964d1074a3fc0b5a31947bdc10e83f8"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\43de1890e43f\\board_monitor_record.sv",
+      "sha256": "a4599d19f893d123c541d630f822ffc290041305c633336f26a2df28b2cac1f7"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\ov5640_ddr3_hdmi_vga.srcs\\sources_1\\imports\\event_identity\\cdc_event_transaction.v",
+      "sha256": "2d2200f13132859ec81afaa54309a520655a7a7042438f0fded09807e4981f6a"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\ov5640_ddr3_hdmi_vga.srcs\\sources_1\\imports\\health\\cdc_stats_snapshot.v",
+      "sha256": "ccb99161a9bc1409e7c1b59b13a8156159bd4275790952a236ecd403d5492668"
+    },
+    {
+      "path": "D:\\vivado\\vivado2018.3\\Vivado\\2018.3\\data\\verilog\\src\\glbl.v",
+      "sha256": "c48753ff3481f46872a09160eee14b5596b37444c1bf2b84bf2acd922e7c982d"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\ov5640_ddr3_hdmi_vga.srcs\\sources_1\\ip\\mig_7series_0\\mig_7series_0\\user_design\\rtl\\clocking\\mig_7series_v4_2_tempmon.v",
+      "sha256": "7d3401e745793e11bf337c8fdeee269de2f2f07ff4505e4f9f6445aec84b06fa"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\e4628d4a0f2d\\shared_xadc_monitor.sv",
+      "sha256": "ff3497f1b4769d746f750de032f9f3c472c96c756a3e17ec1738567370f5851e"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\bbdf99da2627\\xadc_monitor_reader.sv",
+      "sha256": "4082cac7140c71d5a5684089426c05b6738c5e412651eea94c847879af9ebbd3"
+    }
+  ],
+  "seconds": 7.312,
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: board_monitor_system actual MIG temp sync/one UNISIM XADC/97bit CDC/BM CRC"
+  ],
+  "trace_bytes": 750241
+}

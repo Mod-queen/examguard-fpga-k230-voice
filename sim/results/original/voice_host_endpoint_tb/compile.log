@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/src/voice_interaction/voice_host_endpoint_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module voice_host_endpoint_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/9da09028ef2e/voice_host_endpoint.sv" into library work
+INFO: [VRFC 10-311] analyzing module voice_host_endpoint
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/c7fdde6a7598/voice_status_record.sv" into library work
+INFO: [VRFC 10-311] analyzing module voice_status_record

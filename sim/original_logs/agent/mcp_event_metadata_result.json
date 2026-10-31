@@ -1,0 +1,174 @@
+{
+  "passed": true,
+  "scope": "Explicit 2026-10-28 archive, not live accuracy or platform integration",
+  "session": "capture_20261028T122348_bdbea8a129d14698a34cdb9b330917d2.sqlite3",
+  "before_sha256": "af957b1acac3674b9b79f350810459feb65135143b606a9d444e5d903b90b47d",
+  "after_sha256": "af957b1acac3674b9b79f350810459feb65135143b606a9d444e5d903b90b47d",
+  "responses": [
+    {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": {
+        "protocolVersion": "2025-06-18",
+        "capabilities": {
+          "tools": {}
+        },
+        "serverInfo": {
+          "name": "examguard-review",
+          "version": "1.0.1"
+        },
+        "instructions": "只读考场存档查询。event_uid是编号，不可转换为事件类型；类型只读event_code/event_code_hex/event。疑似事件需人工看图复核。图像工具只返回本机路径和元数据，不提供视觉确认。"
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": {
+        "tools": [
+          {
+            "name": "get_recent_events",
+            "description": "按PC接收时间查当前选定会话最近的疑似ET事件；AL另列不相加；无记录不代表没有发生。",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "time_range": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 1440,
+                  "description": "最近多少分钟，默认30"
+                },
+                "event_code": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 255,
+                  "description": "手机80/资料81/扭头96；省略查全部"
+                },
+                "limit": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 50
+                }
+              },
+              "additionalProperties": false
+            },
+            "annotations": {
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "check_evidence_status",
+            "description": "校验ET、最新EG像素和HR的完整性，同时返回event_code事件类型；event_uid只是编号，不能转换成类型。",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "event_ref": {
+                  "type": "string",
+                  "description": "优先使用get_recent_events返回的完整event_ref；UID只有唯一时才接受"
+                }
+              },
+              "required": [
+                "event_ref"
+              ],
+              "additionalProperties": false
+            },
+            "annotations": {
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "get_image_path",
+            "description": "返回已校验PPM路径、帧时间和event_code事件类型；event_uid只是编号，不代表类型；不能获取不存在的视频。",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "event_ref": {
+                  "type": "string",
+                  "description": "优先使用get_recent_events返回的完整event_ref；UID只有唯一时才接受"
+                }
+              },
+              "required": [
+                "event_ref"
+              ],
+              "additionalProperties": false
+            },
+            "annotations": {
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "get_system_health",
+            "description": "查询最后状态和芯片温度；明确未知或停更。",
+            "inputSchema": {
+              "type": "object",
+              "properties": {},
+              "additionalProperties": false
+            },
+            "annotations": {
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "openWorldHint": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"source\": \"MCP指定存档复核（非实时在线证明）\", \"live_session\": false, \"status\": \"stale\", \"last_status_received_at\": \"2026-10-28T12:30:42.570+00:00\", \"status_age_seconds\": 139583.955, \"stage\": \"考试\", \"reported_health\": \"正常 (0x00)\", \"fpga_temperature_c\": null, \"temperature_status\": \"unknown_or_stale\", \"transport\": \"未知或状态停更；不能据此宣布网络正常\", \"evidence_network_summary\": \"PHY 1000M 全双工\", \"persistence_error\": null, \"persistence_failures\": 0, \"note\": \"温度仅为芯片内部测量；历史存档不代表当前在线，未接收不能报告为正常。\"}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 4,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"source\": \"MCP指定存档复核（非实时在线证明）\", \"host_session_id\": \"bdbea8a129d14698a34cdb9b330917d2\", \"queried_at\": \"2026-10-30T03:17:06.525690+00:00\", \"time_basis\": \"PC接收时间（UTC）；不是事件发生的墙钟时间\", \"time_range_minutes\": 1440, \"events\": [], \"unique_transactions_in_scanned_rows\": 0, \"scanned_receipts\": 0, \"scan_truncated\": false, \"display_truncated\": false, \"legacy_alarm_receipts\": [], \"legacy_receipts_in_scanned_rows\": 0, \"legacy_scan_truncated\": false, \"persistence_error\": null, \"note\": \"ET为已接收的疑似事件；AL单列、不与ET相加；未发现记录不等于没有发生。最多检查最近500条回执。\"}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 5,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"source\": \"MCP指定存档复核（非实时在线证明）\", \"scope\": \"selected_session_and_evidence_directory\", \"event_ref\": \"00000001000000540000000100000000000000660000000000060BE201003750\", \"event_uid\": \"102\", \"event_code\": 80, \"event_code_hex\": \"0x50\", \"event\": \"检测到手机 (0x50)\", \"status\": \"not_received\", \"status_label\": \"尚无可关联证据\", \"received_frames\": 0, \"expected_frames\": null, \"missing_frame_indices\": [], \"details\": [], \"validation_errors\": 0, \"note\": \"仅查询选定会话和证据目录；未查到不代表从未采集或PC从未收到，也不能确定网络原因。像素缺失不能直接换算UDP丢包数；证据完整也不代表已确认违规。\"}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 6,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"source\": \"MCP指定存档复核（非实时在线证明）\", \"scope\": \"selected_session_and_evidence_directory\", \"event_ref\": \"00000001000000540000000100000000000000660000000000060BE201003750\", \"event_uid\": \"102\", \"event_code\": 80, \"event_code_hex\": \"0x50\", \"event\": \"检测到手机 (0x50)\", \"status\": \"not_received\", \"images\": [], \"display_truncated\": false, \"note\": \"仅返回选定会话和证据目录内校验通过的现有PPM帧；空列表不代表从未采集。路径不等于已经看过图像，不承诺前后两秒或连续录像。\"}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  ]
+}

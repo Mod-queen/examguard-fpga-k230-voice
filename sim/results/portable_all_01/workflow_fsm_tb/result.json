@@ -1,0 +1,22 @@
+{
+  "top": "workflow_fsm_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/workflow_fsm/workflow_fsm_tb.v",
+      "sha256": "d670273ba041b5c727b1fe696bfb890492c08383f2e935fa2ff48c63c8c723bd"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/workflow_fsm/workflow_fsm.v",
+      "sha256": "4cf526c6b7b52615389d33d60a8227a6cad1572713448df5a4d87f3ac8b4b4cc"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.016,
+  "pass_lines": [
+    "PASS: workflow state machine"
+  ],
+  "exit_code": 0
+}

@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: video_epoch_clear short pulse/reset busy/retrigger all checks
+D:\fpga_race\fpga\src\ddr3_test\video_epoch_clear_tb.sv:30: $finish called at 190000 (1ps)

@@ -1,0 +1,5 @@
+VCD info: dumpfile trace.vcd opened for output.
+TRANSPORT_EXPECTED source_time=123456790000005c uid2..5 session1
+WARNING: Dump file limit (2000000 bytes) exceeded.
+PASS: camera_evidence_transport actualFSM/identity/camera/DDR/CDC/GMII 4windows 8frames32pixels20packets
+D:\fpga_race\fpga\src\ddr3_test\camera_evidence_transport_tb.sv:196: $finish called at 44720000 (1ps)

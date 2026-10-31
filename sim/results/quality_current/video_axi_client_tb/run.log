@@ -1,0 +1,3 @@
+video clear-safe client checked_W=318 checked_published=82 partial_drop=7 final_after_reset W/R=1/1
+PASS: video_axi_client all checks
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\video_axi_client_tb.sv:203: $finish called at 32690000 (1ps)

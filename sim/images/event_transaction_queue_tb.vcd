@@ -1,0 +1,18 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module event_transaction_queue_tb $end
+$var wire 1 ! dlimit $end
+$var wire 1 " dfsm $end
+$var wire 1 # d3 $end
+$var wire 1 $ d16 $end
+$var wire 1 % d1 $end
+$upscope $end
+$enddefinitions $end
+#0
+0%
+0$
+0#
+0"
+0!
+#410000
+1"

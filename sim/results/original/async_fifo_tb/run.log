@@ -1,0 +1,5 @@
+VCD info: dumpfile trace.vcd opened for output.
+WARNING: Dump file limit (2000000 bytes) exceeded.
+written=7119 read=7119
+PASS: async_fifo all checks
+D:\fpga_race\fpga\src\ddr3_test\async_fifo_tb.sv:83: $finish called at 200571000 (1ps)

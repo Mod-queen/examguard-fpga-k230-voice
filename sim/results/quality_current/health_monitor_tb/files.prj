@@ -1,0 +1,2 @@
+sv work "D:/fpga_race/deploy/engineering_quality_20261031/sim/sources/health/health_monitor_tb.sv"
+verilog work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/40b676d44bf0/health_monitor.v"

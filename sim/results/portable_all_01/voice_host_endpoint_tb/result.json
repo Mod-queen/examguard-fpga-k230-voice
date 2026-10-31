@@ -1,0 +1,28 @@
+{
+  "top": "voice_host_endpoint_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/voice_interaction/voice_host_endpoint_tb.sv",
+      "sha256": "89799a83ec873794952cf25417238b480cd59e65fc3c679548e485624431102a"
+    },
+    {
+      "path": "src/fpga/local_sources/5865e260549f/voice_host_endpoint.sv",
+      "sha256": "9e4ab2ede62f27c1ec0b603e099a9ef5da862a326b62faf8e42f5471575416b1"
+    },
+    {
+      "path": "src/fpga/local_sources/35587c20f082/voice_status_record.sv",
+      "sha256": "c7064a3148e751c5340dfbc5f2c5d66d0d8860e6a4b7f5dfecfe02668944a9ca"
+    }
+  ],
+  "repairs": [
+    "Copy generated host command fixture (existing verify_voice_host.py)."
+  ],
+  "seconds": 6.89,
+  "pass_lines": [
+    "PASS: voice_host_endpoint commands=10 handled=2 bytes=196"
+  ],
+  "exit_code": 0
+}

@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/sim/sources/persistence/persistent_boot_probe_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_boot_probe_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/6757b9ed1223/eeprom_page_writer.sv" into library work
+INFO: [VRFC 10-311] analyzing module eeprom_page_writer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/1dea5a5ec50d/eeprom_dualslot_store.sv" into library work
+INFO: [VRFC 10-311] analyzing module eeprom_dualslot_store
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/473868420a86/eeprom_record_codec.sv" into library work
+INFO: [VRFC 10-311] analyzing module eeprom_record_codec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/682b9b4992fd/i2c_byte_master.sv" into library work
+INFO: [VRFC 10-311] analyzing module i2c_byte_master
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/f0215bcf904a/persistent_boot_gate.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_boot_gate
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/0e8d0fe30f17/i2c_register_master.sv" into library work
+INFO: [VRFC 10-311] analyzing module i2c_register_master
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v" into library work
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/sim/sources/persistence/persistence_inventory_probe.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistence_inventory_probe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/sim/sources/persistence/persistent_boot_probe.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_boot_probe

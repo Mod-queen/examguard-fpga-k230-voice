@@ -1,0 +1,22 @@
+{
+  "top": "health_monitor_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/health/health_monitor_tb.sv",
+      "sha256": "9390886c094100d688997fa4c91bd3fcdcd8166df46519973bc9e26f1e1fc669"
+    },
+    {
+      "path": "src/fpga/local_sources/40b676d44bf0/health_monitor.v",
+      "sha256": "0801e0ecfc45ca1542d0767b91ad0d9d8a36a3829d54b4df5ccb9d46e8943e12"
+    }
+  ],
+  "repairs": [],
+  "seconds": 6.157,
+  "pass_lines": [
+    "PASS: health_monitor all checks"
+  ],
+  "exit_code": 0
+}

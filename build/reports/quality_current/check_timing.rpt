@@ -1,0 +1,188 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Oct 31 23:49:40 2026
+| Host         : Jasper running 64-bit major release  (build 9200)
+| Command      : check_timing -verbose -file D:/fpga_race/verification_out/quality_20261031/margin_05/reports/check_timing.rpt
+| Design       : ov5640_ddr3_hdmi_vga
+| Device       : 7a200t-fbg484
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock
+2. checking constant_clock
+3. checking pulse_width_clock
+4. checking unconstrained_internal_endpoints
+5. checking no_input_delay
+6. checking no_output_delay
+7. checking multiple_clock
+8. checking generated_clocks
+9. checking loops
+10. checking partial_input_delay
+11. checking partial_output_delay
+12. checking latch_loops
+
+1. checking no_clock
+--------------------
+ There are 0 register/latch pins with no clock.
+
+
+2. checking constant_clock
+--------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock
+-----------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints
+--------------------------------------------
+ There are 0 pins that are not constrained for maximum delay.
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay
+--------------------------
+ There are 29 input ports with no input delay specified. (HIGH)
+
+ai_uart_rx
+camera_data[0]
+camera_data[1]
+camera_data[2]
+camera_data[3]
+camera_data[4]
+camera_data[5]
+camera_data[6]
+camera_data[7]
+camera_href
+camera_sdat
+camera_vsync
+eth_mdio
+key[0]
+key[1]
+key[2]
+key[3]
+reset_n
+switches[0]
+switches[1]
+switches[2]
+switches[3]
+switches[4]
+switches[5]
+switches[6]
+switches[7]
+uart_rxd
+voice_scl
+voice_sda
+
+ There are 2 input ports with no input delay but user has a false path constraint. (MEDIUM)
+
+persist_scl
+persist_sda
+
+
+6. checking no_output_delay
+---------------------------
+ There are 48 ports with no output delay specified. (HIGH)
+
+camera_sclk
+camera_sdat
+ddr3_reset_n
+disp_de
+disp_hs
+disp_rgb[0]
+disp_rgb[10]
+disp_rgb[11]
+disp_rgb[12]
+disp_rgb[13]
+disp_rgb[14]
+disp_rgb[15]
+disp_rgb[16]
+disp_rgb[17]
+disp_rgb[18]
+disp_rgb[19]
+disp_rgb[1]
+disp_rgb[20]
+disp_rgb[21]
+disp_rgb[22]
+disp_rgb[23]
+disp_rgb[2]
+disp_rgb[3]
+disp_rgb[4]
+disp_rgb[5]
+disp_rgb[6]
+disp_rgb[7]
+disp_rgb[8]
+disp_rgb[9]
+disp_vs
+eth_mdio
+eth_rst_n
+eth_txd[0]
+eth_txd[1]
+eth_txd[2]
+eth_txd[3]
+eth_txen
+hdmi_clk_p
+hdmi_dat_p[0]
+hdmi_dat_p[1]
+hdmi_dat_p[2]
+led[0]
+led[1]
+led[2]
+persist_scl
+persist_sda
+voice_scl
+voice_sda
+
+ There are 5 ports with no output delay but user has a false path constraint (MEDIUM)
+
+beep
+seg7_dio
+seg7_rclk
+seg7_sclk
+uart_txd
+
+ There are 2 ports with no output delay but with a timing clock defined on it or propagating through it (LOW)
+
+eth_gtx_clk
+eth_mdc
+
+
+7. checking multiple_clock
+--------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks
+----------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops
+-----------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay
+--------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay
+---------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops
+------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+

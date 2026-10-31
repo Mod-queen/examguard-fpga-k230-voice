@@ -1,0 +1,6 @@
+VCD info: dumpfile trace.vcd opened for output.
+video edges BURST=1 AW/B/AR/RLAST clear, late/early LAST, saturation PASS
+video edges BURST=3 AW/B/AR/RLAST clear, late/early LAST, saturation PASS
+video edges BURST=32 AW/B/AR/RLAST clear, late/early LAST, saturation PASS
+PASS: video_axi_client_edges all checks
+D:\fpga_race\fpga\src\ddr3_test\video_axi_client_edges_tb.sv:120: $finish called at 6220000 (1ps)

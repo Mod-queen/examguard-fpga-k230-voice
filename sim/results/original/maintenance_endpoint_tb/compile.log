@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/verification_out/optimization_20261031/simulation/xsim_round3/maintenance_endpoint_tb/maintenance_endpoint_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module maintenance_endpoint_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/11664d210aa1/maintenance_record.sv" into library work
+INFO: [VRFC 10-311] analyzing module maintenance_record
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/c27f2c04655e/maintenance_endpoint.sv" into library work
+INFO: [VRFC 10-311] analyzing module maintenance_endpoint
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/eeaca5066441/maintenance_command_rx.sv" into library work
+INFO: [VRFC 10-311] analyzing module maintenance_command_rx

@@ -1,0 +1,785 @@
+{
+  "schema": "examguard-training-preservation-v1",
+  "run": "field_six320_fit_v1",
+  "epochs": 60,
+  "verified_raster_images": 24,
+  "files": [
+    {
+      "path": "context/dataset_audit.json",
+      "bytes": 707,
+      "sha256": "2b86306b271a901093ed3992f2924b5f239b451df99ec4c8e5e4a168f180e9fa",
+      "original_path": "coco_objects/dataset_audit.json"
+    },
+    {
+      "path": "context/environment.actual.txt",
+      "bytes": 831,
+      "sha256": "c11ad43c1b96d4ea234e43ccece87af56c364d49ce305c09ba47a0b99a27719b",
+      "original_path": "environment.actual.txt"
+    },
+    {
+      "path": "context/summary.json",
+      "bytes": 201,
+      "sha256": "5350f46442ba37f5d48b78f6e5c163298489f8fce1543e1a7208d7daa30c4224",
+      "original_path": "openimages/summary.json"
+    },
+    {
+      "path": "context/train_field_six320_fit_v1.log",
+      "bytes": 295538,
+      "sha256": "6f4a4a02f4ffc58f96c130a3431853f4118ef434be164bff416fba36dc06b2ef",
+      "original_path": "train_field_six320_fit_v1.log"
+    },
+    {
+      "path": "curve_data/epochs.json",
+      "bytes": 28220,
+      "sha256": "bb3872e85119787f8073ab1143b895b088bcfd1c8a52749aa75e086057023c92"
+    },
+    {
+      "path": "curve_data/epochs_long.csv",
+      "bytes": 20163,
+      "sha256": "14a5234ddb96725921f5d8e0e35b9a18f04eb12ecb30424951be3700dbd8aa63"
+    },
+    {
+      "path": "high_resolution/learning_rate.png",
+      "bytes": 110783,
+      "sha256": "61730fee977c8e09ee855a68293adbcf81f23a3d1d5651ef372180b8a71a5b9a"
+    },
+    {
+      "path": "high_resolution/learning_rate.svg",
+      "bytes": 42052,
+      "sha256": "83f26d4f43e4d034cba4f988d368d087fc461ac330154c8d5491a0036327ae8d"
+    },
+    {
+      "path": "high_resolution/loss_curves.png",
+      "bytes": 265259,
+      "sha256": "c9f6c62d1bf0e4c4cefd8ab4c30b23731db0c385cc5ed2fdd88808ebcfde764e"
+    },
+    {
+      "path": "high_resolution/loss_curves.svg",
+      "bytes": 75416,
+      "sha256": "20892b0a5113e6b33ddd0ee68b0919bb2958e9722b3206e083241f084c9ed2c7"
+    },
+    {
+      "path": "high_resolution/validation_metrics.png",
+      "bytes": 273459,
+      "sha256": "a74ae34c7e8acd858d4325f6f17bd1990a8a0f7668e95875f2e6c3722c67ef13"
+    },
+    {
+      "path": "high_resolution/validation_metrics.svg",
+      "bytes": 79508,
+      "sha256": "f8658e88a3ce863159cbb295598004c4a5e59ead1324f2987744b5aef8468e31"
+    },
+    {
+      "path": "native_curve_data/20261026T142838904476Z.json",
+      "bytes": 116687,
+      "sha256": "90994e9ac050f6f54b10e1737fb0fc8ac43251c330d30d60a8a207e5d3d5e6e3",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142838904476Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142841166517Z.json",
+      "bytes": 118400,
+      "sha256": "56b97809bd85fc575e9df8f21992400e1c669bcbdb34740bdf9d419c47d50ac7",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142841166517Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142843492376Z.json",
+      "bytes": 127217,
+      "sha256": "dd41fdacc698fd5b9bb83614e0fa2c3b7711ebaaee06c1428c17c06b6ba8eeb6",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142843492376Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142845673899Z.json",
+      "bytes": 160632,
+      "sha256": "0ba2fe3b58c1cfe0d38b1101772c22d4b4d45bd8077ad4c29695e3ca40e239ae",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142845673899Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142847919955Z.json",
+      "bytes": 188302,
+      "sha256": "97861af7661171f01acd21ac7411f115c1a21893c53f7dc50648d5fe3116e92c",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142847919955Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142850230917Z.json",
+      "bytes": 213905,
+      "sha256": "c199e601e6c6059663d049ff69df43866952966f77e969a9a726e8b73c443c6e",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142850230917Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142852496796Z.json",
+      "bytes": 231598,
+      "sha256": "9b0429e05d298071acfa59ddabca1529f1a4f83d4c865c91e0f816c8bc056a36",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142852496796Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142854786432Z.json",
+      "bytes": 236698,
+      "sha256": "7cc5287a597615dbfc812de3362b308555dec1fcebb8b84e0f2dd15f3b688603",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142854786432Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142857039639Z.json",
+      "bytes": 242326,
+      "sha256": "f5baa18eac063195e2bf398e75d5d9ef3da22539ff74c7c102769808be189a51",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142857039639Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142859274131Z.json",
+      "bytes": 260550,
+      "sha256": "67530f4435836f6f6d0b9633cfee983fc58df5ad11ee9f609cc3b682ef023297",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142859274131Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142901453684Z.json",
+      "bytes": 266307,
+      "sha256": "c9d3a7cdbdd758f26086f772f85a3a41e5256e8c1e6304296d6e012f94a3437d",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142901453684Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142903650872Z.json",
+      "bytes": 286043,
+      "sha256": "6ffb2d76f0e890288e55d4ca776c7962018c676933b91cd044d9bcd70dce9183",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142903650872Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142905867630Z.json",
+      "bytes": 279012,
+      "sha256": "a2cc144a4eca68fdb7b4c13c4b17a3b8af3b6be4fc4da7e4f571e3f9c74d4889",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142905867630Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142908127428Z.json",
+      "bytes": 282791,
+      "sha256": "9891c6f291853232eb90b573e0b9a3086621c7490f7fb800759f69c357fb8c9b",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142908127428Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142910422328Z.json",
+      "bytes": 286534,
+      "sha256": "8752817af2209fc2dcaa91d4502de4cf38c8add70733c873350c7fe375684d96",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142910422328Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142912609980Z.json",
+      "bytes": 288663,
+      "sha256": "6d306ce8fad5e2eaae5138ba4143e03a39003546852eae56fe594eaf0499b9ec",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142912609980Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142914830225Z.json",
+      "bytes": 293294,
+      "sha256": "27172318450533c3b1b51aa5cfb6b1dbf8c9dad1de4d9f07734e08fa4689041c",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142914830225Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142917196230Z.json",
+      "bytes": 294415,
+      "sha256": "a83b626728c741074ea2e8da469d96dc1a23c3a6ca21b6e1b095ea9a08f9f355",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142917196230Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142919408288Z.json",
+      "bytes": 298994,
+      "sha256": "33adbcbab3b5a971c11e7143326a0b92e94bd1f51bff13e2b6534cb98711b744",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142919408288Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142921668154Z.json",
+      "bytes": 299112,
+      "sha256": "1571649a19f478f37e7f0b1aaabab83b86753538b1e3ddb1d2f2c56eb36402bd",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142921668154Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142923935041Z.json",
+      "bytes": 300164,
+      "sha256": "eed42acf88006d3a9130568d5d747d7a19ee9eb84af1d6b7214848445dd69245",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142923935041Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142926289348Z.json",
+      "bytes": 300238,
+      "sha256": "ee0bf5cb2aee1f2e21722d2cf2318a278cbd0f38020300d7741c18bcda5c04e3",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142926289348Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142928621990Z.json",
+      "bytes": 301182,
+      "sha256": "df4b394cb2771951dafd0c808dcfef4e53d72c8659ee070ab91e871da259c81a",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142928621990Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142930871769Z.json",
+      "bytes": 302275,
+      "sha256": "41b402a790346d5ecdc21bcf868e394e0dde57e42ed5b52639f5770240b1112e",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142930871769Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142933132011Z.json",
+      "bytes": 298962,
+      "sha256": "c901b3820bf2ed43f42f97d62f59d3e53e83387e4e1c6bf09a32035d14740320",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142933132011Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142935324433Z.json",
+      "bytes": 304469,
+      "sha256": "35aef54d5e7c5431d54133f3e7608758b064db6f07137559bd42f6d0b8111e29",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142935324433Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142937668413Z.json",
+      "bytes": 304660,
+      "sha256": "38ca53ad38cbc5a16cf8ae03d639b056a68627ad0e2e0d4bfa54230c5a0307b0",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142937668413Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142939936914Z.json",
+      "bytes": 306254,
+      "sha256": "5c01cd7e404a868a5fb7d99f42c5839e4a03ab38c585a4f6859fe75d00876bc7",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142939936914Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142942327114Z.json",
+      "bytes": 300964,
+      "sha256": "d45cd17305c47fc0cec7c61cc410036384d3d8084bc0f2c6297167b1b88fe4ed",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142942327114Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142944652522Z.json",
+      "bytes": 296744,
+      "sha256": "631670215f4e9d2d7e63484431d6f2b82583768b45e53d0dd098ffbce46e019a",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142944652522Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142946901010Z.json",
+      "bytes": 293199,
+      "sha256": "89ca17047b295edf5a1fa21e2c1b6a0dfe6cbe2e374c1610d8f6563a80237485",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142946901010Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142949174278Z.json",
+      "bytes": 295724,
+      "sha256": "e133671dd6afd83a4a6cb9079fbbec87ed0258579bdc4bd6f00c5e6936abeedd",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142949174278Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142951523135Z.json",
+      "bytes": 297525,
+      "sha256": "2b05b3fddc8c6c87a69e79dd08bc94bafcfb9d64eaa0105494ab7aed9806b14e",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142951523135Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142953719945Z.json",
+      "bytes": 302540,
+      "sha256": "e181baebf855a9355d823ba90c97e6bfd95e8ce1e7660b255e32b0145ef1eee2",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142953719945Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142956070336Z.json",
+      "bytes": 303701,
+      "sha256": "473de4dcee31ae3785be52c5599fe69d5f61f9c51ba37a4324b21a0353f123fb",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142956070336Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T142958369297Z.json",
+      "bytes": 305601,
+      "sha256": "bc148776b4b8b7e793115cf4fc315108bd1443585496b8ccd25e17a9ebb0c580",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T142958369297Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143000568726Z.json",
+      "bytes": 299722,
+      "sha256": "fe90a07911a30f773314475cf6fdf663f1db95ca435d64fe201828dafffefd01",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143000568726Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143002776870Z.json",
+      "bytes": 299511,
+      "sha256": "b248e3e59f0942677c0e652fac42125ff3847d855ae5e72908fcabac2d9926c9",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143002776870Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143004958242Z.json",
+      "bytes": 299415,
+      "sha256": "dbc9fbf18dfa9776e4c222740f64764e6d85fc486bdac23bbba549eaea36d094",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143004958242Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143007141747Z.json",
+      "bytes": 299014,
+      "sha256": "c63d7eb33cf3f09ddf14cfc58fa520191af38dd064a29c5aff8315dcf25c8977",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143007141747Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143009334266Z.json",
+      "bytes": 298758,
+      "sha256": "995bf676b579c7301057972c841cdde7dab212b4c262643154185581d646323d",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143009334266Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143011550161Z.json",
+      "bytes": 299213,
+      "sha256": "e3ea38b5444267e5fa3da018e1ce494bfe5b71d1eb2373ecafe9257fed51e02e",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143011550161Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143013786214Z.json",
+      "bytes": 299144,
+      "sha256": "2a2ff7cfaefd707c4fad63519e62e2717c85bc1bf5e371e27f561780db88ba3d",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143013786214Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143015965345Z.json",
+      "bytes": 299682,
+      "sha256": "d4cd8ad26820585bac97b07e4f695e76c3979a016ec5ccc11a79b564cdb94ff5",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143015965345Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143018204048Z.json",
+      "bytes": 299437,
+      "sha256": "136c3fd6916159e74404ad042e175256ba0c289cb4358181c5f20d82c2339c5a",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143018204048Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143020293436Z.json",
+      "bytes": 299545,
+      "sha256": "d7848aed0b74e2a5f76179e3ab7b5eb8a185433d69c6e3b1b8f401cbbfe3be24",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143020293436Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143022486076Z.json",
+      "bytes": 299019,
+      "sha256": "dbd353b34b90822928854d5fb2cd098cf2928adc2568108d44c1103dd2ec1d78",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143022486076Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143024748461Z.json",
+      "bytes": 299269,
+      "sha256": "504639dae082536939fbabcad0aecc44ffdc085f28063ee4c06ff437828eb7a3",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143024748461Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143026965274Z.json",
+      "bytes": 299216,
+      "sha256": "4be4663b78bf91c7c6e9e94af8c6ceb1816c8923600bec1eb5168794e96f4481",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143026965274Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143029191014Z.json",
+      "bytes": 299670,
+      "sha256": "b4694c3d7d8510c401ffbb6b734aebbe557d7e0b6abe6c8c6e737671a3b1dcce",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143029191014Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143031285682Z.json",
+      "bytes": 299325,
+      "sha256": "af6222378eff482fdc09670d883c7d2624f403ad533213678fdf41953f7d58b3",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143031285682Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143033466709Z.json",
+      "bytes": 299340,
+      "sha256": "b6b18c960ba6be1c3937b912ecb181d677696229a082682f52d4931613aa502a",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143033466709Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143035800185Z.json",
+      "bytes": 299475,
+      "sha256": "54800057bb6f60bdf4d106f4dd63870afd444401cca0e8a73624c11e18d9c542",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143035800185Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143037980173Z.json",
+      "bytes": 299055,
+      "sha256": "f2bb41fee40822132715c350e9deb7802a85336178dbce4313fcf36c24c95338",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143037980173Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143040142567Z.json",
+      "bytes": 298929,
+      "sha256": "6d68d7485b8c290f043b9cbf254ac0a0dcb59c3da38d07ce5ec52e1068be7de2",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143040142567Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143055047973Z.json",
+      "bytes": 299777,
+      "sha256": "0c3f979f20a62b90d385827be132e14803c5667479e7650cd4b8c534cfa7477c",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143055047973Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143057371466Z.json",
+      "bytes": 300181,
+      "sha256": "3e43dc6f72e0fe974dab605b49c6701893b295ba8a0e1e01656461fce6359d39",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143057371466Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143059446731Z.json",
+      "bytes": 300666,
+      "sha256": "2d433043a0840ca297fa4ff3f08b4862f483da1ab72488833bd1baf85d942464",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143059446731Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143101546988Z.json",
+      "bytes": 300398,
+      "sha256": "a8d51548cb0301c738892b307b14a2d76e9ee52d33176fc5ffb403b7054629b6",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143101546988Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143103635092Z.json",
+      "bytes": 299840,
+      "sha256": "db87cc31c1ebe9bb10e8c224dba8cae5a16b1e888c894ef1f5d3c2eebe48029f",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143103635092Z.json"
+    },
+    {
+      "path": "native_curve_data/20261026T143106413568Z.json",
+      "bytes": 329996,
+      "sha256": "cfc4f6216367ce45f432da0d77af352377fd6a29da5c840a1141dd19b167b7c9",
+      "original_path": "runs/field_six320_fit_v1/train/native_curve_data/20261026T143106413568Z.json"
+    },
+    {
+      "path": "original_training/args.yaml",
+      "bytes": 1892,
+      "sha256": "97b3fea9a844d1fa9ad9b4bb2dbf534762b214693048ba83f170dab068689e8a",
+      "original_path": "runs/field_six320_fit_v1/train/args.yaml"
+    },
+    {
+      "path": "original_training/confusion_matrix.png",
+      "bytes": 133743,
+      "sha256": "c45a43e3224ee0fb936c1039f331bd4f166e20f62f37aae82ce87f1e7ef81770",
+      "original_path": "runs/field_six320_fit_v1/train/confusion_matrix.png"
+    },
+    {
+      "path": "original_training/confusion_matrix_normalized.png",
+      "bytes": 137635,
+      "sha256": "a31515f2d2dd38a4d3c4bf9216717bd30674e5f379a004385cb5f2a8eb6ad3db",
+      "original_path": "runs/field_six320_fit_v1/train/confusion_matrix_normalized.png"
+    },
+    {
+      "path": "original_training/F1_curve.png",
+      "bytes": 156191,
+      "sha256": "23f0cb487e9f5dce9a1b8b69f30193caacca5f292eb9796e8ba688370b71b48e",
+      "original_path": "runs/field_six320_fit_v1/train/F1_curve.png"
+    },
+    {
+      "path": "original_training/labels.jpg",
+      "bytes": 178974,
+      "sha256": "d01e0e4684e26ef0d1c9a91191bc48d5e88a3031f40fc6b4ab74962f91e54459",
+      "original_path": "runs/field_six320_fit_v1/train/labels.jpg"
+    },
+    {
+      "path": "original_training/labels_correlogram.jpg",
+      "bytes": 210641,
+      "sha256": "dd1d36511d6b8f26f6edf90eb631c26c8b962f1a6090e53c343ac8a45199f915",
+      "original_path": "runs/field_six320_fit_v1/train/labels_correlogram.jpg"
+    },
+    {
+      "path": "original_training/P_curve.png",
+      "bytes": 130668,
+      "sha256": "4cc6a86e72a3908d360ce6405c3b6c5f28c379598f5f0462759c3aaf96e66d11",
+      "original_path": "runs/field_six320_fit_v1/train/P_curve.png"
+    },
+    {
+      "path": "original_training/PR_curve.png",
+      "bytes": 113169,
+      "sha256": "f6141df6e0443d985e4852e7b0b46133d44702b30cca09727e4a638dfd4477c7",
+      "original_path": "runs/field_six320_fit_v1/train/PR_curve.png"
+    },
+    {
+      "path": "original_training/R_curve.png",
+      "bytes": 137423,
+      "sha256": "73d5826614437e33a23b57b0ac2195ea226700abe5d376592ac7ea29ceb2f692",
+      "original_path": "runs/field_six320_fit_v1/train/R_curve.png"
+    },
+    {
+      "path": "original_training/results.csv",
+      "bytes": 20557,
+      "sha256": "a1d784d67ef381220a205b98a2a09aa76919cfddb7d8086dcf78380d87e72b68",
+      "original_path": "runs/field_six320_fit_v1/train/results.csv"
+    },
+    {
+      "path": "original_training/results.png",
+      "bytes": 287311,
+      "sha256": "ea35f8fd3c5aadf1e8ea43bf926a163dfb0152a6994435761df6b849fc3daa57",
+      "original_path": "runs/field_six320_fit_v1/train/results.png"
+    },
+    {
+      "path": "original_training/train_batch0.jpg",
+      "bytes": 226031,
+      "sha256": "8abdaf8482c4cebdf1320f614806808369aeaee378516039f6c167011e1bac5b",
+      "original_path": "runs/field_six320_fit_v1/train/train_batch0.jpg"
+    },
+    {
+      "path": "original_training/train_batch1.jpg",
+      "bytes": 228828,
+      "sha256": "7cb1db40abed3fa67030f3832b6145d16769d0afcebc0258c34969f01ecb9903",
+      "original_path": "runs/field_six320_fit_v1/train/train_batch1.jpg"
+    },
+    {
+      "path": "original_training/train_batch2.jpg",
+      "bytes": 235148,
+      "sha256": "352fbaa19ab63862b55deb1c47529924d269bd3e3c596de4904ac7e7dcecbf7a",
+      "original_path": "runs/field_six320_fit_v1/train/train_batch2.jpg"
+    },
+    {
+      "path": "original_training/train_batch990.jpg",
+      "bytes": 226264,
+      "sha256": "279ec853869350b0639b3d9dd1434e0c5b54970f574f3add34076c96b1a75246",
+      "original_path": "runs/field_six320_fit_v1/train/train_batch990.jpg"
+    },
+    {
+      "path": "original_training/train_batch991.jpg",
+      "bytes": 223385,
+      "sha256": "07000f671ed3705f7f2c65e780c38f09af0b0fc5238461fa317530c746e010f7",
+      "original_path": "runs/field_six320_fit_v1/train/train_batch991.jpg"
+    },
+    {
+      "path": "original_training/train_batch992.jpg",
+      "bytes": 228240,
+      "sha256": "4f9617d9539838f110b1e4d3e58fcf4ad94ce743f12bce783b33dad71460888d",
+      "original_path": "runs/field_six320_fit_v1/train/train_batch992.jpg"
+    },
+    {
+      "path": "original_training/val_batch0_labels.jpg",
+      "bytes": 246479,
+      "sha256": "5690930e94b164d9090040c926af902cd96ec1224d03054cf5fbfb08e41a9a22",
+      "original_path": "runs/field_six320_fit_v1/train/val_batch0_labels.jpg"
+    },
+    {
+      "path": "original_training/val_batch0_pred.jpg",
+      "bytes": 250243,
+      "sha256": "b2f692d24277d5a4f13ddbf8f72f4522c6d90a30979468f8ed2137e163b4d574",
+      "original_path": "runs/field_six320_fit_v1/train/val_batch0_pred.jpg"
+    },
+    {
+      "path": "original_training/val_batch1_labels.jpg",
+      "bytes": 237294,
+      "sha256": "dc8a401be24a02002229f336403a52f417cc8ebc3d7844233a5b37d506bfff43",
+      "original_path": "runs/field_six320_fit_v1/train/val_batch1_labels.jpg"
+    },
+    {
+      "path": "original_training/val_batch1_pred.jpg",
+      "bytes": 240146,
+      "sha256": "bf5bda6490ac29714bee93ad555af6ddea1eaa84493e8c9a33472dfb2241c12f",
+      "original_path": "runs/field_six320_fit_v1/train/val_batch1_pred.jpg"
+    },
+    {
+      "path": "original_training/val_batch2_labels.jpg",
+      "bytes": 248350,
+      "sha256": "ceed12463285a799478f62495f0423b7a14bf0984a1366bbf8e9d1b62f8add4f",
+      "original_path": "runs/field_six320_fit_v1/train/val_batch2_labels.jpg"
+    },
+    {
+      "path": "original_training/val_batch2_pred.jpg",
+      "bytes": 253086,
+      "sha256": "45623e0cff0f165b494e383ff2ffa165d2dd719cc3d7fb02171a6b3cdafdfe74",
+      "original_path": "runs/field_six320_fit_v1/train/val_batch2_pred.jpg"
+    },
+    {
+      "path": "public_evaluations/baseline_coco224/predictions.json",
+      "bytes": 1596225,
+      "sha256": "3a96833f80cf97afff1413eb4591e4b5f6b19741e5312a8b9b3485e3e4a34d8b",
+      "original_path": "results/baseline_coco224/predictions.json"
+    },
+    {
+      "path": "public_evaluations/baseline_coco224/report.json",
+      "bytes": 1418,
+      "sha256": "a8ba530fce68d826049b6090acabf7db62dc6d49117740edd8a0cd2018a4c4e9",
+      "original_path": "results/baseline_coco224/report.json"
+    },
+    {
+      "path": "public_evaluations/baseline_coco320/predictions.json",
+      "bytes": 2345329,
+      "sha256": "b2de2e38eb29910b6b33cdd8f7a78c404c2446a01ea8dfa2d72ced758f78fc18",
+      "original_path": "results/baseline_coco320/predictions.json"
+    },
+    {
+      "path": "public_evaluations/baseline_coco320/report.json",
+      "bytes": 1420,
+      "sha256": "663f4a6550c18d104b904639dca700b96c7a1daebc07ad391ee9f16b16f1f5e8",
+      "original_path": "results/baseline_coco320/report.json"
+    },
+    {
+      "path": "public_evaluations/baseline_oi224/predictions.json",
+      "bytes": 493023,
+      "sha256": "7cb5f9b70f7276838a7aee028792e13d8037afc8291ba3dae31d045b25dc608b",
+      "original_path": "results/baseline_oi224/predictions.json"
+    },
+    {
+      "path": "public_evaluations/baseline_oi224/report.json",
+      "bytes": 1394,
+      "sha256": "45a4fdff49a8dcdc6769a60ce13f2c04cf7e9468c32b573ea564f1827cd4410f",
+      "original_path": "results/baseline_oi224/report.json"
+    },
+    {
+      "path": "public_evaluations/baseline_oi320/predictions.json",
+      "bytes": 546844,
+      "sha256": "26abab6d2d1253d077968766d5ed2d9283006d373ace0907b9c9f1988845d386",
+      "original_path": "results/baseline_oi320/predictions.json"
+    },
+    {
+      "path": "public_evaluations/baseline_oi320/report.json",
+      "bytes": 1408,
+      "sha256": "0465d5bf7afdae932510d5e6f79d8e91010770fe57cdfae8ed2ef4a7052b208d",
+      "original_path": "results/baseline_oi320/report.json"
+    },
+    {
+      "path": "public_evaluations/candidate_coco224/predictions.json",
+      "bytes": 6992889,
+      "sha256": "f3b05265b5174118b562fffaae2d5962ef3303d3f60734381d5a9fe5f4770721",
+      "original_path": "results/candidate_coco224/predictions.json"
+    },
+    {
+      "path": "public_evaluations/candidate_coco224/report.json",
+      "bytes": 1425,
+      "sha256": "2ba4ca8c9ac026837b144af92472e1763c237155d512b34e24ce7c367de7cc22",
+      "original_path": "results/candidate_coco224/report.json"
+    },
+    {
+      "path": "public_evaluations/candidate_coco320/predictions.json",
+      "bytes": 8144177,
+      "sha256": "5398ae0ac83e8b94f3b38b990e17c3d6b9e959803ccbfa03084f09a453083737",
+      "original_path": "results/candidate_coco320/predictions.json"
+    },
+    {
+      "path": "public_evaluations/candidate_coco320/report.json",
+      "bytes": 1423,
+      "sha256": "963f43ac621617bca515a692f41e82b1712a85de15eaf3148d511b448597d45e",
+      "original_path": "results/candidate_coco320/report.json"
+    },
+    {
+      "path": "public_evaluations/candidate_oi224/predictions.json",
+      "bytes": 801271,
+      "sha256": "acb36b6f29b679ba28928111bf460d28c26deba29f096a341c5524f7f30814b7",
+      "original_path": "results/candidate_oi224/predictions.json"
+    },
+    {
+      "path": "public_evaluations/candidate_oi224/report.json",
+      "bytes": 1412,
+      "sha256": "7557f152c181d8ae8309d309bca0978d34c3bd2db5e9853712a094533304c83e",
+      "original_path": "results/candidate_oi224/report.json"
+    },
+    {
+      "path": "public_evaluations/candidate_oi320/predictions.json",
+      "bytes": 879510,
+      "sha256": "b90d5cf9767a0c53ded6f2e5a6bb971c167ab2249d97cd2145de272ba9e1908e",
+      "original_path": "results/candidate_oi320/predictions.json"
+    },
+    {
+      "path": "public_evaluations/candidate_oi320/report.json",
+      "bytes": 1412,
+      "sha256": "0d57e2193ae4d747647fed916100c94c573e68bec2dc24f4fd248d8c714e2b69",
+      "original_path": "results/candidate_oi320/report.json"
+    },
+    {
+      "path": "public_evaluations/comparison.json",
+      "bytes": 5705,
+      "sha256": "8cbd49b55a692007bcb096489bcfaf5a2db021ae422996415e338496f1ac9a3e",
+      "original_path": "results/comparison.json"
+    },
+    {
+      "path": "public_evaluations/comparison.md",
+      "bytes": 728,
+      "sha256": "c7d58694d58a0fc6799634413fbe51ff3452053249c469f55b651bf7aff7d9b9",
+      "original_path": "results/comparison.md"
+    },
+    {
+      "path": "public_evaluations/evaluate224_finished.json",
+      "bytes": 44,
+      "sha256": "7a0316e364470d76578607f85f241fc4f09ec8fae409b159e471de020111e59b",
+      "original_path": "results/evaluate224_finished.json"
+    },
+    {
+      "path": "public_evaluations/field_objects_base_fit/predictions.json",
+      "bytes": 2751955,
+      "sha256": "7e1613a4c2f3e0a391ca1f7b249b2ce230e27fe44eaa664c6062b57dd6243183",
+      "original_path": "results/field_objects_base_fit/predictions.json"
+    },
+    {
+      "path": "public_evaluations/field_objects_base_fit/report.json",
+      "bytes": 2890,
+      "sha256": "a7ccf3cf89e8ff8c964099dea18d8cdc5095c0f9c63f3f4b6d8fecd24851bb01",
+      "original_path": "results/field_objects_base_fit/report.json"
+    },
+    {
+      "path": "public_evaluations/field_six320_fit_v1_fit/predictions.json",
+      "bytes": 3019503,
+      "sha256": "7eb10f97bf6ebf24cf249bc0cd3b4a80cae42e776c5095a9fbce0ad3b868ad98",
+      "original_path": "results/field_six320_fit_v1_fit/predictions.json"
+    },
+    {
+      "path": "public_evaluations/field_six320_fit_v1_fit/report.json",
+      "bytes": 3372,
+      "sha256": "755c174955ed241b2da519d04b47116cd25737a4436a932b2caebd291fa6c082",
+      "original_path": "results/field_six320_fit_v1_fit/report.json"
+    },
+    {
+      "path": "public_evaluations/policy_calibration.json",
+      "bytes": 58280,
+      "sha256": "46441db48f8ce60a765360dd97bbcecdd75d825fe61d67caa616e4c5595a6ab7",
+      "original_path": "results/policy_calibration.json"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1008,
+      "sha256": "c84e66561f02b7e9c66cd30d583a8f79f35a9d505fe7a968bee98c4c294314ba"
+    },
+    {
+      "path": "run_metadata/data_input.json",
+      "bytes": 1054,
+      "sha256": "00734ae1dfcdb11d2f57578a9643efed5f77133072d5946de05ef0caaa7a908d",
+      "original_path": "runs/field_six320_fit_v1/data_input.json"
+    },
+    {
+      "path": "run_metadata/dataset.runtime.yaml",
+      "bytes": 199,
+      "sha256": "75650bcf1f1dd56e4253deeddb9350db4e0e4f981b618131337480650e80aa9b",
+      "original_path": "runs/field_six320_fit_v1/dataset.runtime.yaml"
+    },
+    {
+      "path": "run_metadata/finished.json",
+      "bytes": 403,
+      "sha256": "4d3de460f95addf3c96a7358cdd79c3c3402657977239048df72d2465c79249c",
+      "original_path": "runs/field_six320_fit_v1/finished.json"
+    },
+    {
+      "path": "run_metadata/input.json",
+      "bytes": 1578,
+      "sha256": "f93395933cb9155376404de773f857080a1145b65b3eb4b7996e675fe26671a5",
+      "original_path": "runs/field_six320_fit_v1/input.json"
+    },
+    {
+      "path": "run_metadata/public_replay.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_path": "runs/field_six320_fit_v1/public_replay.json"
+    },
+    {
+      "path": "run_metadata/train.txt",
+      "bytes": 37672,
+      "sha256": "bf575245c526f5e809c1836ec31c9ec5f9774c017dd9feecd8f78980b1738e81",
+      "original_path": "runs/field_six320_fit_v1/train.txt"
+    },
+    {
+      "path": "run_metadata/training_archive_field_six320_fit_v1_20261026T143649303041Z.json",
+      "bytes": 386,
+      "sha256": "93b94f4a9ac34be29d5b20fccd031f96151ec54bed937322e4345d072ddf197c",
+      "original_path": "runs/field_six320_fit_v1/training_archive_field_six320_fit_v1_20261026T143649303041Z.json"
+    },
+    {
+      "path": "run_metadata/validation.txt",
+      "bytes": 37672,
+      "sha256": "bf575245c526f5e809c1836ec31c9ec5f9774c017dd9feecd8f78980b1738e81",
+      "original_path": "runs/field_six320_fit_v1/validation.txt"
+    },
+    {
+      "path": "weights/best.pt",
+      "bytes": 5581487,
+      "sha256": "e4ddc32b27d1387fca6692cdcc7e7357b619ee3ac5faca8596f18c0dcf08c3af",
+      "original_path": "runs/field_six320_fit_v1/train/weights/best.pt"
+    },
+    {
+      "path": "weights/last.pt",
+      "bytes": 5581487,
+      "sha256": "01f0cf8b6c31e5f9fc17cf03e796c662cd25bd2dc7c2497637b34341438d02bc",
+      "original_path": "runs/field_six320_fit_v1/train/weights/last.pt"
+    }
+  ]
+}

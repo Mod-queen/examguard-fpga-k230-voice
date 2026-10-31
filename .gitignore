@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+**/.private/
+**/sessions/
+**/evidence_out/
+**/face_db/
+**/.Xil/
+build/reproduction_*/
+sim/results/rerun_*/
+sim/results/pc_*/

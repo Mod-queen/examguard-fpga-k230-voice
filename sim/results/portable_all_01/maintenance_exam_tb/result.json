@@ -1,0 +1,22 @@
+{
+  "top": "maintenance_exam_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/persistence/maintenance_exam_tb.sv",
+      "sha256": "6127a35cf0c026384d5a735d48fbafd8ff01649a50dcb8cbcd046d4ea79a833d"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm.v",
+      "sha256": "99966b2469909e9bd205489ee97162df4bd8bde5b52d6abfcc1969bdeb914a77"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.016,
+  "pass_lines": [
+    "PASS: maintenance_exam runtime60/start-maintenance-gate/in-exam-duration-locked/forced-timeout"
+  ],
+  "exit_code": 0
+}

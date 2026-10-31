@@ -1,0 +1,7 @@
+VCD info: dumpfile voice_notice_backlog_tb.vcd opened for output.
+PASS scenario 1: alarm waits for opening audio, no expiry
+PASS scenario 2: five types drain with full audio spacing
+PASS scenario 3: repeated episode retained, queued duplicates coalesced
+PASS scenario 4: stage cancellation preserved
+PASS: voice_notice_backlog scenarios=4
+D:\fpga_race\deploy\engineering_final_20261031\sim\sources\voice_interaction\voice_notice_backlog_tb.sv:102: $finish called at 4250306000 (1ps)

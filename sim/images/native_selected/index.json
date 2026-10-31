@@ -1,0 +1,69 @@
+{
+  "images": [
+    {
+      "title": "摄像头最后一项配置",
+      "path": "sim/images/native_selected/01_camera_finished_clean/vivado_wave.png",
+      "sha256": "af504824af719b0ba4d1b3c661f1a247f6b312be37abeddbe97948a4d47857d6",
+      "database": "sim/native_databases/camera_init_contract_tb/focus_snapshot.wdb",
+      "visual_review": "passed",
+      "review_scope": "真实Vivado窗口截图，逐张目视清晰；截图不是穷尽覆盖率。"
+    },
+    {
+      "title": "摄像头失败重试",
+      "path": "sim/images/native_selected/02_camera_retry_clean/vivado_wave.png",
+      "sha256": "18543c27365c82a973e49416af837360b645e0571536f4f834baf4aea27f6e51",
+      "database": "sim/native_databases/camera_init_contract_tb/focus_snapshot.wdb",
+      "visual_review": "passed",
+      "review_scope": "真实Vivado窗口截图，逐张目视清晰；截图不是穷尽覆盖率。"
+    },
+    {
+      "title": "摄像头像素采样",
+      "path": "sim/images/native_selected/03_dvp_pixel_final/vivado_wave.png",
+      "sha256": "b715d4452ca11e7d592828201564a8bdd3402256705e97e71d1bc571923e23cf",
+      "database": "sim/native_databases/dvp_capture_contract_tb/focus_snapshot.wdb",
+      "visual_review": "passed",
+      "review_scope": "真实Vivado窗口截图，逐张目视清晰；截图不是穷尽覆盖率。"
+    },
+    {
+      "title": "以太网双边沿传输",
+      "path": "sim/images/native_selected/04_ethernet_edges_03/vivado_wave.png",
+      "sha256": "39aa4c9c51f53924b973d68058c827762fed159507ca42b52c73a76c74b80d8b",
+      "database": "sim/native_databases/gmii_rgmii_contract_tb/focus_snapshot.wdb",
+      "visual_review": "passed",
+      "review_scope": "真实Vivado窗口截图，逐张目视清晰；截图不是穷尽覆盖率。"
+    },
+    {
+      "title": "队列满与顺序保持",
+      "path": "sim/images/native_selected/05_fifo_full_clean/vivado_wave.png",
+      "sha256": "b56bcf4cf35b3df714834ab2f799aba7a4099b5eb80bf8aaf463eb88de667213",
+      "database": "sim/native_databases/event_request_fifo_optimized_tb/focus_snapshot.wdb",
+      "visual_review": "passed",
+      "review_scope": "真实Vivado窗口截图，逐张目视清晰；截图不是穷尽覆盖率。"
+    },
+    {
+      "title": "DDR写响应",
+      "path": "sim/images/native_selected/06_ddr_write_clean/vivado_wave.png",
+      "sha256": "ecfef8dbc4939bd4acc67786822195901898524d2d8ae1bd62b7d94fba181222",
+      "database": "sim/native_databases/history_store_axi_tb/focus_snapshot.wdb",
+      "visual_review": "passed",
+      "review_scope": "真实Vivado窗口截图，逐张目视清晰；截图不是穷尽覆盖率。"
+    },
+    {
+      "title": "考试阶段切换",
+      "path": "sim/images/native_selected/07_exam_stages_clean/vivado_wave.png",
+      "sha256": "cb321d0728f27cee1dcee09a4a32ba0c5933581248f9cd30b767f8c9cb9e23a5",
+      "database": "sim/native_databases/exam_fsm_tb/focus_snapshot.wdb",
+      "visual_review": "passed",
+      "review_scope": "真实Vivado窗口截图，逐张目视清晰；截图不是穷尽覆盖率。"
+    },
+    {
+      "title": "证据排队及结果",
+      "path": "sim/images/native_selected/08_evidence_result_clean/vivado_wave.png",
+      "sha256": "ea3fc45519dade9fe2a90a81e11910991bfc246ae4ec409beb1eadb91f2463c2",
+      "database": "sim/native_databases/ddr_evidence_queued_tb/focus_snapshot.wdb",
+      "visual_review": "passed",
+      "review_scope": "真实Vivado窗口截图，逐张目视清晰；截图不是穷尽覆盖率。"
+    }
+  ],
+  "original_capture_receipts_immutable": true
+}

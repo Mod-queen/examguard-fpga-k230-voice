@@ -1,0 +1,17 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/case_snapshot/xsim_script.tcl
+# xsim {case_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/camera_queued_evidence_tb/run.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/camera_queued_evidence_tb/run.tcl
+## run all
+camera queued inputs=17 commits=9 whole_drops=7 invalid=1 event_results=3 checked_pixels=3228
+PASS: camera_queued_evidence all checks
+$finish called at time : 239915 ns : File "D:/fpga_race/deploy/submission_20261031/sim/sources/ddr3_test/camera_queued_evidence_tb.sv" Line 112
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 17:34:50 2026...

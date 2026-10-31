@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: event_transaction_fork 400 ordered exactly-once deliveries per branch independent stalls/reset
+D:\fpga_race\fpga\src\event_identity\event_transaction_fork_tb.sv:34: $finish called at 37131000 (1ps)

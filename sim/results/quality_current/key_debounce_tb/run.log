@@ -1,0 +1,2 @@
+PASS: key debounce
+D:\fpga_race\deploy\engineering_quality_20261031\src\fpga\ov5640_ddr3_hdmi_vga.srcs\sources_1\user_control\key_debounce_tb.v:69: $finish called at 172000 (1ps)

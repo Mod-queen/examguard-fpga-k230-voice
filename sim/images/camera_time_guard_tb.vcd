@@ -1,0 +1,123 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module camera_time_guard_tb $end
+$var wire 32 ! rejected_unknown $end
+$var wire 32 " rejected_stale $end
+$var wire 1 # out_valid $end
+$var wire 1 $ out_sof $end
+$var wire 32 - dropped_invalid $end
+$var wire 1 3 de $end
+$var wire 1 6 out_ready $end
+$var wire 8 7 pixel_b $end
+$var wire 8 8 pixel_g $end
+$var wire 8 9 pixel_r $end
+$var wire 1 : rst $end
+$upscope $end
+$enddefinitions $end
+#0
+1:
+b0 9
+b0 8
+b0 7
+16
+03
+bx -
+x$
+x#
+bx "
+bx !
+#5000
+b0 "
+b0 !
+b0 -
+0#
+1$
+#80000
+0:
+#90000
+13
+b11110000 9
+b10000000 8
+b101000 7
+#95000
+b1 !
+#730000
+03
+#1090000
+13
+b10000001 8
+#1095000
+b1 "
+#1730000
+03
+#2090000
+13
+b10000010 8
+#2485000
+1#
+#2495000
+0$
+0#
+#2515000
+1#
+#2525000
+0#
+#2545000
+1#
+#2555000
+0#
+#2575000
+1#
+#2585000
+1$
+0#
+#2730000
+03
+#3090000
+13
+b10000011 8
+#3485000
+1#
+#3495000
+0$
+0#
+#3515000
+1#
+#3525000
+0#
+#3545000
+1#
+#3555000
+0#
+#3575000
+1#
+#3585000
+1$
+0#
+#3730000
+03
+#4090000
+13
+b10000100 8
+#4730000
+03
+#5080000
+b11111111111111111111111111111111 "
+b11111111111111111111111111111111 !
+#5090000
+13
+b10000101 8
+#5730000
+03
+#6090000
+13
+b10000110 8
+#6730000
+03
+#7090000
+1:
+#7095000
+b0 "
+b0 !
+#7130000
+0:

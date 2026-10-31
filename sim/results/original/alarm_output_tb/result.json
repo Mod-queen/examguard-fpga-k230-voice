@@ -1,0 +1,28 @@
+{
+  "top": "alarm_output_tb",
+  "status": "passed",
+  "active_modules": [
+    "alarm_output"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "alarm_output_tb"
+  ],
+  "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/alarm_output/alarm_output_tb.v",
+  "sources": [
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/alarm_output/alarm_output_tb.v",
+      "sha256": "717a9f8aa3bbb0913e87dd9792d1738200d5a5b16e31da95aced6ff6bfd4fbad"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/alarm_output/alarm_output.v",
+      "sha256": "912639e2db1c8b6f99a03a4ffc153ac1f88eac5d6dac35aa6c392874f5746bca"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: local alarm mapping"
+  ],
+  "trace_bytes": 665,
+  "seconds": 0.094
+}

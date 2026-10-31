@@ -1,0 +1,22 @@
+{
+  "top": "pcf8563_calendar_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/persistence/pcf8563_calendar_tb.sv",
+      "sha256": "090212f75dfeb08323e96dfe48cacb4b3a02f3cdc913453cb78b72c911e1294f"
+    },
+    {
+      "path": "src/fpga/local_sources/c66e664ded59/pcf8563_calendar.sv",
+      "sha256": "f8c87466cd7973ed81e45ef41c1dd511afd5044c3cba8e9e8966a989ac646d29"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.265,
+  "pass_lines": [
+    "PASS: pcf8563_calendar checks=37739 full2000..2099/leap/month-end/BCD/VL/STOP/test/century"
+  ],
+  "exit_code": 0
+}

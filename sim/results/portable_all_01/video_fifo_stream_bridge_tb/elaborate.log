@@ -1,0 +1,106 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/vivado2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe --relax --debug typical -L unisims_ver -L unimacro_ver -L secureip work.video_fifo_stream_bridge_tb work.glbl -s case_snapshot 
+Multi-threading is on. Using 22 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.video_fifo_stream_bridge
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.VCC
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module work.wr_ddr3_fifo_xpm_cdc_gray__param...
+Compiling module work.wr_ddr3_fifo_xpm_cdc_gray
+Compiling module work.wr_ddr3_fifo_clk_x_pntrs
+Compiling module unisims_ver.CARRY4
+Compiling module work.wr_ddr3_fifo_rd_dc_as
+Compiling module unisims_ver.FDSE_default
+Compiling module work.wr_ddr3_fifo_rd_status_flags_as
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module work.wr_ddr3_fifo_rd_bin_cntr
+Compiling module work.wr_ddr3_fifo_rd_logic
+Compiling module work.wr_ddr3_fifo_wr_dc_as
+Compiling module work.wr_ddr3_fifo_compare__parameteri...
+Compiling module work.wr_ddr3_fifo_compare__parameteri...
+Compiling module unisims_ver.FDSE(INIT=1'b0)
+Compiling module work.wr_ddr3_fifo_wr_status_flags_as
+Compiling module work.wr_ddr3_fifo_wr_bin_cntr
+Compiling module work.wr_ddr3_fifo_wr_logic
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(RAM_MODE="SDP...
+Compiling module unisims_ver.RAMB36E1(RAM_MODE="SDP",READ_WID...
+Compiling module work.wr_ddr3_fifo_blk_mem_gen_prim_wr...
+Compiling module work.wr_ddr3_fifo_blk_mem_gen_prim_wi...
+Compiling module unisims_ver.SRL16E_default
+Compiling module work.wr_ddr3_fifo_blk_mem_gen_prim_wr...
+Compiling module work.wr_ddr3_fifo_blk_mem_gen_prim_wi...
+Compiling module work.wr_ddr3_fifo_blk_mem_gen_generic...
+Compiling module work.wr_ddr3_fifo_blk_mem_gen_top
+Compiling module work.wr_ddr3_fifo_blk_mem_gen_v8_4_2_...
+Compiling module work.wr_ddr3_fifo_blk_mem_gen_v8_4_2
+Compiling module work.wr_ddr3_fifo_memory
+Compiling module unisims_ver.FDRE(INIT=1'b1)
+Compiling module work.wr_ddr3_fifo_xpm_cdc_single
+Compiling module work.wr_ddr3_fifo_xpm_cdc_single__2
+Compiling module work.wr_ddr3_fifo_xpm_cdc_sync_rst
+Compiling module work.wr_ddr3_fifo_xpm_cdc_sync_rst__2
+Compiling module work.wr_ddr3_fifo_reset_blk_ramfifo
+Compiling module work.wr_ddr3_fifo_fifo_generator_ramf...
+Compiling module work.wr_ddr3_fifo_fifo_generator_top
+Compiling module work.wr_ddr3_fifo_fifo_generator_v13_...
+Compiling module work.wr_ddr3_fifo_fifo_generator_v13_...
+Compiling module work.wr_ddr3_fifo
+Compiling module work.rd_ddr3_fifo_xpm_cdc_gray__param...
+Compiling module work.rd_ddr3_fifo_xpm_cdc_gray
+Compiling module work.rd_ddr3_fifo_clk_x_pntrs
+Compiling module work.rd_ddr3_fifo_rd_dc_as
+Compiling module work.rd_ddr3_fifo_compare
+Compiling module work.rd_ddr3_fifo_compare_0
+Compiling module work.rd_ddr3_fifo_rd_status_flags_as
+Compiling module work.rd_ddr3_fifo_rd_bin_cntr
+Compiling module work.rd_ddr3_fifo_rd_logic
+Compiling module work.rd_ddr3_fifo_wr_dc_as
+Compiling module work.rd_ddr3_fifo_wr_status_flags_as
+Compiling module work.rd_ddr3_fifo_wr_bin_cntr
+Compiling module work.rd_ddr3_fifo_wr_logic
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(RAM_MODE="SDP...
+Compiling module unisims_ver.RAMB36E1(RAM_MODE="SDP",READ_WID...
+Compiling module work.rd_ddr3_fifo_blk_mem_gen_prim_wr...
+Compiling module work.rd_ddr3_fifo_blk_mem_gen_prim_wi...
+Compiling module work.rd_ddr3_fifo_blk_mem_gen_prim_wr...
+Compiling module work.rd_ddr3_fifo_blk_mem_gen_prim_wi...
+Compiling module work.rd_ddr3_fifo_blk_mem_gen_generic...
+Compiling module work.rd_ddr3_fifo_blk_mem_gen_top
+Compiling module work.rd_ddr3_fifo_blk_mem_gen_v8_4_2_...
+Compiling module work.rd_ddr3_fifo_blk_mem_gen_v8_4_2
+Compiling module work.rd_ddr3_fifo_memory
+Compiling module work.rd_ddr3_fifo_xpm_cdc_single
+Compiling module work.rd_ddr3_fifo_xpm_cdc_single__2
+Compiling module work.rd_ddr3_fifo_xpm_cdc_sync_rst
+Compiling module work.rd_ddr3_fifo_xpm_cdc_sync_rst__2
+Compiling module work.rd_ddr3_fifo_reset_blk_ramfifo
+Compiling module work.rd_ddr3_fifo_fifo_generator_ramf...
+Compiling module work.rd_ddr3_fifo_fifo_generator_top
+Compiling module work.rd_ddr3_fifo_fifo_generator_v13_...
+Compiling module work.rd_ddr3_fifo_fifo_generator_v13_...
+Compiling module work.rd_ddr3_fifo
+Compiling module work.video_fifo_stream_bridge_tb
+Compiling module work.glbl
+Built simulation snapshot case_snapshot
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/video_fifo_stream_bridge_tb/xsim.dir/case_snapshot/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 31 17:40:37 2026...

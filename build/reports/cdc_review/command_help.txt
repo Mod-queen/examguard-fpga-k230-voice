@@ -1,0 +1,201 @@
+report_cdc
+
+Description: 
+Report the clock domain crossing (CDC) paths in the current design.
+
+Syntax: 
+report_cdc  [-from <args>] [-to <args>] [-cells <args>] [-details] [-summary]
+            [-all_checks_per_endpoint] [-severity <arg>] [-no_header]
+            [-show_waiver] [-no_waiver] [-waived] [-file <arg>] [-append]
+            [-return_string] [-name <arg>] [-quiet] [-verbose]
+
+Usage: 
+  Name                        Description
+  ---------------------------------------
+  [-from]                     From clocks
+  [-to]                       To clocks
+  [-cells]                    run report_cdc on the cells
+  [-details]                  report the detail of the CDC timing paths not 
+                              safely timed
+  [-summary]                  report a summary by clocks of the CDC
+  [-all_checks_per_endpoint]  report all checks per endpoint
+  [-severity]                 report only the severity specified (Info, 
+                              Warning or Critical)
+  [-no_header]                Do not generate a report header
+  [-show_waiver]              Show the waived paths
+  [-no_waiver]                Ignore the waiver
+  [-waived]                   Show only the waived paths
+  [-file]                     Filename to output results to. (send output to 
+                              console if -file is not used)
+  [-append]                   Append the results to file, don't overwrite the
+                              results file
+  [-return_string]            return report as string
+  [-name]                     Output the results to GUI panel with this name
+  [-quiet]                    Ignore command errors
+  [-verbose]                  Suspend message limits during command execution
+
+Categories: 
+Report, Timing
+
+Description:
+
+  This report shows in detail the clock domain crossing (CDC) paths in the
+  current synthesized or implemented design. The command analyzes paths
+  between asynchronous clocks, or clocks with no common period, as well as
+  synchronous paths ignored by the user due to false path or max delay
+  datapath_only exceptions.
+
+  By default the report_cdc command reports domain crossing between all
+  clocks in the design. However, you can limit the clocks of interest using
+  the -from and -to options to specify the clock domains of interest.
+
+  The report_cdc command only reports on paths where both source and
+  destination clocks are defined. You should run the check_timing command
+  prior to report_cdc to ensure that there are no unconstrained clocks in the
+  design. I/O paths are only covered by report_cdc when input or output delay
+  constraints have been specified on the I/O ports.
+
+  The severity of the path report could be Critical, Warning or Info
+  depending on the CDC topology identified. An unknown synchronization
+  topology is Critical and needs to be reviewed. A double register
+  synchronizer with missing ASYNC_REG property is a Warning. Clock Enable,
+  MUX, and MUX Hold CDC structures are categorized as Warnings because you
+  should check to ensure that the structure is safe. Other CDC paths are of
+  severity Info.
+
+  The report_cdc command returns the following information:
+
+   *  Severity
+
+   *  Source Clock
+
+   *  Destination Clock
+
+   *  CDC Type
+
+   *  Exceptions
+
+   *  Endpoints
+
+   *  Safe
+
+   *  Unknown
+
+   *  No ASYNC_REG property
+
+  Note: You cannot use the set_msg_config command to configure the severity
+  of messages returned by the report_cdc command. This command does not
+  generate messages through the message manager.
+
+Arguments:
+
+  -from <args> - (Optional) Report clock domain crossing from the specified
+  clock domain. Clocks can be specified by name or as returned by the
+  get_clocks command.
+
+  -to <args> - (Optional) Report clock domain crossing into the specified
+  clock domain. Clocks can be specified by name or as returned by the
+  get_clocks command.
+
+  -cells <arg> - (Option) Generate the report on the specified hierarchical
+  cells. The details of the report will be based on the specified cells
+  rather than the whole design.
+
+  -details - (Optional) Provide a detailed report on the timing paths. The
+  detailed report lists a summary table of the CDC paths, and then lists
+  details of the source/destination clock, and the CDC paths for each clock
+  pair.
+
+  -summary - (Optional) This is the default report returned for the design.
+  The summary report generates a table with a message severity, the
+  source/destination clock pair, safe CDC, and unknown or unrecognized CDC,
+  and the number of path endpoints.
+
+  -all_checks_per_endpoint - (Optional) Report all violations for each
+  endpoint of a CDC path, instead of only reporting the most critical
+  violation per endpoint. This option works with the -severity option to
+  report all violations per endpoint, of the specified severity.
+
+  -severity [ Critical | Warning | Info ] - (Optional) Report only the CDC
+  paths with the specified severity level.
+
+  -no_header - (Optional) Eliminate the report header from the results. This
+  can be especially useful when returning the results as a string with
+  -return_string.
+
+  -show_waiver - (Optional) Used with the -details argument, this option adds
+  the waived CDC paths to the report, and adds a "Waived" column to the
+  report to indicate which paths have been waived and which have not.
+
+  -no_waiver - (Optional) Ignore the waivers defined by the create_waivers
+  command and report all CDC paths.
+
+  -waived - (Optional) Causes only the CDC paths waived by the create_waiver
+  command to be reported. This returns the actual violation rather than the
+  definition of the waiver, which can be reported by the report_waivers
+  command.
+
+  -file <arg> - (Optional) Write the report into the specified file.
+
+  Note: If the path is not specified as part of the file name, the file will
+  be written into the current working directory, or the directory from which
+  the tool was launched.
+
+  -append - (Optional) Append the output of the command to the specified file
+  rather than overwriting it.
+
+  Note: The -append option can only be used with the -file option.
+
+  -return_string - (Optional) Directs the output to a Tcl string rather than
+  to the standard output. The Tcl string can be captured by a variable
+  definition and parsed or otherwise processed.
+
+  Note: This argument cannot be used with the -file option.
+
+  -name <arg> - (Optional) The name of the Clock Domain Crossing report view
+  to display in the Vivado IDE when run in GUI mode. If the name has already
+  been used in an open report view, that view will be closed and a new report
+  opened.
+
+  -quiet - (Optional) Execute the command quietly, returning no messages from
+  the command. The command also returns TCL_OK regardless of any errors
+  encountered during execution.
+
+  Note: Any errors encountered on the command-line, while launching the
+  command, will be returned. Only errors occurring inside the command will be
+  trapped.
+
+  -verbose - (Optional) Temporarily override any message limits and return
+  all messages from this command.
+
+  Note: Message limits can be defined with the set_msg_config command.
+
+Examples:
+
+  The following example reports the clock domain crossings in the current
+  design, including any waived paths, using a verbose report form, and saving
+  the results to a file:
+
+    report_cdc -details -show_waiver -file C:/Data/cdc_report.txt 
+    
+
+  The following example reports the clock domain crossings from a clock
+  specified by name, to another specified as a clock object:
+
+    report_cdc -from clk_pin_p -to [get_clocks clk_rx_clk_core]  
+    
+
+See Also:
+
+   *  all_clocks
+   *  create_clocks
+   *  create_generated_clocks
+   *  get_clocks
+   *  report_clock_interaction
+   *  report_clock_networks
+   *  report_clocks
+   *  report_timing
+   *  report_timing_summary
+   *  set_clock_groups
+   *  set_false_path
+

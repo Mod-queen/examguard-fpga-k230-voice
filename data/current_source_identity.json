@@ -1,0 +1,7 @@
+{
+  "compared": 224,
+  "changed_handwritten_sources": [
+    "src/fpga/local_sources/172741f07dfa/voice_notice_queue.sv"
+  ],
+  "scope": "RTL/XDC/IP配置；生成IP输出允许在复原时重新生成。"
+}

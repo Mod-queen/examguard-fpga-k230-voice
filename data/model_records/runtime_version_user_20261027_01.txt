@@ -1,0 +1,3 @@
+nncase_runtime.version(): '2.9.0'
+MPY: soft reboot
+CanMV v1.4.3(based on Micropython e00a144) on 2026-01-20; k230_canmv_yahboom with K230

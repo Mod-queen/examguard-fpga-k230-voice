@@ -1,0 +1,28 @@
+{
+  "top": "image_evidence_ring_tb",
+  "status": "passed",
+  "active_modules": [
+    "image_evidence_ring"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "image_evidence_ring_tb"
+  ],
+  "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/image_evidence_ring_tb.v",
+  "sources": [
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/image_evidence_ring_tb.v",
+      "sha256": "6fce29aef165d62187d1193f6e73624854225036f2dfff30213117756111f9ae"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/image_evidence_ring.v",
+      "sha256": "fdf8d9dc86a0db344b8337366123b89040cdb04d6fde43eef12c66b52b775d7a"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: image evidence ring"
+  ],
+  "trace_bytes": 14163,
+  "seconds": 0.094
+}

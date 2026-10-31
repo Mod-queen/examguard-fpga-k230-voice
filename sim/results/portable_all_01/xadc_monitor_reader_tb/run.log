@@ -1,0 +1,2 @@
+PASS: xadc_monitor_reader four addresses/atomic batches/temp/timeout/reset
+D:\fpga_race\deploy\submission_20261031\sim\sources\health\xadc_monitor_reader_tb.sv:25: $finish called at 671000 (1ps)

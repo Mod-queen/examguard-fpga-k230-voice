@@ -1,0 +1,21 @@
+{
+  "key": "03_dvp_pixel",
+  "title": "摄像头：两个字节拼接为一个像素",
+  "native_ide_screenshot": true,
+  "method": "own Vivado GUI static WDB viewer; no simulation rerun or source value edits",
+  "launched_pid": 23688,
+  "window_pid": 11756,
+  "window_title": "Vivado 2018.3",
+  "hardware_access": false,
+  "database_sha256": "e5777dbe0ddbbca06a00b6c7a2e917f537b8be92e7cd690e4d519c38f533345a",
+  "config_sha256": "2d52f8f4ea543159cff7496442db51e19ca6a190a0e8bb664a0720580e5dd496",
+  "image_sha256": "b715d4452ca11e7d592828201564a8bdd3402256705e97e71d1bc571923e23cf",
+  "source_result": "verification_out\\refinement_20261031\\cases\\dvp_capture_contract_tb\\result.json",
+  "source_result_sha256": "676f96ce8a0482a46a9e1e736cdf1960b89ff3c5d56ffce6270dc9df7a79bc92",
+  "window_ns": [
+    2200.0,
+    2360.0
+  ],
+  "image": "vivado_wave.png",
+  "visual_review": "pending"
+}

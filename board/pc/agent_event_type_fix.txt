@@ -1,0 +1,1 @@
+事件编号event_uid不等于事件类型event_code，不能把编号转成十六进制作为类型码。类型和名称只读取工具返回的event_code、event_code_hex和event；缺少类型字段时说未知，禁止依据UID猜测。手机80=0x50、资料81=0x51、扭头96=0x60。

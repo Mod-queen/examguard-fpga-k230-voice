@@ -1,0 +1,24 @@
+{
+  "top": "persistent_config_decode_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/test_repairs/persistent_config_decode_tb/persistent_config_decode_tb.sv",
+      "sha256": "eb6110102cf53e85f6220bbc671aead3f7d9786c6411e15ff65d16622c051bb8"
+    },
+    {
+      "path": "src/fpga/local_sources/0663b43ea7cd/persistent_config_decode.sv",
+      "sha256": "b31b4b9cbb81f5dc9303452cca01f7dd51316c05e2f8563080bf1261f4f517c6"
+    }
+  ],
+  "repairs": [
+    "Use reproducible fixture persistent_config_vectors_20261021.mem"
+  ],
+  "seconds": 5.937,
+  "pass_lines": [
+    "PASS: persistent_config_decode 317 host vectors/defaults/boundaries/single-bit-reserved"
+  ],
+  "exit_code": 0
+}

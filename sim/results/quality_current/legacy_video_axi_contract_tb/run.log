@@ -1,0 +1,4 @@
+AUDIT_CONFIRMED: addr_clr changed stalled AW/AR from 0x00000200/0x00000200 to 0x00000000/0x00000000
+AUDIT_CONFIRMED: frame-clear drain accepted R beat without publishing it to video FIFO
+PASS: legacy_video_axi_contract audit checks (known incompatibilities confirmed, NOT acceptance)
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\legacy_video_axi_contract_tb.sv:75: $finish called at 1130000 (1ps)

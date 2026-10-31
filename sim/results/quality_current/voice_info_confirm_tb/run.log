@@ -1,0 +1,2 @@
+PASS: voice_info_confirm scenarios=18
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\voice_interaction\voice_info_confirm_tb.sv:229: $finish called at 5791000 (1ps)

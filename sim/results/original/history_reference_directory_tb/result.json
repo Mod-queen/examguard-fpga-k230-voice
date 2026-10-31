@@ -1,0 +1,32 @@
+{
+  "top": "history_reference_directory_tb",
+  "engine": "AMD XSim 2018.3",
+  "status": "passed",
+  "active_modules": [
+    "history_reference_directory"
+  ],
+  "repairs": [
+    "Connect added directory diagnostic outputs explicitly; no assertion removed."
+  ],
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "D:\\fpga_race\\verification_out\\optimization_20261031\\simulation\\xsim_round3\\history_reference_directory_tb\\history_reference_directory_tb.sv",
+      "sha256": "df7c206af97a76216e46c35e15a3a293072429fb7eeca1a83153bad330004242"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\ov5640_ddr3_hdmi_vga.srcs\\sources_1\\imports\\ddr3_test\\history_reference_directory.v",
+      "sha256": "85cd4b3b218d1e762bc7f8c8d30e5988394194261bbd4e5060566fc8a4cee724"
+    }
+  ],
+  "seconds": 6.969,
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: history_reference_directory N=1 original-time/shared refs/write protection/seal/late/truncation/backpressure/errors/reset/token",
+    "PASS: history_reference_directory N=7 original-time/shared refs/write protection/seal/late/truncation/backpressure/errors/reset/token",
+    "PASS: history_reference_directory N=7 original-time/shared refs/write protection/seal/late/truncation/backpressure/errors/reset/token",
+    "PASS: history_reference_directory N=64 original-time/shared refs/write protection/seal/late/truncation/backpressure/errors/reset/token",
+    "PASS: history_reference_directory ALL"
+  ],
+  "trace_bytes": 356
+}

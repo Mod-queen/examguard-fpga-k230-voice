@@ -1,0 +1,28 @@
+{
+  "top": "camera_black_720p_tb",
+  "status": "passed",
+  "active_modules": [
+    "camera_black_gate"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "camera_black_720p_tb"
+  ],
+  "testbench": "fpga/src/vision_guard/camera_black_720p_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/vision_guard/camera_black_720p_tb.sv",
+      "sha256": "7ebda16395f6c74c5c1620f08277d2dc4c82878ab3fe68374cb7932afb3fae9f"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/15950e21e551/camera_black_gate.v",
+      "sha256": "fce64430ab2e9c4ac0eac89408277f9fb45435b839a33e3a6f4c846be5cd18a6"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: 720p all921600 pixels exact903167/903168 threshold and confirmation"
+  ],
+  "trace_bytes": 2000081,
+  "seconds": 6.672
+}

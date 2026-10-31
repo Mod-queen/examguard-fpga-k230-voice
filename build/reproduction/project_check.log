@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Oct 30 20:26:11 2026
+# Process ID: 19616
+# Current directory: D:/fpga_race
+# Command line: vivado.exe -mode batch -source D:\fpga_race\deploy\submission_20261030\build\check_project.tcl -log D:\fpga_race\docs\submission_final_20261030\qa\project_check.log -journal D:\fpga_race\docs\submission_final_20261030\qa\project_check.jou
+# Log file: D:/fpga_race/docs/submission_final_20261030/qa/project_check.log
+# Journal file: D:\fpga_race\docs\submission_final_20261030\qa\project_check.jou
+#-----------------------------------------------------------
+CRITICAL WARNING: [Common 17-741] No write access right to the local Tcl store at 'C'. XilinxTclStore is reverted to the installation area. If you want to use local Tcl Store, please change the access right and relaunch Vivado.
+source {D:\fpga_race\deploy\submission_20261030\build\check_project.tcl}
+# set root [file normalize [file join [file dirname [info script]] ..]]
+# set work [file join $root src fpga]
+# open_project [file join $work ov5640_ddr3_hdmi_vga.xpr]
+INFO: [Project 1-313] Project file moved from '.' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'dvi_pll_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'pll_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'rd_ddr3_fifo_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'wr_ddr3_fifo_synth_1' not found
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option CompiledLibDirXcelium has no valid value
+WARNING: [filemgmt 56-2] IP Output Repository Path: Could not find the directory 'D:/fpga_race/deploy/submission_20261030/src/fpga/ip_cache', nor could it be found using path 'D:/fpga_race/ip_cache'.
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'D:/fpga_race/deploy/submission_20261030/src/fpga/ov5640_ddr3_hdmi_vga.ip_user_files', nor could it be found using path 'D:/fpga_race/ov5640_ddr3_hdmi_vga.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/vivado2018.3/Vivado/2018.3/data/ip'.
+# set bad {}
+# foreach f [get_files -all] {
+#     if {![file exists $f]} {lappend bad $f}
+# }
+# update_compile_order -fileset sources_1
+# if {[llength $bad]} {error "Missing files: $bad"}
+# puts "SUBMISSION_PROJECT_REFERENCES_OK=[llength [get_files -all]]"
+SUBMISSION_PROJECT_REFERENCES_OK=346
+# puts "TOP=[get_property TOP [get_filesets sources_1]] PART=[get_property PART [current_project]]"
+TOP=ov5640_ddr3_hdmi_vga PART=xc7a200tfbg484-2
+# close_project
+# exit
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 30 20:26:16 2026...

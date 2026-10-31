@@ -1,0 +1,22 @@
+{
+  "top": "voice_notice_queue_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/voice_interaction/voice_notice_queue_tb.sv",
+      "sha256": "f4be7cae28a0b36c467699eaf9b0afb0b9b16cad444f0a395e41407253dfc367"
+    },
+    {
+      "path": "src/fpga/local_sources/172741f07dfa/voice_notice_queue.sv",
+      "sha256": "f10ea773553ae101a176fe1e90dfba299444beaed72ac2dd43db39b44da0d0af"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.047,
+  "pass_lines": [
+    "PASS: voice_notice_queue scenarios=9"
+  ],
+  "exit_code": 0
+}

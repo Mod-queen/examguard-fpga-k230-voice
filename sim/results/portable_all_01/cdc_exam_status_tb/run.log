@@ -1,0 +1,2 @@
+PASS: cdc_exam_status
+D:\fpga_race\deploy\submission_20261031\src\fpga\ov5640_ddr3_hdmi_vga.srcs\sources_1\exam_fsm\cdc_exam_status_tb.v:46: $finish called at 546000 (1ps)

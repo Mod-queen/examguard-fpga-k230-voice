@@ -1,0 +1,37 @@
+{
+  "top": "evidence_reset_epoch_tb",
+  "status": "passed",
+  "active_modules": [
+    "async_fifo",
+    "cdc_event_transaction"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "evidence_reset_epoch_tb"
+  ],
+  "testbench": "fpga/src/event_identity/evidence_reset_epoch_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/event_identity/evidence_reset_epoch_tb.sv",
+      "sha256": "42a985188ae034556d2a88bd836976ab006c181d4e5d2023fefeb10610b94e21"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+      "sha256": "e00a965581e8b27bd820c5aa494acf399d4d9edd0f06c4fc315d1e06edc41f67"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+      "sha256": "2d2200f13132859ec81afaa54309a520655a7a7042438f0fded09807e4981f6a"
+    },
+    {
+      "path": "fpga/src/event_identity/evidence_reset_epoch.v",
+      "sha256": "6aa5354b6c2ca582f14141236d0861a2e9b65ca8e4c303964245270b0cf59e50"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: evidence_reset_epoch stopped-control/capture clocks, stale-toggle/FIFO cancellation, restart80 and retrigger"
+  ],
+  "trace_bytes": 47059,
+  "seconds": 0.094
+}

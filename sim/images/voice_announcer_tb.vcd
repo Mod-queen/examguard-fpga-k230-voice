@@ -1,0 +1,157 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module voice_announcer_tb $end
+$var wire 8 - event_code $end
+$var wire 8 . event_seq $end
+$var wire 1 / rst $end
+$var wire 3 0 stage_id $end
+$var wire 1 1 test_done $end
+$var wire 1 2 valid $end
+$var wire 32 3 count $end
+$var wire 32 4 errors $end
+$var wire 8 ! tts_type $end
+$var wire 1 " tts_req $end
+$var wire 8 # tts_id $end
+$upscope $end
+$enddefinitions $end
+#0
+b0 4
+b0 3
+02
+01
+b0 0
+1/
+b0 .
+b0 -
+bx #
+x"
+bx !
+#5000
+b0 #
+b0 !
+0"
+#35000
+0/
+#55000
+12
+#65000
+b100000 #
+b11111111 !
+1"
+02
+#75000
+0"
+b1 3
+#85000
+12
+#95000
+02
+#115000
+12
+b1 0
+#125000
+b100001 #
+1"
+02
+#135000
+0"
+b10 3
+#145000
+12
+b1 .
+b10001 -
+#155000
+b110001 #
+1"
+02
+#165000
+0"
+b11 3
+#175000
+12
+#185000
+02
+#205000
+12
+b10 .
+b1010000 -
+#215000
+b110010 #
+1"
+02
+#225000
+0"
+b100 3
+#235000
+12
+b11 .
+b1 -
+b10 0
+#245000
+b100010 #
+1"
+02
+#255000
+0"
+b101 3
+#265000
+12
+b0 -
+b11 0
+#275000
+b100011 #
+1"
+02
+#285000
+0"
+b110 3
+#295000
+12
+b100 .
+b1100100 -
+#305000
+b110111 #
+1"
+02
+#315000
+0"
+b111 3
+#325000
+12
+b101 .
+b110001 -
+b100 0
+#335000
+b100110 #
+1"
+02
+#345000
+0"
+b1000 3
+#355000
+12
+b110 .
+b11 -
+b101 0
+#365000
+b100101 #
+1"
+02
+#375000
+0"
+b1001 3
+#385000
+12
+b111 .
+b10 -
+#395000
+b0 #
+02
+#415000
+12
+b1000 .
+b0 -
+#425000
+02
+#445000
+11

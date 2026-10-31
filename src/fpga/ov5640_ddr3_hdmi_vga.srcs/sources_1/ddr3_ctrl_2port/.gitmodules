@@ -1,0 +1,3 @@
+[submodule "fifo_axi4_adapter"]
+	path = fifo_axi4_adapter
+	url = ../fifo_axi4_adapter

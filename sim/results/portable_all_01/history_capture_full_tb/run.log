@@ -1,0 +1,2 @@
+PASS: history_capture_full default57600 2frames115200pixels/third busyDROP/metadata START snapshot/random output stalls cycles=557158
+D:\fpga_race\deploy\submission_20261031\sim\sources\ddr3_test\history_capture_full_tb.sv:65: $finish called at 5571631000 (1ps)

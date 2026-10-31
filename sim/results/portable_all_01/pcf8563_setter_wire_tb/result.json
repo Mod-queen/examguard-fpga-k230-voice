@@ -1,0 +1,38 @@
+{
+  "top": "pcf8563_setter_wire_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/persistence/pcf8563_setter_wire_tb.sv",
+      "sha256": "1e36ec9ca0f581def3d9d0ca3d0ced3b85dd3a8104b43b0754be264766fcad35"
+    },
+    {
+      "path": "src/fpga/local_sources/c5242e5fe116/pcf8563_setter.sv",
+      "sha256": "e25f0c88c17aaa5c90c99366bbd162a8021455fbf438737101e1a4b9aa78cd4b"
+    },
+    {
+      "path": "src/fpga/local_sources/a8328017a7aa/pcf8563_reader.sv",
+      "sha256": "cae1252215581075f1acb623e30c2eb0f151b4a8e67eb289b5e0b686b08f8cd4"
+    },
+    {
+      "path": "src/fpga/local_sources/c66e664ded59/pcf8563_calendar.sv",
+      "sha256": "f8c87466cd7973ed81e45ef41c1dd511afd5044c3cba8e9e8966a989ac646d29"
+    },
+    {
+      "path": "src/fpga/local_sources/682b9b4992fd/i2c_byte_master.sv",
+      "sha256": "4b7471ebdfcd080cbabc516e8a56793526a8ac7ecdbc0f51b42c8740dfd2bc8c"
+    },
+    {
+      "path": "src/fpga/local_sources/0e8d0fe30f17/i2c_register_master.sv",
+      "sha256": "a4d1144965e65a73169a89361a1d9be26d6a499512133b647f28829e8d55e8f0"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.109,
+  "pass_lines": [
+    "PASS: pcf8563_setter_wire transactions=18 START=27 STOP=18 writes=22 NACK=1 normal/partial-write/run-recovery/explicit-retry/media-preserved"
+  ],
+  "exit_code": 0
+}

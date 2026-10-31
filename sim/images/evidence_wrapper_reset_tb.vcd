@@ -1,0 +1,89 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module evidence_wrapper_reset_tb $end
+$var wire 1 " ddr3_rst_n $end
+$var wire 1 ( shared_ui_rst $end
+$var wire 1 ) ddr3_init_done $end
+$var wire 4 + resets $end
+$var wire 1 , fabric_rst $end
+$var wire 4 1 video_fault $end
+$var wire 4 2 protocol_fault $end
+$var wire 2 @ e_awburst $end
+$var wire 2 A e_arburst $end
+$var wire 1 B e_awvalid $end
+$var wire 1 C e_arvalid $end
+$upscope $end
+$enddefinitions $end
+#0
+0"
+1(
+0)
+b1111 +
+1,
+bx 1
+bx 2
+b1 @
+b1 A
+0B
+0C
+#5000
+b0 1
+b0 2
+#80000
+1"
+#155000
+0(
+1)
+#260000
+b111 +
+#265000
+b11 +
+0,
+#276094
+b1 +
+#290000
+b0 +
+#300000
+1B
+#310000
+0B
+#331000
+b1111 +
+1,
+#484000
+b111 +
+#485000
+b11 +
+0,
+#491582
+b1 +
+#510000
+b0 +
+#620000
+1B
+#630000
+0B
+#910000
+1C
+#1680000
+0C
+#1726000
+b1111 +
+1,
+#1860000
+b111 +
+#1865000
+b11 +
+0,
+#1865318
+b1 +
+#1890000
+b0 +
+#2000000
+1B
+#2010000
+0B
+#2310000
+1C
+#2970000
+0C

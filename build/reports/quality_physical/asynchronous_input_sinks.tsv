@@ -1,0 +1,15 @@
+port	endpoint	ASYNC_REG
+ai_uart_rx	ai_link_rx_inst/rx_sync_reg[0]/D	1
+uart_rxd	uart_rx_inst/rx_meta_reg/D	1
+key[3]	user_control_inst/g_key[3].key_debounce_inst/key_meta_reg/D	1
+key[2]	user_control_inst/g_key[2].key_debounce_inst/key_meta_reg/D	1
+key[1]	user_control_inst/g_key[1].key_debounce_inst/key_meta_reg/D	1
+key[0]	user_control_inst/g_key[0].key_debounce_inst/key_meta_reg/D	1
+switches[7]	board_status_inst/sw_meta_reg[7]/D	1
+switches[6]	board_status_inst/sw_meta_reg[6]/D	1
+switches[5]	board_status_inst/sw_meta_reg[5]/D	1
+switches[4]	board_status_inst/sw_meta_reg[4]/D	1
+switches[3]	board_status_inst/sw_meta_reg[3]/D	1
+switches[2]	board_status_inst/sw_meta_reg[2]/D	1
+switches[1]	board_status_inst/sw_meta_reg[1]/D	1
+switches[0]	board_status_inst/sw_meta_reg[0]/D	1

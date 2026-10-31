@@ -1,0 +1,28 @@
+{
+  "top": "i2c_transaction_arbiter_tb",
+  "status": "passed",
+  "active_modules": [
+    "i2c_transaction_arbiter"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "i2c_transaction_arbiter_tb"
+  ],
+  "testbench": "fpga/src/persistence/i2c_transaction_arbiter_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/persistence/i2c_transaction_arbiter_tb.sv",
+      "sha256": "f1b7fde3bb4d263b8f6cc42689842e4faea10c084caf524ed13064ea6672ee60"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/ff4f43887cb5/i2c_transaction_arbiter.sv",
+      "sha256": "e5d3a11a4b3f48382be966e16e3a40c61cd956ff04f533fe37e102e2c23391a9"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: i2c_transaction_arbiter 720 completed transactions saturation/random/reset-recovery checks=10982"
+  ],
+  "trace_bytes": 2000077,
+  "seconds": 0.828
+}

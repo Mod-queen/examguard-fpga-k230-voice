@@ -1,0 +1,9 @@
+{
+  "rtl_inventory": 163,
+  "current_rtl_passed": 163,
+  "current_pc_passed": 122,
+  "rtl_results": "sim/results/quality_current/summary.json",
+  "pc_results": "sim/results/quality_pc/result.json",
+  "hardware_access": false,
+  "cloud_requests": false
+}

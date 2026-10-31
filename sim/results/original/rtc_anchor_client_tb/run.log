@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: rtc_anchor_client actualReader+anchor+CRCRecord busBackpressure/valid+I2Cfail/randomStream2x132
+D:\fpga_race\fpga\src\persistence\rtc_anchor_client_tb.sv:51: $finish called at 10820000 (1ps)

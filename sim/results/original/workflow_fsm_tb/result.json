@@ -1,0 +1,28 @@
+{
+  "top": "workflow_fsm_tb",
+  "status": "passed",
+  "active_modules": [
+    "workflow_fsm"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "workflow_fsm_tb"
+  ],
+  "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/workflow_fsm/workflow_fsm_tb.v",
+  "sources": [
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/workflow_fsm/workflow_fsm_tb.v",
+      "sha256": "d670273ba041b5c727b1fe696bfb890492c08383f2e935fa2ff48c63c8c723bd"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/workflow_fsm/workflow_fsm.v",
+      "sha256": "4cf526c6b7b52615389d33d60a8227a6cad1572713448df5a4d87f3ac8b4b4cc"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: workflow state machine"
+  ],
+  "trace_bytes": 3768,
+  "seconds": 0.094
+}

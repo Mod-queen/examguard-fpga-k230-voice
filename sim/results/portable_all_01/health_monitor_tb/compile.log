@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/sim/sources/health/health_monitor_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module health_monitor_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/40b676d44bf0/health_monitor.v" into library work
+INFO: [VRFC 10-311] analyzing module health_monitor

@@ -1,0 +1,8 @@
+scenario 1: priority, payload and handshake
+scenario 2: exact consumed completion required
+scenario 3: post-write guard, polls filtered until release
+scenario 4: in-flight labels/guard latched
+scenario 5: zero guard retains transaction ownership
+scenario 6: common reset
+PASS: voice_audio_gate scenarios=7
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\voice_interaction\voice_audio_gate_tb.sv:94: $finish called at 926000 (1ps)

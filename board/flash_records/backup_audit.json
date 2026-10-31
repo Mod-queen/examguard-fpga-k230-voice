@@ -1,0 +1,7 @@
+{
+  "verified_equal_full_reads": true,
+  "bytes": 16777216,
+  "sha256": "0bf1cc03eac070bf905b73374a0743f6aa7277c2403255e3823bd106c9531ad6",
+  "expected_VOICE3_match": true,
+  "target_bit_sha256": "0efbb75c4403ae3fbc617f0c912295a18d877d02341b24ebc9efd048d31cb7bc"
+}

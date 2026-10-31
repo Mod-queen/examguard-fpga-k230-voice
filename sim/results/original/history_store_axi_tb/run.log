@@ -1,0 +1,22 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/case_snapshot/xsim_script.tcl
+# xsim {case_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/verification_out/optimization_20261031/simulation/focused_round5/history_store_axi_tb/run.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/verification_out/optimization_20261031/simulation/focused_round5/history_store_axi_tb/run.tcl
+## open_vcd trace.vcd
+## log_vcd [get_objects /history_store_axi_tb/*]
+## run all
+PASS: history_store_axi FP=1 writer+reader+token directory+oneDMA overlap/concurrent/R-Berrors/held results/capacity/stale/reset pixels=27 results=8 concurrentCycles=116
+PASS: history_store_axi FP=37 writer+reader+token directory+oneDMA overlap/concurrent/R-Berrors/held results/capacity/stale/reset pixels=999 results=8 concurrentCycles=5562
+PASS: history_store_axi FP=269 writer+reader+token directory+oneDMA overlap/concurrent/R-Berrors/held results/capacity/stale/reset pixels=7263 results=8 concurrentCycles=39790
+PASS: history_store_axi ALL
+$finish called at time : 1245886 ns : File "D:/fpga_race/fpga/src/ddr3_test/history_store_axi_tb.sv" Line 252
+## close_vcd
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 17:42:01 2026...

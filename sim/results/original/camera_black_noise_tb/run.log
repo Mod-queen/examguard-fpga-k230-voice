@@ -1,0 +1,4 @@
+VCD info: dumpfile trace.vcd opened for output.
+WARNING: Dump file limit (2000000 bytes) exceeded.
+PASS quantization-compatible measured dark-noise replay, exact98 boundary,31/32 separation
+D:\fpga_race\fpga\src\vision_guard\camera_black_noise_tb.sv:46: $finish called at 691246000 (1ps)

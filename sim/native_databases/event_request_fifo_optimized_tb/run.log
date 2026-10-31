@@ -1,0 +1,33 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/focus_snapshot/xsim_script.tcl
+# xsim {focus_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/verification_out/refinement_20261031/cases/event_request_fifo_optimized_tb/run.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/verification_out/refinement_20261031/cases/event_request_fifo_optimized_tb/run.tcl
+## set signals [get_objects {/event_request_fifo_optimized_tb/single3/clk /event_request_fifo_optimized_tb/single3/rst /event_request_fifo_optimized_tb/single3/request /event_request_fifo_optimized_tb/single3/event_ready /event_request_fifo_optimized_tb/single3/accepted /event_request_fifo_optimized_tb/single3/rejected /event_request_fifo_optimized_tb/single3/event_valid /event_request_fifo_optimized_tb/single3/event_data /event_request_fifo_optimized_tb/single3/occupancy}]
+## if {[llength $signals] != 9} {error "Missing selected signals"}
+## create_wave_config
+## add_wave -radix hex $signals
+## log_wave $signals
+## open_vcd trace.vcd
+## log_vcd $signals
+## run all
+PASS event_request_fifo depth=1 full_pop=2464 collisions=3012 stalled=2890
+PASS event_request_fifo depth=1 full_pop=1032 collisions=0 stalled=2127
+PASS event_request_fifo depth=3 full_pop=2293 collisions=2996 stalled=3077
+PASS event_request_fifo depth=3 full_pop=406 collisions=0 stalled=2658
+PASS event_request_fifo depth=8 full_pop=2373 collisions=2980 stalled=3009
+PASS event_request_fifo depth=8 full_pop=105 collisions=0 stalled=2807
+PASS event_request_fifo depth=16 full_pop=2692 collisions=4152 stalled=3038
+PASS event_request_fifo depth=16 full_pop=93 collisions=0 stalled=2921
+PASS event_request_fifo_tb ALL
+$finish called at time : 60796 ns : File "D:/fpga_race/deploy/engineering_20261031/sim/sources/verification_20261031/event_request_fifo_optimized_tb.sv" Line 122
+## close_vcd
+## save_wave_config focus.wcfg
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 18:53:11 2026...

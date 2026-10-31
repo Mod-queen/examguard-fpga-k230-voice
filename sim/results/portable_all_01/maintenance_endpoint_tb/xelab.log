@@ -1,0 +1,15 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/vivado2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe --relax --debug typical -L unisims_ver -L unimacro_ver -L secureip work.maintenance_endpoint_tb -s case_snapshot 
+Multi-threading is on. Using 22 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4328] File: D:/fpga_race/deploy/submission_20261031/sim/test_repairs/maintenance_endpoint_tb/maintenance_endpoint_tb.sv Line: 60 : Sensitivity on input argument "count" of task "wait_records" may never get triggered.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.maintenance_command_rx
+Compiling module work.maintenance_record
+Compiling module work.maintenance_endpoint
+Compiling module work.maintenance_endpoint_tb
+Built simulation snapshot case_snapshot

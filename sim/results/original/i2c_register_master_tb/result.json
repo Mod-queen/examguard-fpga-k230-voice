@@ -1,0 +1,77 @@
+{
+  "top": "i2c_register_master_tb",
+  "status": "passed",
+  "active_modules": [
+    "eeprom_page_writer",
+    "i2c_byte_master",
+    "i2c_register_master",
+    "i2c_transaction_arbiter",
+    "pcf8563_calendar",
+    "pcf8563_reader",
+    "rtc_anchor_client",
+    "rtc_anchor_record",
+    "rtc_time_anchor",
+    "uart_tx"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "i2c_register_master_tb"
+  ],
+  "testbench": "fpga/src/persistence/i2c_register_master_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/persistence/i2c_register_master_tb.sv",
+      "sha256": "85fdc511c093d053fb3ba329ca2dca496b0d7d4015362b5e8d203824358fa076"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/4ea846d85197/eeprom_page_writer.sv",
+      "sha256": "386a79443b25ddceaeab9d1053ba53029ea18dd2ee8ce3a29de17bf4ac2b8894"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/5acd2aa6692b/pcf8563_reader.sv",
+      "sha256": "cae1252215581075f1acb623e30c2eb0f151b4a8e67eb289b5e0b686b08f8cd4"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/73ffbc49762c/rtc_time_anchor.sv",
+      "sha256": "165831fb384824d364263d3246d9b18ca233e47ca9e5fa38ce8737b6c9b5d8f8"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/79534ad6e7d0/pcf8563_calendar.sv",
+      "sha256": "f8c87466cd7973ed81e45ef41c1dd511afd5044c3cba8e9e8966a989ac646d29"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/a8483d823073/rtc_anchor_record.sv",
+      "sha256": "4a1b21fde243a3c715440e57323be5637a46f13754f1af81537f619dceba9694"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/ade9bc1b0ccb/i2c_byte_master.sv",
+      "sha256": "4b7471ebdfcd080cbabc516e8a56793526a8ac7ecdbc0f51b42c8740dfd2bc8c"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/e4d91d5de499/rtc_anchor_client.sv",
+      "sha256": "e9638e6c7840cb0dcfd4f03e59723af577a80899eb44754e2308f33e2480b552"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/f0e5e6fadfb7/i2c_register_master.sv",
+      "sha256": "a4d1144965e65a73169a89361a1d9be26d6a499512133b647f28829e8d55e8f0"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/ff4f43887cb5/i2c_transaction_arbiter.sv",
+      "sha256": "e5d3a11a4b3f48382be966e16e3a40c61cd956ff04f533fe37e102e2c23391a9"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v",
+      "sha256": "85fdfaa0de41dbab46fd3fe892d57017a0a4f154c32b2268d198d5456aedfab1"
+    },
+    {
+      "path": "fpga/src/persistence/persistence_inventory_probe.sv",
+      "sha256": "e946df68495104d5df653553da690ba45dbe66b32340d117712ffe370231f71d"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: i2c_register_master transactions=18 wireSTART=21 STOP=15 writebytes=32 readbytes=42 NACK/timeout/stretch/reset/response-stall"
+  ],
+  "trace_bytes": 1127456,
+  "seconds": 0.406
+}

@@ -1,0 +1,19 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/case_snapshot/xsim_script.tcl
+# xsim {case_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/verification_out/optimization_20261031/simulation/xsim_round1/scene_guard_tb/run_fixed_paths.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/verification_out/optimization_20261031/simulation/xsim_round1/scene_guard_tb/run_fixed_paths.tcl
+## open_vcd trace.vcd
+## log_vcd [get_objects /scene_guard_tb/*]
+## run all
+PASS: scene guard real FSM/motion/dimming/97.9 vs 98/confirmation/release/rearm/incomplete/blanking
+$finish called at time : 130200 ns : File "D:/fpga_race/fpga/src/vision_guard/scene_guard_tb.sv" Line 78
+## close_vcd
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 17:10:24 2026...

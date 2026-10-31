@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: rtc_anchor_record immutable2x132/CRCstream/randomBackpressure/heldLAST/resetCancel
+D:\fpga_race\fpga\src\persistence\rtc_anchor_record_tb.sv:45: $finish called at 11040000 (1ps)

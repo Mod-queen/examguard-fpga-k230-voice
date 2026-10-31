@@ -1,0 +1,3 @@
+ARB saturation 240 complete with alternating grants and independent master/response stalls
+PASS: i2c_transaction_arbiter 720 completed transactions saturation/random/reset-recovery checks=10982
+D:\fpga_race\deploy\submission_20261031\sim\sources\persistence\i2c_transaction_arbiter_tb.sv:120: $finish called at 220060000 (1ps)

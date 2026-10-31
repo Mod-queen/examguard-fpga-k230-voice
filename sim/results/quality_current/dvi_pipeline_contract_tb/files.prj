@@ -1,0 +1,6 @@
+sv work "D:/fpga_race/deploy/engineering_quality_20261031/sim/sources/quality/dvi_pipeline_contract_tb.sv"
+verilog work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/dvi_encoder.v"
+verilog work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/encode.v"
+verilog work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/serdes_4b_10to1.v"
+verilog work "D:/vivado/vivado2018.3/Vivado/2018.3/data/verilog/src/glbl.v"
+verilog work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/quality/display_output_pipeline.v"

@@ -1,0 +1,23 @@
+{
+  "top": "display_pipeline_contract_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/quality/display_pipeline_contract_tb.sv",
+      "sha256": "a7e8932388f667f6e32df83a2894a21147d332823ed6b98d8bb21dc15c1384d5"
+    },
+    {
+      "path": "src/fpga/local_sources/quality/display_output_pipeline.v",
+      "sha256": "dd31e7ec5e74fa30d45bdb5d3c9210d1916e3d3a8daaae50f993ebfb44acfdbd"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.109,
+  "pass_lines": [
+    "PASS: display_pipeline_contract_tb 4096 aligned samples, blanking, sync pulses, repeated reset, no inter-edge change"
+  ],
+  "exit_code": 0,
+  "trace_bytes": 883241
+}

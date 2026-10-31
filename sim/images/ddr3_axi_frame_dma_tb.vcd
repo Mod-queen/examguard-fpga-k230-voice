@@ -1,0 +1,18 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module ddr3_axi_frame_dma_tb $end
+$var wire 1 ! c $end
+$var wire 1 " b $end
+$var wire 1 # a $end
+$upscope $end
+$enddefinitions $end
+#0
+0#
+0"
+0!
+#2560000
+1"
+#4490000
+1!
+#65520000
+1#

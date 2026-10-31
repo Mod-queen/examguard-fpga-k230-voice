@@ -1,0 +1,2 @@
+PASS: frame-difference motion detector
+D:\fpga_race\deploy\engineering_quality_20261031\src\fpga\ov5640_ddr3_hdmi_vga.srcs\sources_1\motion_detect\motion_detect_tb.v:128: $finish called at 11670000 (1ps)

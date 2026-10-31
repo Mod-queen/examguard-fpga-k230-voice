@@ -1,0 +1,5 @@
+VCD info: dumpfile trace.vcd opened for output.
+WARNING: Dump file limit (2000000 bytes) exceeded.
+probe commits=        24 windows=         2 write/read beats=     43224/     14408 UART=        141 bytes
+PASS: ddr_evidence_probe all checks
+D:\fpga_race\fpga\src\ddr3_test\ddr_evidence_probe_tb.sv:51: $finish called at 7852170000 (1ps)

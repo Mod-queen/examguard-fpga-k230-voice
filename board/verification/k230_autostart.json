@@ -1,0 +1,40 @@
+{
+  "status": "ROOT_SOFTWARE_AUTOSTART_VERIFIED",
+  "utc": "2026-10-31T12:38:08.225644+00:00",
+  "root_sha256": "a254ca4420a4d9ad3e43ffb3b06ad157aafff03ffd0f0b3aa52718ac19ff6c6d",
+  "boot_sha256": "7d0a9a5a9f58fd73def81c97b47d2d6450cfd8b99c75036e2287d76e93572282",
+  "verified_files": {
+    "/sdcard/examguard_book_assist_20261030/candidate_act16.kmodel": "7954b4c1b26da2b86899dbd961564b580519710b16b2e1ff74b0e68b25c3b04b",
+    "/sdcard/examguard_book_assist_20261030/eg_book_assist.py": "0db8ac5af63811984dd57074e8fd9904482ac1d729ee3f38d51eac9bed465325",
+    "/sdcard/examguard_book_assist_20261030/eg_book_fast.py": "0e57d64b628184f792621e2b2dca0c845393197ed1877cc387ffa49756ec2366",
+    "/sdcard/examguard_book_assist_20261030/eg_live_adapter.py": "dea8c458f1ac37e10b371cffe47acb7647d8a6e72ba69794744ce1a7b7453aa9",
+    "/sdcard/examguard_book_assist_20261030/eg_live_core.py": "3720d0a8c745a9e1a318c5b55c8b4cdb1d422550288a9b04d6d7584c765cf323",
+    "/sdcard/examguard_book_assist_20261030/eg_live_face.py": "8c6c7733a7d2cb21f61678f54d399990c1bf445f36526eba8592852a0a5a62f9",
+    "/sdcard/examguard_book_assist_20261030/eg_live_fast.py": "ce7db68a506388bc263a75491d7ce2d91314a779cc53f4652fba5f4f54d3ac51",
+    "/sdcard/examguard_book_assist_20261030/eg_scene_guard.py": "28f696464dd1eee96b30f5b5e4b34870327f3ce00467cf2f83a2437d43c08e64",
+    "/sdcard/examguard_book_assist_20261030/live_app.py": "2f4dc4bfa7f5bc40b7c372b1020902bf782da91db89f36f9217588f076501f73",
+    "/sdcard/examguard_book_assist_20261030/main.py": "b5c22b8bf8119f130318c7e93765c23de8e7944a5fdf2753366a70a94a8e8fdd",
+    "/sdcard/examguard_book_assist_20261030/public_phone_act16.kmodel": "c8dfe0fa9a3ff9d2a1eb75cb8b1727e9c367fd945b28a6db4d39b023d14843f6",
+    "/sdcard/examguard_book_assist_20261030/release_manifest.json": "48ac6858c78571138cbd8d7b17c6fc46a0feb617de26b6d0ad8d018d75ebb26c",
+    "/sdcard/main.py": "a254ca4420a4d9ad3e43ffb3b06ad157aafff03ffd0f0b3aa52718ac19ff6c6d",
+    "/sdcard/boot.py": "7d0a9a5a9f58fd73def81c97b47d2d6450cfd8b99c75036e2287d76e93572282",
+    "/sdcard/main_before_book_assist_20261030.py": "0baae873c54f6cfd312bf989db57216e26ff8071c3669cfa95eb2ceb3809dea1"
+  },
+  "frames": 158,
+  "first": {
+    "cycle": 0,
+    "mode": "FACE+PHONE",
+    "algorithm": 14,
+    "object": "none"
+  },
+  "last": {
+    "cycle": 157,
+    "mode": "FACE+PHONE",
+    "algorithm": 14,
+    "object": "none"
+  },
+  "runtime_left_running": true,
+  "sd_files_written": false,
+  "models_retrained": false,
+  "physical_cold_boot_tested": false
+}

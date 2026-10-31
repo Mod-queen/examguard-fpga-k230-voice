@@ -1,0 +1,29 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/vivado2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe --relax --debug typical -L unisims_ver -L unimacro_ver -L secureip work.shared_evidence_axi_tb work.glbl -s case_snapshot 
+Multi-threading is on. Using 22 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4328] File: D:/fpga_race/deploy/engineering_quality_20261031/sim/sources/ddr3_test/shared_evidence_axi_tb.sv Line: 130 : Sensitivity on input argument "n" of task "frame" may never get triggered.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.axi_2client_arbiter_default
+Compiling module work.axi_frame_slave_model
+Compiling module work.arbitration_master(N=256,CHECK_R...
+Compiling module work.evidence_event_dispatch(DEPTH=2)
+Compiling module work.async_fifo(DATA_WIDTH=114,DEPTH=...
+Compiling module work.ddr3_axi_frame_dma(FRAME_PIXELS=...
+Compiling module work.ddr_evidence_axi(FRAME_PIXELS=26...
+Compiling module work.ddr_evidence_queued(FRAME_PIXELS...
+Compiling module work.shared_evidence_axi_tb
+Compiling module work.glbl
+Built simulation snapshot case_snapshot
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/fpga_race/verification_out/quality_20261031/rtl_all_01/shared_evidence_axi_tb/xsim.dir/case_snapshot/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 31 23:10:04 2026...

@@ -1,0 +1,2 @@
+PASS: maintenance_exam runtime60/start-maintenance-gate/in-exam-duration-locked/forced-timeout
+D:\fpga_race\deploy\submission_20261031\sim\sources\persistence\maintenance_exam_tb.sv:29: $finish called at 360000 (1ps)

@@ -1,0 +1,10 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module history_merge_tb $end
+$var wire 1 ! d $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+#550000
+1!

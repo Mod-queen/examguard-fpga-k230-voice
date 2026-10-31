@@ -1,0 +1,76 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Oct 30 17:19:11 2026
+| Host         : Jasper running 64-bit major release  (build 9200)
+| Command      : report_timing -from [get_cells -hier -filter {NAME == cover98_sync_reg[0]}] -to [get_cells -hier -filter {NAME == cover98_sync_reg[1]}] -file D:/fpga_race/verification_out/scene_guard_rev03_20261030/build/cover_sync_timing.rpt
+| Design       : ov5640_ddr3_hdmi_vga
+| Device       : 7a200t-fbg484
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             19.356ns  (required time - arrival time)
+  Source:                 cover98_sync_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_pll  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Destination:            cover98_sync_reg[1]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_pll  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Path Group:             clk_out1_pll
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            20.000ns  (clk_out1_pll rise@20.000ns - clk_out1_pll rise@0.000ns)
+  Data Path Delay:        0.523ns  (logic 0.379ns (72.428%)  route 0.144ns (27.572%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.000ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.652ns = ( 18.348 - 20.000 ) 
+    Source Clock Delay      (SCD):    -2.080ns
+    Clock Pessimism Removal (CPR):    -0.427ns
+  Clock Uncertainty:      0.089ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.164ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_pll rise edge)
+                                                      0.000     0.000 r  
+    W19                                               0.000     0.000 r  clk50m (IN)
+                         net (fo=0)                   0.000     0.000    pll/inst/clk_in1
+    W19                  IBUF (Prop_ibuf_I_O)         1.440     1.440 r  pll/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.080     2.520    pll/inst/clk_in1_pll
+    PLLE2_ADV_X0Y2       PLLE2_ADV (Prop_plle2_adv_CLKIN1_CLKOUT0)
+                                                     -7.646    -5.125 r  pll/inst/plle2_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.557    -3.568    pll/inst/clk_out1_pll
+    BUFGCTRL_X0Y6        BUFG (Prop_bufg_I_O)         0.081    -3.487 r  pll/inst/clkout1_buf/O
+                         net (fo=25642, routed)       1.408    -2.080    loc_clk50m
+    SLICE_X57Y110        FDRE                                         r  cover98_sync_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X57Y110        FDRE (Prop_fdre_C_Q)         0.379    -1.701 r  cover98_sync_reg[0]/Q
+                         net (fo=1, routed)           0.144    -1.556    cover98_sync[0]
+    SLICE_X57Y110        FDRE                                         r  cover98_sync_reg[1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_pll rise edge)
+                                                     20.000    20.000 r  
+    W19                                               0.000    20.000 r  clk50m (IN)
+                         net (fo=0)                   0.000    20.000    pll/inst/clk_in1
+    W19                  IBUF (Prop_ibuf_I_O)         1.374    21.374 r  pll/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.019    22.393    pll/inst/clk_in1_pll
+    PLLE2_ADV_X0Y2       PLLE2_ADV (Prop_plle2_adv_CLKIN1_CLKOUT0)
+                                                     -6.905    15.487 r  pll/inst/plle2_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.484    16.972    pll/inst/clk_out1_pll
+    BUFGCTRL_X0Y6        BUFG (Prop_bufg_I_O)         0.077    17.049 r  pll/inst/clkout1_buf/O
+                         net (fo=25642, routed)       1.299    18.348    loc_clk50m
+    SLICE_X57Y110        FDRE                                         r  cover98_sync_reg[1]/C
+                         clock pessimism             -0.427    17.920    
+                         clock uncertainty           -0.089    17.831    
+    SLICE_X57Y110        FDRE (Setup_fdre_C_D)       -0.032    17.799    cover98_sync_reg[1]
+  -------------------------------------------------------------------
+                         required time                         17.799    
+                         arrival time                           1.556    
+  -------------------------------------------------------------------
+                         slack                                 19.356    
+
+
+
+

@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/src/host_link/phy_qualification_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module phy_qualification_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/mdio_bit_shift.v" into library work
+INFO: [VRFC 10-311] analyzing module mdio_bit_shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/phy_reg_config.v" into library work
+INFO: [VRFC 10-311] analyzing module phy_reg_config
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v" into library work
+INFO: [VRFC 10-311] analyzing module evidence_reset_barrier
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/src/host_link/rtl8211f_wire_model.sv" into library work
+INFO: [VRFC 10-311] analyzing module rtl8211f_wire_model

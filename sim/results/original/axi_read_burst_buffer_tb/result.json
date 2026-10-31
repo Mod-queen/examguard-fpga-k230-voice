@@ -1,0 +1,28 @@
+{
+  "top": "axi_read_burst_buffer_tb",
+  "status": "passed",
+  "active_modules": [
+    "axi_read_burst_buffer"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "axi_read_burst_buffer_tb"
+  ],
+  "testbench": "fpga/src/ddr3_test/axi_read_burst_buffer_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/ddr3_test/axi_read_burst_buffer_tb.sv",
+      "sha256": "b3c82b7c39aa5649940f5ba93e5473e2a3e8e7192552de0da3e483ead4412561"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_read_burst_buffer.v",
+      "sha256": "46f38c559f84f46a68c77401aadf52a626462a671ec90482e556dbca61e17038"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: axi_read_burst_buffer capture/stall/attributes/reset/overflow all checks"
+  ],
+  "trace_bytes": 17324,
+  "seconds": 0.109
+}

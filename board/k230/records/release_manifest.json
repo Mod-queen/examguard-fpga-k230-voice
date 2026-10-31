@@ -1,0 +1,63 @@
+{
+  "status": "DIAGNOSTIC_ONLY_NOT_DEPLOYED",
+  "source": "D:\\fpga_race\\k230_upgrade_20261026\\runtime_releases\\examguard_scene_guard_20261030",
+  "remote": "/sdcard/examguard_book_assist_20261030",
+  "files": [
+    {
+      "path": "candidate_act16.kmodel",
+      "bytes": 3178768,
+      "sha256": "7954b4c1b26da2b86899dbd961564b580519710b16b2e1ff74b0e68b25c3b04b"
+    },
+    {
+      "path": "eg_book_assist.py",
+      "bytes": 3240,
+      "sha256": "0db8ac5af63811984dd57074e8fd9904482ac1d729ee3f38d51eac9bed465325"
+    },
+    {
+      "path": "eg_book_fast.py",
+      "bytes": 1822,
+      "sha256": "0e57d64b628184f792621e2b2dca0c845393197ed1877cc387ffa49756ec2366"
+    },
+    {
+      "path": "eg_live_adapter.py",
+      "bytes": 12404,
+      "sha256": "dea8c458f1ac37e10b371cffe47acb7647d8a6e72ba69794744ce1a7b7453aa9"
+    },
+    {
+      "path": "eg_live_core.py",
+      "bytes": 9911,
+      "sha256": "3720d0a8c745a9e1a318c5b55c8b4cdb1d422550288a9b04d6d7584c765cf323"
+    },
+    {
+      "path": "eg_live_face.py",
+      "bytes": 18238,
+      "sha256": "8c6c7733a7d2cb21f61678f54d399990c1bf445f36526eba8592852a0a5a62f9"
+    },
+    {
+      "path": "eg_live_fast.py",
+      "bytes": 3061,
+      "sha256": "ce7db68a506388bc263a75491d7ce2d91314a779cc53f4652fba5f4f54d3ac51"
+    },
+    {
+      "path": "eg_scene_guard.py",
+      "bytes": 4479,
+      "sha256": "28f696464dd1eee96b30f5b5e4b34870327f3ce00467cf2f83a2437d43c08e64"
+    },
+    {
+      "path": "live_app.py",
+      "bytes": 2222,
+      "sha256": "2f4dc4bfa7f5bc40b7c372b1020902bf782da91db89f36f9217588f076501f73"
+    },
+    {
+      "path": "main.py",
+      "bytes": 6566,
+      "sha256": "b5c22b8bf8119f130318c7e93765c23de8e7944a5fdf2753366a70a94a8e8fdd"
+    },
+    {
+      "path": "public_phone_act16.kmodel",
+      "bytes": 3180024,
+      "sha256": "c8dfe0fa9a3ff9d2a1eb75cb8b1727e9c367fd945b28a6db4d39b023d14843f6"
+    }
+  ],
+  "training": false
+}

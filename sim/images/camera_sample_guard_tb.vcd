@@ -1,0 +1,14 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module camera_sample_guard_tb $end
+$var wire 1 ! a $end
+$var wire 1 " b $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+#112440000
+1!
+#66620450000
+1"

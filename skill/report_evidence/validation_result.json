@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "build/reports/baseline/utilization.rpt",
+      "role": "baseline_resources",
+      "exists": true,
+      "sha256": "471b19f14c7281fe400baf8c8f541edffcf515305fc6e7242d37c640f972f62e",
+      "hash_matches": true,
+      "text_matches": true,
+      "passed": true
+    },
+    {
+      "path": "build/reports/baseline/timing.rpt",
+      "role": "baseline_timing",
+      "exists": true,
+      "sha256": "c4755a48a6569040c7fa429accb1e4b704f9094de14360f6d9954c1c1ea95f5e",
+      "hash_matches": true,
+      "text_matches": true,
+      "passed": true
+    },
+    {
+      "path": "build/reports/current/utilization.rpt",
+      "role": "current_resources",
+      "exists": true,
+      "sha256": "f8d5a01d67119f986206be53f026d32d232d211f625a86e7afb6e18fdfa51f5c",
+      "hash_matches": true,
+      "text_matches": true,
+      "passed": true
+    },
+    {
+      "path": "build/reports/current/timing.rpt",
+      "role": "current_timing",
+      "exists": true,
+      "sha256": "a978b6c51eaa55d28648519b8cded10be36946ce11344a0c772e3ef2fcfc530c",
+      "hash_matches": true,
+      "text_matches": true,
+      "passed": true
+    },
+    {
+      "path": "board/flash_records/program_result_reaudit.json",
+      "role": "flash_readback",
+      "exists": true,
+      "sha256": "4d343a32dd73120472056556c48ada3df87a6bd3e64d287b30c49f63e91890e6",
+      "hash_matches": true,
+      "text_matches": true,
+      "passed": true
+    },
+    {
+      "path": "board/records/poweron_acceptance.json",
+      "role": "startup_user_and_passive",
+      "exists": true,
+      "sha256": "cc5dabe38bf3a3ed84bbf723df8c80b8cc1f6498f5df9b3664b1b2653a1f0647",
+      "hash_matches": true,
+      "text_matches": true,
+      "passed": true
+    }
+  ],
+  "scope": "Only declared source identity and text; no hardware or model conclusions."
+}

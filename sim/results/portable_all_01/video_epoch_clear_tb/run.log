@@ -1,0 +1,2 @@
+PASS: video_epoch_clear short pulse/reset busy/retrigger all checks
+D:\fpga_race\deploy\submission_20261031\sim\sources\ddr3_test\video_epoch_clear_tb.sv:30: $finish called at 190000 (1ps)

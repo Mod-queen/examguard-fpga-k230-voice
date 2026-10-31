@@ -1,0 +1,48 @@
+{
+  "top": "persistent_config_manager_tb",
+  "status": "passed",
+  "active_modules": [
+    "eeprom_dualslot_store",
+    "eeprom_page_writer",
+    "eeprom_record_codec",
+    "persistent_config_decode",
+    "persistent_config_manager"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "persistent_config_manager_tb"
+  ],
+  "testbench": "fpga/src/persistence/persistent_config_manager_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/persistence/persistent_config_manager_tb.sv",
+      "sha256": "b1054ae57a0c19f4ebbb3f5d44f9c9154d2be8fe96861e4a94ae8671f3ac7ecb"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/4ea846d85197/eeprom_page_writer.sv",
+      "sha256": "386a79443b25ddceaeab9d1053ba53029ea18dd2ee8ce3a29de17bf4ac2b8894"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/6f55019790ef/eeprom_dualslot_store.sv",
+      "sha256": "7755f1cfebe6be4e48988132c47438cf7526afd3ed5401c8b6c7d07ad70f7a13"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/770359552324/eeprom_record_codec.sv",
+      "sha256": "2650ebdd7c40358b5cea4c2975d1dd48bd4310e373a22b2cc2ba46623f068834"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/a84f893ed58a/persistent_config_decode.sv",
+      "sha256": "b31b4b9cbb81f5dc9303452cca01f7dd51316c05e2f8563080bf1261f4f517c6"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/f063d843e32e/persistent_config_manager.sv",
+      "sha256": "04c39e1d4ac76b3158b76697fb1ad0e7b680c9623ed66f84010358bdf4a3aea7"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: persistent_config_manager results=9 requests=131 writes=12 actual-dualslot/legacy/save/boot-preserve/oldslot/reject/error/reset"
+  ],
+  "trace_bytes": 215858,
+  "seconds": 0.188
+}

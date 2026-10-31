@@ -1,0 +1,2 @@
+PASS: camera_time_guard unknown/stale/inclusive-age/SOF-atomicity/RGB-metadata/rollover/saturation/reset
+D:\fpga_race\deploy\submission_20261031\sim\sources\ddr3_test\camera_time_guard_tb.sv:61: $finish called at 7130000 (1ps)

@@ -1,0 +1,28 @@
+{
+  "top": "board_monitor_record_tb",
+  "status": "passed",
+  "active_modules": [
+    "board_monitor_record"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "board_monitor_record_tb"
+  ],
+  "testbench": "fpga/src/health/board_monitor_record_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/health/board_monitor_record_tb.sv",
+      "sha256": "46077638c90a41acbb01c0df1b472d9372b7c7f330f90435f37f7de2cbdf416e"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/43de1890e43f/board_monitor_record.sv",
+      "sha256": "a4599d19f893d123c541d630f822ffc290041305c633336f26a2df28b2cac1f7"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: board_monitor_record good/invalid two CRC packets"
+  ],
+  "trace_bytes": 358701,
+  "seconds": 0.11
+}

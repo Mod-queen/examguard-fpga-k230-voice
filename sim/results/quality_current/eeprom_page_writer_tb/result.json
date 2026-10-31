@@ -1,0 +1,22 @@
+{
+  "top": "eeprom_page_writer_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/persistence/eeprom_page_writer_tb.sv",
+      "sha256": "ddd4d78531d9045724bb0b9ea89061183871d57ef980ff7d432042cd93c3d24c"
+    },
+    {
+      "path": "src/fpga/local_sources/6757b9ed1223/eeprom_page_writer.sv",
+      "sha256": "386a79443b25ddceaeab9d1053ba53029ea18dd2ee8ce3a29de17bf4ac2b8894"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.016,
+  "pass_lines": [
+    "PASS: eeprom_page_writer results=8 transactions=16 page-tail/limit/poll-bound/verify-WP/errors/stalls/reset"
+  ],
+  "exit_code": 0
+}

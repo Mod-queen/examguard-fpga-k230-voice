@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/fpga_race/verification_out/refinement_20261031/cases/exam_fsm_tb/focus_snapshot.wdb" id="1">
+         <top_modules>
+            <top_module name="exam_fsm_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+   <ZoomStartTime time="0fs" /><ZoomEndTime time="440000000fs" /><Cursor1Time time="0fs" /></zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/exam_fsm_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/exam_fsm_tb/face_pulse" type="logic">
+      <obj_property name="ElementShortName">face_pulse</obj_property>
+      <obj_property name="ObjectShortName">face_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/exam_fsm_tb/face_ok" type="logic">
+      <obj_property name="ElementShortName">face_ok</obj_property>
+      <obj_property name="ObjectShortName">face_ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/exam_fsm_tb/start_pulse" type="logic">
+      <obj_property name="ElementShortName">start_pulse</obj_property>
+      <obj_property name="ObjectShortName">start_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/exam_fsm_tb/stage_id" type="array">
+      <obj_property name="ElementShortName">stage_id[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stage_id[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/exam_fsm_tb/remaining_s" type="array">
+      <obj_property name="ElementShortName">remaining_s[15:0]</obj_property>
+      <obj_property name="ObjectShortName">remaining_s[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/exam_fsm_tb/new_event" type="logic">
+      <obj_property name="ElementShortName">new_event</obj_property>
+      <obj_property name="ObjectShortName">new_event</obj_property>
+   </wvobject>
+   <wvobject fp_name="/exam_fsm_tb/event_code" type="array">
+      <obj_property name="ElementShortName">event_code[7:0]</obj_property>
+      <obj_property name="ObjectShortName">event_code[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/exam_fsm_tb/submit_pulse" type="logic">
+      <obj_property name="ElementShortName">submit_pulse</obj_property>
+      <obj_property name="ObjectShortName">submit_pulse</obj_property>
+   </wvobject>
+</wave_config>

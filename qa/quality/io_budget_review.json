@@ -1,0 +1,411 @@
+{
+  "source": "verification_out\\refinement_20261031\\voice\\build\\check_timing.rpt",
+  "constraints_changed": false,
+  "note": "分类不是接口签核，也不用于自动添加false_path。缺少依据的预算留空，不能填0冒充已验证。",
+  "inputs": [
+    {
+      "port": "ai_uart_rx",
+      "classification": "异步输入：核对首级同步和去抖，不套同步总线延迟",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "camera_data[0]",
+      "classification": "摄像头DVP：仍需实际PCLK、数据建立保持和板级偏斜",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "camera_data[1]",
+      "classification": "摄像头DVP：仍需实际PCLK、数据建立保持和板级偏斜",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "camera_data[2]",
+      "classification": "摄像头DVP：仍需实际PCLK、数据建立保持和板级偏斜",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "camera_data[3]",
+      "classification": "摄像头DVP：仍需实际PCLK、数据建立保持和板级偏斜",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "camera_data[4]",
+      "classification": "摄像头DVP：仍需实际PCLK、数据建立保持和板级偏斜",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "camera_data[5]",
+      "classification": "摄像头DVP：仍需实际PCLK、数据建立保持和板级偏斜",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "camera_data[6]",
+      "classification": "摄像头DVP：仍需实际PCLK、数据建立保持和板级偏斜",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "camera_data[7]",
+      "classification": "摄像头DVP：仍需实际PCLK、数据建立保持和板级偏斜",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "camera_href",
+      "classification": "摄像头DVP：仍需实际PCLK、数据建立保持和板级偏斜",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "camera_sdat",
+      "classification": "双向管理总线：需按协议与外部器件时序建模",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "camera_vsync",
+      "classification": "摄像头DVP：仍需实际PCLK、数据建立保持和板级偏斜",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "eth_mdio",
+      "classification": "双向管理总线：需按协议与外部器件时序建模",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "key[0]",
+      "classification": "异步输入：核对首级同步和去抖，不套同步总线延迟",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "key[1]",
+      "classification": "异步输入：核对首级同步和去抖，不套同步总线延迟",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "key[2]",
+      "classification": "异步输入：核对首级同步和去抖，不套同步总线延迟",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "key[3]",
+      "classification": "异步输入：核对首级同步和去抖，不套同步总线延迟",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "reset_n",
+      "classification": "全局复位：核对异步断言及分域释放",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "switches[0]",
+      "classification": "异步输入：核对首级同步和去抖，不套同步总线延迟",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "switches[1]",
+      "classification": "异步输入：核对首级同步和去抖，不套同步总线延迟",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "switches[2]",
+      "classification": "异步输入：核对首级同步和去抖，不套同步总线延迟",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "switches[3]",
+      "classification": "异步输入：核对首级同步和去抖，不套同步总线延迟",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "switches[4]",
+      "classification": "异步输入：核对首级同步和去抖，不套同步总线延迟",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "switches[5]",
+      "classification": "异步输入：核对首级同步和去抖，不套同步总线延迟",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "switches[6]",
+      "classification": "异步输入：核对首级同步和去抖，不套同步总线延迟",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "switches[7]",
+      "classification": "异步输入：核对首级同步和去抖，不套同步总线延迟",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "uart_rxd",
+      "classification": "异步输入：核对首级同步和去抖，不套同步总线延迟",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "voice_scl",
+      "classification": "双向管理总线：需按协议与外部器件时序建模",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "voice_sda",
+      "classification": "双向管理总线：需按协议与外部器件时序建模",
+      "delay_budget_ns": null
+    }
+  ],
+  "outputs": [
+    {
+      "port": "camera_sclk",
+      "classification": "管理总线：按SCCB/I2C器件要求核对",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "camera_sdat",
+      "classification": "管理总线：按SCCB/I2C器件要求核对",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "ddr3_reset_n",
+      "classification": "DDR复位：由MIG约束与初始化顺序联合核对",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_de",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_hs",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[0]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[10]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[11]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[12]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[13]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[14]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[15]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[16]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[17]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[18]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[19]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[1]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[20]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[21]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[22]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[23]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[2]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[3]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[4]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[5]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[6]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[7]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[8]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_rgb[9]",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "disp_vs",
+      "classification": "并行显示：需接收端参数与实际接线配置",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "eth_mdio",
+      "classification": "以太网：需PHY延迟模式、接收端参数及板级偏斜",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "eth_rst_n",
+      "classification": "以太网：需PHY延迟模式、接收端参数及板级偏斜",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "eth_txd[0]",
+      "classification": "以太网：需PHY延迟模式、接收端参数及板级偏斜",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "eth_txd[1]",
+      "classification": "以太网：需PHY延迟模式、接收端参数及板级偏斜",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "eth_txd[2]",
+      "classification": "以太网：需PHY延迟模式、接收端参数及板级偏斜",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "eth_txd[3]",
+      "classification": "以太网：需PHY延迟模式、接收端参数及板级偏斜",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "eth_txen",
+      "classification": "以太网：需PHY延迟模式、接收端参数及板级偏斜",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "hdmi_clk_p",
+      "classification": "HDMI：需串行链路与输出时钟核对",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "hdmi_dat_p[0]",
+      "classification": "HDMI：需串行链路与输出时钟核对",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "hdmi_dat_p[1]",
+      "classification": "HDMI：需串行链路与输出时钟核对",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "hdmi_dat_p[2]",
+      "classification": "HDMI：需串行链路与输出时钟核对",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "led[0]",
+      "classification": "人机指示：无同步外部接收时钟",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "led[1]",
+      "classification": "人机指示：无同步外部接收时钟",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "led[2]",
+      "classification": "人机指示：无同步外部接收时钟",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "persist_scl",
+      "classification": "管理总线：按SCCB/I2C器件要求核对",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "persist_sda",
+      "classification": "管理总线：按SCCB/I2C器件要求核对",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "voice_scl",
+      "classification": "管理总线：按SCCB/I2C器件要求核对",
+      "delay_budget_ns": null
+    },
+    {
+      "port": "voice_sda",
+      "classification": "管理总线：按SCCB/I2C器件要求核对",
+      "delay_budget_ns": null
+    }
+  ],
+  "primary_documents": [
+    {
+      "file": "RTL8211F-CG.pdf",
+      "physical_page": 70,
+      "scope": "RGMII器件参数；仍需核对实际延迟模式和PCB偏斜"
+    },
+    {
+      "file": "OV5640_CSP3_DS_2.01_Ruisipusheng.pdf",
+      "physical_pages": [
+        94,
+        95,
+        166,
+        167
+      ],
+      "scope": "模式相关DVP行场及SCCB参数；不把SCCB参数当DVP数据时序"
+    }
+  ]
+}

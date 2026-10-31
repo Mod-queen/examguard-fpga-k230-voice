@@ -1,0 +1,23 @@
+{
+  "top": "tmds_decode_contract_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/verification_20261031/tmds_decode_contract_tb.sv",
+      "sha256": "29eac7c4fb183c6f8baa6dc6fa9fd163be67f2a3711a1a7dee444bab75ed5bea"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/encode.v",
+      "sha256": "47fb075bb48d619a3a2a802b9935b2c3c352b2de109a3895773e906582edb279"
+    }
+  ],
+  "repairs": [],
+  "seconds": 6.938,
+  "pass_lines": [
+    "PASS: tmds_decode_contract all256 byte values/repeated disparity histories/independent decoder/four control codes/pipeline checks=1028"
+  ],
+  "exit_code": 0,
+  "trace_bytes": 115
+}

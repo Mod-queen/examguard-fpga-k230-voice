@@ -1,0 +1,28 @@
+{
+  "top": "fullscreen_monitor_tb",
+  "status": "passed",
+  "active_modules": [
+    "fullscreen_monitor"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "fullscreen_monitor_tb"
+  ],
+  "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/fullscreen_monitor/fullscreen_monitor_tb.v",
+  "sources": [
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/fullscreen_monitor/fullscreen_monitor_tb.v",
+      "sha256": "e3b58cfcf977334969e42e71400df6194a3ce782f02cf0c8c70beb9f2407c40f"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/fullscreen_monitor/fullscreen_monitor.v",
+      "sha256": "a1e11ab5ae5b561d25518ffb7be97e5be15493d958ba009a605a51993c2ac0ea"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: fullscreen_monitor (global=0)"
+  ],
+  "trace_bytes": 269548,
+  "seconds": 0.156
+}

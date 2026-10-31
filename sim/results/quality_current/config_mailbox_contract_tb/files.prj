@@ -1,0 +1,2 @@
+sv work "D:/fpga_race/deploy/engineering_quality_20261031/sim/sources/verification_20261031/config_mailbox_contract_tb.sv"
+verilog work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/config_mailbox.v"

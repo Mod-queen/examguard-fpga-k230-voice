@@ -1,0 +1,1149 @@
+{
+  "selected_tests": 163,
+  "passed": 163,
+  "failed": 0,
+  "scope": "本轮161项全回归、2项新增显示验证及3项相关复测；当前不同用例163项，来源SHA全部核对。不是整机穷尽、代码行覆盖或DDR物理层仿真。",
+  "test_results": [
+    {
+      "top": "ai_link_rx_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/ai_link_rx_tb/result.json",
+      "run_log": "sim/results/quality_current/ai_link_rx_tb/run.log"
+    },
+    {
+      "top": "ai_mailbox_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/ai_mailbox_tb/result.json",
+      "run_log": "sim/results/quality_current/ai_mailbox_tb/run.log"
+    },
+    {
+      "top": "alarm_output_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/alarm_output_tb/result.json",
+      "run_log": "sim/results/quality_current/alarm_output_tb/run.log"
+    },
+    {
+      "top": "async_fifo_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/async_fifo_tb/result.json",
+      "run_log": "sim/results/quality_current/async_fifo_tb/run.log"
+    },
+    {
+      "top": "axi_2client_arbiter_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/axi_2client_arbiter_tb/result.json",
+      "run_log": "sim/results/quality_current/axi_2client_arbiter_tb/run.log"
+    },
+    {
+      "top": "axi_2client_policy_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/axi_2client_policy_tb/result.json",
+      "run_log": "sim/results/quality_current/axi_2client_policy_tb/run.log"
+    },
+    {
+      "top": "axi_read_burst_buffer_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/axi_read_burst_buffer_tb/result.json",
+      "run_log": "sim/results/quality_current/axi_read_burst_buffer_tb/run.log"
+    },
+    {
+      "top": "board_monitor_record_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/board_monitor_record_tb/result.json",
+      "run_log": "sim/results/quality_current/board_monitor_record_tb/run.log"
+    },
+    {
+      "top": "board_monitor_system_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/board_monitor_system_tb/result.json",
+      "run_log": "sim/results/quality_current/board_monitor_system_tb/run.log"
+    },
+    {
+      "top": "board_status_control_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/board_status_control_tb/result.json",
+      "run_log": "sim/results/quality_current/board_status_control_tb/run.log"
+    },
+    {
+      "top": "camera_black_720p_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/camera_black_720p_tb/result.json",
+      "run_log": "sim/results/quality_current/camera_black_720p_tb/run.log"
+    },
+    {
+      "top": "camera_black_boundary_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/camera_black_boundary_tb/result.json",
+      "run_log": "sim/results/quality_current/camera_black_boundary_tb/run.log"
+    },
+    {
+      "top": "camera_black_driver_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/camera_black_driver_tb/result.json",
+      "run_log": "sim/results/quality_current/camera_black_driver_tb/run.log"
+    },
+    {
+      "top": "camera_black_noise_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/camera_black_noise_tb/result.json",
+      "run_log": "sim/results/quality_current/camera_black_noise_tb/run.log"
+    },
+    {
+      "top": "camera_capture_reset_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/camera_capture_reset_tb/result.json",
+      "run_log": "sim/results/quality_current/camera_capture_reset_tb/run.log"
+    },
+    {
+      "top": "camera_evidence_axi_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/camera_evidence_axi_tb/result.json",
+      "run_log": "sim/results/quality_current/camera_evidence_axi_tb/run.log"
+    },
+    {
+      "top": "camera_evidence_transport_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/camera_evidence_transport_tb/result.json",
+      "run_log": "sim/results/quality_current/camera_evidence_transport_tb/run.log"
+    },
+    {
+      "top": "camera_frame_guard_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/camera_frame_guard_tb/result.json",
+      "run_log": "sim/results/quality_current/camera_frame_guard_tb/run.log"
+    },
+    {
+      "top": "camera_init_audit_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/camera_init_audit_tb/result.json",
+      "run_log": "sim/results/quality_current/camera_init_audit_tb/run.log"
+    },
+    {
+      "top": "camera_init_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/camera_init_contract_tb/result.json",
+      "run_log": "sim/results/quality_current/camera_init_contract_tb/run.log"
+    },
+    {
+      "top": "camera_queued_evidence_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/camera_queued_evidence_tb/result.json",
+      "run_log": "sim/results/quality_current/camera_queued_evidence_tb/run.log"
+    },
+    {
+      "top": "camera_sample_guard_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/camera_sample_guard_tb/result.json",
+      "run_log": "sim/results/quality_current/camera_sample_guard_tb/run.log"
+    },
+    {
+      "top": "camera_time_guard_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/camera_time_guard_tb/result.json",
+      "run_log": "sim/results/quality_current/camera_time_guard_tb/run.log"
+    },
+    {
+      "top": "candidate_overlay_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/candidate_overlay_tb/result.json",
+      "run_log": "sim/results/quality_current/candidate_overlay_tb/run.log"
+    },
+    {
+      "top": "cdc_event_transaction_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/cdc_event_transaction_tb/result.json",
+      "run_log": "sim/results/quality_current/cdc_event_transaction_tb/run.log"
+    },
+    {
+      "top": "cdc_exam_status_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/cdc_exam_status_tb/result.json",
+      "run_log": "sim/results/quality_current/cdc_exam_status_tb/run.log"
+    },
+    {
+      "top": "cdc_frame_activity_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/cdc_frame_activity_tb/result.json",
+      "run_log": "sim/results/quality_current/cdc_frame_activity_tb/run.log"
+    },
+    {
+      "top": "cdc_stats_snapshot_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/cdc_stats_snapshot_tb/result.json",
+      "run_log": "sim/results/quality_current/cdc_stats_snapshot_tb/run.log"
+    },
+    {
+      "top": "cdc_time_snapshot_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/cdc_time_snapshot_tb/result.json",
+      "run_log": "sim/results/quality_current/cdc_time_snapshot_tb/run.log"
+    },
+    {
+      "top": "compact_identity_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/compact_identity_tb/result.json",
+      "run_log": "sim/results/quality_current/compact_identity_tb/run.log"
+    },
+    {
+      "top": "config_ack_tx_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/config_ack_tx_tb/result.json",
+      "run_log": "sim/results/quality_current/config_ack_tx_tb/run.log"
+    },
+    {
+      "top": "config_mailbox_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/config_mailbox_contract_tb/result.json",
+      "run_log": "sim/results/quality_current/config_mailbox_contract_tb/run.log"
+    },
+    {
+      "top": "config_parser_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/config_parser_contract_tb/result.json",
+      "run_log": "sim/results/quality_current/config_parser_contract_tb/run.log"
+    },
+    {
+      "top": "ddr3_axi_frame_dma_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/ddr3_axi_frame_dma_tb/result.json",
+      "run_log": "sim/results/quality_current/ddr3_axi_frame_dma_tb/run.log"
+    },
+    {
+      "top": "ddr_evidence_axi_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/ddr_evidence_axi_tb/result.json",
+      "run_log": "sim/results/quality_current/ddr_evidence_axi_tb/run.log"
+    },
+    {
+      "top": "ddr_evidence_probe_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/ddr_evidence_probe_tb/result.json",
+      "run_log": "sim/results/quality_current/ddr_evidence_probe_tb/run.log"
+    },
+    {
+      "top": "ddr_evidence_queued_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/ddr_evidence_queued_tb/result.json",
+      "run_log": "sim/results/quality_current/ddr_evidence_queued_tb/run.log"
+    },
+    {
+      "top": "display_pipeline_contract_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/display_pipeline_contract_tb/result.json",
+      "run_log": "sim/results/quality_current/display_pipeline_contract_tb/run.log"
+    },
+    {
+      "top": "dvi_encoder_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/dvi_encoder_contract_tb/result.json",
+      "run_log": "sim/results/quality_current/dvi_encoder_contract_tb/run.log"
+    },
+    {
+      "top": "dvi_pipeline_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/dvi_pipeline_contract_tb/result.json",
+      "run_log": "sim/results/quality_current/dvi_pipeline_contract_tb/run.log"
+    },
+    {
+      "top": "dvp_capture_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/dvp_capture_contract_tb/result.json",
+      "run_log": "sim/results/quality_current/dvp_capture_contract_tb/run.log"
+    },
+    {
+      "top": "eeprom_dualslot_store_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/eeprom_dualslot_store_tb/result.json",
+      "run_log": "sim/results/quality_current/eeprom_dualslot_store_tb/run.log"
+    },
+    {
+      "top": "eeprom_page_writer_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/eeprom_page_writer_tb/result.json",
+      "run_log": "sim/results/quality_current/eeprom_page_writer_tb/run.log"
+    },
+    {
+      "top": "eeprom_record_codec_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/eeprom_record_codec_tb/result.json",
+      "run_log": "sim/results/quality_current/eeprom_record_codec_tb/run.log"
+    },
+    {
+      "top": "event_cdc_evidence_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/event_cdc_evidence_tb/result.json",
+      "run_log": "sim/results/quality_current/event_cdc_evidence_tb/run.log"
+    },
+    {
+      "top": "event_identity_queue_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/event_identity_queue_tb/result.json",
+      "run_log": "sim/results/quality_current/event_identity_queue_tb/run.log"
+    },
+    {
+      "top": "event_identity_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/event_identity_tb/result.json",
+      "run_log": "sim/results/quality_current/event_identity_tb/run.log"
+    },
+    {
+      "top": "event_meta_ring_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/event_meta_ring_tb/result.json",
+      "run_log": "sim/results/quality_current/event_meta_ring_tb/run.log"
+    },
+    {
+      "top": "event_request_fifo_optimized_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/event_request_fifo_optimized_tb/result.json",
+      "run_log": "sim/results/quality_current/event_request_fifo_optimized_tb/run.log"
+    },
+    {
+      "top": "event_request_fifo_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/event_request_fifo_tb/result.json",
+      "run_log": "sim/results/quality_current/event_request_fifo_tb/run.log"
+    },
+    {
+      "top": "event_transaction_fork_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/event_transaction_fork_tb/result.json",
+      "run_log": "sim/results/quality_current/event_transaction_fork_tb/run.log"
+    },
+    {
+      "top": "event_transaction_log_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/event_transaction_log_tb/result.json",
+      "run_log": "sim/results/quality_current/event_transaction_log_tb/run.log"
+    },
+    {
+      "top": "event_transaction_queue_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/event_transaction_queue_tb/result.json",
+      "run_log": "sim/results/quality_current/event_transaction_queue_tb/run.log"
+    },
+    {
+      "top": "evidence_capture_context_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/evidence_capture_context_tb/result.json",
+      "run_log": "sim/results/quality_current/evidence_capture_context_tb/run.log"
+    },
+    {
+      "top": "evidence_dump_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/evidence_dump_tb/result.json",
+      "run_log": "sim/results/quality_current/evidence_dump_tb/run.log"
+    },
+    {
+      "top": "evidence_epoch_identity_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/evidence_epoch_identity_tb/result.json",
+      "run_log": "sim/results/quality_current/evidence_epoch_identity_tb/run.log"
+    },
+    {
+      "top": "evidence_event_dispatch_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/evidence_event_dispatch_tb/result.json",
+      "run_log": "sim/results/quality_current/evidence_event_dispatch_tb/run.log"
+    },
+    {
+      "top": "evidence_health_telemetry_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/evidence_health_telemetry_tb/result.json",
+      "run_log": "sim/results/quality_current/evidence_health_telemetry_tb/run.log"
+    },
+    {
+      "top": "evidence_packet_cdc_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/evidence_packet_cdc_tb/result.json",
+      "run_log": "sim/results/quality_current/evidence_packet_cdc_tb/run.log"
+    },
+    {
+      "top": "evidence_packet_udp_bridge_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/evidence_packet_udp_bridge_tb/result.json",
+      "run_log": "sim/results/quality_current/evidence_packet_udp_bridge_tb/run.log"
+    },
+    {
+      "top": "evidence_reset_barrier_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/evidence_reset_barrier_tb/result.json",
+      "run_log": "sim/results/quality_current/evidence_reset_barrier_tb/run.log"
+    },
+    {
+      "top": "evidence_reset_epoch_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/evidence_reset_epoch_tb/result.json",
+      "run_log": "sim/results/quality_current/evidence_reset_epoch_tb/run.log"
+    },
+    {
+      "top": "evidence_window_packetizer_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/evidence_window_packetizer_tb/result.json",
+      "run_log": "sim/results/quality_current/evidence_window_packetizer_tb/run.log"
+    },
+    {
+      "top": "evidence_wrapper_reset_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/evidence_wrapper_reset_tb/result.json",
+      "run_log": "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+    },
+    {
+      "top": "exam_event_context_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/exam_event_context_tb/result.json",
+      "run_log": "sim/results/quality_current/exam_event_context_tb/run.log"
+    },
+    {
+      "top": "exam_fsm_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/exam_fsm_tb/result.json",
+      "run_log": "sim/results/quality_current/exam_fsm_tb/run.log"
+    },
+    {
+      "top": "fullscreen_monitor_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/fullscreen_monitor_tb/result.json",
+      "run_log": "sim/results/quality_current/fullscreen_monitor_tb/run.log"
+    },
+    {
+      "top": "gmii_rgmii_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/gmii_rgmii_contract_tb/result.json",
+      "run_log": "sim/results/quality_current/gmii_rgmii_contract_tb/run.log"
+    },
+    {
+      "top": "health_monitor_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/health_monitor_tb/result.json",
+      "run_log": "sim/results/quality_current/health_monitor_tb/run.log"
+    },
+    {
+      "top": "history_axi_epoch_guard_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/history_axi_epoch_guard_tb/result.json",
+      "run_log": "sim/results/quality_current/history_axi_epoch_guard_tb/run.log"
+    },
+    {
+      "top": "history_capture_client_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/history_capture_client_tb/result.json",
+      "run_log": "sim/results/quality_current/history_capture_client_tb/run.log"
+    },
+    {
+      "top": "history_capture_full_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/history_capture_full_tb/result.json",
+      "run_log": "sim/results/quality_current/history_capture_full_tb/run.log"
+    },
+    {
+      "top": "history_capture_pipeline_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/history_capture_pipeline_tb/result.json",
+      "run_log": "sim/results/quality_current/history_capture_pipeline_tb/run.log"
+    },
+    {
+      "top": "history_capture_source_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/history_capture_source_tb/result.json",
+      "run_log": "sim/results/quality_current/history_capture_source_tb/run.log"
+    },
+    {
+      "top": "history_descriptor_reader_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/history_descriptor_reader_tb/result.json",
+      "run_log": "sim/results/quality_current/history_descriptor_reader_tb/run.log"
+    },
+    {
+      "top": "history_frame_writer_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/history_frame_writer_tb/result.json",
+      "run_log": "sim/results/quality_current/history_frame_writer_tb/run.log"
+    },
+    {
+      "top": "history_gap_journal_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/history_gap_journal_tb/result.json",
+      "run_log": "sim/results/quality_current/history_gap_journal_tb/run.log"
+    },
+    {
+      "top": "history_health_stats_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/history_health_stats_tb/result.json",
+      "run_log": "sim/results/quality_current/history_health_stats_tb/run.log"
+    },
+    {
+      "top": "history_lifecycle_control_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/history_lifecycle_control_tb/result.json",
+      "run_log": "sim/results/quality_current/history_lifecycle_control_tb/run.log"
+    },
+    {
+      "top": "history_merge_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/history_merge_tb/result.json",
+      "run_log": "sim/results/quality_current/history_merge_tb/run.log"
+    },
+    {
+      "top": "history_ordered_ingress_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/history_ordered_ingress_tb/result.json",
+      "run_log": "sim/results/quality_current/history_ordered_ingress_tb/run.log"
+    },
+    {
+      "top": "history_real_display_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/history_real_display_tb/result.json",
+      "run_log": "sim/results/quality_current/history_real_display_tb/run.log"
+    },
+    {
+      "top": "history_reference_directory_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/history_reference_directory_tb/result.json",
+      "run_log": "sim/results/quality_current/history_reference_directory_tb/run.log"
+    },
+    {
+      "top": "history_result_record_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/history_result_record_tb/result.json",
+      "run_log": "sim/results/quality_current/history_result_record_tb/run.log"
+    },
+    {
+      "top": "history_result_udp_cdc_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/history_result_udp_cdc_tb/result.json",
+      "run_log": "sim/results/quality_current/history_result_udp_cdc_tb/run.log"
+    },
+    {
+      "top": "history_result_udp_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/history_result_udp_tb/result.json",
+      "run_log": "sim/results/quality_current/history_result_udp_tb/run.log"
+    },
+    {
+      "top": "history_sample_source_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/history_sample_source_tb/result.json",
+      "run_log": "sim/results/quality_current/history_sample_source_tb/run.log"
+    },
+    {
+      "top": "history_scheduler_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/history_scheduler_tb/result.json",
+      "run_log": "sim/results/quality_current/history_scheduler_tb/run.log"
+    },
+    {
+      "top": "history_shared_read_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/history_shared_read_tb/result.json",
+      "run_log": "sim/results/quality_current/history_shared_read_tb/run.log"
+    },
+    {
+      "top": "history_startup_gate_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/history_startup_gate_tb/result.json",
+      "run_log": "sim/results/quality_current/history_startup_gate_tb/run.log"
+    },
+    {
+      "top": "history_store_axi_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/history_store_axi_tb/result.json",
+      "run_log": "sim/results/quality_current/history_store_axi_tb/run.log"
+    },
+    {
+      "top": "history_stream_cdc_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/history_stream_cdc_tb/result.json",
+      "run_log": "sim/results/quality_current/history_stream_cdc_tb/run.log"
+    },
+    {
+      "top": "history_top_interconnect_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/history_top_interconnect_tb/result.json",
+      "run_log": "sim/results/quality_current/history_top_interconnect_tb/run.log"
+    },
+    {
+      "top": "history_window_reader_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/history_window_reader_tb/result.json",
+      "run_log": "sim/results/quality_current/history_window_reader_tb/run.log"
+    },
+    {
+      "top": "i2c_byte_master_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/i2c_byte_master_tb/result.json",
+      "run_log": "sim/results/quality_current/i2c_byte_master_tb/run.log"
+    },
+    {
+      "top": "i2c_register_master_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/i2c_register_master_tb/result.json",
+      "run_log": "sim/results/quality_current/i2c_register_master_tb/run.log"
+    },
+    {
+      "top": "i2c_transaction_arbiter_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/i2c_transaction_arbiter_tb/result.json",
+      "run_log": "sim/results/quality_current/i2c_transaction_arbiter_tb/run.log"
+    },
+    {
+      "top": "image_evidence_capture_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/image_evidence_capture_tb/result.json",
+      "run_log": "sim/results/quality_current/image_evidence_capture_tb/run.log"
+    },
+    {
+      "top": "image_evidence_ring_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/image_evidence_ring_tb/result.json",
+      "run_log": "sim/results/quality_current/image_evidence_ring_tb/run.log"
+    },
+    {
+      "top": "image_evidence_udp_packetizer_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/image_evidence_udp_packetizer_tb/result.json",
+      "run_log": "sim/results/quality_current/image_evidence_udp_packetizer_tb/run.log"
+    },
+    {
+      "top": "image_evidence_udp_tx_bridge_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/image_evidence_udp_tx_bridge_tb/result.json",
+      "run_log": "sim/results/quality_current/image_evidence_udp_tx_bridge_tb/run.log"
+    },
+    {
+      "top": "key_debounce_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/key_debounce_tb/result.json",
+      "run_log": "sim/results/quality_current/key_debounce_tb/run.log"
+    },
+    {
+      "top": "legacy_video_axi_contract_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/legacy_video_axi_contract_tb/result.json",
+      "run_log": "sim/results/quality_current/legacy_video_axi_contract_tb/run.log"
+    },
+    {
+      "top": "maintenance_endpoint_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/maintenance_endpoint_tb/result.json",
+      "run_log": "sim/results/quality_current/maintenance_endpoint_tb/run.log"
+    },
+    {
+      "top": "maintenance_exam_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/maintenance_exam_tb/result.json",
+      "run_log": "sim/results/quality_current/maintenance_exam_tb/run.log"
+    },
+    {
+      "top": "maintenance_system_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/maintenance_system_tb/result.json",
+      "run_log": "sim/results/quality_current/maintenance_system_tb/run.log"
+    },
+    {
+      "top": "mdc_waveform_equivalence_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/mdc_waveform_equivalence_tb/result.json",
+      "run_log": "sim/results/quality_current/mdc_waveform_equivalence_tb/run.log"
+    },
+    {
+      "top": "mdio_readback_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/mdio_readback_tb/result.json",
+      "run_log": "sim/results/quality_current/mdio_readback_tb/run.log"
+    },
+    {
+      "top": "motion_detect_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/motion_detect_tb/result.json",
+      "run_log": "sim/results/quality_current/motion_detect_tb/run.log"
+    },
+    {
+      "top": "network_isolation_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/network_isolation_tb/result.json",
+      "run_log": "sim/results/quality_current/network_isolation_tb/run.log"
+    },
+    {
+      "top": "operator_alarm_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/operator_alarm_contract_tb/result.json",
+      "run_log": "sim/results/quality_current/operator_alarm_contract_tb/run.log"
+    },
+    {
+      "top": "overlay_status_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/overlay_status_contract_tb/result.json",
+      "run_log": "sim/results/quality_current/overlay_status_contract_tb/run.log"
+    },
+    {
+      "top": "pcf8563_calendar_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/pcf8563_calendar_tb/result.json",
+      "run_log": "sim/results/quality_current/pcf8563_calendar_tb/run.log"
+    },
+    {
+      "top": "pcf8563_reader_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/pcf8563_reader_tb/result.json",
+      "run_log": "sim/results/quality_current/pcf8563_reader_tb/run.log"
+    },
+    {
+      "top": "pcf8563_setter_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/pcf8563_setter_tb/result.json",
+      "run_log": "sim/results/quality_current/pcf8563_setter_tb/run.log"
+    },
+    {
+      "top": "pcf8563_setter_wire_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/pcf8563_setter_wire_tb/result.json",
+      "run_log": "sim/results/quality_current/pcf8563_setter_wire_tb/run.log"
+    },
+    {
+      "top": "persistent_boot_gate_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/persistent_boot_gate_tb/result.json",
+      "run_log": "sim/results/quality_current/persistent_boot_gate_tb/run.log"
+    },
+    {
+      "top": "persistent_boot_probe_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/persistent_boot_probe_tb/result.json",
+      "run_log": "sim/results/quality_current/persistent_boot_probe_tb/run.log"
+    },
+    {
+      "top": "persistent_boot_service_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/persistent_boot_service_tb/result.json",
+      "run_log": "sim/results/quality_current/persistent_boot_service_tb/run.log"
+    },
+    {
+      "top": "persistent_config_decode_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/persistent_config_decode_tb/result.json",
+      "run_log": "sim/results/quality_current/persistent_config_decode_tb/run.log"
+    },
+    {
+      "top": "persistent_config_manager_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/persistent_config_manager_tb/result.json",
+      "run_log": "sim/results/quality_current/persistent_config_manager_tb/run.log"
+    },
+    {
+      "top": "persistent_event_identity_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/persistent_event_identity_tb/result.json",
+      "run_log": "sim/results/quality_current/persistent_event_identity_tb/run.log"
+    },
+    {
+      "top": "persistent_maintenance_service_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/persistent_maintenance_service_tb/result.json",
+      "run_log": "sim/results/quality_current/persistent_maintenance_service_tb/run.log"
+    },
+    {
+      "top": "phy_health_snapshot_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/phy_health_snapshot_tb/result.json",
+      "run_log": "sim/results/quality_current/phy_health_snapshot_tb/run.log"
+    },
+    {
+      "top": "phy_qualification_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/phy_qualification_tb/result.json",
+      "run_log": "sim/results/quality_current/phy_qualification_tb/run.log"
+    },
+    {
+      "top": "queued_window_packet_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/queued_window_packet_tb/result.json",
+      "run_log": "sim/results/quality_current/queued_window_packet_tb/run.log"
+    },
+    {
+      "top": "ready_source_contract_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/ready_source_contract_tb/result.json",
+      "run_log": "sim/results/quality_current/ready_source_contract_tb/run.log"
+    },
+    {
+      "top": "rtc_anchor_client_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/rtc_anchor_client_tb/result.json",
+      "run_log": "sim/results/quality_current/rtc_anchor_client_tb/run.log"
+    },
+    {
+      "top": "rtc_anchor_record_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/rtc_anchor_record_tb/result.json",
+      "run_log": "sim/results/quality_current/rtc_anchor_record_tb/run.log"
+    },
+    {
+      "top": "rtc_time_anchor_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/rtc_time_anchor_tb/result.json",
+      "run_log": "sim/results/quality_current/rtc_time_anchor_tb/run.log"
+    },
+    {
+      "top": "scene_guard_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/scene_guard_tb/result.json",
+      "run_log": "sim/results/quality_current/scene_guard_tb/run.log"
+    },
+    {
+      "top": "seven_seg_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/seven_seg_tb/result.json",
+      "run_log": "sim/results/quality_current/seven_seg_tb/run.log"
+    },
+    {
+      "top": "shared_evidence_axi_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/shared_evidence_axi_tb/result.json",
+      "run_log": "sim/results/quality_current/shared_evidence_axi_tb/run.log"
+    },
+    {
+      "top": "shared_xadc_monitor_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/shared_xadc_monitor_tb/result.json",
+      "run_log": "sim/results/quality_current/shared_xadc_monitor_tb/run.log"
+    },
+    {
+      "top": "status_mailbox_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/status_mailbox_contract_tb/result.json",
+      "run_log": "sim/results/quality_current/status_mailbox_contract_tb/run.log"
+    },
+    {
+      "top": "status_uart_health_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/status_uart_health_tb/result.json",
+      "run_log": "sim/results/quality_current/status_uart_health_tb/run.log"
+    },
+    {
+      "top": "status_uart_timer_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/status_uart_timer_tb/result.json",
+      "run_log": "sim/results/quality_current/status_uart_timer_tb/run.log"
+    },
+    {
+      "top": "timestamp_ms_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/timestamp_ms_tb/result.json",
+      "run_log": "sim/results/quality_current/timestamp_ms_tb/run.log"
+    },
+    {
+      "top": "tmds_decode_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/tmds_decode_contract_tb/result.json",
+      "run_log": "sim/results/quality_current/tmds_decode_contract_tb/run.log"
+    },
+    {
+      "top": "tmds_serializer_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/tmds_serializer_contract_tb/result.json",
+      "run_log": "sim/results/quality_current/tmds_serializer_contract_tb/run.log"
+    },
+    {
+      "top": "transaction_uart_integration_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/transaction_uart_integration_tb/result.json",
+      "run_log": "sim/results/quality_current/transaction_uart_integration_tb/run.log"
+    },
+    {
+      "top": "uart_packet_mux_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/uart_packet_mux_tb/result.json",
+      "run_log": "sim/results/quality_current/uart_packet_mux_tb/run.log"
+    },
+    {
+      "top": "uart_rx_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/uart_rx_tb/result.json",
+      "run_log": "sim/results/quality_current/uart_rx_tb/run.log"
+    },
+    {
+      "top": "uart_stream_adapter_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/uart_stream_adapter_tb/result.json",
+      "run_log": "sim/results/quality_current/uart_stream_adapter_tb/run.log"
+    },
+    {
+      "top": "video_axi_client_edges_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/video_axi_client_edges_tb/result.json",
+      "run_log": "sim/results/quality_current/video_axi_client_edges_tb/run.log"
+    },
+    {
+      "top": "video_axi_client_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/video_axi_client_tb/result.json",
+      "run_log": "sim/results/quality_current/video_axi_client_tb/run.log"
+    },
+    {
+      "top": "video_epoch_clear_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/video_epoch_clear_tb/result.json",
+      "run_log": "sim/results/quality_current/video_epoch_clear_tb/run.log"
+    },
+    {
+      "top": "video_fifo_stream_bridge_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/video_fifo_stream_bridge_tb/result.json",
+      "run_log": "sim/results/quality_current/video_fifo_stream_bridge_tb/run.log"
+    },
+    {
+      "top": "video_memory_clear_cross_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/video_memory_clear_cross_tb/result.json",
+      "run_log": "sim/results/quality_current/video_memory_clear_cross_tb/run.log"
+    },
+    {
+      "top": "video_memory_fabric_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/video_memory_fabric_tb/result.json",
+      "run_log": "sim/results/quality_current/video_memory_fabric_tb/run.log"
+    },
+    {
+      "top": "voice_announcer_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/voice_announcer_tb/result.json",
+      "run_log": "sim/results/quality_current/voice_announcer_tb/run.log"
+    },
+    {
+      "top": "voice_asr_i2c_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/voice_asr_i2c_tb/result.json",
+      "run_log": "sim/results/quality_current/voice_asr_i2c_tb/run.log"
+    },
+    {
+      "top": "voice_audio_gate_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/voice_audio_gate_tb/result.json",
+      "run_log": "sim/results/quality_current/voice_audio_gate_tb/run.log"
+    },
+    {
+      "top": "voice_exam_interaction_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/voice_exam_interaction_tb/result.json",
+      "run_log": "sim/results/quality_current/voice_exam_interaction_tb/run.log"
+    },
+    {
+      "top": "voice_host_endpoint_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/voice_host_endpoint_tb/result.json",
+      "run_log": "sim/results/quality_current/voice_host_endpoint_tb/run.log"
+    },
+    {
+      "top": "voice_info_confirm_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/voice_info_confirm_tb/result.json",
+      "run_log": "sim/results/quality_current/voice_info_confirm_tb/run.log"
+    },
+    {
+      "top": "voice_interaction_bus_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/voice_interaction_bus_tb/result.json",
+      "run_log": "sim/results/quality_current/voice_interaction_bus_tb/run.log"
+    },
+    {
+      "top": "voice_interaction_system_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/quality_current/voice_interaction_system_tb/result.json",
+      "run_log": "sim/results/quality_current/voice_interaction_system_tb/run.log"
+    },
+    {
+      "top": "voice_notice_backlog_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/voice_notice_backlog_tb/result.json",
+      "run_log": "sim/results/quality_current/voice_notice_backlog_tb/run.log"
+    },
+    {
+      "top": "voice_notice_queue_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/voice_notice_queue_tb/result.json",
+      "run_log": "sim/results/quality_current/voice_notice_queue_tb/run.log"
+    },
+    {
+      "top": "voice_uart_eight_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/voice_uart_eight_tb/result.json",
+      "run_log": "sim/results/quality_current/voice_uart_eight_tb/run.log"
+    },
+    {
+      "top": "workflow_fsm_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/workflow_fsm_tb/result.json",
+      "run_log": "sim/results/quality_current/workflow_fsm_tb/run.log"
+    },
+    {
+      "top": "xadc_monitor_reader_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/quality_current/xadc_monitor_reader_tb/result.json",
+      "run_log": "sim/results/quality_current/xadc_monitor_reader_tb/run.log"
+    }
+  ]
+}

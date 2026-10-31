@@ -1,0 +1,2 @@
+PASS: board_monitor_record good/invalid two CRC packets
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\health\board_monitor_record_tb.sv:16: $finish called at 11910000 (1ps)

@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: uart_stream_adapter start/busy holding/data/last/reset
+D:\fpga_race\fpga\src\host_link\uart_stream_adapter_tb.sv:19: $finish called at 2311000 (1ps)

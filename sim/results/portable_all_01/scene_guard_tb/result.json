@@ -1,0 +1,28 @@
+{
+  "top": "scene_guard_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/vision_guard/scene_guard_tb.sv",
+      "sha256": "d13c32162cae2b8cdf66f1e4d4c5cd2ef7537fd3e1f759412c8e473f597c9ebb"
+    },
+    {
+      "path": "src/fpga/local_sources/97996d0703f5/camera_black_gate.v",
+      "sha256": "fce64430ab2e9c4ac0eac89408277f9fb45435b839a33e3a6f4c846be5cd18a6"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm.v",
+      "sha256": "99966b2469909e9bd205489ee97162df4bd8bde5b52d6abfcc1969bdeb914a77"
+    }
+  ],
+  "repairs": [
+    "Enable required CANDIDATE define used by the accepted scene-guard regression."
+  ],
+  "seconds": 7.063,
+  "pass_lines": [
+    "PASS: scene guard real FSM/motion/dimming/97.9 vs 98/confirmation/release/rearm/incomplete/blanking"
+  ],
+  "exit_code": 0
+}

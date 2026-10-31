@@ -1,0 +1,22 @@
+{
+  "top": "ready_source_contract_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/quality/ready_source_contract_tb.sv",
+      "sha256": "7063e48852787e45c4a79f78eee821ce44e6681a9f5122acebfdf321bdb2ed38"
+    },
+    {
+      "path": "sim/sources/quality/ready_source_extracted.v",
+      "sha256": "cf03e43fa689c2a3eddca912cf81d069bbaa41bb7e377f32f209fbe8a059ecd0"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.0,
+  "pass_lines": [
+    "PASS: ready_source_contract_tb readiness, glitch, MIG reset, stopped clock and restart"
+  ],
+  "exit_code": 0
+}

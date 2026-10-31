@@ -1,0 +1,2 @@
+PASS: history_startup_gate unknown/stale/start-boundary/runtime-fault/reset
+D:\fpga_race\deploy\submission_20261031\sim\sources\ddr3_test\history_startup_gate_tb.sv:25: $finish called at 266000 (1ps)

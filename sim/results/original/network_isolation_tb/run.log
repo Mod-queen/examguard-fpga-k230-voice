@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: network_isolation realMAC offline/partial/START/header/payload/recovery no shared reset sent=3 dropped=6
+D:\fpga_race\fpga\src\ddr3_test\network_isolation_tb.sv:77: $finish called at 8240000 (1ps)

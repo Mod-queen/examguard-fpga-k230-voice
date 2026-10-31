@@ -1,0 +1,30 @@
+{
+  "top": "operator_alarm_contract_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/verification_20261031/operator_alarm_contract_tb.sv",
+      "sha256": "12931382b19333f771ef47e97b385a046bc8129f5b7108bdd7fed12db309086f"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/alarm_beep/alarm_beep.v",
+      "sha256": "8d1dabc9387ac0bdeacae2fc356a84a7761f549da6b9904a1fde5e80a9726eba"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/user_control/key_debounce.v",
+      "sha256": "7fbee963c653de910300f43405afd6959dc36b84a9f2013fd161b9f78d569a6e"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/user_control/user_control.v",
+      "sha256": "08b75387fe3eaae3220d6c3fb5389922c7e6d66edceaeb0faef49b9c5a78f915"
+    }
+  ],
+  "repairs": [],
+  "seconds": 6.891,
+  "pass_lines": [
+    "PASS: operator_alarm_contract debounce/key mapping/voice mute/continuous tone/duty/warning gap/reset"
+  ],
+  "exit_code": 0
+}

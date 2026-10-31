@@ -1,0 +1,292 @@
+{
+  "cases": 5,
+  "passed": 5,
+  "hardware_access": false,
+  "tool_executables": {
+    "iverilog": "C:\\iverilog\\bin\\iverilog.exe",
+    "vvp": "C:\\iverilog\\bin\\vvp.exe",
+    "xvlog": "D:\\vivado\\vivado2018.3\\Vivado\\2018.3\\bin\\xvlog.bat",
+    "xelab": "D:\\vivado\\vivado2018.3\\Vivado\\2018.3\\bin\\xelab.bat",
+    "xsim": "D:\\vivado\\vivado2018.3\\Vivado\\2018.3\\bin\\xsim.bat",
+    "glbl": "D:\\vivado\\vivado2018.3\\Vivado\\2018.3\\data\\verilog\\src\\glbl.v"
+  },
+  "results": [
+    {
+      "top": "camera_frame_guard_tb",
+      "engine": "xsim",
+      "status": "passed",
+      "hardware_access": false,
+      "sources": [
+        {
+          "path": "sim/sources/ddr3_test/camera_frame_guard_tb.sv",
+          "sha256": "1ad661d9e661742bfd15a0bd6edd1c381492b24052925697236776980f76524e"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_frame_guard.v",
+          "sha256": "d3496d7a5c35e108a0193237ff8222738cae65e00980413e32962f283b0134c5"
+        }
+      ],
+      "repairs": [],
+      "seconds": 6.234,
+      "pass_lines": [
+        "guard FP=          1 final delivered=         1 PASS",
+        "guard FP=         37 final delivered=         1 PASS",
+        "PASS: camera_frame_guard all checks"
+      ],
+      "exit_code": 0
+    },
+    {
+      "top": "dvi_encoder_contract_tb",
+      "engine": "xsim",
+      "status": "passed",
+      "hardware_access": false,
+      "sources": [
+        {
+          "path": "sim/sources/verification_20261031/dvi_encoder_contract_tb.sv",
+          "sha256": "d42eca9457bb2108b5a973acd5773dcdeca86a28da0ad54c38be2daa602c6ac6"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/dvi_encoder.v",
+          "sha256": "ed3a59442e13696a35f2c1bf273728e7d93ad01a5b0d9320f0094fe67aaa700f"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/encode.v",
+          "sha256": "47fb075bb48d619a3a2a802b9935b2c3c352b2de109a3895773e906582edb279"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/serdes_4b_10to1.v",
+          "sha256": "193faf53b9674b42338d6ffe75466132d39153da0f1e6814811cc9cf8210a810"
+        },
+        {
+          "path": "@vivado/glbl.v",
+          "sha256": "c48753ff3481f46872a09160eee14b5596b37444c1bf2b84bf2acd922e7c982d"
+        }
+      ],
+      "repairs": [],
+      "seconds": 6.297,
+      "pass_lines": [
+        "PASS: dvi_encoder_contract three RGB channels/independent decode/four blue controls/blanking/serialized lane mapping/both edges/clock pair decode=3087 bits=41160"
+      ],
+      "exit_code": 0
+    },
+    {
+      "top": "event_request_fifo_optimized_tb",
+      "engine": "icarus",
+      "status": "passed",
+      "hardware_access": false,
+      "sources": [
+        {
+          "path": "sim/sources/verification_20261031/event_request_fifo_optimized_tb.sv",
+          "sha256": "ad4e7e024eba55a5fd57a0f9cd1803c23f50a99bfea4d675125b8254da771e8f"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v",
+          "sha256": "c0ba03f5efcad63349bab1bae3fd95d16927d4cd62acdec1d73c9cf4f5d1e2c9"
+        }
+      ],
+      "repairs": [],
+      "seconds": 2.234,
+      "pass_lines": [
+        "PASS event_request_fifo depth=1 full_pop=2464 collisions=3012 stalled=2890",
+        "PASS event_request_fifo depth=1 full_pop=1032 collisions=0 stalled=2127",
+        "PASS event_request_fifo depth=3 full_pop=2293 collisions=2996 stalled=3077",
+        "PASS event_request_fifo depth=3 full_pop=406 collisions=0 stalled=2658",
+        "PASS event_request_fifo depth=8 full_pop=2373 collisions=2980 stalled=3009",
+        "PASS event_request_fifo depth=8 full_pop=105 collisions=0 stalled=2807",
+        "PASS event_request_fifo depth=16 full_pop=2692 collisions=4152 stalled=3038",
+        "PASS event_request_fifo depth=16 full_pop=93 collisions=0 stalled=2921",
+        "PASS event_request_fifo_tb ALL"
+      ],
+      "exit_code": 0
+    },
+    {
+      "top": "history_store_axi_tb",
+      "engine": "xsim",
+      "status": "passed",
+      "hardware_access": false,
+      "sources": [
+        {
+          "path": "sim/sources/ddr3_test/history_store_axi_tb.sv",
+          "sha256": "81b08a1c72fcd293e893068640acdc4328fc4697b7a1cc78b5bde1439e3da71b"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+          "sha256": "5a7f8c5de37e13612a3b3eb01b14a9f69277a4261ac3d84c1fdc860f374d9f02"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_descriptor_reader.v",
+          "sha256": "f9b74283dac36837b12c9755dc3ebc209a48828468cac2b2350c6539a9c9bce1"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_frame_writer.v",
+          "sha256": "00998ed6257c37308ebfc5d35fb023f50e27de38e57aa1deb21f897e3c5302be"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_reference_directory.v",
+          "sha256": "85cd4b3b218d1e762bc7f8c8d30e5988394194261bbd4e5060566fc8a4cee724"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_store_axi.sv",
+          "sha256": "c5f477d7032878a01dc6ebdb0f9ec4a89a21076d18e80276f67c3c9d4aba55ea"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_window_reader.v",
+          "sha256": "b0026b8a859b958b1992a196c3f012ab75aa94cd3b02acc6946d2268349b436a"
+        },
+        {
+          "path": "sim/sources/ddr3_test/axi_frame_slave_model.sv",
+          "sha256": "80cb737c5165193f9aee20ecc3d30a79a9535ffceb148bfc6dd9ab294b9f91e6"
+        }
+      ],
+      "repairs": [],
+      "seconds": 6.562,
+      "pass_lines": [
+        "PASS: history_store_axi FP=1 writer+reader+token directory+oneDMA overlap/concurrent/R-Berrors/held results/capacity/stale/reset pixels=27 results=8 concurrentCycles=116",
+        "PASS: history_store_axi FP=37 writer+reader+token directory+oneDMA overlap/concurrent/R-Berrors/held results/capacity/stale/reset pixels=999 results=8 concurrentCycles=5562",
+        "PASS: history_store_axi FP=269 writer+reader+token directory+oneDMA overlap/concurrent/R-Berrors/held results/capacity/stale/reset pixels=7263 results=8 concurrentCycles=39790",
+        "PASS: history_store_axi ALL"
+      ],
+      "exit_code": 0
+    },
+    {
+      "top": "video_memory_fabric_tb",
+      "engine": "xsim",
+      "status": "passed",
+      "hardware_access": false,
+      "sources": [
+        {
+          "path": "sim/sources/ddr3_test/video_memory_fabric_tb.sv",
+          "sha256": "fb43d3aa8fa540b278a6a67ce1c32009e8e09a2cafbc661243d659944a9234c0"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/crc32_d8.v",
+          "sha256": "c2bd0b5af84a7623ede3b67420e5435f2776987ff94f149b67f60a30e666b307"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/eth_udp_tx_gmii.v",
+          "sha256": "0fad3936322da7427d9e0ad3c960c6e26645f0911de7f223b59e7348456f7c90"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/ip_checksum.v",
+          "sha256": "2ede55244bc4d2d8c6e4195b39c26d71fc155858c2a0382717b1b4060d360710"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+          "sha256": "e00a965581e8b27bd820c5aa494acf399d4d9edd0f06c4fc315d1e06edc41f67"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_2client_arbiter.v",
+          "sha256": "fb539ae2672b78207f16c56c63548c512a0893323e2831d23b4be94ea3e87dc5"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_read_burst_buffer.v",
+          "sha256": "46f38c559f84f46a68c77401aadf52a626462a671ec90482e556dbca61e17038"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_evidence_client.v",
+          "sha256": "c8f3dd6215160d3ba0ba3b56765c036803a7fb283e181c1312578f9e542d0999"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_evidence_transport.v",
+          "sha256": "8c3d0c925a6791dea284786d32f1a835985a897fdd0ef0060385c7bd5f936f51"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_frame_guard.v",
+          "sha256": "d3496d7a5c35e108a0193237ff8222738cae65e00980413e32962f283b0134c5"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_sample_guard.v",
+          "sha256": "12bbc2ebb19f937d9e0b02c138ef35c04af85e01b093575275fdddcdff853798"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_time_guard.v",
+          "sha256": "eb7aaf46261fbde4b8492961cfbd521ce0f26c502f9aff8e4e24524a7b350465"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+          "sha256": "5a7f8c5de37e13612a3b3eb01b14a9f69277a4261ac3d84c1fdc860f374d9f02"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_axi.v",
+          "sha256": "758399072337810cbcfe347b2535b6c03f4bd9adef62d4d1ff9e585700202768"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_queued.v",
+          "sha256": "d77ee3f4e236700640a17b1c76f9ce75dedf2403d40307a9325286fbe8895e99"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_event_dispatch.v",
+          "sha256": "91d1a59a541ae4e524024cf272c03bf1f10cf5dec215126bea0dffd4050a1a09"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_cdc.v",
+          "sha256": "cf617a1201165d96439d20e2b98833265b3afb94ec3f5ff48bef426198fa1e15"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_udp_bridge.v",
+          "sha256": "14c5f721877e9bcdeff6f1377dd78ef03902203f7723e7eaf212e53d6771fa3e"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_window_packetizer.v",
+          "sha256": "2bf981557e1aca508a1cfef6d7cac572226d9a285e7cf3ed142f861906a9f51a"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_axi_client.v",
+          "sha256": "5a3310b484084fcae94df7e1af0622765d63a2ac5ad0e7a1e87a842b27843d1c"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_epoch_clear.v",
+          "sha256": "c515ed6b731759e7bc6ed06c729aff3765072c23c99bc80b9ca7ef432a4f28e9"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_fifo_axi_port.v",
+          "sha256": "11be247027fb19707f07996db66008fcfc6c134bc25594934294f94187c3cc84"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_fifo_stream_bridge.v",
+          "sha256": "439fa08d11082e647b50af14628757ab517a84f4c68c010ae0fe175242952d37"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_memory_fabric.v",
+          "sha256": "4a972513ed42b6971566e79e80f4d2d60a7d49c5577c07a557ed59d90567a331"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+          "sha256": "2d2200f13132859ec81afaa54309a520655a7a7042438f0fded09807e4981f6a"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_time_snapshot.v",
+          "sha256": "94c865ed864fdb9cba0c26ebbbdc8e52cb0d58fb3b5b4fb65706df33ae881c6d"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v",
+          "sha256": "f77911d0aab89ae9fb8ff75e8f08873edf81b030e1338eb3348c699433b0ae86"
+        },
+        {
+          "path": "sim/sources/ddr3_test/axi_frame_slave_model.sv",
+          "sha256": "80cb737c5165193f9aee20ecc3d30a79a9535ffceb148bfc6dd9ab294b9f91e6"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/wr_ddr3_fifo/wr_ddr3_fifo_sim_netlist.v",
+          "sha256": "0f669e2c64dfac68aec9942108a4158cc061afb83c78be58be017bc1b4490e4f"
+        },
+        {
+          "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/rd_ddr3_fifo/rd_ddr3_fifo_sim_netlist.v",
+          "sha256": "6eac3d7d604e71c529012dddfc3302c433159f276ce8aa82dcde9092450b8516"
+        },
+        {
+          "path": "@vivado/glbl.v",
+          "sha256": "c48753ff3481f46872a09160eee14b5596b37444c1bf2b84bf2acd922e7c982d"
+        }
+      ],
+      "repairs": [
+        "Harness timeout increased to 900 seconds; VCD limited to control/fault signals. Full 1280x720 test and all assertions unchanged."
+      ],
+      "seconds": 399.985,
+      "pass_lines": [
+        "PASS: video_memory_fabric 720p video-only/competition/SOF all checks"
+      ],
+      "exit_code": 0
+    }
+  ]
+}

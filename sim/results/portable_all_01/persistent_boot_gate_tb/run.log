@@ -1,0 +1,2 @@
+PASS: persistent_boot_gate checks=13 verified-only/blank-explicit/all-errors/no-double-allocation
+D:\fpga_race\deploy\submission_20261031\sim\sources\persistence\persistent_boot_gate_tb.sv:31: $finish called at 13780000 (1ps)

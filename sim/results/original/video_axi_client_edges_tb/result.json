@@ -1,0 +1,32 @@
+{
+  "top": "video_axi_client_edges_tb",
+  "status": "passed",
+  "active_modules": [
+    "video_axi_client"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "video_axi_client_edges_tb",
+    "video_edges_case"
+  ],
+  "testbench": "fpga/src/ddr3_test/video_axi_client_edges_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/ddr3_test/video_axi_client_edges_tb.sv",
+      "sha256": "b1510774d0cbf4d640faaa0e376a99aa2d6674c5b4b4aaef730b3f26e88b5600"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_axi_client.v",
+      "sha256": "5a3310b484084fcae94df7e1af0622765d63a2ac5ad0e7a1e87a842b27843d1c"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "video edges BURST=1 AW/B/AR/RLAST clear, late/early LAST, saturation PASS",
+    "video edges BURST=3 AW/B/AR/RLAST clear, late/early LAST, saturation PASS",
+    "video edges BURST=32 AW/B/AR/RLAST clear, late/early LAST, saturation PASS",
+    "PASS: video_axi_client_edges all checks"
+  ],
+  "trace_bytes": 51697,
+  "seconds": 0.14
+}

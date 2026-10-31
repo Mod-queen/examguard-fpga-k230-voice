@@ -1,0 +1,12 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module evidence_window_packetizer_tb $end
+$var wire 3 ! done $end
+$upscope $end
+$enddefinitions $end
+#0
+b0 !
+#10080000
+b1 !
+#22720000
+b11 !

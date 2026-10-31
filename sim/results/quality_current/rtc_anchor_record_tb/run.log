@@ -1,0 +1,2 @@
+PASS: rtc_anchor_record immutable2x132/CRCstream/randomBackpressure/heldLAST/resetCancel
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\persistence\rtc_anchor_record_tb.sv:45: $finish called at 11040000 (1ps)

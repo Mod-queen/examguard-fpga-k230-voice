@@ -1,0 +1,4 @@
+sv work "D:/fpga_race/deploy/submission_20261031/sim/test_repairs/pcf8563_setter_tb/pcf8563_setter_tb.sv"
+sv work "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/c5242e5fe116/pcf8563_setter.sv"
+sv work "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/a8328017a7aa/pcf8563_reader.sv"
+sv work "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/c66e664ded59/pcf8563_calendar.sv"

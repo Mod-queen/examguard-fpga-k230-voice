@@ -1,0 +1,48 @@
+{
+  "arguments": {
+    "profile": "all",
+    "name": "field_six320_fit_v1",
+    "epochs": 60
+  },
+  "weights_sha256": "34a183854c1b380001a40c865dadf8e47d2359399c8779c8c39b2a3cafca94de",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "python": "3.11.16 (main, Aug 25 2026, 13:59:19) [MSC v.1944 64 bit (AMD64)]",
+  "data": {
+    "profile": "all",
+    "names": [
+      "phone",
+      "notes",
+      "head_forward",
+      "head_down_writing",
+      "head_left",
+      "head_right"
+    ],
+    "field_index_sha256": "61decc82b68f70d87fd96126c69fdf165eabb2e4d6d37e570b44c9e013d30279",
+    "field_unique_images": 277,
+    "field_sessions": [
+      "key_2600271ef652_006"
+    ],
+    "train_entries": 277,
+    "field_sampling_weight": 1,
+    "public_replay_unique_images": 0,
+    "validation_images": 277,
+    "validation_scope": "RESUBSTITUTION_FIT_ONLY_SAME_TRAINING_IMAGES; NOT independent validation/test or K230 event accuracy",
+    "field_negative_images": 34,
+    "training_boxes": {
+      "phone": 102,
+      "head_down_writing": 46,
+      "notes": 35,
+      "head_forward": 35,
+      "head_left": 36,
+      "head_right": 40
+    },
+    "public_mapping": null,
+    "human_confirmation": {
+      "confirmed": true,
+      "source": "user_message",
+      "text": "补充人工也核实了",
+      "scope": "User reports human verification of this delivered batch; original AI provenance preserved unchanged"
+    }
+  },
+  "scope": "RESUBSTITUTION_FIT_ONLY_SAME_TRAINING_IMAGES; NOT independent validation/test or K230 event accuracy"
+}

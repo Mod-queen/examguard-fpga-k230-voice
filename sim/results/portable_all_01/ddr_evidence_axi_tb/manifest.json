@@ -1,0 +1,24 @@
+{
+  "generated_by": "prepare_module_fixtures_20261031.py",
+  "files": [
+    {
+      "file": "maintenance_commands_20261021.mem",
+      "sha256": "29925fb0a782de2663c2d3f11910982ec80ea963c8d195ae2d68d133fbb86e90"
+    },
+    {
+      "file": "persistent_config_vectors_20261021.mem",
+      "sha256": "358c8b11b0729580916e01fc08355449fa9c1021a632a0a04e92cdb919fba7bf"
+    },
+    {
+      "file": "rtc_setter_monthends_20261021.mem",
+      "sha256": "1fd42b43d12f569346b180e4b8c78436c9d4e3026b0d25b98cb97462094b2146"
+    },
+    {
+      "file": "xadc_sim_analog_20261021.txt",
+      "sha256": "ac4baf6acea96816cf0e33e499ed0f7f0bd2277facf9647a30539a5f895cd0e6"
+    }
+  ],
+  "rtc_vectors": 1200,
+  "config_vectors": 317,
+  "hardware_access": false
+}

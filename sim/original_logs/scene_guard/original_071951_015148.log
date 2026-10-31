@@ -1,0 +1,2 @@
+FATAL: D:\fpga_race\fpga\src\vision_guard\scene_guard_tb.sv:57: REPRO: bright scene motion falsely emitted 0x64
+       Time: 180000  Scope: scene_guard_tb

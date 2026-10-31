@@ -1,0 +1,22 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/case_snapshot/xsim_script.tcl
+# xsim {case_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/verification_out/optimization_20261031/simulation/xsim_round1/camera_queued_evidence_tb/run_fixed_paths.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/verification_out/optimization_20261031/simulation/xsim_round1/camera_queued_evidence_tb/run_fixed_paths.tcl
+## open_vcd trace.vcd
+## log_vcd [get_objects /camera_queued_evidence_tb/*]
+INFO: HDL object /camera_queued_evidence_tb/frames is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /camera_queued_evidence_tb/uids is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+## run all
+camera queued inputs=17 commits=9 whole_drops=7 invalid=1 event_results=3 checked_pixels=3228
+PASS: camera_queued_evidence all checks
+$finish called at time : 239915 ns : File "D:/fpga_race/fpga/src/ddr3_test/camera_queued_evidence_tb.sv" Line 112
+## close_vcd
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 17:09:48 2026...

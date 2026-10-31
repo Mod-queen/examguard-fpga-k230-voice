@@ -1,0 +1,23 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/case_snapshot/xsim_script.tcl
+# xsim {case_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/verification_out/quality_20261031/rtl_all_01/voice_interaction_system_tb/run.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/verification_out/quality_20261031/rtl_all_01/voice_interaction_system_tb/run.tcl
+## run all
+system 1: real face verified, no roster bypass
+system 2: VC config/presentation/heartbeat, real I2C FF40/41, guard/zero/reply
+system 3: one physical S3, preparation no timer, compact start
+system 4: exam help, exact VC handling, timer continues
+system 5: real exam timeout retains ticket, ended exact handler
+system 6: late config rejected, voice NACK revokes fresh
+system 7: PC heartbeat expiry/recovery
+PASS: voice_interaction_system scenarios=8 records=36 writes=7 reads=191
+$finish called at time : 1902851 ns : File "D:/fpga_race/deploy/engineering_quality_20261031/sim/sources/voice_interaction/voice_interaction_system_tb.sv" Line 201
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 23:12:53 2026...

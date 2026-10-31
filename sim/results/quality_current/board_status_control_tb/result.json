@@ -1,0 +1,22 @@
+{
+  "top": "board_status_control_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/persistence/board_status_control_tb.sv",
+      "sha256": "02accaa3c3263058a3178cee5e8694cc2deb4e3b1f596245aa7bf942a4ec0de6"
+    },
+    {
+      "path": "src/fpga/local_sources/1f7ea0d48d5b/board_status_control.sv",
+      "sha256": "44af696ac21bbc1dd686a2d9052572fec54e40179c7649ee2955d8c8d8dd6bf4"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.0,
+  "pass_lines": [
+    "PASS: board_status_control DIP startup-only/override/default/LED/blink/reset"
+  ],
+  "exit_code": 0
+}

@@ -1,0 +1,2 @@
+PASS: cdc_stats_snapshot atomic 256bit changing counters/stopped-clock age/common-reset epoch
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\health\cdc_stats_snapshot_tb.sv:33: $finish called at 4840000 (1ps)

@@ -1,0 +1,2 @@
+PASS: 720p all921600 pixels exact903167/903168 threshold and confirmation
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\vision_guard\camera_black_720p_tb.sv:31: $finish called at 27648130000 (1ps)

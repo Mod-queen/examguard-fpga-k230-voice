@@ -1,0 +1,34 @@
+test_book_assist_has_one_matching_marker_start_and_worker_selection (app.test_k230_live_startup.LiveStartupTests.test_book_assist_has_one_matching_marker_start_and_worker_selection) ... ok
+test_coalesced_raw_eot_then_exactly_one_confirmed_start (app.test_k230_live_startup.LiveStartupTests.test_coalesced_raw_eot_then_exactly_one_confirmed_start) ... ok
+test_rejected_installation_or_wrong_boot_never_launches (app.test_k230_live_startup.LiveStartupTests.test_rejected_installation_or_wrong_boot_never_launches) ... ok
+test_runtime_selection_is_explicit_and_roundtrips (app.test_k230_live_startup.LiveStartupTests.test_runtime_selection_is_explicit_and_roundtrips) ... ok
+test_scene_runtime_binds_marker_and_start_to_the_same_installed_root (app.test_k230_live_startup.LiveStartupTests.test_scene_runtime_binds_marker_and_start_to_the_same_installed_root) ... ok
+test_unknown_root_rejected_before_serial_write (app.test_k230_live_startup.LiveStartupTests.test_unknown_root_rejected_before_serial_write) ... ok
+test_accepts_no_newline_and_cr (app.test_k230_capture.ParseFrameTests.test_accepts_no_newline_and_cr) ... ok
+test_empty_line_rejected (app.test_k230_capture.ParseFrameTests.test_empty_line_rejected) ... ok
+test_length_mismatch_rejected (app.test_k230_capture.ParseFrameTests.test_length_mismatch_rejected) ... ok
+test_missing_delimiters_rejected (app.test_k230_capture.ParseFrameTests.test_missing_delimiters_rejected) ... ok
+test_non_digit_algorithm_rejected (app.test_k230_capture.ParseFrameTests.test_non_digit_algorithm_rejected) ... ok
+test_vendor_style_face_frame (app.test_k230_capture.ParseFrameTests.test_vendor_style_face_frame) ... ok
+test_vendor_style_object_frame (app.test_k230_capture.ParseFrameTests.test_vendor_style_object_frame) ... ok
+test_absolute_command_paths_no_cwd_and_config_validation (app.test_services.ServicesTests.test_absolute_command_paths_no_cwd_and_config_validation) ... ok
+test_actual_image_receiver_stop_file_and_exclusive_port (app.test_services.ServicesTests.test_actual_image_receiver_stop_file_and_exclusive_port) ... ok
+test_actual_serial_workers_observe_stop_and_release_owned_port (app.test_services.ServicesTests.test_actual_serial_workers_observe_stop_and_release_owned_port) ... ok
+test_dashboard_closes_owned_workers_and_persists_event (app.test_services.ServicesTests.test_dashboard_closes_owned_workers_and_persists_event) ... ok
+test_failure_is_visible_and_stop_only_owns_children (app.test_services.ServicesTests.test_failure_is_visible_and_stop_only_owns_children) ... ok
+test_image_save_has_separate_graceful_deadline (app.test_services.ServicesTests.test_image_save_has_separate_graceful_deadline) ... ok
+test_instance_and_udp_exclusive_release_without_stale_lock (app.test_services.ServicesTests.test_instance_and_udp_exclusive_release_without_stale_lock) ... ok
+test_k230_health_states_surface_distinct_recoverable_messages (app.test_services.ServicesTests.test_k230_health_states_surface_distinct_recoverable_messages) ... ok
+test_k230_reset_failure_closes_port_without_starting_models (app.test_services.ServicesTests.test_k230_reset_failure_closes_port_without_starting_models) ... ok
+test_k230_usb_read_failure_not_masked_by_stop_write_failure (app.test_services.ServicesTests.test_k230_usb_read_failure_not_masked_by_stop_write_failure) ... ok
+test_missing_device_manual_start_and_busy_udp_not_stolen (app.test_services.ServicesTests.test_missing_device_manual_start_and_busy_udp_not_stolen) ... ok
+test_receiver_emits_liveness_line_for_services_without_hardware (app.test_services.ServicesTests.test_receiver_emits_liveness_line_for_services_without_hardware) ... ok
+test_recognition_only_keeps_start_stop_and_does_not_create_evidence (app.test_services.ServicesTests.test_recognition_only_keeps_start_stop_and_does_not_create_evidence) ... ok
+test_restored_k230_frames_ready_without_evidence_and_fault_not_cleared (app.test_services.ServicesTests.test_restored_k230_frames_ready_without_evidence_and_fault_not_cleared) ... ok
+test_three_owned_children_ready_logs_duplicate_and_graceful_stop (app.test_services.ServicesTests.test_three_owned_children_ready_logs_duplicate_and_graceful_stop) ... ok
+test_unresponsive_owned_child_is_terminated_after_graceful_deadline (app.test_services.ServicesTests.test_unresponsive_owned_child_is_terminated_after_graceful_deadline) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 2.532s
+
+OK

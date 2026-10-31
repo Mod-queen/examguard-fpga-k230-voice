@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: evidence_packet_udp_bridge lengths1/7/11 stalls/last-done/oversize/reset/earlydone/extrareq
+D:\fpga_race\fpga\src\ddr3_test\evidence_packet_udp_bridge_tb.sv:63: $finish called at 1993000 (1ps)

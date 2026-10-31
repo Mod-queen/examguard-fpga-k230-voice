@@ -1,0 +1,40 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/sim/sources/persistence/persistent_boot_service_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_boot_service_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/328fc08a076a/persistent_rtc_service.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_rtc_service
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/6757b9ed1223/eeprom_page_writer.sv" into library work
+INFO: [VRFC 10-311] analyzing module eeprom_page_writer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/0c907ae5d25e/persistent_boot_service.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_boot_service
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/a8328017a7aa/pcf8563_reader.sv" into library work
+INFO: [VRFC 10-311] analyzing module pcf8563_reader
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/1dea5a5ec50d/eeprom_dualslot_store.sv" into library work
+INFO: [VRFC 10-311] analyzing module eeprom_dualslot_store
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/ee27b53745a7/rtc_time_anchor.sv" into library work
+INFO: [VRFC 10-311] analyzing module rtc_time_anchor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/68436de0e25f/persistent_event_identity.v" into library work
+INFO: [VRFC 10-311] analyzing module persistent_event_identity
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/473868420a86/eeprom_record_codec.sv" into library work
+INFO: [VRFC 10-311] analyzing module eeprom_record_codec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/c66e664ded59/pcf8563_calendar.sv" into library work
+INFO: [VRFC 10-311] analyzing module pcf8563_calendar
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/b3552f47b77a/rtc_anchor_record.sv" into library work
+INFO: [VRFC 10-311] analyzing module rtc_anchor_record
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/682b9b4992fd/i2c_byte_master.sv" into library work
+INFO: [VRFC 10-311] analyzing module i2c_byte_master
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/8f15c7c17ef1/event_identity.v" into library work
+INFO: [VRFC 10-311] analyzing module event_identity
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/f0215bcf904a/persistent_boot_gate.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_boot_gate
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/709b883505d5/rtc_anchor_client.sv" into library work
+INFO: [VRFC 10-311] analyzing module rtc_anchor_client
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/0e8d0fe30f17/i2c_register_master.sv" into library work
+INFO: [VRFC 10-311] analyzing module i2c_register_master
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/cb4f400b368e/i2c_transaction_arbiter.sv" into library work
+INFO: [VRFC 10-311] analyzing module i2c_transaction_arbiter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/exam_event_context.v" into library work
+INFO: [VRFC 10-311] analyzing module exam_event_context
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v" into library work
+INFO: [VRFC 10-311] analyzing module event_request_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_transaction_queue/event_transaction_queue.v" into library work
+INFO: [VRFC 10-311] analyzing module event_transaction_queue

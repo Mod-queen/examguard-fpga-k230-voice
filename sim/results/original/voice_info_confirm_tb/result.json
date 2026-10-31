@@ -1,0 +1,28 @@
+{
+  "top": "voice_info_confirm_tb",
+  "status": "passed",
+  "active_modules": [
+    "voice_info_confirm"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "voice_info_confirm_tb"
+  ],
+  "testbench": "fpga/src/voice_interaction/voice_info_confirm_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/voice_interaction/voice_info_confirm_tb.sv",
+      "sha256": "a457b6d669750fb4454a82a25446c2788f6b87eff7487b0e67c427d321f9f237"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/21f6f02914e8/voice_info_confirm.sv",
+      "sha256": "e1331a3496a220524b304acf544a956e42b77f7b83057b07e0f59e390f764f78"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: voice_info_confirm scenarios=18"
+  ],
+  "trace_bytes": 21458,
+  "seconds": 0.125
+}

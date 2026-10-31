@@ -1,0 +1,2 @@
+PASS: i2c_register_master transactions=18 wireSTART=21 STOP=15 writebytes=32 readbytes=42 NACK/timeout/stretch/reset/response-stall
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\persistence\i2c_register_master_tb.sv:374: $finish called at 397380000 (1ps)

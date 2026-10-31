@@ -1,0 +1,2 @@
+# Only the optional host/analyze_evidence_luma utility needs Pillow.
+Pillow>=10

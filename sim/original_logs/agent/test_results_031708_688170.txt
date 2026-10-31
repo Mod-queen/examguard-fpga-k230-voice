@@ -1,0 +1,31 @@
+test_actual_compatible_http_roundtrip_and_redirect_refusal (app.test_agent.AgentControllerTests.test_actual_compatible_http_roundtrip_and_redirect_refusal) ... ok
+test_api_address_and_remote_plain_http_are_validated (app.test_agent.AgentControllerTests.test_api_address_and_remote_plain_http_are_validated) ... ok
+test_llm_cannot_claim_completion_without_tool_or_after_error (app.test_agent.AgentControllerTests.test_llm_cannot_claim_completion_without_tool_or_after_error) ... ok
+test_local_is_explicit_and_does_not_call_api (app.test_agent.AgentControllerTests.test_local_is_explicit_and_does_not_call_api) ... ok
+test_real_tool_loop_payload_and_key_redaction (app.test_agent.AgentControllerTests.test_real_tool_loop_payload_and_key_redaction) ... ok
+test_secret_echo_in_tool_arguments_is_redacted (app.test_agent.AgentControllerTests.test_secret_echo_in_tool_arguments_is_redacted) ... ok
+test_unknown_tools_and_malformed_calls_do_not_gain_controls (app.test_agent.AgentControllerTests.test_unknown_tools_and_malformed_calls_do_not_gain_controls) ... ok
+test_portable_record_redacts_nested_secrets_and_keeps_evidence_reference (app.test_agent.AgentExportTests.test_portable_record_redacts_nested_secrets_and_keeps_evidence_reference) ... ok
+test_mcp_lists_and_calls_only_readonly_tools (app.test_agent.AgentMCPTests.test_mcp_lists_and_calls_only_readonly_tools) ... ok
+test_mcp_stdio_framing_and_lifecycle (app.test_agent.AgentMCPTests.test_mcp_stdio_framing_and_lifecycle) ... ok
+test_async_panel_evidence_navigation_and_close (app.test_agent.AgentPanelTests.test_async_panel_evidence_navigation_and_close) ... ok
+test_archive_reads_do_not_modify_database_and_time_range_is_honest (app.test_agent.AgentToolTests.test_archive_reads_do_not_modify_database_and_time_range_is_honest) ... ok
+test_bad_latest_revision_blocks_old_complete_preview (app.test_agent.AgentToolTests.test_bad_latest_revision_blocks_old_complete_preview) ... ok
+test_durable_query_survives_clear_and_deduplicates_et_not_al (app.test_agent.AgentToolTests.test_durable_query_survives_clear_and_deduplicates_et_not_al) ... ok
+test_event_uid_never_substitutes_for_event_code_in_evidence_tools (app.test_agent.AgentToolTests.test_event_uid_never_substitutes_for_event_code_in_evidence_tools) ... ok
+test_evidence_scope_does_not_claim_absence_outside_selected_directory (app.test_agent.AgentToolTests.test_evidence_scope_does_not_claim_absence_outside_selected_directory) ... ok
+test_health_missing_fresh_stale_and_archive_are_distinct (app.test_agent.AgentToolTests.test_health_missing_fresh_stale_and_archive_are_distinct) ... ok
+test_joint_complete_requires_hr_and_images_return_actual_frames (app.test_agent.AgentToolTests.test_joint_complete_requires_hr_and_images_return_actual_frames) ... ok
+test_limit_scan_is_explicit_not_full_range_count (app.test_agent.AgentToolTests.test_limit_scan_is_explicit_not_full_range_count) ... ok
+test_partial_and_hr_only_do_not_become_complete (app.test_agent.AgentToolTests.test_partial_and_hr_only_do_not_become_complete) ... ok
+test_uid_ambiguity_and_same_identity_conflict_refuse_binding (app.test_agent.AgentToolTests.test_uid_ambiguity_and_same_identity_conflict_refuse_binding) ... ok
+test_unknown_event_and_paths_and_arguments_are_rejected (app.test_agent.AgentToolTests.test_unknown_event_and_paths_and_arguments_are_rejected) ... ok
+test_login_attempts_are_limited (app.test_agent.AgentWebTests.test_login_attempts_are_limited) ... ok
+test_login_required_csrf_origin_and_logout (app.test_agent.AgentWebTests.test_login_required_csrf_origin_and_logout) ... ok
+test_parallel_asks_cannot_clear_another_requests_busy_flag (app.test_agent.AgentWebTests.test_parallel_asks_cannot_clear_another_requests_busy_flag) ... ok
+test_query_validated_images_and_no_arbitrary_files (app.test_agent.AgentWebTests.test_query_validated_images_and_no_arbitrary_files) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 5.495s
+
+OK

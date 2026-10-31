@@ -1,0 +1,21 @@
+{
+  "key": "05_fifo_full",
+  "title": "优化队列：满队列与同时出入队",
+  "native_ide_screenshot": true,
+  "method": "own Vivado GUI static WDB viewer; no simulation rerun or source value edits",
+  "launched_pid": 24228,
+  "window_pid": 28904,
+  "window_title": "Vivado 2018.3",
+  "hardware_access": false,
+  "database_sha256": "8996b59ca6a53881db65b60ec2f1011cb3dd5aabc697031d1655ea000c173db2",
+  "config_sha256": "426872b9bd149383467369a89123a2a37512068d1b3a70422883bb8a6c9db5f7",
+  "image_sha256": "b56bcf4cf35b3df714834ab2f799aba7a4099b5eb80bf8aaf463eb88de667213",
+  "source_result": "verification_out\\refinement_20261031\\cases\\event_request_fifo_optimized_tb\\result.json",
+  "source_result_sha256": "3bdf53abaa01eb085d1aa02bc4e111e751db30823316eed3d619fc0bb7178fbd",
+  "window_ns": [
+    35.0,
+    130.0
+  ],
+  "image": "vivado_wave.png",
+  "visual_review": "pending"
+}

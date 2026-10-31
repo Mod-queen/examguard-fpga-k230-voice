@@ -1,0 +1,2707 @@
+{
+  "selected_tests": 158,
+  "passed": 158,
+  "failed": 0,
+  "scope": "分别重跑当前模块与集成自检；不表示整机穷尽、代码行覆盖或DDR物理层仿真。",
+  "test_results": [
+    {
+      "top": "ai_link_rx_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/ai_link_rx_tb/result.json",
+      "run_log": "sim/results/portable_all_01/ai_link_rx_tb/run.log",
+      "active_modules": [
+        "ai_link_rx"
+      ],
+      "pass_lines": [
+        "PASS: ai_link_rx (face + object + gaze frames parsed)"
+      ],
+      "image": "sim/images/ai_link_rx_tb.png"
+    },
+    {
+      "top": "ai_mailbox_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/ai_mailbox_tb/result.json",
+      "run_log": "sim/results/portable_all_01/ai_mailbox_tb/run.log",
+      "active_modules": [
+        "ai_mailbox"
+      ],
+      "pass_lines": [
+        "PASS: ai_mailbox (auth ids + object classes)",
+        "PASS: ai_mailbox explicit none"
+      ],
+      "image": "sim/images/ai_mailbox_tb.png"
+    },
+    {
+      "top": "alarm_output_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/alarm_output_tb/result.json",
+      "run_log": "sim/results/portable_all_01/alarm_output_tb/run.log",
+      "active_modules": [
+        "alarm_output"
+      ],
+      "pass_lines": [
+        "PASS: local alarm mapping"
+      ],
+      "image": "sim/images/alarm_output_tb.png"
+    },
+    {
+      "top": "async_fifo_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/async_fifo_tb/result.json",
+      "run_log": "sim/results/portable_all_01/async_fifo_tb/run.log",
+      "active_modules": [
+        "async_fifo"
+      ],
+      "pass_lines": [
+        "PASS: async_fifo all checks"
+      ],
+      "image": "sim/images/async_fifo_tb.png"
+    },
+    {
+      "top": "axi_2client_arbiter_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/axi_2client_arbiter_tb/result.json",
+      "run_log": "sim/results/portable_all_01/axi_2client_arbiter_tb/run.log",
+      "active_modules": [
+        "axi_2client_arbiter"
+      ],
+      "pass_lines": [
+        "PASS: axi_2client_arbiter all checks"
+      ],
+      "image": "sim/images/axi_2client_arbiter_tb.png"
+    },
+    {
+      "top": "axi_2client_policy_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/axi_2client_policy_tb/result.json",
+      "run_log": "sim/results/portable_all_01/axi_2client_policy_tb/run.log",
+      "active_modules": [
+        "axi_2client_arbiter"
+      ],
+      "pass_lines": [
+        "arbiter policy Q=1 saturated grants>=100, independent directions, stalled responses/reset, fault flags, saturation PASS",
+        "arbiter policy Q=3 saturated grants>=100, independent directions, stalled responses/reset, fault flags, saturation PASS",
+        "PASS: axi_2client_policy all checks"
+      ],
+      "image": "sim/images/axi_2client_policy_tb.png"
+    },
+    {
+      "top": "axi_read_burst_buffer_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/axi_read_burst_buffer_tb/result.json",
+      "run_log": "sim/results/portable_all_01/axi_read_burst_buffer_tb/run.log",
+      "active_modules": [
+        "axi_read_burst_buffer"
+      ],
+      "pass_lines": [
+        "PASS: axi_read_burst_buffer capture/stall/attributes/reset/overflow all checks"
+      ],
+      "image": "sim/images/axi_read_burst_buffer_tb.png"
+    },
+    {
+      "top": "board_monitor_record_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/board_monitor_record_tb/result.json",
+      "run_log": "sim/results/portable_all_01/board_monitor_record_tb/run.log",
+      "active_modules": [
+        "board_monitor_record"
+      ],
+      "pass_lines": [
+        "PASS: board_monitor_record good/invalid two CRC packets"
+      ],
+      "image": "sim/images/board_monitor_record_tb.png"
+    },
+    {
+      "top": "board_monitor_system_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/board_monitor_system_tb/result.json",
+      "run_log": "sim/results/portable_all_01/board_monitor_system_tb/run.log",
+      "active_modules": [
+        "board_monitor_record",
+        "cdc_event_transaction",
+        "cdc_stats_snapshot"
+      ],
+      "pass_lines": [
+        "PASS: board_monitor_system actual MIG temp sync/one UNISIM XADC/97bit CDC/BM CRC"
+      ],
+      "image": "sim/images/board_monitor_system_tb.png"
+    },
+    {
+      "top": "board_status_control_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/board_status_control_tb/result.json",
+      "run_log": "sim/results/portable_all_01/board_status_control_tb/run.log",
+      "active_modules": [
+        "board_status_control"
+      ],
+      "pass_lines": [
+        "PASS: board_status_control DIP startup-only/override/default/LED/blink/reset"
+      ],
+      "image": "sim/images/board_status_control_tb.png"
+    },
+    {
+      "top": "camera_black_720p_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/camera_black_720p_tb/result.json",
+      "run_log": "sim/results/portable_all_01/camera_black_720p_tb/run.log",
+      "active_modules": [
+        "camera_black_gate"
+      ],
+      "pass_lines": [
+        "PASS: 720p all921600 pixels exact903167/903168 threshold and confirmation"
+      ],
+      "image": "sim/images/camera_black_720p_tb.png"
+    },
+    {
+      "top": "camera_black_boundary_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/camera_black_boundary_tb/result.json",
+      "run_log": "sim/results/portable_all_01/camera_black_boundary_tb/run.log",
+      "active_modules": [
+        "camera_black_gate"
+      ],
+      "pass_lines": [
+        "PASS: camera_black_boundary first-active-SOF/RGB16vs17/96vs98/overflow"
+      ],
+      "image": "sim/images/camera_black_boundary_tb.png"
+    },
+    {
+      "top": "camera_black_driver_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/camera_black_driver_tb/result.json",
+      "run_log": "sim/results/portable_all_01/camera_black_driver_tb/run.log",
+      "active_modules": [
+        "camera_black_gate",
+        "color_enhance",
+        "disp_driver"
+      ],
+      "pass_lines": [
+        "PASS real driver pure-black cover confirmed with all 921600 active pixels"
+      ],
+      "image": "sim/images/camera_black_driver_tb.png"
+    },
+    {
+      "top": "camera_black_noise_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/camera_black_noise_tb/result.json",
+      "run_log": "sim/results/portable_all_01/camera_black_noise_tb/run.log",
+      "active_modules": [
+        "camera_black_gate"
+      ],
+      "pass_lines": [
+        "PASS quantization-compatible measured dark-noise replay, exact98 boundary,31/32 separation"
+      ],
+      "image": "sim/images/camera_black_noise_tb.png"
+    },
+    {
+      "top": "camera_capture_reset_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/camera_capture_reset_tb/result.json",
+      "run_log": "sim/results/portable_all_01/camera_capture_reset_tb/run.log",
+      "active_modules": [
+        "DVP_Capture",
+        "video_epoch_clear"
+      ],
+      "pass_lines": [
+        "PASS: camera_capture_reset actual DVP/3edge release/stopped PCLK/short pulse/retrigger/warmup10/RGB565 recovery"
+      ],
+      "image": "sim/images/camera_capture_reset_tb.png"
+    },
+    {
+      "top": "camera_evidence_axi_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/camera_evidence_axi_tb/result.json",
+      "run_log": "sim/results/portable_all_01/camera_evidence_axi_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "camera_frame_guard",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi"
+      ],
+      "pass_lines": [
+        "PASS: camera_evidence_axi all checks"
+      ],
+      "image": "sim/images/camera_evidence_axi_tb.png"
+    },
+    {
+      "top": "camera_evidence_transport_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/camera_evidence_transport_tb/result.json",
+      "run_log": "sim/results/portable_all_01/camera_evidence_transport_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "camera_evidence_client",
+        "camera_evidence_transport",
+        "camera_frame_guard",
+        "camera_sample_guard",
+        "camera_time_guard",
+        "cdc_event_transaction",
+        "cdc_stats_snapshot",
+        "cdc_time_snapshot",
+        "crc32_d8",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "ddr_evidence_queued",
+        "eth_udp_tx_gmii",
+        "event_identity",
+        "event_request_fifo",
+        "event_transaction_fork",
+        "event_transaction_log",
+        "event_transaction_queue",
+        "evidence_epoch_identity",
+        "evidence_event_dispatch",
+        "evidence_health_telemetry",
+        "evidence_packet_cdc",
+        "evidence_packet_udp_bridge",
+        "evidence_reset_barrier",
+        "evidence_window_packetizer",
+        "exam_event_context",
+        "exam_fsm",
+        "ip_checksum",
+        "uart_packet_mux",
+        "uart_tx"
+      ],
+      "pass_lines": [
+        "PASS: camera_evidence_transport actualFSM/identity/camera/DDR/CDC/GMII 4windows 8frames32pixels20packets"
+      ],
+      "image": "sim/images/camera_evidence_transport_tb.png"
+    },
+    {
+      "top": "camera_frame_guard_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_followup_02/camera_frame_guard_tb/result.json",
+      "run_log": "sim/results/portable_followup_02/camera_frame_guard_tb/run.log",
+      "active_modules": [
+        "camera_frame_guard"
+      ],
+      "pass_lines": [
+        "guard FP=          1 final delivered=         1 PASS",
+        "guard FP=         37 final delivered=         1 PASS",
+        "PASS: camera_frame_guard all checks"
+      ],
+      "image": "sim/images/camera_frame_guard_tb.png"
+    },
+    {
+      "top": "camera_init_audit_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/camera_init_audit_tb/result.json",
+      "run_log": "sim/results/portable_all_01/camera_init_audit_tb/run.log",
+      "active_modules": [
+        "camera_init",
+        "ov5640_init_table_jpeg",
+        "ov5640_init_table_rgb",
+        "ov7725_init_table_rgb"
+      ],
+      "pass_lines": [
+        "PASS: camera_init_audit actual indices0..266; final polarity write executed; no sensor timing claim"
+      ],
+      "image": "sim/images/camera_init_audit_tb.png"
+    },
+    {
+      "top": "camera_init_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/camera_init_contract_tb/result.json",
+      "run_log": "sim/results/portable_all_01/camera_init_contract_tb/run.log",
+      "active_modules": [
+        "camera_init",
+        "i2c_bit_shift",
+        "i2c_control",
+        "ov5640_init_table_jpeg",
+        "ov5640_init_table_rgb",
+        "ov7725_init_table_rgb"
+      ],
+      "pass_lines": [
+        "PASS: camera init wire all267 including474020",
+        "PASS: camera_init_contract ACK all bytes/NACK retry/permanent NACK/reset body/restart/no replay"
+      ],
+      "image": "sim/images/camera_init_contract_tb.png"
+    },
+    {
+      "top": "camera_queued_evidence_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/camera_queued_evidence_tb/result.json",
+      "run_log": "sim/results/portable_all_01/camera_queued_evidence_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "camera_frame_guard",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "ddr_evidence_queued",
+        "evidence_event_dispatch"
+      ],
+      "pass_lines": [
+        "PASS: camera_queued_evidence all checks"
+      ],
+      "image": "sim/images/camera_queued_evidence_tb.png"
+    },
+    {
+      "top": "camera_sample_guard_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/camera_sample_guard_tb/result.json",
+      "run_log": "sim/results/portable_all_01/camera_sample_guard_tb/run.log",
+      "active_modules": [
+        "camera_frame_guard",
+        "camera_sample_guard"
+      ],
+      "pass_lines": [
+        "camera_sample_guard 32x20 stride4 interval2 checked_frames=4 pixels=160 PASS",
+        "camera_sample_guard 1280x720 stride4 interval6 checked_frames=2 pixels=115200 PASS",
+        "PASS: camera_sample_guard all checks"
+      ],
+      "image": "sim/images/camera_sample_guard_tb.png"
+    },
+    {
+      "top": "camera_time_guard_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/camera_time_guard_tb/result.json",
+      "run_log": "sim/results/portable_all_01/camera_time_guard_tb/run.log",
+      "active_modules": [
+        "camera_frame_guard",
+        "camera_sample_guard",
+        "camera_time_guard"
+      ],
+      "pass_lines": [
+        "PASS: camera_time_guard unknown/stale/inclusive-age/SOF-atomicity/RGB-metadata/rollover/saturation/reset"
+      ],
+      "image": "sim/images/camera_time_guard_tb.png"
+    },
+    {
+      "top": "candidate_overlay_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/candidate_overlay_tb/result.json",
+      "run_log": "sim/results/portable_all_01/candidate_overlay_tb/run.log",
+      "active_modules": [
+        "candidate_glyph",
+        "candidate_overlay"
+      ],
+      "pass_lines": [
+        "PASS: candidate_overlay frame_ack glyphs=16 passthrough lit=90"
+      ],
+      "image": "sim/images/candidate_overlay_tb.png"
+    },
+    {
+      "top": "cdc_event_transaction_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/cdc_event_transaction_tb/result.json",
+      "run_log": "sim/results/portable_all_01/cdc_event_transaction_tb/run.log",
+      "active_modules": [
+        "cdc_event_transaction"
+      ],
+      "pass_lines": [
+        "event CDC clocks=20/10 width=256 ordered301/stall/reset/saturation PASS",
+        "event CDC clocks=6/22 width=37 ordered301/stall/reset/saturation PASS",
+        "PASS: cdc_event_transaction all checks"
+      ],
+      "image": "sim/images/cdc_event_transaction_tb.png"
+    },
+    {
+      "top": "cdc_exam_status_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/cdc_exam_status_tb/result.json",
+      "run_log": "sim/results/portable_all_01/cdc_exam_status_tb/run.log",
+      "active_modules": [
+        "cdc_exam_status"
+      ],
+      "pass_lines": [
+        "PASS: cdc_exam_status"
+      ],
+      "image": "sim/images/cdc_exam_status_tb.png"
+    },
+    {
+      "top": "cdc_frame_activity_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/cdc_frame_activity_tb/result.json",
+      "run_log": "sim/results/portable_all_01/cdc_frame_activity_tb/run.log",
+      "active_modules": [
+        "cdc_frame_activity"
+      ],
+      "pass_lines": [
+        "PASS: cdc_frame_activity"
+      ],
+      "image": "sim/images/cdc_frame_activity_tb.png"
+    },
+    {
+      "top": "cdc_stats_snapshot_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/cdc_stats_snapshot_tb/result.json",
+      "run_log": "sim/results/portable_all_01/cdc_stats_snapshot_tb/run.log",
+      "active_modules": [
+        "cdc_event_transaction",
+        "cdc_stats_snapshot",
+        "evidence_reset_barrier"
+      ],
+      "pass_lines": [
+        "PASS: cdc_stats_snapshot atomic 256bit changing counters/stopped-clock age/common-reset epoch"
+      ],
+      "image": "sim/images/cdc_stats_snapshot_tb.png"
+    },
+    {
+      "top": "cdc_time_snapshot_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/cdc_time_snapshot_tb/result.json",
+      "run_log": "sim/results/portable_all_01/cdc_time_snapshot_tb/run.log",
+      "active_modules": [
+        "cdc_event_transaction",
+        "cdc_time_snapshot"
+      ],
+      "pass_lines": [
+        "PASS: cdc_time_snapshot coherent rollover/stopped-clock age/reset all checks"
+      ],
+      "image": "sim/images/cdc_time_snapshot_tb.png"
+    },
+    {
+      "top": "compact_identity_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/compact_identity_tb/result.json",
+      "run_log": "sim/results/portable_all_01/compact_identity_tb/run.log",
+      "active_modules": [
+        "candidate_glyph",
+        "candidate_overlay",
+        "char_rom_cn",
+        "text_overlay"
+      ],
+      "pass_lines": [
+        "PASS compact identity background area=7488 prior=22528; glyph positions and ack preserved"
+      ],
+      "image": "sim/images/compact_identity_tb.png"
+    },
+    {
+      "top": "config_ack_tx_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/config_ack_tx_tb/result.json",
+      "run_log": "sim/results/portable_all_01/config_ack_tx_tb/run.log",
+      "active_modules": [
+        "config_ack_tx",
+        "uart_stream_adapter",
+        "uart_tx"
+      ],
+      "pass_lines": [
+        "config_ack_tx_tb PASS"
+      ],
+      "image": "sim/images/config_ack_tx_tb.png"
+    },
+    {
+      "top": "config_mailbox_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/config_mailbox_contract_tb/result.json",
+      "run_log": "sim/results/portable_all_01/config_mailbox_contract_tb/run.log",
+      "active_modules": [
+        "config_mailbox"
+      ],
+      "pass_lines": [
+        "PASS: config_mailbox 100 coherent snapshots/unrelated clocks/no duplicates/reset (source hold contract)"
+      ],
+      "image": "sim/images/config_mailbox_contract_tb.png"
+    },
+    {
+      "top": "config_parser_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/config_parser_contract_tb/result.json",
+      "run_log": "sim/results/portable_all_01/config_parser_contract_tb/run.log",
+      "active_modules": [
+        "config_rx"
+      ],
+      "pass_lines": [
+        "PASS: config_parser_contract valid ROI/full boundaries/CRLF/invalid region-X-Y-threshold/malformed/foreign/recovery/reset"
+      ],
+      "image": "sim/images/config_parser_contract_tb.png"
+    },
+    {
+      "top": "ddr3_axi_frame_dma_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/ddr3_axi_frame_dma_tb/result.json",
+      "run_log": "sim/results/portable_all_01/ddr3_axi_frame_dma_tb/run.log",
+      "active_modules": [
+        "ddr3_axi_frame_dma"
+      ],
+      "pass_lines": [
+        "PASS: ddr3_axi_frame_dma all checks"
+      ],
+      "image": "sim/images/ddr3_axi_frame_dma_tb.png"
+    },
+    {
+      "top": "ddr_evidence_axi_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/ddr_evidence_axi_tb/result.json",
+      "run_log": "sim/results/portable_all_01/ddr_evidence_axi_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi"
+      ],
+      "pass_lines": [
+        "PASS: ddr_evidence_axi all checks"
+      ],
+      "image": "sim/images/ddr_evidence_axi_tb.png"
+    },
+    {
+      "top": "ddr_evidence_probe_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/ddr_evidence_probe_tb/result.json",
+      "run_log": "sim/results/portable_all_01/ddr_evidence_probe_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "uart_tx"
+      ],
+      "pass_lines": [
+        "PASS: ddr_evidence_probe all checks"
+      ],
+      "image": "sim/images/ddr_evidence_probe_tb.png"
+    },
+    {
+      "top": "ddr_evidence_queued_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/ddr_evidence_queued_tb/result.json",
+      "run_log": "sim/results/portable_all_01/ddr_evidence_queued_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "ddr_evidence_queued",
+        "evidence_event_dispatch"
+      ],
+      "pass_lines": [
+        "PASS: ddr_evidence_queued all checks"
+      ],
+      "image": "sim/images/ddr_evidence_queued_tb.png"
+    },
+    {
+      "top": "dvi_encoder_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_followup_02/dvi_encoder_contract_tb/result.json",
+      "run_log": "sim/results/portable_followup_02/dvi_encoder_contract_tb/run.log",
+      "active_modules": [
+        "dvi_encoder",
+        "encode",
+        "serdes_4b_10to1"
+      ],
+      "pass_lines": [
+        "PASS: dvi_encoder_contract three RGB channels/independent decode/four blue controls/blanking/serialized lane mapping/both edges/clock pair decode=3087 bits=41160"
+      ],
+      "image": "sim/images/dvi_encoder_contract_tb.png"
+    },
+    {
+      "top": "dvp_capture_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/dvp_capture_contract_tb/result.json",
+      "run_log": "sim/results/portable_all_01/dvp_capture_contract_tb/run.log",
+      "active_modules": [
+        "DVP_Capture"
+      ],
+      "pass_lines": [
+        "PASS: dvp_capture_contract nine startup frames discarded/RGB565 byte order/12 pixels/three lines/coordinates/mid-pixel reset"
+      ],
+      "image": "sim/images/dvp_capture_contract_tb.png"
+    },
+    {
+      "top": "eeprom_dualslot_store_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/eeprom_dualslot_store_tb/result.json",
+      "run_log": "sim/results/portable_all_01/eeprom_dualslot_store_tb/run.log",
+      "active_modules": [
+        "eeprom_dualslot_store",
+        "eeprom_page_writer",
+        "eeprom_record_codec"
+      ],
+      "pass_lines": [
+        "PASS: eeprom_dualslot_store powercuts=256 results=530 explicit-format/config/boot/CRC/device/errors/raw-oracle"
+      ],
+      "image": "sim/images/eeprom_dualslot_store_tb.png"
+    },
+    {
+      "top": "eeprom_page_writer_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/eeprom_page_writer_tb/result.json",
+      "run_log": "sim/results/portable_all_01/eeprom_page_writer_tb/run.log",
+      "active_modules": [
+        "eeprom_page_writer"
+      ],
+      "pass_lines": [
+        "PASS: eeprom_page_writer results=8 transactions=16 page-tail/limit/poll-bound/verify-WP/errors/stalls/reset"
+      ],
+      "image": "sim/images/eeprom_page_writer_tb.png"
+    },
+    {
+      "top": "eeprom_record_codec_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/eeprom_record_codec_tb/result.json",
+      "run_log": "sim/results/portable_all_01/eeprom_record_codec_tb/run.log",
+      "active_modules": [
+        "eeprom_record_codec"
+      ],
+      "pass_lines": [
+        "PASS: eeprom_record_codec checks=773 all768singlebit-corruptions/zeroIDs/response-hold"
+      ],
+      "image": "sim/images/eeprom_record_codec_tb.png"
+    },
+    {
+      "top": "event_cdc_evidence_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/event_cdc_evidence_tb/result.json",
+      "run_log": "sim/results/portable_all_01/event_cdc_evidence_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "axi_2client_arbiter",
+        "axi_read_burst_buffer",
+        "camera_evidence_client",
+        "camera_frame_guard",
+        "camera_sample_guard",
+        "cdc_event_transaction",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "ddr_evidence_queued",
+        "event_request_fifo",
+        "event_transaction_queue",
+        "evidence_event_dispatch",
+        "video_axi_client",
+        "video_epoch_clear",
+        "video_fifo_axi_port",
+        "video_fifo_stream_bridge",
+        "video_memory_fabric"
+      ],
+      "pass_lines": [
+        "PASS: event_cdc_evidence four-source accepted8/rejected4 windows8 pixels=1184 original UID/time preserved"
+      ],
+      "image": "sim/images/event_cdc_evidence_tb.png"
+    },
+    {
+      "top": "event_identity_queue_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/event_identity_queue_tb/result.json",
+      "run_log": "sim/results/portable_all_01/event_identity_queue_tb/run.log",
+      "active_modules": [
+        "event_identity",
+        "event_request_fifo",
+        "event_transaction_queue"
+      ],
+      "pass_lines": [
+        "PASS: event_identity_queue all checks"
+      ],
+      "image": "sim/images/event_identity_queue_tb.png"
+    },
+    {
+      "top": "event_identity_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/event_identity_tb/result.json",
+      "run_log": "sim/results/portable_all_01/event_identity_tb/run.log",
+      "active_modules": [
+        "event_identity"
+      ],
+      "pass_lines": [
+        "PASS: event_identity all checks"
+      ],
+      "image": "sim/images/event_identity_tb.png"
+    },
+    {
+      "top": "event_meta_ring_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/event_meta_ring_tb/result.json",
+      "run_log": "sim/results/portable_all_01/event_meta_ring_tb/run.log",
+      "active_modules": [
+        "event_meta_ring"
+      ],
+      "pass_lines": [
+        "PASS: metadata evidence ring"
+      ],
+      "image": "sim/images/event_meta_ring_tb.png"
+    },
+    {
+      "top": "event_request_fifo_optimized_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_followup_02/event_request_fifo_optimized_tb/result.json",
+      "run_log": "sim/results/portable_followup_02/event_request_fifo_optimized_tb/run.log",
+      "active_modules": [
+        "event_request_fifo"
+      ],
+      "pass_lines": [
+        "PASS event_request_fifo depth=1 full_pop=2464 collisions=3012 stalled=2890",
+        "PASS event_request_fifo depth=1 full_pop=1032 collisions=0 stalled=2127",
+        "PASS event_request_fifo depth=3 full_pop=2293 collisions=2996 stalled=3077",
+        "PASS event_request_fifo depth=3 full_pop=406 collisions=0 stalled=2658",
+        "PASS event_request_fifo depth=8 full_pop=2373 collisions=2980 stalled=3009",
+        "PASS event_request_fifo depth=8 full_pop=105 collisions=0 stalled=2807",
+        "PASS event_request_fifo depth=16 full_pop=2692 collisions=4152 stalled=3038",
+        "PASS event_request_fifo depth=16 full_pop=93 collisions=0 stalled=2921",
+        "PASS event_request_fifo_tb ALL"
+      ],
+      "image": "sim/images/event_request_fifo_optimized_tb.png"
+    },
+    {
+      "top": "event_request_fifo_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/event_request_fifo_tb/result.json",
+      "run_log": "sim/results/portable_all_01/event_request_fifo_tb/run.log",
+      "active_modules": [
+        "event_request_fifo"
+      ],
+      "pass_lines": [
+        "PASS event_request_fifo depth=1 full_pop=620 collisions=750 stalled=719",
+        "PASS event_request_fifo depth=3 full_pop=601 collisions=733 stalled=740",
+        "PASS event_request_fifo depth=8 full_pop=560 collisions=745 stalled=761",
+        "PASS event_request_fifo depth=16 full_pop=675 collisions=1055 stalled=768",
+        "PASS event_request_fifo_tb ALL"
+      ],
+      "image": "sim/images/event_request_fifo_tb.png"
+    },
+    {
+      "top": "event_transaction_fork_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/event_transaction_fork_tb/result.json",
+      "run_log": "sim/results/portable_all_01/event_transaction_fork_tb/run.log",
+      "active_modules": [
+        "event_transaction_fork"
+      ],
+      "pass_lines": [
+        "PASS: event_transaction_fork 400 ordered exactly-once deliveries per branch independent stalls/reset"
+      ],
+      "image": "sim/images/event_transaction_fork_tb.png"
+    },
+    {
+      "top": "event_transaction_log_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/event_transaction_log_tb/result.json",
+      "run_log": "sim/results/portable_all_01/event_transaction_log_tb/run.log",
+      "active_modules": [
+        "event_transaction_log"
+      ],
+      "pass_lines": [
+        "PASS: event_transaction_log full256bit/64hex/68byte ET random backpressure/reset"
+      ],
+      "image": "sim/images/event_transaction_log_tb.png"
+    },
+    {
+      "top": "event_transaction_queue_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/event_transaction_queue_tb/result.json",
+      "run_log": "sim/results/portable_all_01/event_transaction_queue_tb/run.log",
+      "active_modules": [
+        "event_request_fifo",
+        "event_transaction_queue",
+        "exam_fsm"
+      ],
+      "pass_lines": [
+        "PASS: FSM parallel transactions/auth/submission/timeout/dark hold/reset",
+        "PASS: transaction reference depth=1 ID_WIDTH=4 random=1500",
+        "PASS: transaction reference depth=3 ID_WIDTH=64 random=1500",
+        "PASS: transaction reference depth=3 ID_WIDTH=4 random=1500",
+        "PASS: transaction reference depth=16 ID_WIDTH=64 random=1500",
+        "PASS: event_transaction_queue all configurations"
+      ],
+      "image": "sim/images/event_transaction_queue_tb.png"
+    },
+    {
+      "top": "evidence_capture_context_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/evidence_capture_context_tb/result.json",
+      "run_log": "sim/results/portable_all_01/evidence_capture_context_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "camera_evidence_client",
+        "camera_frame_guard",
+        "camera_sample_guard",
+        "camera_time_guard",
+        "cdc_event_transaction",
+        "cdc_time_snapshot",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "ddr_evidence_queued",
+        "evidence_event_dispatch",
+        "evidence_window_packetizer"
+      ],
+      "pass_lines": [
+        "PASS: evidence_capture_context time-qualified DDR frames, stale-clock rejection, in-flight B/event common reset, new UID window8pixels packet_sink=0 packets=0"
+      ],
+      "image": "sim/images/evidence_capture_context_tb.png"
+    },
+    {
+      "top": "evidence_dump_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/evidence_dump_tb/result.json",
+      "run_log": "sim/results/portable_all_01/evidence_dump_tb/run.log",
+      "active_modules": [
+        "evidence_dump",
+        "u32_to_bcd",
+        "uart_stream_adapter",
+        "uart_tx"
+      ],
+      "pass_lines": [
+        "PASS: evidence dump"
+      ],
+      "image": "sim/images/evidence_dump_tb.png"
+    },
+    {
+      "top": "evidence_epoch_identity_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/evidence_epoch_identity_tb/result.json",
+      "run_log": "sim/results/portable_all_01/evidence_epoch_identity_tb/run.log",
+      "active_modules": [
+        "event_identity",
+        "evidence_epoch_identity"
+      ],
+      "pass_lines": [
+        "PASS: evidence_epoch_identity transport reset changes boot before admission / retains session and time / max epoch then exhaustion halts"
+      ],
+      "image": "sim/images/evidence_epoch_identity_tb.png"
+    },
+    {
+      "top": "evidence_event_dispatch_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/evidence_event_dispatch_tb/result.json",
+      "run_log": "sim/results/portable_all_01/evidence_event_dispatch_tb/run.log",
+      "active_modules": [
+        "evidence_event_dispatch"
+      ],
+      "pass_lines": [
+        "dispatch depth=          1 randomized cycles=1600 PASS",
+        "dispatch depth=          3 randomized cycles=1600 PASS",
+        "PASS: evidence_event_dispatch all checks"
+      ],
+      "image": "sim/images/evidence_event_dispatch_tb.png"
+    },
+    {
+      "top": "evidence_health_telemetry_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/evidence_health_telemetry_tb/result.json",
+      "run_log": "sim/results/portable_all_01/evidence_health_telemetry_tb/run.log",
+      "active_modules": [
+        "cdc_event_transaction",
+        "cdc_stats_snapshot",
+        "evidence_health_telemetry",
+        "evidence_reset_barrier"
+      ],
+      "pass_lines": [
+        "PASS: evidence_health_telemetry atomic counters/flags/stale source/epoch invalidation/blocked+cancel saturation"
+      ],
+      "image": "sim/images/evidence_health_telemetry_tb.png"
+    },
+    {
+      "top": "evidence_packet_cdc_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/evidence_packet_cdc_tb/result.json",
+      "run_log": "sim/results/portable_all_01/evidence_packet_cdc_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "evidence_packet_cdc",
+        "evidence_reset_barrier"
+      ],
+      "pass_lines": [
+        "PASS: evidence_packet_cdc case=0 async periods=10/8 101packets/reset-held-last/stopped4domains stalls=66",
+        "PASS: evidence_packet_cdc case=1 async periods=6/22 101packets/reset-held-last/stopped4domains stalls=99627",
+        "PASS: evidence_packet_cdc all cases"
+      ],
+      "image": "sim/images/evidence_packet_cdc_tb.png"
+    },
+    {
+      "top": "evidence_packet_udp_bridge_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/evidence_packet_udp_bridge_tb/result.json",
+      "run_log": "sim/results/portable_all_01/evidence_packet_udp_bridge_tb/run.log",
+      "active_modules": [
+        "evidence_packet_udp_bridge"
+      ],
+      "pass_lines": [
+        "PASS: evidence_packet_udp_bridge lengths1/7/11 stalls/last-done/oversize/reset/earlydone/extrareq"
+      ],
+      "image": "sim/images/evidence_packet_udp_bridge_tb.png"
+    },
+    {
+      "top": "evidence_reset_barrier_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/evidence_reset_barrier_tb/result.json",
+      "run_log": "sim/results/portable_all_01/evidence_reset_barrier_tb/run.log",
+      "active_modules": [
+        "evidence_reset_barrier"
+      ],
+      "pass_lines": [
+        "PASS: evidence_reset_barrier four independent stopped clocks / short pulse / retrigger / no feedback deadlock"
+      ],
+      "image": "sim/images/evidence_reset_barrier_tb.png"
+    },
+    {
+      "top": "evidence_reset_epoch_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/evidence_reset_epoch_tb/result.json",
+      "run_log": "sim/results/portable_all_01/evidence_reset_epoch_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "cdc_event_transaction"
+      ],
+      "pass_lines": [
+        "PASS: evidence_reset_epoch stopped-control/capture clocks, stale-toggle/FIFO cancellation, restart80 and retrigger"
+      ],
+      "image": "sim/images/evidence_reset_epoch_tb.png"
+    },
+    {
+      "top": "evidence_window_packetizer_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/evidence_window_packetizer_tb/result.json",
+      "run_log": "sim/results/portable_all_01/evidence_window_packetizer_tb/run.log",
+      "active_modules": [
+        "evidence_window_packetizer"
+      ],
+      "pass_lines": [
+        "PASS: evidence_window_packetizer wire/CRC/identity/results/backpressure/reset"
+      ],
+      "image": "sim/images/evidence_window_packetizer_tb.png"
+    },
+    {
+      "top": "evidence_wrapper_reset_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/evidence_wrapper_reset_tb/result.json",
+      "run_log": "sim/results/portable_all_01/evidence_wrapper_reset_tb/run.log",
+      "active_modules": [
+        "axi_2client_arbiter",
+        "axi_read_burst_buffer",
+        "ddr3_shared_video_ctrl",
+        "evidence_reset_barrier",
+        "video_axi_client",
+        "video_epoch_clear",
+        "video_fifo_axi_port",
+        "video_fifo_stream_bridge",
+        "video_memory_fabric"
+      ],
+      "pass_lines": [
+        "PASS: evidence_wrapper_reset ACTUAL wrapper/fabric aresetn cancels delayedB/heldR; raw calibration independent; new evidence correct (MIG stub not PHY)"
+      ],
+      "image": "sim/images/evidence_wrapper_reset_tb.png"
+    },
+    {
+      "top": "exam_event_context_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/exam_event_context_tb/result.json",
+      "run_log": "sim/results/portable_all_01/exam_event_context_tb/run.log",
+      "active_modules": [
+        "event_identity",
+        "event_request_fifo",
+        "event_transaction_queue",
+        "exam_event_context",
+        "exam_fsm"
+      ],
+      "pass_lines": [
+        "PASS: exam_event_context real FSM S3/timecarry/four-source/submit/timeout/dark-hold/reset"
+      ],
+      "image": "sim/images/exam_event_context_tb.png"
+    },
+    {
+      "top": "exam_fsm_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/exam_fsm_tb/result.json",
+      "run_log": "sim/results/portable_all_01/exam_fsm_tb/run.log",
+      "active_modules": [
+        "exam_fsm"
+      ],
+      "pass_lines": [
+        "PASS: exam_fsm"
+      ],
+      "image": "sim/images/exam_fsm_tb.png"
+    },
+    {
+      "top": "fullscreen_monitor_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/fullscreen_monitor_tb/result.json",
+      "run_log": "sim/results/portable_all_01/fullscreen_monitor_tb/run.log",
+      "active_modules": [
+        "fullscreen_monitor"
+      ],
+      "pass_lines": [
+        "PASS: fullscreen_monitor (global=0)"
+      ],
+      "image": "sim/images/fullscreen_monitor_tb.png"
+    },
+    {
+      "top": "gmii_rgmii_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/gmii_rgmii_contract_tb/result.json",
+      "run_log": "sim/results/portable_all_01/gmii_rgmii_contract_tb/run.log",
+      "active_modules": [
+        "gmii_to_rgmii"
+      ],
+      "pass_lines": [
+        "PASS: gmii_rgmii_contract actual UNISIM ODDR/300 random bytes/both edges/TX_EN XOR TX_ER/forwarded clock/reset"
+      ],
+      "image": "sim/images/gmii_rgmii_contract_tb.png"
+    },
+    {
+      "top": "health_monitor_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/health_monitor_tb/result.json",
+      "run_log": "sim/results/portable_all_01/health_monitor_tb/run.log",
+      "active_modules": [
+        "health_monitor"
+      ],
+      "pass_lines": [
+        "PASS: health_monitor all checks"
+      ],
+      "image": "sim/images/health_monitor_tb.png"
+    },
+    {
+      "top": "history_axi_epoch_guard_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/history_axi_epoch_guard_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_axi_epoch_guard_tb/run.log",
+      "active_modules": [
+        "history_axi_epoch_guard",
+        "history_lifecycle_control"
+      ],
+      "pass_lines": [
+        "PASS: history_axi_epoch_guard checks=9 AW/B=6 W=51 AR=2 R=33 partial/AW/W/B/AR/R cancel and lifecycle drain"
+      ],
+      "image": "sim/images/history_axi_epoch_guard_tb.png"
+    },
+    {
+      "top": "history_capture_client_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/history_capture_client_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_capture_client_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "cdc_event_transaction",
+        "cdc_time_snapshot",
+        "ddr3_axi_frame_dma",
+        "event_identity",
+        "evidence_epoch_identity",
+        "evidence_packet_udp_bridge",
+        "evidence_reset_barrier",
+        "history_axi_epoch_guard",
+        "history_capture_client",
+        "history_capture_source",
+        "history_closed_scheduler",
+        "history_descriptor_reader",
+        "history_frame_writer",
+        "history_gap_journal",
+        "history_lifecycle_control",
+        "history_ordered_ingress",
+        "history_reference_directory",
+        "history_result_record",
+        "history_result_udp_bridge",
+        "history_sample_source",
+        "history_scheduled_store",
+        "history_startup_gate",
+        "history_store_axi",
+        "history_stream_cdc",
+        "history_stream_epoch",
+        "history_window_reader"
+      ],
+      "pass_lines": [
+        "PASS: history_capture_client identity/timeCDC/epoch/sampling/autoRead frames=5 pixels=35 results=2 boot=2"
+      ],
+      "image": "sim/images/history_capture_client_tb.png"
+    },
+    {
+      "top": "history_capture_full_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/history_capture_full_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_capture_full_tb/run.log",
+      "active_modules": [
+        "history_capture_source"
+      ],
+      "pass_lines": [
+        "PASS: history_capture_full default57600 2frames115200pixels/third busyDROP/metadata START snapshot/random output stalls cycles=557158"
+      ],
+      "image": "sim/images/history_capture_full_tb.png"
+    },
+    {
+      "top": "history_capture_pipeline_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/history_capture_pipeline_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_capture_pipeline_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "ddr3_axi_frame_dma",
+        "evidence_reset_barrier",
+        "history_capture_source",
+        "history_descriptor_reader",
+        "history_frame_writer",
+        "history_gap_journal",
+        "history_ordered_ingress",
+        "history_reference_directory",
+        "history_sample_source",
+        "history_store_axi",
+        "history_stream_cdc",
+        "history_stream_epoch",
+        "history_window_reader"
+      ],
+      "pass_lines": [
+        "PASS: history_capture_pipeline realSource+ingress+journal+store+DMA 4frames28pixels/5sourceDrops/1Bfailure/10orderedFences CDC_MODE=0"
+      ],
+      "image": "sim/images/history_capture_pipeline_tb.png"
+    },
+    {
+      "top": "history_capture_source_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/history_capture_source_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_capture_source_tb/run.log",
+      "active_modules": [
+        "history_capture_source"
+      ],
+      "pass_lines": [
+        "PASS: history_capture_source FP1 D1 FRAME/DROP/FENCE/banks/order/stalls/invalid/interrupted/fullhalt/unknown/reset",
+        "PASS: history_capture_source FP7 D3 FRAME/DROP/FENCE/banks/order/stalls/invalid/interrupted/fullhalt/unknown/reset",
+        "PASS: history_capture_source FP37 D8 FRAME/DROP/FENCE/banks/order/stalls/invalid/interrupted/fullhalt/unknown/reset",
+        "PASS: history_capture_source ALL"
+      ],
+      "image": "sim/images/history_capture_source_tb.png"
+    },
+    {
+      "top": "history_descriptor_reader_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/history_descriptor_reader_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_descriptor_reader_tb/run.log",
+      "active_modules": [
+        "history_descriptor_reader"
+      ],
+      "pass_lines": [
+        "PASS: history_descriptor_reader sorted slot subsets/backpressure/context/empty-invalid-duplicate/reset"
+      ],
+      "image": "sim/images/history_descriptor_reader_tb.png"
+    },
+    {
+      "top": "history_frame_writer_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/history_frame_writer_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_frame_writer_tb/run.log",
+      "active_modules": [
+        "ddr3_axi_frame_dma",
+        "history_frame_writer",
+        "history_reference_directory"
+      ],
+      "pass_lines": [
+        "PASS: history_frame_writer FP=1 actualDMA/directory/Bdelay/stalls/capacity/shape/time/queued-fence/MAX/reset",
+        "PASS: history_frame_writer FP=37 actualDMA/directory/Bdelay/stalls/capacity/shape/time/queued-fence/MAX/reset",
+        "PASS: history_frame_writer ALL"
+      ],
+      "image": "sim/images/history_frame_writer_tb.png"
+    },
+    {
+      "top": "history_gap_journal_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/history_gap_journal_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_gap_journal_tb/run.log",
+      "active_modules": [
+        "history_gap_journal"
+      ],
+      "pass_lines": [
+        "PASS: history_gap_journal depth1 ordered points/wrap/eviction unknown/closed-range queries/hold/MAX/reset",
+        "PASS: history_gap_journal depth3 ordered points/wrap/eviction unknown/closed-range queries/hold/MAX/reset",
+        "PASS: history_gap_journal depth16 ordered points/wrap/eviction unknown/closed-range queries/hold/MAX/reset",
+        "PASS: history_gap_journal ALL"
+      ],
+      "image": "sim/images/history_gap_journal_tb.png"
+    },
+    {
+      "top": "history_health_stats_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/history_health_stats_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_health_stats_tb/run.log",
+      "active_modules": [
+        "cdc_event_transaction",
+        "cdc_stats_snapshot",
+        "evidence_health_telemetry",
+        "history_health_stats",
+        "status_uart_tx",
+        "u32_to_bcd",
+        "uart_stream_adapter",
+        "uart_tx"
+      ],
+      "pass_lines": [
+        "PASS: history_health_stats canonicalWords/reservedZero/counters/dualPacketSaturation/independentReset/realUART320"
+      ],
+      "image": "sim/images/history_health_stats_tb.png"
+    },
+    {
+      "top": "history_lifecycle_control_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/history_lifecycle_control_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_lifecycle_control_tb/run.log",
+      "active_modules": [
+        "history_lifecycle_control"
+      ],
+      "pass_lines": [
+        "PASS: history_lifecycle_control drain/start/run/local-halt/short-reset/stopped-clock"
+      ],
+      "image": "sim/images/history_lifecycle_control_tb.png"
+    },
+    {
+      "top": "history_merge_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/history_merge_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_merge_tb/run.log",
+      "active_modules": [
+        "evidence_byte_mux",
+        "history_result_fork"
+      ],
+      "pass_lines": [
+        "PASS: history_merge byte_mux priority/whole-packet + result_fork both-order hold",
+        "PASS: history_merge ALL"
+      ],
+      "image": "sim/images/history_merge_tb.png"
+    },
+    {
+      "top": "history_ordered_ingress_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/history_ordered_ingress_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_ordered_ingress_tb/run.log",
+      "active_modules": [
+        "ddr3_axi_frame_dma",
+        "history_descriptor_reader",
+        "history_frame_writer",
+        "history_gap_journal",
+        "history_ordered_ingress",
+        "history_reference_directory",
+        "history_store_axi",
+        "history_window_reader"
+      ],
+      "pass_lines": [
+        "PASS: history_ordered_ingress actualStore FRAME/DROP/FENCE B-error/shape/capacity gaps held before fence/order/MAX/reset"
+      ],
+      "image": "sim/images/history_ordered_ingress_tb.png"
+    },
+    {
+      "top": "history_real_display_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/history_real_display_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_real_display_tb/run.log",
+      "active_modules": [
+        "color_enhance",
+        "disp_driver",
+        "history_capture_source",
+        "history_sample_source"
+      ],
+      "pass_lines": [
+        "PASS: history_real_display 1280x720 disp_driver/color_enhance/sampler"
+      ],
+      "image": "sim/images/history_real_display_tb.png"
+    },
+    {
+      "top": "history_reference_directory_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/history_reference_directory_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_reference_directory_tb/run.log",
+      "active_modules": [
+        "history_reference_directory"
+      ],
+      "pass_lines": [
+        "PASS: history_reference_directory N=1 original-time/shared refs/write protection/seal/late/truncation/backpressure/errors/reset/token",
+        "PASS: history_reference_directory N=7 original-time/shared refs/write protection/seal/late/truncation/backpressure/errors/reset/token",
+        "PASS: history_reference_directory N=7 original-time/shared refs/write protection/seal/late/truncation/backpressure/errors/reset/token",
+        "PASS: history_reference_directory N=64 original-time/shared refs/write protection/seal/late/truncation/backpressure/errors/reset/token",
+        "PASS: history_reference_directory ALL"
+      ],
+      "image": "sim/images/history_reference_directory_tb.png"
+    },
+    {
+      "top": "history_result_record_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/history_result_record_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_result_record_tb/run.log",
+      "active_modules": [
+        "history_result_record"
+      ],
+      "pass_lines": [
+        "PASS: history_result_record 128B magic/fields/flags/CRC/backpressure records=3"
+      ],
+      "image": "sim/images/history_result_record_tb.png"
+    },
+    {
+      "top": "history_result_udp_cdc_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/history_result_udp_cdc_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_result_udp_cdc_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "evidence_packet_cdc",
+        "evidence_packet_udp_bridge",
+        "history_result_record",
+        "history_result_udp_cdc"
+      ],
+      "pass_lines": [
+        "PASS: history_result_udp_cdc src10ns/dst8ns records=2 packets=2 CRC PASS"
+      ],
+      "image": "sim/images/history_result_udp_cdc_tb.png"
+    },
+    {
+      "top": "history_result_udp_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/history_result_udp_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_result_udp_tb/run.log",
+      "active_modules": [
+        "evidence_packet_udp_bridge",
+        "history_result_record",
+        "history_result_udp_bridge"
+      ],
+      "pass_lines": [
+        "PASS: history_result_udp_bridge records=2 packets=2 length=128 CRC PASS"
+      ],
+      "image": "sim/images/history_result_udp_tb.png"
+    },
+    {
+      "top": "history_sample_source_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/history_sample_source_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_sample_source_tb/run.log",
+      "active_modules": [
+        "history_capture_source",
+        "history_sample_source"
+      ],
+      "pass_lines": [
+        "PASS: history_sample_source W1 H1 stride1 cadence1 checkedPixels4",
+        "PASS: history_sample_source W8 H8 stride4 cadence3 checkedPixels20",
+        "PASS: history_sample_source W1280 H720 stride4 cadence6 checkedPixels115200",
+        "PASS: history_sample_source ALL"
+      ],
+      "image": "sim/images/history_sample_source_tb.png"
+    },
+    {
+      "top": "history_scheduler_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/history_scheduler_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_scheduler_tb/run.log",
+      "active_modules": [
+        "ddr3_axi_frame_dma",
+        "history_closed_scheduler",
+        "history_descriptor_reader",
+        "history_frame_writer",
+        "history_gap_journal",
+        "history_reference_directory",
+        "history_scheduled_store",
+        "history_store_axi",
+        "history_window_reader"
+      ],
+      "pass_lines": [
+        "PASS: history_scheduler scenario2 FP=1 GDEPTH=4 pixels=2 results=1",
+        "PASS: history_scheduler scenario1 FP=37 GDEPTH=2 pixels=185 results=1",
+        "PASS: history_scheduler scenario0 FP=37 GDEPTH=16 pixels=444 results=3",
+        "PASS: history_scheduler scenario3 FP=37 GDEPTH=4 pixels=4514 results=25",
+        "PASS: history_scheduler ALL"
+      ],
+      "image": "sim/images/history_scheduler_tb.png"
+    },
+    {
+      "top": "history_shared_read_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/history_shared_read_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_shared_read_tb/run.log",
+      "active_modules": [
+        "ddr3_axi_frame_dma",
+        "history_descriptor_reader",
+        "history_reference_directory"
+      ],
+      "pass_lines": [
+        "PASS: history_shared_read 2 original-time windows/4 shared frames/pixels=80/127 commits concurrent writer DMA_MODE=0"
+      ],
+      "image": "sim/images/history_shared_read_tb.png"
+    },
+    {
+      "top": "history_startup_gate_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/history_startup_gate_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_startup_gate_tb/run.log",
+      "active_modules": [
+        "history_startup_gate"
+      ],
+      "pass_lines": [
+        "PASS: history_startup_gate unknown/stale/start-boundary/runtime-fault/reset"
+      ],
+      "image": "sim/images/history_startup_gate_tb.png"
+    },
+    {
+      "top": "history_store_axi_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_followup_02/history_store_axi_tb/result.json",
+      "run_log": "sim/results/portable_followup_02/history_store_axi_tb/run.log",
+      "active_modules": [
+        "ddr3_axi_frame_dma",
+        "history_descriptor_reader",
+        "history_frame_writer",
+        "history_reference_directory",
+        "history_store_axi",
+        "history_window_reader"
+      ],
+      "pass_lines": [
+        "PASS: history_store_axi FP=1 writer+reader+token directory+oneDMA overlap/concurrent/R-Berrors/held results/capacity/stale/reset pixels=27 results=8 concurrentCycles=116",
+        "PASS: history_store_axi FP=37 writer+reader+token directory+oneDMA overlap/concurrent/R-Berrors/held results/capacity/stale/reset pixels=999 results=8 concurrentCycles=5562",
+        "PASS: history_store_axi FP=269 writer+reader+token directory+oneDMA overlap/concurrent/R-Berrors/held results/capacity/stale/reset pixels=7263 results=8 concurrentCycles=39790",
+        "PASS: history_store_axi ALL"
+      ],
+      "image": "sim/images/history_store_axi_tb.png"
+    },
+    {
+      "top": "history_stream_cdc_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/history_stream_cdc_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_stream_cdc_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "evidence_reset_barrier",
+        "history_stream_cdc",
+        "history_stream_epoch"
+      ],
+      "pass_lines": [
+        "PASS: history_stream_cdc SH7 DH5 depth4 mixed80 frames/drop/fence full/stall/cancel/stopped domains/restart",
+        "PASS: history_stream_cdc SH3 DH11 depth16 mixed80 frames/drop/fence full/stall/cancel/stopped domains/restart",
+        "PASS: history_stream_cdc ALL"
+      ],
+      "image": "sim/images/history_stream_cdc_tb.png"
+    },
+    {
+      "top": "history_top_interconnect_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/history_top_interconnect_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_top_interconnect_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "cdc_event_transaction",
+        "evidence_packet_cdc",
+        "pulse_cdc"
+      ],
+      "pass_lines": [
+        "PASS: history_top_interconnect event/pulse CDC + UI->eth packet CDC + eth reset sync"
+      ],
+      "image": "sim/images/history_top_interconnect_tb.png"
+    },
+    {
+      "top": "history_window_reader_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/history_window_reader_tb/result.json",
+      "run_log": "sim/results/portable_all_01/history_window_reader_tb/run.log",
+      "active_modules": [
+        "ddr3_axi_frame_dma",
+        "history_descriptor_reader",
+        "history_reference_directory",
+        "history_window_reader"
+      ],
+      "pass_lines": [
+        "PASS: history_window_reader FP=1 realDMA sorted pixels/context/Rfailure/result-release stalls/stale handle/MAX/reset",
+        "PASS: history_window_reader FP=37 realDMA sorted pixels/context/Rfailure/result-release stalls/stale handle/MAX/reset",
+        "PASS: history_window_reader ALL"
+      ],
+      "image": "sim/images/history_window_reader_tb.png"
+    },
+    {
+      "top": "i2c_byte_master_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/i2c_byte_master_tb/result.json",
+      "run_log": "sim/results/portable_all_01/i2c_byte_master_tb/run.log",
+      "active_modules": [
+        "i2c_byte_master"
+      ],
+      "pass_lines": [
+        "PASS: i2c_byte_master commands=9 owned-state/writeACK/readNACK/repeatedSTART/STOP/timeout"
+      ],
+      "image": "sim/images/i2c_byte_master_tb.png"
+    },
+    {
+      "top": "i2c_register_master_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/i2c_register_master_tb/result.json",
+      "run_log": "sim/results/portable_all_01/i2c_register_master_tb/run.log",
+      "active_modules": [
+        "eeprom_page_writer",
+        "i2c_byte_master",
+        "i2c_register_master",
+        "i2c_transaction_arbiter",
+        "pcf8563_calendar",
+        "pcf8563_reader",
+        "rtc_anchor_client",
+        "rtc_anchor_record",
+        "rtc_time_anchor",
+        "uart_tx"
+      ],
+      "pass_lines": [
+        "PASS: i2c_register_master transactions=18 wireSTART=21 STOP=15 writebytes=32 readbytes=42 NACK/timeout/stretch/reset/response-stall"
+      ],
+      "image": "sim/images/i2c_register_master_tb.png"
+    },
+    {
+      "top": "i2c_transaction_arbiter_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/i2c_transaction_arbiter_tb/result.json",
+      "run_log": "sim/results/portable_all_01/i2c_transaction_arbiter_tb/run.log",
+      "active_modules": [
+        "i2c_transaction_arbiter"
+      ],
+      "pass_lines": [
+        "PASS: i2c_transaction_arbiter 720 completed transactions saturation/random/reset-recovery checks=10982"
+      ],
+      "image": "sim/images/i2c_transaction_arbiter_tb.png"
+    },
+    {
+      "top": "image_evidence_capture_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/image_evidence_capture_tb/result.json",
+      "run_log": "sim/results/portable_all_01/image_evidence_capture_tb/run.log",
+      "active_modules": [
+        "cdc_byte_channel",
+        "image_downsampler",
+        "image_evidence_capture",
+        "image_evidence_ring",
+        "image_evidence_udp_source"
+      ],
+      "pass_lines": [
+        "PASS: image evidence capture path"
+      ],
+      "image": "sim/images/image_evidence_capture_tb.png"
+    },
+    {
+      "top": "image_evidence_ring_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/image_evidence_ring_tb/result.json",
+      "run_log": "sim/results/portable_all_01/image_evidence_ring_tb/run.log",
+      "active_modules": [
+        "image_evidence_ring"
+      ],
+      "pass_lines": [
+        "PASS: image evidence ring"
+      ],
+      "image": "sim/images/image_evidence_ring_tb.png"
+    },
+    {
+      "top": "image_evidence_udp_packetizer_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/image_evidence_udp_packetizer_tb/result.json",
+      "run_log": "sim/results/portable_all_01/image_evidence_udp_packetizer_tb/run.log",
+      "active_modules": [
+        "image_evidence_udp_packetizer"
+      ],
+      "pass_lines": [
+        "PASS: image evidence UDP packetizer"
+      ],
+      "image": "sim/images/image_evidence_udp_packetizer_tb.png"
+    },
+    {
+      "top": "image_evidence_udp_tx_bridge_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/image_evidence_udp_tx_bridge_tb/result.json",
+      "run_log": "sim/results/portable_all_01/image_evidence_udp_tx_bridge_tb/run.log",
+      "active_modules": [
+        "image_evidence_udp_packetizer",
+        "image_evidence_udp_tx_bridge"
+      ],
+      "pass_lines": [
+        "PASS: image evidence UDP TX bridge"
+      ],
+      "image": "sim/images/image_evidence_udp_tx_bridge_tb.png"
+    },
+    {
+      "top": "key_debounce_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/key_debounce_tb/result.json",
+      "run_log": "sim/results/portable_all_01/key_debounce_tb/run.log",
+      "active_modules": [
+        "key_debounce"
+      ],
+      "pass_lines": [
+        "PASS: key debounce"
+      ],
+      "image": "sim/images/key_debounce_tb.png"
+    },
+    {
+      "top": "legacy_video_axi_contract_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/legacy_video_axi_contract_tb/result.json",
+      "run_log": "sim/results/portable_all_01/legacy_video_axi_contract_tb/run.log",
+      "active_modules": [
+        "axi4_to_fifo",
+        "fifo_to_axi4"
+      ],
+      "pass_lines": [
+        "PASS: legacy_video_axi_contract audit checks (known incompatibilities confirmed, NOT acceptance)"
+      ],
+      "image": "sim/images/legacy_video_axi_contract_tb.png"
+    },
+    {
+      "top": "maintenance_endpoint_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/maintenance_endpoint_tb/result.json",
+      "run_log": "sim/results/portable_all_01/maintenance_endpoint_tb/run.log",
+      "active_modules": [
+        "maintenance_command_rx",
+        "maintenance_endpoint",
+        "maintenance_record"
+      ],
+      "pass_lines": [
+        "PASS: maintenance_endpoint requests=4 records=9 CRC/endian/duplicate/collision/old-token/boot-binding/backpressure"
+      ],
+      "image": "sim/images/maintenance_endpoint_tb.png"
+    },
+    {
+      "top": "maintenance_exam_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/maintenance_exam_tb/result.json",
+      "run_log": "sim/results/portable_all_01/maintenance_exam_tb/run.log",
+      "active_modules": [
+        "exam_fsm"
+      ],
+      "pass_lines": [
+        "PASS: maintenance_exam runtime60/start-maintenance-gate/in-exam-duration-locked/forced-timeout"
+      ],
+      "image": "sim/images/maintenance_exam_tb.png"
+    },
+    {
+      "top": "maintenance_system_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/maintenance_system_tb/result.json",
+      "run_log": "sim/results/portable_all_01/maintenance_system_tb/run.log",
+      "active_modules": [
+        "eeprom_dualslot_store",
+        "eeprom_page_writer",
+        "eeprom_record_codec",
+        "i2c_byte_master",
+        "i2c_register_master",
+        "i2c_transaction_arbiter",
+        "maintenance_command_rx",
+        "maintenance_endpoint",
+        "maintenance_record",
+        "pcf8563_calendar",
+        "pcf8563_reader",
+        "pcf8563_setter",
+        "persistent_boot_gate",
+        "persistent_config_decode",
+        "persistent_config_manager",
+        "persistent_maintenance_service",
+        "rtc_anchor_client",
+        "rtc_anchor_record",
+        "rtc_time_anchor"
+      ],
+      "pass_lines": [
+        "PASS: maintenance_system MC/endpoint/service/pin-only dual devices/MR executes=3 replies=4 RTCwrites=9 EEPROMwrites=256"
+      ],
+      "image": "sim/images/maintenance_system_tb.png"
+    },
+    {
+      "top": "mdio_readback_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/mdio_readback_tb/result.json",
+      "run_log": "sim/results/portable_all_01/mdio_readback_tb/run.log",
+      "active_modules": [
+        "mdio_bit_shift"
+      ],
+      "pass_lines": [
+        "PASS: mdio_readback wire addresses/ST-OP/TA/16bit extremes+32random/read-write/noPHY/resetbody"
+      ],
+      "image": "sim/images/mdio_readback_tb.png"
+    },
+    {
+      "top": "motion_detect_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/motion_detect_tb/result.json",
+      "run_log": "sim/results/portable_all_01/motion_detect_tb/run.log",
+      "active_modules": [
+        "motion_detect"
+      ],
+      "pass_lines": [
+        "PASS: frame-difference motion detector"
+      ],
+      "image": "sim/images/motion_detect_tb.png"
+    },
+    {
+      "top": "network_isolation_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/network_isolation_tb/result.json",
+      "run_log": "sim/results/portable_all_01/network_isolation_tb/run.log",
+      "active_modules": [
+        "crc32_d8",
+        "eth_udp_tx_gmii",
+        "evidence_packet_udp_bridge",
+        "ip_checksum"
+      ],
+      "pass_lines": [
+        "PASS: network_isolation realMAC offline/partial/START/header/payload/recovery no shared reset sent=3 dropped=6"
+      ],
+      "image": "sim/images/network_isolation_tb.png"
+    },
+    {
+      "top": "operator_alarm_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/operator_alarm_contract_tb/result.json",
+      "run_log": "sim/results/portable_all_01/operator_alarm_contract_tb/run.log",
+      "active_modules": [
+        "alarm_beep",
+        "key_debounce",
+        "user_control"
+      ],
+      "pass_lines": [
+        "PASS: operator_alarm_contract debounce/key mapping/voice mute/continuous tone/duty/warning gap/reset"
+      ],
+      "image": "sim/images/operator_alarm_contract_tb.png"
+    },
+    {
+      "top": "overlay_status_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/overlay_status_contract_tb/result.json",
+      "run_log": "sim/results/portable_all_01/overlay_status_contract_tb/run.log",
+      "active_modules": [
+        "char_rom_cn",
+        "overlay_status",
+        "text_overlay"
+      ],
+      "pass_lines": [
+        "PASS: overlay_status_contract DE/disabled passthrough/strip boundary/motion/risk priority/text palette/256 pixels"
+      ],
+      "image": "sim/images/overlay_status_contract_tb.png"
+    },
+    {
+      "top": "pcf8563_calendar_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/pcf8563_calendar_tb/result.json",
+      "run_log": "sim/results/portable_all_01/pcf8563_calendar_tb/run.log",
+      "active_modules": [
+        "pcf8563_calendar"
+      ],
+      "pass_lines": [
+        "PASS: pcf8563_calendar checks=37739 full2000..2099/leap/month-end/BCD/VL/STOP/test/century"
+      ],
+      "image": "sim/images/pcf8563_calendar_tb.png"
+    },
+    {
+      "top": "pcf8563_reader_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/pcf8563_reader_tb/result.json",
+      "run_log": "sim/results/portable_all_01/pcf8563_reader_tb/run.log",
+      "active_modules": [
+        "pcf8563_calendar",
+        "pcf8563_reader"
+      ],
+      "pass_lines": [
+        "PASS: pcf8563_reader results=7 transactions=18 burst/reread/rollover/VL/I2C-error/stale/reset"
+      ],
+      "image": "sim/images/pcf8563_reader_tb.png"
+    },
+    {
+      "top": "pcf8563_setter_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/pcf8563_setter_tb/result.json",
+      "run_log": "sim/results/portable_all_01/pcf8563_setter_tb/run.log",
+      "active_modules": [
+        "pcf8563_calendar",
+        "pcf8563_reader",
+        "pcf8563_setter"
+      ],
+      "pass_lines": [
+        "PASS: pcf8563_setter results=25 bus=91 writes=45 1200-month-end-oracle/auth/calendar/failure/recovery/readback/rollover/reset"
+      ],
+      "image": "sim/images/pcf8563_setter_tb.png"
+    },
+    {
+      "top": "pcf8563_setter_wire_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/pcf8563_setter_wire_tb/result.json",
+      "run_log": "sim/results/portable_all_01/pcf8563_setter_wire_tb/run.log",
+      "active_modules": [
+        "i2c_byte_master",
+        "i2c_register_master",
+        "pcf8563_calendar",
+        "pcf8563_reader",
+        "pcf8563_setter"
+      ],
+      "pass_lines": [
+        "PASS: pcf8563_setter_wire transactions=18 START=27 STOP=18 writes=22 NACK=1 normal/partial-write/run-recovery/explicit-retry/media-preserved"
+      ],
+      "image": "sim/images/pcf8563_setter_wire_tb.png"
+    },
+    {
+      "top": "persistent_boot_gate_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/persistent_boot_gate_tb/result.json",
+      "run_log": "sim/results/portable_all_01/persistent_boot_gate_tb/run.log",
+      "active_modules": [
+        "persistent_boot_gate"
+      ],
+      "pass_lines": [
+        "PASS: persistent_boot_gate checks=13 verified-only/blank-explicit/all-errors/no-double-allocation"
+      ],
+      "image": "sim/images/persistent_boot_gate_tb.png"
+    },
+    {
+      "top": "persistent_boot_probe_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/persistent_boot_probe_tb/result.json",
+      "run_log": "sim/results/portable_all_01/persistent_boot_probe_tb/run.log",
+      "active_modules": [
+        "eeprom_dualslot_store",
+        "eeprom_page_writer",
+        "eeprom_record_codec",
+        "i2c_byte_master",
+        "i2c_register_master",
+        "persistent_boot_gate",
+        "uart_tx"
+      ],
+      "pass_lines": [
+        "PASS: persistent_boot_probe wireOnlySlave explicitBlankFormat/resetBoot1to3/oldSlot/WP/corrupt/oneAllocation/reservedOnly realUART5x348 START=292 STOP=171 busyNACK=24"
+      ],
+      "image": "sim/images/persistent_boot_probe_tb.png"
+    },
+    {
+      "top": "persistent_boot_service_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/persistent_boot_service_tb/result.json",
+      "run_log": "sim/results/portable_all_01/persistent_boot_service_tb/run.log",
+      "active_modules": [
+        "eeprom_dualslot_store",
+        "eeprom_page_writer",
+        "eeprom_record_codec",
+        "event_identity",
+        "event_request_fifo",
+        "event_transaction_queue",
+        "exam_event_context",
+        "i2c_byte_master",
+        "i2c_register_master",
+        "i2c_transaction_arbiter",
+        "pcf8563_calendar",
+        "pcf8563_reader",
+        "persistent_boot_gate",
+        "persistent_boot_service",
+        "persistent_event_identity",
+        "persistent_rtc_service",
+        "rtc_anchor_client",
+        "rtc_anchor_record",
+        "rtc_time_anchor"
+      ],
+      "pass_lines": [
+        "PASS: persistent_boot_service sharedRTC=0 actualPins+identity+context+queue boot5UID1/cancelUID2/boot5UID3/newBoot6UID1/WP/wrongDevice/corrupt/blank/MAX/noRetry oldslotPreserved START=148 STOP=91 busyNACK=16"
+      ],
+      "image": "sim/images/persistent_boot_service_tb.png"
+    },
+    {
+      "top": "persistent_config_decode_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/persistent_config_decode_tb/result.json",
+      "run_log": "sim/results/portable_all_01/persistent_config_decode_tb/run.log",
+      "active_modules": [
+        "persistent_config_decode"
+      ],
+      "pass_lines": [
+        "PASS: persistent_config_decode 317 host vectors/defaults/boundaries/single-bit-reserved"
+      ],
+      "image": "sim/images/persistent_config_decode_tb.png"
+    },
+    {
+      "top": "persistent_config_manager_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/persistent_config_manager_tb/result.json",
+      "run_log": "sim/results/portable_all_01/persistent_config_manager_tb/run.log",
+      "active_modules": [
+        "eeprom_dualslot_store",
+        "eeprom_page_writer",
+        "eeprom_record_codec",
+        "persistent_config_decode",
+        "persistent_config_manager"
+      ],
+      "pass_lines": [
+        "PASS: persistent_config_manager results=9 requests=131 writes=12 actual-dualslot/legacy/save/boot-preserve/oldslot/reject/error/reset"
+      ],
+      "image": "sim/images/persistent_config_manager_tb.png"
+    },
+    {
+      "top": "persistent_event_identity_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/persistent_event_identity_tb/result.json",
+      "run_log": "sim/results/portable_all_01/persistent_event_identity_tb/run.log",
+      "active_modules": [
+        "event_identity",
+        "event_request_fifo",
+        "event_transaction_queue",
+        "persistent_event_identity"
+      ],
+      "pass_lines": [
+        "PASS: persistent_event_identity pending/asyncCancel/sessionTimePreserved/UID1to7/noReuseAfter3Cancels/MAX/newBootUID1"
+      ],
+      "image": "sim/images/persistent_event_identity_tb.png"
+    },
+    {
+      "top": "persistent_maintenance_service_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/persistent_maintenance_service_tb/result.json",
+      "run_log": "sim/results/portable_all_01/persistent_maintenance_service_tb/run.log",
+      "active_modules": [
+        "eeprom_dualslot_store",
+        "eeprom_page_writer",
+        "eeprom_record_codec",
+        "i2c_byte_master",
+        "i2c_register_master",
+        "i2c_transaction_arbiter",
+        "pcf8563_calendar",
+        "pcf8563_reader",
+        "pcf8563_setter",
+        "persistent_boot_gate",
+        "persistent_config_decode",
+        "persistent_config_manager",
+        "persistent_maintenance_service",
+        "rtc_anchor_client",
+        "rtc_anchor_record",
+        "rtc_time_anchor"
+      ],
+      "pass_lines": [
+        "PASS: persistent_maintenance_service results=7 RA=4 START=193 STOP=125 RTCwrites=22 EEPROMwrites=384 boot-priority/drain/held/save/load/reject/RTC-failure/reset"
+      ],
+      "image": "sim/images/persistent_maintenance_service_tb.png"
+    },
+    {
+      "top": "phy_health_snapshot_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/phy_health_snapshot_tb/result.json",
+      "run_log": "sim/results/portable_all_01/phy_health_snapshot_tb/run.log",
+      "active_modules": [
+        "cdc_event_transaction",
+        "cdc_stats_snapshot",
+        "evidence_reset_barrier",
+        "phy_health_snapshot"
+      ],
+      "pass_lines": [
+        "PASS: phy_health_snapshot coherent/unknown/stale/stopped-clock-reset/recovery"
+      ],
+      "image": "sim/images/phy_health_snapshot_tb.png"
+    },
+    {
+      "top": "phy_qualification_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/phy_qualification_tb/result.json",
+      "run_log": "sim/results/portable_all_01/phy_qualification_tb/run.log",
+      "active_modules": [
+        "evidence_reset_barrier",
+        "mdio_bit_shift",
+        "phy_reg_config"
+      ],
+      "pass_lines": [
+        "PASS: phy_qualification ID/pages/delay/actual10-100-1000/downshift/link/TA/fallback/reset/barrier"
+      ],
+      "image": "sim/images/phy_qualification_tb.png"
+    },
+    {
+      "top": "queued_window_packet_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/queued_window_packet_tb/result.json",
+      "run_log": "sim/results/portable_all_01/queued_window_packet_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "crc32_d8",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "ddr_evidence_queued",
+        "eth_udp_tx_gmii",
+        "evidence_event_dispatch",
+        "evidence_packet_cdc",
+        "evidence_packet_udp_bridge",
+        "evidence_reset_barrier",
+        "evidence_window_packetizer",
+        "ip_checksum"
+      ],
+      "pass_lines": [
+        "PASS: queued_window_packet 4results/2OK/failedB/failedR frames=6 pixels=222 packets=22 bytes=2292 ethernet_sink=0 async_ethernet=0"
+      ],
+      "image": "sim/images/queued_window_packet_tb.png"
+    },
+    {
+      "top": "rtc_anchor_client_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/rtc_anchor_client_tb/result.json",
+      "run_log": "sim/results/portable_all_01/rtc_anchor_client_tb/run.log",
+      "active_modules": [
+        "pcf8563_calendar",
+        "pcf8563_reader",
+        "rtc_anchor_client",
+        "rtc_anchor_record",
+        "rtc_time_anchor"
+      ],
+      "pass_lines": [
+        "PASS: rtc_anchor_client actualReader+anchor+CRCRecord busBackpressure/valid+I2Cfail/randomStream2x132"
+      ],
+      "image": "sim/images/rtc_anchor_client_tb.png"
+    },
+    {
+      "top": "rtc_anchor_record_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/rtc_anchor_record_tb/result.json",
+      "run_log": "sim/results/portable_all_01/rtc_anchor_record_tb/run.log",
+      "active_modules": [
+        "rtc_anchor_record"
+      ],
+      "pass_lines": [
+        "PASS: rtc_anchor_record immutable2x132/CRCstream/randomBackpressure/heldLAST/resetCancel"
+      ],
+      "image": "sim/images/rtc_anchor_record_tb.png"
+    },
+    {
+      "top": "rtc_time_anchor_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/rtc_time_anchor_tb/result.json",
+      "run_log": "sim/results/portable_all_01/rtc_time_anchor_tb/run.log",
+      "active_modules": [
+        "pcf8563_calendar",
+        "pcf8563_reader",
+        "rtc_time_anchor"
+      ],
+      "pass_lines": [
+        "PASS: rtc_time_anchor readerComposition bracketing/heldResult/stale/backwardCalendar/rollover/I2C/VL/bootChange/reset results=8"
+      ],
+      "image": "sim/images/rtc_time_anchor_tb.png"
+    },
+    {
+      "top": "scene_guard_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/scene_guard_tb/result.json",
+      "run_log": "sim/results/portable_all_01/scene_guard_tb/run.log",
+      "active_modules": [
+        "camera_black_gate",
+        "exam_fsm"
+      ],
+      "pass_lines": [
+        "PASS: scene guard real FSM/motion/dimming/97.9 vs 98/confirmation/release/rearm/incomplete/blanking"
+      ],
+      "image": "sim/images/scene_guard_tb.png"
+    },
+    {
+      "top": "seven_seg_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/seven_seg_tb/result.json",
+      "run_log": "sim/results/portable_all_01/seven_seg_tb/run.log",
+      "active_modules": [
+        "hc595_driver",
+        "hex8"
+      ],
+      "pass_lines": [
+        "PASS: seven-segment shift chain"
+      ],
+      "image": "sim/images/seven_seg_tb.png"
+    },
+    {
+      "top": "shared_evidence_axi_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/shared_evidence_axi_tb/result.json",
+      "run_log": "sim/results/portable_all_01/shared_evidence_axi_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "axi_2client_arbiter",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "ddr_evidence_queued",
+        "evidence_event_dispatch",
+        "video_axi_client",
+        "video_epoch_clear",
+        "video_fifo_stream_bridge"
+      ],
+      "pass_lines": [
+        "PASS: shared_evidence_axi all checks"
+      ],
+      "image": "sim/images/shared_evidence_axi_tb.png"
+    },
+    {
+      "top": "shared_xadc_monitor_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/shared_xadc_monitor_tb/result.json",
+      "run_log": "sim/results/portable_all_01/shared_xadc_monitor_tb/run.log",
+      "active_modules": [
+        "shared_xadc_monitor",
+        "xadc_monitor_reader"
+      ],
+      "pass_lines": [
+        "PASS: shared_xadc_monitor real UNISIM TEMP/INT/AUX/BRAM scan=1000000015555999955559772"
+      ],
+      "image": "sim/images/shared_xadc_monitor_tb.png"
+    },
+    {
+      "top": "status_mailbox_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/status_mailbox_contract_tb/result.json",
+      "run_log": "sim/results/portable_all_01/status_mailbox_contract_tb/run.log",
+      "active_modules": [
+        "status_mailbox"
+      ],
+      "pass_lines": [
+        "PASS: status_mailbox 100 coherent snapshots/unrelated clocks/no duplicates/reset (source hold contract)"
+      ],
+      "image": "sim/images/status_mailbox_contract_tb.png"
+    },
+    {
+      "top": "status_uart_health_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/status_uart_health_tb/result.json",
+      "run_log": "sim/results/portable_all_01/status_uart_health_tb/run.log",
+      "active_modules": [
+        "status_uart_tx",
+        "u32_to_bcd",
+        "uart_stream_adapter",
+        "uart_tx"
+      ],
+      "pass_lines": [
+        "PASS: status_uart_health actual wire 320bytes ST extension immutable while changing stats; AL/EI boundaries preserved"
+      ],
+      "image": "sim/images/status_uart_health_tb.png"
+    },
+    {
+      "top": "status_uart_timer_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/status_uart_timer_tb/result.json",
+      "run_log": "sim/results/portable_all_01/status_uart_timer_tb/run.log",
+      "active_modules": [
+        "exam_fsm",
+        "status_uart_tx",
+        "u32_to_bcd",
+        "uart_stream_adapter",
+        "uart_tx"
+      ],
+      "pass_lines": [
+        "PASS: status_uart_timer real FSM/UART all checks"
+      ],
+      "image": "sim/images/status_uart_timer_tb.png"
+    },
+    {
+      "top": "timestamp_ms_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/timestamp_ms_tb/result.json",
+      "run_log": "sim/results/portable_all_01/timestamp_ms_tb/run.log",
+      "active_modules": [
+        "timestamp_ms"
+      ],
+      "pass_lines": [
+        "PASS: millisecond timestamp"
+      ],
+      "image": "sim/images/timestamp_ms_tb.png"
+    },
+    {
+      "top": "tmds_decode_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/tmds_decode_contract_tb/result.json",
+      "run_log": "sim/results/portable_all_01/tmds_decode_contract_tb/run.log",
+      "active_modules": [
+        "encode"
+      ],
+      "pass_lines": [
+        "PASS: tmds_decode_contract all256 byte values/repeated disparity histories/independent decoder/four control codes/pipeline checks=1028"
+      ],
+      "image": "sim/images/tmds_decode_contract_tb.png"
+    },
+    {
+      "top": "tmds_serializer_contract_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/tmds_serializer_contract_tb/result.json",
+      "run_log": "sim/results/portable_all_01/tmds_serializer_contract_tb/run.log",
+      "active_modules": [
+        "serdes_4b_10to1"
+      ],
+      "pass_lines": [
+        "PASS: tmds_serializer_contract actual UNISIM ODDR/OBUFDS/four lanes/40 patterns/LSB-first ten bits/both edges/differential polarity bits=3200"
+      ],
+      "image": "sim/images/tmds_serializer_contract_tb.png"
+    },
+    {
+      "top": "transaction_uart_integration_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_uart_03/transaction_uart_integration_tb/result.json",
+      "run_log": "sim/results/portable_uart_03/transaction_uart_integration_tb/run.log",
+      "active_modules": [
+        "board_monitor_record",
+        "config_ack_tx",
+        "event_request_fifo",
+        "event_transaction_fork",
+        "event_transaction_log",
+        "evidence_dump",
+        "maintenance_record",
+        "rtc_anchor_record",
+        "status_uart_tx",
+        "u32_to_bcd",
+        "uart_packet_mux",
+        "uart_stream_adapter",
+        "uart_tx"
+      ],
+      "pass_lines": [
+        "PASS: transaction_uart_integration actual ST320/AL-EI atomic/CA/EV-EO/ET13 sources one UART; fork12 + cancelled13 log retained"
+      ],
+      "image": null
+    },
+    {
+      "top": "uart_packet_mux_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/uart_packet_mux_tb/result.json",
+      "run_log": "sim/results/portable_all_01/uart_packet_mux_tb/run.log",
+      "active_modules": [
+        "uart_packet_mux",
+        "uart_tx"
+      ],
+      "pass_lines": [
+        "PASS: uart_packet_mux complete-packet roundrobin/interleaved sources/incomplete cancel/oversize recovery"
+      ],
+      "image": "sim/images/uart_packet_mux_tb.png"
+    },
+    {
+      "top": "uart_rx_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/uart_rx_tb/result.json",
+      "run_log": "sim/results/portable_all_01/uart_rx_tb/run.log",
+      "active_modules": [
+        "uart_rx"
+      ],
+      "pass_lines": [
+        "PASS: uart receiver"
+      ],
+      "image": "sim/images/uart_rx_tb.png"
+    },
+    {
+      "top": "uart_stream_adapter_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/uart_stream_adapter_tb/result.json",
+      "run_log": "sim/results/portable_all_01/uart_stream_adapter_tb/run.log",
+      "active_modules": [
+        "uart_stream_adapter"
+      ],
+      "pass_lines": [
+        "PASS: uart_stream_adapter start/busy holding/data/last/reset"
+      ],
+      "image": "sim/images/uart_stream_adapter_tb.png"
+    },
+    {
+      "top": "video_axi_client_edges_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/video_axi_client_edges_tb/result.json",
+      "run_log": "sim/results/portable_all_01/video_axi_client_edges_tb/run.log",
+      "active_modules": [
+        "video_axi_client"
+      ],
+      "pass_lines": [
+        "video edges BURST=1 AW/B/AR/RLAST clear, late/early LAST, saturation PASS",
+        "video edges BURST=3 AW/B/AR/RLAST clear, late/early LAST, saturation PASS",
+        "video edges BURST=32 AW/B/AR/RLAST clear, late/early LAST, saturation PASS",
+        "PASS: video_axi_client_edges all checks"
+      ],
+      "image": "sim/images/video_axi_client_edges_tb.png"
+    },
+    {
+      "top": "video_axi_client_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/video_axi_client_tb/result.json",
+      "run_log": "sim/results/portable_all_01/video_axi_client_tb/run.log",
+      "active_modules": [
+        "video_axi_client"
+      ],
+      "pass_lines": [
+        "PASS: video_axi_client all checks"
+      ],
+      "image": "sim/images/video_axi_client_tb.png"
+    },
+    {
+      "top": "video_epoch_clear_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/video_epoch_clear_tb/result.json",
+      "run_log": "sim/results/portable_all_01/video_epoch_clear_tb/run.log",
+      "active_modules": [
+        "video_epoch_clear"
+      ],
+      "pass_lines": [
+        "PASS: video_epoch_clear short pulse/reset busy/retrigger all checks"
+      ],
+      "image": "sim/images/video_epoch_clear_tb.png"
+    },
+    {
+      "top": "video_fifo_stream_bridge_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/video_fifo_stream_bridge_tb/result.json",
+      "run_log": "sim/results/portable_all_01/video_fifo_stream_bridge_tb/run.log",
+      "active_modules": [
+        "video_fifo_stream_bridge"
+      ],
+      "pass_lines": [
+        "PASS: video_fifo_stream_bridge all checks"
+      ],
+      "image": "sim/images/video_fifo_stream_bridge_tb.png"
+    },
+    {
+      "top": "video_memory_clear_cross_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/video_memory_clear_cross_tb/result.json",
+      "run_log": "sim/results/portable_all_01/video_memory_clear_cross_tb/run.log",
+      "active_modules": [
+        "axi_2client_arbiter",
+        "axi_read_burst_buffer",
+        "history_axi_epoch_guard",
+        "video_axi_client",
+        "video_epoch_clear",
+        "video_fifo_axi_port",
+        "video_fifo_stream_bridge",
+        "video_memory_fabric"
+      ],
+      "pass_lines": [
+        "PASS: video_memory_clear_cross AW/W/B/AR/R/buffer isolation video_pixels=256 evidence_W/R=9/9"
+      ],
+      "image": "sim/images/video_memory_clear_cross_tb.png"
+    },
+    {
+      "top": "video_memory_fabric_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_followup_02/video_memory_fabric_tb/result.json",
+      "run_log": "sim/results/portable_followup_02/video_memory_fabric_tb/run.log",
+      "active_modules": [
+        "async_fifo",
+        "axi_2client_arbiter",
+        "axi_read_burst_buffer",
+        "camera_evidence_client",
+        "camera_evidence_transport",
+        "camera_frame_guard",
+        "camera_sample_guard",
+        "camera_time_guard",
+        "cdc_event_transaction",
+        "cdc_time_snapshot",
+        "crc32_d8",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "ddr_evidence_queued",
+        "eth_udp_tx_gmii",
+        "evidence_event_dispatch",
+        "evidence_packet_cdc",
+        "evidence_packet_udp_bridge",
+        "evidence_reset_barrier",
+        "evidence_window_packetizer",
+        "ip_checksum",
+        "video_axi_client",
+        "video_epoch_clear",
+        "video_fifo_axi_port",
+        "video_fifo_stream_bridge",
+        "video_memory_fabric"
+      ],
+      "pass_lines": [
+        "PASS: video_memory_fabric 720p video-only/competition/SOF all checks"
+      ],
+      "image": "sim/images/video_memory_fabric_tb.png"
+    },
+    {
+      "top": "voice_announcer_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/voice_announcer_tb/result.json",
+      "run_log": "sim/results/portable_all_01/voice_announcer_tb/run.log",
+      "active_modules": [
+        "voice_announcer"
+      ],
+      "pass_lines": [
+        "PASS: voice_announcer"
+      ],
+      "image": "sim/images/voice_announcer_tb.png"
+    },
+    {
+      "top": "voice_asr_i2c_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/voice_asr_i2c_tb/result.json",
+      "run_log": "sim/results/portable_all_01/voice_asr_i2c_tb/run.log",
+      "active_modules": [
+        "voice_asr_i2c",
+        "voice_command_map"
+      ],
+      "pass_lines": [
+        "PASS: voice_asr_i2c (5 words, 1 tts)"
+      ],
+      "image": "sim/images/voice_asr_i2c_tb.png"
+    },
+    {
+      "top": "voice_audio_gate_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/voice_audio_gate_tb/result.json",
+      "run_log": "sim/results/portable_all_01/voice_audio_gate_tb/run.log",
+      "active_modules": [
+        "voice_audio_gate"
+      ],
+      "pass_lines": [
+        "PASS: voice_audio_gate scenarios=7"
+      ],
+      "image": "sim/images/voice_audio_gate_tb.png"
+    },
+    {
+      "top": "voice_exam_interaction_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/voice_exam_interaction_tb/result.json",
+      "run_log": "sim/results/portable_all_01/voice_exam_interaction_tb/run.log",
+      "active_modules": [
+        "exam_fsm",
+        "voice_exam_interaction",
+        "voice_info_confirm"
+      ],
+      "pass_lines": [
+        "PASS: voice_exam_interaction scenarios=18"
+      ],
+      "image": "sim/images/voice_exam_interaction_tb.png"
+    },
+    {
+      "top": "voice_host_endpoint_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/voice_host_endpoint_tb/result.json",
+      "run_log": "sim/results/portable_all_01/voice_host_endpoint_tb/run.log",
+      "active_modules": [
+        "voice_host_endpoint",
+        "voice_status_record"
+      ],
+      "pass_lines": [
+        "PASS: voice_host_endpoint commands=10 handled=2 bytes=196"
+      ],
+      "image": "sim/images/voice_host_endpoint_tb.png"
+    },
+    {
+      "top": "voice_info_confirm_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/voice_info_confirm_tb/result.json",
+      "run_log": "sim/results/portable_all_01/voice_info_confirm_tb/run.log",
+      "active_modules": [
+        "voice_info_confirm"
+      ],
+      "pass_lines": [
+        "PASS: voice_info_confirm scenarios=18"
+      ],
+      "image": "sim/images/voice_info_confirm_tb.png"
+    },
+    {
+      "top": "voice_interaction_bus_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/voice_interaction_bus_tb/result.json",
+      "run_log": "sim/results/portable_all_01/voice_interaction_bus_tb/run.log",
+      "active_modules": [
+        "i2c_byte_master",
+        "i2c_register_master",
+        "voice_interaction_bus"
+      ],
+      "pass_lines": [
+        "PASS: voice_interaction_bus scenarios=8 writes=5 reads=17 starts=52 stops=35"
+      ],
+      "image": "sim/images/voice_interaction_bus_tb.png"
+    },
+    {
+      "top": "voice_interaction_system_tb",
+      "status": "passed",
+      "engine": "xsim",
+      "result": "sim/results/portable_all_01/voice_interaction_system_tb/result.json",
+      "run_log": "sim/results/portable_all_01/voice_interaction_system_tb/run.log",
+      "active_modules": [
+        "candidate_glyph",
+        "candidate_overlay",
+        "cdc_event_transaction",
+        "cdc_stats_snapshot",
+        "exam_fsm",
+        "i2c_byte_master",
+        "i2c_register_master",
+        "voice_audio_gate",
+        "voice_exam_interaction",
+        "voice_host_endpoint",
+        "voice_info_confirm",
+        "voice_interaction_bus",
+        "voice_interaction_system",
+        "voice_notice_queue",
+        "voice_status_record"
+      ],
+      "pass_lines": [
+        "PASS: voice_interaction_system scenarios=8 records=36 writes=7 reads=191"
+      ],
+      "image": "sim/images/voice_interaction_system_tb.png"
+    },
+    {
+      "top": "voice_notice_queue_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/voice_notice_queue_tb/result.json",
+      "run_log": "sim/results/portable_all_01/voice_notice_queue_tb/run.log",
+      "active_modules": [
+        "voice_notice_queue"
+      ],
+      "pass_lines": [
+        "PASS: voice_notice_queue scenarios=9"
+      ],
+      "image": "sim/images/voice_notice_queue_tb.png"
+    },
+    {
+      "top": "voice_uart_eight_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/voice_uart_eight_tb/result.json",
+      "run_log": "sim/results/portable_all_01/voice_uart_eight_tb/run.log",
+      "active_modules": [
+        "uart_packet_mux",
+        "uart_tx"
+      ],
+      "pass_lines": [
+        "PASS: voice_uart_eight packets=8 bytes=1568"
+      ],
+      "image": "sim/images/voice_uart_eight_tb.png"
+    },
+    {
+      "top": "workflow_fsm_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/workflow_fsm_tb/result.json",
+      "run_log": "sim/results/portable_all_01/workflow_fsm_tb/run.log",
+      "active_modules": [
+        "workflow_fsm"
+      ],
+      "pass_lines": [
+        "PASS: workflow state machine"
+      ],
+      "image": "sim/images/workflow_fsm_tb.png"
+    },
+    {
+      "top": "xadc_monitor_reader_tb",
+      "status": "passed",
+      "engine": "icarus",
+      "result": "sim/results/portable_all_01/xadc_monitor_reader_tb/result.json",
+      "run_log": "sim/results/portable_all_01/xadc_monitor_reader_tb/run.log",
+      "active_modules": [
+        "xadc_monitor_reader"
+      ],
+      "pass_lines": [
+        "PASS: xadc_monitor_reader four addresses/atomic batches/temp/timeout/reset"
+      ],
+      "image": "sim/images/xadc_monitor_reader_tb.png"
+    }
+  ],
+  "hardware_access": false,
+  "cloud_requests": false,
+  "instantiated_custom_module_types": 125,
+  "instantiated_types_with_structural_test_reach": 125
+}

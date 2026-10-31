@@ -1,0 +1,27 @@
+{
+  "top": "health_monitor_tb",
+  "engine": "AMD XSim 2018.3",
+  "status": "passed",
+  "active_modules": [
+    "health_monitor"
+  ],
+  "repairs": [],
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "D:\\fpga_race\\fpga\\src\\health\\health_monitor_tb.sv",
+      "sha256": "9390886c094100d688997fa4c91bd3fcdcd8166df46519973bc9e26f1e1fc669"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\6e486d9851a3\\health_monitor.v",
+      "sha256": "0801e0ecfc45ca1542d0767b91ad0d9d8a36a3829d54b4df5ccb9d46e8943e12"
+    }
+  ],
+  "seconds": 6.782,
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: health_monitor all checks"
+  ],
+  "run_log": "run_fixed_paths.log",
+  "trace_bytes": 2751
+}

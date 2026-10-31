@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: camera_black_boundary first-active-SOF/RGB16vs17/96vs98/overflow
+D:\fpga_race\fpga\src\vision_guard\camera_black_boundary_tb.sv:42: $finish called at 3700000 (1ps)

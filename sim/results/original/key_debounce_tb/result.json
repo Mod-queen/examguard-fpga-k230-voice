@@ -1,0 +1,28 @@
+{
+  "top": "key_debounce_tb",
+  "status": "passed",
+  "active_modules": [
+    "key_debounce"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "key_debounce_tb"
+  ],
+  "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/user_control/key_debounce_tb.v",
+  "sources": [
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/user_control/key_debounce_tb.v",
+      "sha256": "c3bae2e29a15d61cf5fc85f1ff5927722097bfa7efc33845a782c5575cd31585"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/user_control/key_debounce.v",
+      "sha256": "7fbee963c653de910300f43405afd6959dc36b84a9f2013fd161b9f78d569a6e"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: key debounce"
+  ],
+  "trace_bytes": 1571,
+  "seconds": 0.078
+}

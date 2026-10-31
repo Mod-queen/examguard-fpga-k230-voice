@@ -1,0 +1,64 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module board_status_control_tb $end
+$var wire 1 ! straps_valid $end
+$var wire 1 ) evidence_fault $end
+$var wire 1 + rst $end
+$var wire 32 " seat_id $end
+$var wire 3 # led $end
+$var wire 8 $ latched_switches $end
+$var wire 1 % ai_alive $end
+$var wire 1 ' config_known $end
+$var wire 32 ( configured_seat $end
+$var wire 1 * network_qualified $end
+$var wire 8 , switches $end
+$upscope $end
+$enddefinitions $end
+#0
+b10000101 ,
+1+
+0*
+0)
+b101010 (
+1'
+0%
+bx $
+b100 #
+bx "
+x!
+#10000
+b101010 "
+b0 $
+0!
+#80000
+0+
+#230000
+b110 "
+b10000101 $
+1!
+#231000
+b11111111 ,
+#620000
+1*
+b111 #
+1%
+#621000
+1)
+#670000
+b11 #
+#721000
+b0 ,
+1+
+#730000
+b101010 "
+b0 $
+0!
+#800000
+0+
+#890000
+b111 #
+#950000
+1!
+#951000
+b1 "
+0'

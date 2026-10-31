@@ -1,0 +1,2 @@
+sv work "D:/fpga_race/deploy/submission_20261031/sim/sources/event_identity/event_identity_tb.sv"
+verilog work "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/8f15c7c17ef1/event_identity.v"

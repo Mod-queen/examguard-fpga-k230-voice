@@ -1,0 +1,34 @@
+{
+  "top": "voice_host_endpoint_tb",
+  "engine": "AMD XSim 2018.3",
+  "status": "passed",
+  "active_modules": [
+    "voice_host_endpoint",
+    "voice_status_record"
+  ],
+  "repairs": [
+    "Copy generated host command fixture (existing verify_voice_host.py)."
+  ],
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "D:\\fpga_race\\fpga\\src\\voice_interaction\\voice_host_endpoint_tb.sv",
+      "sha256": "89799a83ec873794952cf25417238b480cd59e65fc3c679548e485624431102a"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\9da09028ef2e\\voice_host_endpoint.sv",
+      "sha256": "9e4ab2ede62f27c1ec0b603e099a9ef5da862a326b62faf8e42f5471575416b1"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\c7fdde6a7598\\voice_status_record.sv",
+      "sha256": "c7064a3148e751c5340dfbc5f2c5d66d0d8860e6a4b7f5dfecfe02668944a9ca"
+    }
+  ],
+  "seconds": 5.875,
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: voice_host_endpoint commands=10 handled=2 bytes=196"
+  ],
+  "run_log": "run_fixed_paths.log",
+  "trace_bytes": 201449
+}

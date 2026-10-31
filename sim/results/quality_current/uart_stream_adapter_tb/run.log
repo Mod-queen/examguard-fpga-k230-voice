@@ -1,0 +1,2 @@
+PASS: uart_stream_adapter start/busy holding/data/last/reset
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\host_link\uart_stream_adapter_tb.sv:19: $finish called at 2311000 (1ps)

@@ -1,0 +1,28 @@
+{
+  "top": "voice_audio_gate_tb",
+  "status": "passed",
+  "active_modules": [
+    "voice_audio_gate"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "voice_audio_gate_tb"
+  ],
+  "testbench": "fpga/src/voice_interaction/voice_audio_gate_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/voice_interaction/voice_audio_gate_tb.sv",
+      "sha256": "a0e3f66ce851222193ad801ba00eb46c727a3f0bb0dd32ef201405750ffb7c39"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/b7965763a525/voice_audio_gate.sv",
+      "sha256": "b4d9a89d49c4c8e48cd129113f04293149fbb223f77707b038e708aa03f6f3af"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: voice_audio_gate scenarios=7"
+  ],
+  "trace_bytes": 8781,
+  "seconds": 0.156
+}

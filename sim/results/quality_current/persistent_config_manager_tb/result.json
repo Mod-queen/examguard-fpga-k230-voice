@@ -1,0 +1,38 @@
+{
+  "top": "persistent_config_manager_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/persistence/persistent_config_manager_tb.sv",
+      "sha256": "b1054ae57a0c19f4ebbb3f5d44f9c9154d2be8fe96861e4a94ae8671f3ac7ecb"
+    },
+    {
+      "path": "src/fpga/local_sources/6757b9ed1223/eeprom_page_writer.sv",
+      "sha256": "386a79443b25ddceaeab9d1053ba53029ea18dd2ee8ce3a29de17bf4ac2b8894"
+    },
+    {
+      "path": "src/fpga/local_sources/1dea5a5ec50d/eeprom_dualslot_store.sv",
+      "sha256": "7755f1cfebe6be4e48988132c47438cf7526afd3ed5401c8b6c7d07ad70f7a13"
+    },
+    {
+      "path": "src/fpga/local_sources/473868420a86/eeprom_record_codec.sv",
+      "sha256": "2650ebdd7c40358b5cea4c2975d1dd48bd4310e373a22b2cc2ba46623f068834"
+    },
+    {
+      "path": "src/fpga/local_sources/0663b43ea7cd/persistent_config_decode.sv",
+      "sha256": "b31b4b9cbb81f5dc9303452cca01f7dd51316c05e2f8563080bf1261f4f517c6"
+    },
+    {
+      "path": "src/fpga/local_sources/49702224756b/persistent_config_manager.sv",
+      "sha256": "04c39e1d4ac76b3158b76697fb1ad0e7b680c9623ed66f84010358bdf4a3aea7"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.078,
+  "pass_lines": [
+    "PASS: persistent_config_manager results=9 requests=131 writes=12 actual-dualslot/legacy/save/boot-preserve/oldslot/reject/error/reset"
+  ],
+  "exit_code": 0
+}

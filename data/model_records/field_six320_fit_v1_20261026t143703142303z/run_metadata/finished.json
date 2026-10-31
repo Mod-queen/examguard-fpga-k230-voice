@@ -1,0 +1,7 @@
+{
+  "state": "FIELD_PC_TRAINING_FINISHED_NOT_DEPLOYED",
+  "best_sha256": "e4ddc32b27d1387fca6692cdcc7e7357b619ee3ac5faca8596f18c0dcf08c3af",
+  "last_sha256": "01f0cf8b6c31e5f9fc17cf03e796c662cd25bd2dc7c2497637b34341438d02bc",
+  "validation_scope": "RESUBSTITUTION_FIT_ONLY_SAME_TRAINING_IMAGES; NOT independent validation/test or K230 event accuracy",
+  "independent_field_test": "NOT_AVAILABLE"
+}

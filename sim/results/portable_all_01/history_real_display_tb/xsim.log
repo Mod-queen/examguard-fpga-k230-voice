@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# xsim v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Oct 31 17:37:05 2026
+# Process ID: 28040
+# Current directory: D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/history_real_display_tb
+# Command line: xsim.exe -mode tcl -source {xsim.dir/case_snapshot/xsim_script.tcl}
+# Log file: D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/history_real_display_tb/xsim.log
+# Journal file: D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/history_real_display_tb\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/case_snapshot/xsim_script.tcl
+# xsim {case_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/history_real_display_tb/run.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/history_real_display_tb/run.tcl
+## run all
+SAMPLE idx=0 x=3 y=2 last=0
+SAMPLE idx=1 x=7 y=2 last=0
+SAMPLE idx=2 x=11 y=2 last=0
+SAMPLE idx=3 x=15 y=2 last=0
+SAMPLE idx=4 x=19 y=2 last=0
+SAMPLE idx=5 x=23 y=2 last=0
+SAMPLE idx=6 x=27 y=2 last=0
+SAMPLE idx=7 x=31 y=2 last=0
+SAMPLE idx=8 x=35 y=2 last=0
+SAMPLE idx=9 x=39 y=2 last=0
+SAMPLE idx=10 x=43 y=2 last=0
+SAMPLE idx=11 x=47 y=2 last=0
+CMD kind=0 reason=0 meta=000000000000000000000003 time=49843014000
+REAL_DISPLAY published=1 dropped=0 seen=1 decisions=0 halted=0 halt_reason=0 frames=1 x=0 y=0 de=0 sof=0
+PASS: history_real_display 1280x720 disp_driver/color_enhance/sampler
+$finish called at time : 49843263288 ps : File "D:/fpga_race/deploy/submission_20261031/sim/sources/ddr3_test/history_real_display_tb.sv" Line 60
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:21 . Memory (MB): peak = 218.316 ; gain = 0.000
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 17:37:32 2026...

@@ -1,0 +1,34 @@
+{
+  "top": "dvi_encoder_contract_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/verification_20261031/dvi_encoder_contract_tb.sv",
+      "sha256": "d42eca9457bb2108b5a973acd5773dcdeca86a28da0ad54c38be2daa602c6ac6"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/dvi_encoder.v",
+      "sha256": "ed3a59442e13696a35f2c1bf273728e7d93ad01a5b0d9320f0094fe67aaa700f"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/encode.v",
+      "sha256": "47fb075bb48d619a3a2a802b9935b2c3c352b2de109a3895773e906582edb279"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/serdes_4b_10to1.v",
+      "sha256": "193faf53b9674b42338d6ffe75466132d39153da0f1e6814811cc9cf8210a810"
+    },
+    {
+      "path": "@vivado/glbl.v",
+      "sha256": "c48753ff3481f46872a09160eee14b5596b37444c1bf2b84bf2acd922e7c982d"
+    }
+  ],
+  "repairs": [],
+  "seconds": 6.297,
+  "pass_lines": [
+    "PASS: dvi_encoder_contract three RGB channels/independent decode/four blue controls/blanking/serialized lane mapping/both edges/clock pair decode=3087 bits=41160"
+  ],
+  "exit_code": 0
+}

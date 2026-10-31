@@ -1,0 +1,2 @@
+PASS: evidence_epoch_identity transport reset changes boot before admission / retains session and time / max epoch then exhaustion halts
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\event_identity\evidence_epoch_identity_tb.sv:39: $finish called at 1540000 (1ps)

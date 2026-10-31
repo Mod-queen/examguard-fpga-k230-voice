@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: board_status_control DIP startup-only/override/default/LED/blink/reset
+D:\fpga_race\fpga\src\persistence\board_status_control_tb.sv:20: $finish called at 952000 (1ps)

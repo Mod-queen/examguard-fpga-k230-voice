@@ -1,0 +1,43 @@
+{
+  "top": "camera_init_contract_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/ddr3_test/camera_init_contract_tb.sv",
+      "sha256": "f369bd57e8f23e392f958519428336b6d0dfd51e677c391216eb2adadb420aaf"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/camera_init/camera_init.v",
+      "sha256": "aeefc40721aa4861706bb8a49d28699f9b381de9385cd25a7d418b537097c865"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/camera_init/i2c_control/i2c_bit_shift.v",
+      "sha256": "805a5e8a8e30f4f35047a0ec7e263457ad6d1e8a3ec6a1379bc01c23cec0b292"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/camera_init/i2c_control/i2c_control.v",
+      "sha256": "f6f787354babffc8dc370dab423755927d083b3608d81011c3d07cbc52b637a7"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/camera_init/ov5640_init_table_rgb.v",
+      "sha256": "762e7fe8167d54965fd00c89e1bcb855d1ea8b0e5f3c9c0e1d0b5cfa10324ce3"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/new/ov5640_init_table_jpeg.v",
+      "sha256": "37a57463ce7fbb389c6a096e5be088d79c476bd3b96324d33d8b4e0bb212ad25"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/new/ov7725_init_table_rgb.v",
+      "sha256": "e6e3ead3b5b3b1e95967cb37191d47944e7b16d57cd22d06158dc20e02c2c015"
+    }
+  ],
+  "repairs": [],
+  "seconds": 15.391,
+  "pass_lines": [
+    "PASS: camera init wire all267 including474020",
+    "PASS: camera_init_contract ACK all bytes/NACK retry/permanent NACK/reset body/restart/no replay"
+  ],
+  "exit_code": 0
+}

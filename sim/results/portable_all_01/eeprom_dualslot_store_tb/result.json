@@ -1,0 +1,30 @@
+{
+  "top": "eeprom_dualslot_store_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/persistence/eeprom_dualslot_store_tb.sv",
+      "sha256": "46dcfdba25b46729e1dc7870f55f5d0ca78acebb7d6f630e8bc262fc251775f0"
+    },
+    {
+      "path": "src/fpga/local_sources/6757b9ed1223/eeprom_page_writer.sv",
+      "sha256": "386a79443b25ddceaeab9d1053ba53029ea18dd2ee8ce3a29de17bf4ac2b8894"
+    },
+    {
+      "path": "src/fpga/local_sources/1dea5a5ec50d/eeprom_dualslot_store.sv",
+      "sha256": "7755f1cfebe6be4e48988132c47438cf7526afd3ed5401c8b6c7d07ad70f7a13"
+    },
+    {
+      "path": "src/fpga/local_sources/473868420a86/eeprom_record_codec.sv",
+      "sha256": "2650ebdd7c40358b5cea4c2975d1dd48bd4310e373a22b2cc2ba46623f068834"
+    }
+  ],
+  "repairs": [],
+  "seconds": 4.547,
+  "pass_lines": [
+    "PASS: eeprom_dualslot_store powercuts=256 results=530 explicit-format/config/boot/CRC/device/errors/raw-oracle"
+  ],
+  "exit_code": 0
+}

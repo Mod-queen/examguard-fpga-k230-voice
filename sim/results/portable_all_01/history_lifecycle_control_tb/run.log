@@ -1,0 +1,2 @@
+PASS: history_lifecycle_control drain/start/run/local-halt/short-reset/stopped-clock
+D:\fpga_race\deploy\submission_20261031\sim\sources\ddr3_test\history_lifecycle_control_tb.sv:24: $finish called at 7441000 (1ps)

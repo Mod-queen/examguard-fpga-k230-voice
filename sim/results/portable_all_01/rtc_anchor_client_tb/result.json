@@ -1,0 +1,38 @@
+{
+  "top": "rtc_anchor_client_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/persistence/rtc_anchor_client_tb.sv",
+      "sha256": "e7604db4cc97cf3142a96ff3e4a3af4a6dc8a0b6d320ee630669e977a1947c37"
+    },
+    {
+      "path": "src/fpga/local_sources/a8328017a7aa/pcf8563_reader.sv",
+      "sha256": "cae1252215581075f1acb623e30c2eb0f151b4a8e67eb289b5e0b686b08f8cd4"
+    },
+    {
+      "path": "src/fpga/local_sources/ee27b53745a7/rtc_time_anchor.sv",
+      "sha256": "165831fb384824d364263d3246d9b18ca233e47ca9e5fa38ce8737b6c9b5d8f8"
+    },
+    {
+      "path": "src/fpga/local_sources/c66e664ded59/pcf8563_calendar.sv",
+      "sha256": "f8c87466cd7973ed81e45ef41c1dd511afd5044c3cba8e9e8966a989ac646d29"
+    },
+    {
+      "path": "src/fpga/local_sources/b3552f47b77a/rtc_anchor_record.sv",
+      "sha256": "4a1b21fde243a3c715440e57323be5637a46f13754f1af81537f619dceba9694"
+    },
+    {
+      "path": "src/fpga/local_sources/709b883505d5/rtc_anchor_client.sv",
+      "sha256": "e9638e6c7840cb0dcfd4f03e59723af577a80899eb44754e2308f33e2480b552"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.016,
+  "pass_lines": [
+    "PASS: rtc_anchor_client actualReader+anchor+CRCRecord busBackpressure/valid+I2Cfail/randomStream2x132"
+  ],
+  "exit_code": 0
+}

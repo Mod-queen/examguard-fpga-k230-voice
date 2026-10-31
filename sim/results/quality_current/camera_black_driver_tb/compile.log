@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/sim/sources/vision_guard/camera_black_driver_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module camera_black_driver_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/97996d0703f5/camera_black_gate.v" into library work
+INFO: [VRFC 10-311] analyzing module camera_black_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/disp_driver/disp_driver.v" into library work
+INFO: [VRFC 10-311] analyzing module disp_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/color_enhance.v" into library work
+INFO: [VRFC 10-311] analyzing module color_enhance

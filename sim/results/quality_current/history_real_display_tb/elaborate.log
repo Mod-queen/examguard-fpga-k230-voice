@@ -1,0 +1,25 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/vivado2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe --relax --debug typical -L unisims_ver -L unimacro_ver -L secureip work.history_real_display_tb -s case_snapshot 
+Multi-threading is on. Using 22 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'occupancy' [D:/fpga_race/deploy/engineering_quality_20261031/sim/sources/ddr3_test/history_real_display_tb.sv:40]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/disp_driver/disp_driver.v" Line 20. Module disp_driver(AHEAD_CLK_CNT=1) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.disp_driver(AHEAD_CLK_CNT=1)
+Compiling module work.color_enhance
+Compiling module work.history_capture_source(DEPTH=8)
+Compiling module work.history_sample_source(FRAME_INTE...
+Compiling module work.history_real_display_tb
+Built simulation snapshot case_snapshot
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/fpga_race/verification_out/quality_20261031/rtl_all_01/history_real_display_tb/xsim.dir/case_snapshot/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 31 23:06:59 2026...

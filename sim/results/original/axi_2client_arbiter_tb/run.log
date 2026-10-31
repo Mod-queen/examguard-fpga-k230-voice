@@ -1,0 +1,6 @@
+VCD info: dumpfile trace.vcd opened for output.
+WARNING: Dump file limit (2000000 bytes) exceeded.
+arbiter quota=1 W/R bursts=320/320 beats=5560/5560 stalls AW/W/B/AR/R=352/5178/317/325/5365
+arbiter quota=3 W/R bursts=320/320 beats=5560/5560 stalls AW/W/B/AR/R=297/5296/332/339/5561
+PASS: axi_2client_arbiter all checks
+D:\fpga_race\fpga\src\ddr3_test\axi_2client_arbiter_tb.sv:220: $finish called at 497680000 (1ps)

@@ -1,0 +1,2 @@
+PASS: event_transaction_fork 400 ordered exactly-once deliveries per branch independent stalls/reset
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\event_identity\event_transaction_fork_tb.sv:34: $finish called at 37131000 (1ps)

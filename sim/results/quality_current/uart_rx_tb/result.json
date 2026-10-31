@@ -1,0 +1,22 @@
+{
+  "top": "uart_rx_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/uart_rx_tb.v",
+      "sha256": "b195e85542de8fc67629992804f830217046ad175db9bec10b9c451ef0f03c37"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/uart_rx.v",
+      "sha256": "39542e938c71e83ea20a60230dfae33bb514ef0e3cf9432c2c680c8dc7a03e7c"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.047,
+  "pass_lines": [
+    "PASS: uart receiver"
+  ],
+  "exit_code": 0
+}

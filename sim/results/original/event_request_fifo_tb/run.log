@@ -1,0 +1,7 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS event_request_fifo depth=1 full_pop=620 collisions=750 stalled=719
+PASS event_request_fifo depth=3 full_pop=601 collisions=733 stalled=740
+PASS event_request_fifo depth=8 full_pop=560 collisions=745 stalled=761
+PASS event_request_fifo depth=16 full_pop=675 collisions=1055 stalled=768
+PASS event_request_fifo_tb ALL
+D:\fpga_race\fpga\src\event_request_fifo\event_request_fifo_tb.sv:118: $finish called at 15796000 (1ps)

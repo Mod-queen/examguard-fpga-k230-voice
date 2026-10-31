@@ -1,0 +1,15 @@
+  ok   : S_IDLE -> guide 0x20
+  ok   : same stage suppressed
+  ok   : S_WAIT -> guide 0x21
+  ok   : 0x11 -> announcement 0x31
+  ok   : same episode suppressed
+  ok   : 0x50 -> announcement 0x32
+  ok   : S_VERIFIED -> guide 0x22
+  ok   : S_EXAM -> guide 0x23
+  ok   : 0x64 -> announcement 0x37
+  ok   : S_SUBMITTED+0x31 -> 0x26
+  ok   : S_END -> guide 0x25
+  ok   : unmapped 0x02 silent
+  ok   : zero code ignored
+PASS: voice_announcer
+D:\fpga_race\deploy\submission_20261031\src\fpga\ov5640_ddr3_hdmi_vga.srcs\sources_1\voice_asr\voice_announcer_tb.v:161: $finish called at 445000 (1ps)

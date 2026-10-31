@@ -1,0 +1,4 @@
+VCD info: dumpfile trace.vcd opened for output.
+WARNING: Dump file limit (2000000 bytes) exceeded.
+PASS: 720p all921600 pixels exact903167/903168 threshold and confirmation
+D:\fpga_race\fpga\src\vision_guard\camera_black_720p_tb.sv:31: $finish called at 27648130000 (1ps)

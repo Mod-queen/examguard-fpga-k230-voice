@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/verification_out/optimization_20261031/simulation/xsim_round3/persistent_config_decode_tb/persistent_config_decode_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_config_decode_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/a84f893ed58a/persistent_config_decode.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_config_decode

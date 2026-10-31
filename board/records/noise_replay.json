@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "source_preview": "D:\\fpga_race\\host\\evidence_out\\egv2_00000001_0000005B_00000001_000000000000001B\\revision_01793350325277080200_e9ce962138c44e95bfcc4580c958598b\\frame_024.ppm",
+  "source_sha256": "7c8bc5ad7212e97e1d23f70cfacfadd3efcbd3a88d6cd5806e47c8f5389bb59a",
+  "changed_sources": [
+    "ov5640_ddr3_hdmi_vga.srcs/sources_1/top/ov5640_ddr3_hdmi_vga.v"
+  ],
+  "compatible_upper_black16": 0.97375,
+  "compatible_upper_black31": 1.0,
+  "scope": "Quantization-compatible synthetic upper bounds; not recovered full24-bit pixels, independent accuracy or proven unique root cause."
+}

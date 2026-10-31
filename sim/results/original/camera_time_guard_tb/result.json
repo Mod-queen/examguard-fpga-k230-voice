@@ -1,0 +1,38 @@
+{
+  "top": "camera_time_guard_tb",
+  "status": "passed",
+  "active_modules": [
+    "camera_frame_guard",
+    "camera_sample_guard",
+    "camera_time_guard"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "camera_time_guard_tb"
+  ],
+  "testbench": "fpga/src/ddr3_test/camera_time_guard_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/ddr3_test/camera_time_guard_tb.sv",
+      "sha256": "ced62e0ba974eaf10ffb541196f0fef3d7bda3ca7ec54b5aaa936f015504ed52"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_frame_guard.v",
+      "sha256": "d3496d7a5c35e108a0193237ff8222738cae65e00980413e32962f283b0134c5"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_sample_guard.v",
+      "sha256": "12bbc2ebb19f937d9e0b02c138ef35c04af85e01b093575275fdddcdff853798"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_time_guard.v",
+      "sha256": "eb7aaf46261fbde4b8492961cfbd521ce0f26c502f9aff8e4e24524a7b350465"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: camera_time_guard unknown/stale/inclusive-age/SOF-atomicity/RGB-metadata/rollover/saturation/reset"
+  ],
+  "trace_bytes": 85128,
+  "seconds": 0.093
+}

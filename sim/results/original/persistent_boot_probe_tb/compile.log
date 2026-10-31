@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/src/persistence/persistent_boot_probe_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_boot_probe_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/4ea846d85197/eeprom_page_writer.sv" into library work
+INFO: [VRFC 10-311] analyzing module eeprom_page_writer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/6f55019790ef/eeprom_dualslot_store.sv" into library work
+INFO: [VRFC 10-311] analyzing module eeprom_dualslot_store
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/770359552324/eeprom_record_codec.sv" into library work
+INFO: [VRFC 10-311] analyzing module eeprom_record_codec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/ade9bc1b0ccb/i2c_byte_master.sv" into library work
+INFO: [VRFC 10-311] analyzing module i2c_byte_master
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/c076e82256e1/persistent_boot_gate.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_boot_gate
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/f0e5e6fadfb7/i2c_register_master.sv" into library work
+INFO: [VRFC 10-311] analyzing module i2c_register_master
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v" into library work
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/src/persistence/persistence_inventory_probe.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistence_inventory_probe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/src/persistence/persistent_boot_probe.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_boot_probe

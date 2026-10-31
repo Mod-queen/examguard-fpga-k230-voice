@@ -1,0 +1,22 @@
+{
+  "top": "voice_audio_gate_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/voice_interaction/voice_audio_gate_tb.sv",
+      "sha256": "a0e3f66ce851222193ad801ba00eb46c727a3f0bb0dd32ef201405750ffb7c39"
+    },
+    {
+      "path": "src/fpga/local_sources/5d4a07cf73fd/voice_audio_gate.sv",
+      "sha256": "b4d9a89d49c4c8e48cd129113f04293149fbb223f77707b038e708aa03f6f3af"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.015,
+  "pass_lines": [
+    "PASS: voice_audio_gate scenarios=7"
+  ],
+  "exit_code": 0
+}

@@ -1,0 +1,44 @@
+{
+  "top": "camera_init_audit_tb",
+  "status": "passed",
+  "active_modules": [
+    "camera_init",
+    "ov5640_init_table_jpeg",
+    "ov5640_init_table_rgb",
+    "ov7725_init_table_rgb"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "camera_init_audit_tb",
+    "i2c_control"
+  ],
+  "testbench": "fpga/src/ddr3_test/camera_init_audit_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/ddr3_test/camera_init_audit_tb.sv",
+      "sha256": "033e1e8753f7d13b7147f69ebaad6ac12c12231d435c49cdac61aa582b88c201"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/camera_init/camera_init.v",
+      "sha256": "aeefc40721aa4861706bb8a49d28699f9b381de9385cd25a7d418b537097c865"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/camera_init/ov5640_init_table_rgb.v",
+      "sha256": "762e7fe8167d54965fd00c89e1bcb855d1ea8b0e5f3c9c0e1d0b5cfa10324ce3"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/new/ov5640_init_table_jpeg.v",
+      "sha256": "37a57463ce7fbb389c6a096e5be088d79c476bd3b96324d33d8b4e0bb212ad25"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/new/ov7725_init_table_rgb.v",
+      "sha256": "e6e3ead3b5b3b1e95967cb37191d47944e7b16d57cd22d06158dc20e02c2c015"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: camera_init_audit actual indices0..266; final polarity write executed; no sensor timing claim"
+  ],
+  "trace_bytes": 94706,
+  "seconds": 0.109
+}

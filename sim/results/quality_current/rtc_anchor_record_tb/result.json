@@ -1,0 +1,22 @@
+{
+  "top": "rtc_anchor_record_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/persistence/rtc_anchor_record_tb.sv",
+      "sha256": "83097becfbd123dc2267a7d21b0759f92f3fb33cb3d4ebacde2868a02721d14e"
+    },
+    {
+      "path": "src/fpga/local_sources/b3552f47b77a/rtc_anchor_record.sv",
+      "sha256": "4a1b21fde243a3c715440e57323be5637a46f13754f1af81537f619dceba9694"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.016,
+  "pass_lines": [
+    "PASS: rtc_anchor_record immutable2x132/CRCstream/randomBackpressure/heldLAST/resetCancel"
+  ],
+  "exit_code": 0
+}

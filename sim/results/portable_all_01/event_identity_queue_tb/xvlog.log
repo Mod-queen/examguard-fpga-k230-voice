@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/sim/sources/event_identity/event_identity_queue_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module event_identity_queue_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/8f15c7c17ef1/event_identity.v" into library work
+INFO: [VRFC 10-311] analyzing module event_identity
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v" into library work
+INFO: [VRFC 10-311] analyzing module event_request_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_transaction_queue/event_transaction_queue.v" into library work
+INFO: [VRFC 10-311] analyzing module event_transaction_queue

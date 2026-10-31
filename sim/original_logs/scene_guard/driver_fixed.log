@@ -1,0 +1,5 @@
+DRIVER frame=1 de_pixels=921600 in_range=920160 x=2..1281 y=0..719 gate_count=921600
+DRIVER frame=2 de_pixels=921600 in_range=920160 x=2..1281 y=0..719 gate_count=921600
+DRIVER frame=3 de_pixels=921600 in_range=920160 x=2..1281 y=0..719 gate_count=921600
+PASS real driver pure-black cover confirmed with all 921600 active pixels
+fpga/src/vision_guard/camera_black_driver_tb.sv:28: $finish called at 7441533100 (1ps)

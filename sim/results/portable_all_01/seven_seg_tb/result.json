@@ -1,0 +1,26 @@
+{
+  "top": "seven_seg_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/seven_seg/seven_seg_tb.v",
+      "sha256": "dc98c336f26b838c16e6efe6dee9ab4b9c097dc98c9f6eb9ad6ec1b885b90db2"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/seven_seg/hc595_driver.v",
+      "sha256": "472fd58054ea883f31b13ba9e8735eaf91f694e646c9feb1c9a4418f440a7386"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/seven_seg/hex8.v",
+      "sha256": "6412897328b934beb2980cf96643080d7769a40a84d349d278778f83b83a04e9"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.015,
+  "pass_lines": [
+    "PASS: seven-segment shift chain"
+  ],
+  "exit_code": 0
+}

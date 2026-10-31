@@ -1,0 +1,25 @@
+{
+  "removed_obsolete_files": [
+    "board/candidates/candidate_status.json",
+    "board/candidates/examguard_opt_20261031.bit",
+    "board/fpga/examguard_rev03.bit",
+    "board/fpga/plan.json",
+    "board/fpga/scene_guard_rev03_full16m_preserved_tail.bin",
+    "board/fpga/scene_guard_rev03_full16m_preserved_tail.mcs",
+    "sim/images/fpga_independent_audit.png",
+    "sim/images/fpga_resources.png",
+    "sim/images/fpga_route.png",
+    "sim/images/fpga_timing.png",
+    "sim/images/native/native_screenshots_v2/capture_metadata.json",
+    "sim/images/native/native_screenshots_v2/launch_stdout.log",
+    "sim/images/native/native_screenshots_v2/open_candidate.tcl",
+    "sim/images/native/native_screenshots_v2/vivado.log",
+    "sim/images/native/native_screenshots_v2/vivado_timing_resources.png",
+    "sim/images/native/native_wave_gmii_rgmii_contract_tb_v2/launch_stdout.log",
+    "sim/images/native/native_wave_gmii_rgmii_contract_tb_v2/open_candidate.tcl",
+    "sim/images/native/native_wave_gmii_rgmii_contract_tb_v2/xsim_source.png"
+  ],
+  "formal_documents_in_package": false,
+  "source_and_runtime_modified": false,
+  "current_flashed_release_retained": true
+}

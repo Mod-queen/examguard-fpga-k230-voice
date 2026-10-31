@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/sim/test_repairs/shared_xadc_monitor_tb/shared_xadc_monitor_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module shared_xadc_monitor_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/7cd650dffdea/xadc_monitor_reader.sv" into library work
+INFO: [VRFC 10-311] analyzing module xadc_monitor_reader
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/8d2967dae5eb/shared_xadc_monitor.sv" into library work
+INFO: [VRFC 10-311] analyzing module shared_xadc_monitor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado/vivado2018.3/Vivado/2018.3/data/verilog/src/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl

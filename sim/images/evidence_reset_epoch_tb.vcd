@@ -1,0 +1,107 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module evidence_reset_epoch_tb $end
+$var wire 1 " ui_rst $end
+$var wire 1 # src_ready $end
+$var wire 32 $ src_accepted_count $end
+$var wire 1 ' dst_valid $end
+$var wire 32 ( dst_delivered_count $end
+$var wire 1 * control_rst $end
+$var wire 1 + cap_rst $end
+$var wire 1 , arst $end
+$var wire 1 / dst_ready $end
+$var wire 1 4 src_valid $end
+$var wire 32 : phase $end
+$upscope $end
+$enddefinitions $end
+#0
+b0 :
+04
+0/
+1,
+1+
+1*
+bx (
+x'
+bx $
+0#
+1"
+#5000
+b0 (
+0'
+#10000
+b0 $
+#120000
+0,
+#185000
+0"
+#189000
+0+
+#190000
+1#
+0*
+#200000
+14
+#210000
+0#
+b1 $
+#220000
+04
+#245000
+1'
+#311000
+1*
+1+
+1"
+1,
+#315000
+0'
+#331000
+1/
+0,
+#750000
+b0 $
+#790000
+1#
+0*
+#805000
+0"
+0+
+#950000
+b10 :
+#960000
+14
+#970000
+0#
+b1 $
+#980000
+04
+#1005000
+1'
+#1015000
+b1 (
+0'
+#1050000
+1#
+#3247000
+0#
+1*
+1+
+1"
+1,
+#3250000
+b0 $
+0,
+#3255000
+b0 (
+#3270000
+1,
+#3273000
+0,
+#3345000
+0"
+#3350000
+1#
+0*
+#3353000
+0+

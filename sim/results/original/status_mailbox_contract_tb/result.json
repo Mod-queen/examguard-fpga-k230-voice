@@ -1,0 +1,26 @@
+{
+  "top": "status_mailbox_contract_tb",
+  "engine": "AMD XSim 2018.3",
+  "status": "passed",
+  "active_modules": [
+    "status_mailbox"
+  ],
+  "repairs": [],
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "D:\\fpga_race\\fpga\\src\\verification_20261031\\status_mailbox_contract_tb.sv",
+      "sha256": "1f8cfaa898cb970a7b9c2a089bc4e757b43355019b56e37ced3af429f604b722"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\ov5640_ddr3_hdmi_vga.srcs\\sources_1\\status_mailbox\\status_mailbox.v",
+      "sha256": "0530c946d6a3c0a266150feac7f196b720a4de5189ec1f74c1435f181e20755c"
+    }
+  ],
+  "seconds": 7.031,
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: status_mailbox 100 coherent snapshots/unrelated clocks/no duplicates/reset (source hold contract)"
+  ],
+  "trace_bytes": 91040
+}

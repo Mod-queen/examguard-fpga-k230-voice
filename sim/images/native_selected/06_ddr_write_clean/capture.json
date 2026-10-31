@@ -1,0 +1,21 @@
+{
+  "key": "06_ddr_write",
+  "title": "DDR接口：一次完整写入与响应",
+  "native_ide_screenshot": true,
+  "method": "own Vivado GUI static WDB viewer; no simulation rerun or source value edits",
+  "launched_pid": 26620,
+  "window_pid": 23084,
+  "window_title": "Vivado 2018.3",
+  "hardware_access": false,
+  "database_sha256": "99274b7e0d2003a86308261ab8cbeb181bbddf3bcada204f450bdf49bb9f8ed5",
+  "config_sha256": "f171d96f9a6109dd92346b2dc52f7c82bd80c9a1ad8811a05e38a02bec8a7e39",
+  "image_sha256": "ecfef8dbc4939bd4acc67786822195901898524d2d8ae1bd62b7d94fba181222",
+  "source_result": "verification_out\\refinement_20261031\\cases\\history_store_axi_tb\\result.json",
+  "source_result_sha256": "2f578cad4685eca7c6b7fd4e655dc877df2d2feb9a1bc5336d5045edfd5e5d5f",
+  "window_ns": [
+    225.0,
+    685.0
+  ],
+  "image": "vivado_wave.png",
+  "visual_review": "pending"
+}

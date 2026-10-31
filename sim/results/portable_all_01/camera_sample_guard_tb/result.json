@@ -1,0 +1,28 @@
+{
+  "top": "camera_sample_guard_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/ddr3_test/camera_sample_guard_tb.sv",
+      "sha256": "92a37e4a26f63372f8b7603a069f2d0f4ff35cd702cc79e376230b4593e4491f"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_frame_guard.v",
+      "sha256": "d3496d7a5c35e108a0193237ff8222738cae65e00980413e32962f283b0134c5"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_sample_guard.v",
+      "sha256": "12bbc2ebb19f937d9e0b02c138ef35c04af85e01b093575275fdddcdff853798"
+    }
+  ],
+  "repairs": [],
+  "seconds": 36.875,
+  "pass_lines": [
+    "camera_sample_guard 32x20 stride4 interval2 checked_frames=4 pixels=160 PASS",
+    "camera_sample_guard 1280x720 stride4 interval6 checked_frames=2 pixels=115200 PASS",
+    "PASS: camera_sample_guard all checks"
+  ],
+  "exit_code": 0
+}

@@ -1,0 +1,20 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/case_snapshot/xsim_script.tcl
+# xsim {case_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/verification_out/quality_20261031/display_01/tmds_decode_contract_tb/run.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/verification_out/quality_20261031/display_01/tmds_decode_contract_tb/run.tcl
+## open_vcd trace.vcd
+## set signals [get_objects -quiet {/tmds_decode_contract_tb/rst /tmds_decode_contract_tb/reset /tmds_decode_contract_tb/rst_n /tmds_decode_contract_tb/request /tmds_decode_contract_tb/accepted /tmds_decode_contract_tb/rejected /tmds_decode_contract_tb/event_valid /tmds_decode_contract_tb/result_valid /tmds_decode_contract_tb/result_ok /tmds_decode_contract_tb/protocol_fault /tmds_decode_contract_tb/video_fault /tmds_decode_contract_tb/frame_done /tmds_decode_contract_tb/init_done /tmds_decode_contract_tb/tx_qualified /tmds_decode_contract_tb/link_up /tmds_decode_contract_tb/errors /tmds_decode_contract_tb/state}]
+## if {[llength $signals]} {log_vcd $signals}
+## run all
+PASS: tmds_decode_contract all256 byte values/repeated disparity histories/independent decoder/four control codes/pipeline checks=1028
+$finish called at time : 10320 ns : File "D:/fpga_race/deploy/engineering_quality_20261031/sim/sources/verification_20261031/tmds_decode_contract_tb.sv" Line 29
+## close_vcd
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 23:22:03 2026...

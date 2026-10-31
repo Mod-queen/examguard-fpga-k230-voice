@@ -1,0 +1,4 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+PASS: voice_host_endpoint commands=10 handled=2 bytes=196
+$finish called at time : 89460 ns : File "D:/fpga_race/fpga/src/voice_interaction/voice_host_endpoint_tb.sv" Line 118

@@ -1,0 +1,38 @@
+{
+  "top": "maintenance_endpoint_tb",
+  "engine": "AMD XSim 2018.3",
+  "status": "passed",
+  "active_modules": [
+    "maintenance_command_rx",
+    "maintenance_endpoint",
+    "maintenance_record"
+  ],
+  "repairs": [
+    "Use reproducible fixture maintenance_commands_20261021.mem"
+  ],
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "D:\\fpga_race\\verification_out\\optimization_20261031\\simulation\\xsim_round3\\maintenance_endpoint_tb\\maintenance_endpoint_tb.sv",
+      "sha256": "d40f010514f1d210af67a9078eaa23de2fa94c18fae7f298f80bfbdbf3e7ccdc"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\11664d210aa1\\maintenance_record.sv",
+      "sha256": "abdeba1d1fe91377a94d3956dc9bd200ab17348963b86818163bb52bdb589d90"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\c27f2c04655e\\maintenance_endpoint.sv",
+      "sha256": "5f5ea9e22e947fa669163440aedc79baed228bb4fdf953d083fb3d09fe2e90b1"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\eeaca5066441\\maintenance_command_rx.sv",
+      "sha256": "a071991045c73d13474ba4647c4e1b63e9175c1babe1ca3f6db5445ba00349d3"
+    }
+  ],
+  "seconds": 6.016,
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: maintenance_endpoint requests=4 records=9 CRC/endian/duplicate/collision/old-token/boot-binding/backpressure"
+  ],
+  "trace_bytes": 471200
+}

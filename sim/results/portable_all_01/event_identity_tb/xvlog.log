@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/sim/sources/event_identity/event_identity_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module event_identity_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/8f15c7c17ef1/event_identity.v" into library work
+INFO: [VRFC 10-311] analyzing module event_identity

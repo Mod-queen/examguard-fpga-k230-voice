@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-31T14:03:09.730812+00:00",
+  "current_related_rtl_passed": 11,
+  "rtl_inventory": 159,
+  "inherited_rtl_tests": 158,
+  "inherited_pc_tests": 122,
+  "documents_modified": false,
+  "hardware_access_this_packaging": false,
+  "cloud_requests_this_packaging": false,
+  "credential_pattern_hits": 0,
+  "private_runtime_files": 0,
+  "native_wave_images": 8,
+  "host_screenshots_separate": 5,
+  "source_matches_current_build": true,
+  "full_flash_readback_verified": true,
+  "scope": "当前验收版工程与验证专包；历史结果保留原时间及来源，不声称独立干净电脑复现或所有接口签核。"
+}

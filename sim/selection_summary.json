@@ -1,0 +1,18 @@
+{
+  "selected_self_checking_tests": 158,
+  "inventory_tests": 169,
+  "not_selected": [
+    "DVP_Capture_tb",
+    "cdc2_level_tb",
+    "config_rx_tb",
+    "ddr3_ctrl_2port_tb",
+    "dvi_encoder_tb",
+    "fifo_axi4_adapter_tb",
+    "phy_reg_config_tb",
+    "phy_reset_lifecycle_tb",
+    "status_uart_tx_v2_tb",
+    "text_overlay_tb",
+    "voice_bus_diagnostics_tb"
+  ],
+  "hardware_access": false
+}

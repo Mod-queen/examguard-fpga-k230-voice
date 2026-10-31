@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# xsim v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Oct 31 17:57:56 2026
+# Process ID: 30264
+# Current directory: D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/gmii_rgmii_contract_tb
+# Command line: xsim.exe -source {xsim.dir/case_snapshot/xsim_script.tcl}
+# Log file: D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/gmii_rgmii_contract_tb/xsim.log
+# Journal file: D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/gmii_rgmii_contract_tb\xsim.jou
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/case_snapshot/xsim_script.tcl
+# set_param project.enableReportConfiguration 0
+# load_feature core
+# current_fileset
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/vivado2018.3/Vivado/2018.3/data/ip'.
+current_fileset: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 690.391 ; gain = 65.691
+# xsim {case_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/verification_out/optimization_20261031/native_wave_gmii_rgmii_contract_tb_v2/open_candidate.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/verification_out/optimization_20261031/native_wave_gmii_rgmii_contract_tb_v2/open_candidate.tcl
+## set sig [get_objects {/gmii_rgmii_contract_tb/reset_n /gmii_rgmii_contract_tb/gmii_tx_clk /gmii_rgmii_contract_tb/gmii_txd /gmii_rgmii_contract_tb/gmii_txen /gmii_rgmii_contract_tb/gmii_txer /gmii_rgmii_contract_tb/rgmii_tx_clk /gmii_rgmii_contract_tb/rgmii_txd /gmii_rgmii_contract_tb/rgmii_txen}]
+## log_wave $sig
+## add_wave -radix hex $sig
+## run all
+PASS: gmii_rgmii_contract actual UNISIM ODDR/300 random bytes/both edges/TX_EN XOR TX_ER/forwarded clock/reset
+$finish called at time : 2572100 ps : File "D:/fpga_race/deploy/submission_20261031/sim/sources/verification_20261031/gmii_rgmii_contract_tb.sv" Line 21
+## catch {wave zoom full}
+## set h [open "D:/fpga_race/verification_out/optimization_20261031/native_wave_gmii_rgmii_contract_tb_v2/ready.txt" w]
+## puts $h "own viewer ready"
+## close $h

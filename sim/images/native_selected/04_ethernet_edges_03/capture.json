@@ -1,0 +1,21 @@
+{
+  "key": "04_ethernet_edges",
+  "title": "以太网：一个字节在时钟双沿送出",
+  "native_ide_screenshot": true,
+  "method": "own Vivado GUI static WDB viewer; no simulation rerun or source value edits",
+  "launched_pid": 28232,
+  "window_pid": 28580,
+  "window_title": "Vivado 2018.3",
+  "hardware_access": false,
+  "database_sha256": "929e878ab201c5a72af7f96129373a97d98eaa015f312d9a8bd30011d35c2ce5",
+  "config_sha256": "1f5fee54c418b08daa2a9e946c64be2823f7e8d751e3aa0eba78f0182108d882",
+  "image_sha256": "39aa4c9c51f53924b973d68058c827762fed159507ca42b52c73a76c74b80d8b",
+  "source_result": "verification_out\\refinement_20261031\\cases\\gmii_rgmii_contract_tb\\result.json",
+  "source_result_sha256": "ed4dec5a9698f78d701bf69adc00eccb8aa4f6a9f8f9d40b7f210e4bb3444394",
+  "window_ns": [
+    168.1,
+    184.1
+  ],
+  "image": "vivado_wave.png",
+  "visual_review": "pending"
+}

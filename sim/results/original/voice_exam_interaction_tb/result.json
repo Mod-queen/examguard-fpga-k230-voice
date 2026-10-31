@@ -1,0 +1,38 @@
+{
+  "top": "voice_exam_interaction_tb",
+  "status": "passed",
+  "active_modules": [
+    "exam_fsm",
+    "voice_exam_interaction",
+    "voice_info_confirm"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "voice_exam_interaction_tb"
+  ],
+  "testbench": "fpga/src/voice_interaction/voice_exam_interaction_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/voice_interaction/voice_exam_interaction_tb.sv",
+      "sha256": "c5799f2ce160231675b1e60bcbc7dc7462bcce1932ea09e9783b9aca5aeb15f9"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/21f6f02914e8/voice_info_confirm.sv",
+      "sha256": "e1331a3496a220524b304acf544a956e42b77f7b83057b07e0f59e390f764f78"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/e1d0aca88e4d/voice_exam_interaction.sv",
+      "sha256": "b2236ce0cc16a9c3b5023e728c33d26a592ce289db3293242c36cf9fb2c417cf"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm.v",
+      "sha256": "99966b2469909e9bd205489ee97162df4bd8bde5b52d6abfcc1969bdeb914a77"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: voice_exam_interaction scenarios=18"
+  ],
+  "trace_bytes": 69036,
+  "seconds": 0.156
+}

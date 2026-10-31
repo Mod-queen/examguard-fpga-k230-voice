@@ -1,0 +1,26 @@
+{
+  "top": "voice_asr_i2c_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/voice_asr/voice_asr_i2c_tb.v",
+      "sha256": "68503474fcfd99ca58526325faa72b7fa18160027c581070755efa575606d69c"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/voice_asr/voice_asr_i2c.v",
+      "sha256": "a16485cd3b496155a8370311520c0072631a4622b384677db3e80d847a42817a"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/voice_asr/voice_command_map.v",
+      "sha256": "1e308cbda55ded5427b1453e8cab3ba7793e8aeb1214d98291a592ba2a165fa7"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.079,
+  "pass_lines": [
+    "PASS: voice_asr_i2c (5 words, 1 tts)"
+  ],
+  "exit_code": 0
+}

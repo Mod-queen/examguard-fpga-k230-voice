@@ -1,0 +1,3 @@
+instance	slack_ns	requirement_ns	startpoint	endpoint
+history_hr_cdc_inst	5.942	8.000	history_hr_cdc_inst/fifo/mem_reg_192_255_6_8/RAMC/CLK	history_hr_cdc_inst/dst_last_reg/D
+history_pixel_cdc_inst	5.143	8.000	history_pixel_cdc_inst/fifo/mem_reg_192_255_6_8/RAMC/CLK	history_pixel_cdc_inst/dst_last_reg/D

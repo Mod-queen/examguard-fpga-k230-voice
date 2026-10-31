@@ -1,0 +1,10 @@
+{
+  "reason": "full_build_01 critical path overlay to TMDS, 18 logic levels, WNS +0.171ns",
+  "top_before_sha256": "01f331612d3a4229e755ba42c70669e58ca92ab1d1c7eb029f6f5f98db852d25",
+  "top_after_sha256": "cc29bf9a627da35e9d9f2e3bfc5f9d4a9a2a00c3fb80d69e67eaa13b987510eb",
+  "additional_hdmi_latency_pixel_cycles": 1,
+  "clock_frequency_changed": false,
+  "parallel_display_unchanged": true,
+  "camera_ddr_unchanged": true,
+  "flash_written": false
+}

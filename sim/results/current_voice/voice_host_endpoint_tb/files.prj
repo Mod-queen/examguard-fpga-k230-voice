@@ -1,0 +1,3 @@
+sv work "D:/fpga_race/deploy/engineering_final_20261031/sim/sources/voice_interaction/voice_host_endpoint_tb.sv"
+sv work "D:/fpga_race/deploy/engineering_final_20261031/src/fpga/local_sources/5865e260549f/voice_host_endpoint.sv"
+sv work "D:/fpga_race/deploy/engineering_final_20261031/src/fpga/local_sources/35587c20f082/voice_status_record.sv"

@@ -1,0 +1,28 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/focus_snapshot/xsim_script.tcl
+# xsim {focus_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/verification_out/refinement_20261031/cases/history_store_axi_tb/run.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/verification_out/refinement_20261031/cases/history_store_axi_tb/run.tcl
+## set signals [get_objects {/history_store_axi_tb/tail/m_axi_awvalid /history_store_axi_tb/tail/m_axi_awready /history_store_axi_tb/tail/m_axi_wvalid /history_store_axi_tb/tail/m_axi_wready /history_store_axi_tb/tail/m_axi_wlast /history_store_axi_tb/tail/m_axi_bvalid /history_store_axi_tb/tail/m_axi_bready /history_store_axi_tb/tail/m_axi_bresp /history_store_axi_tb/tail/hold_b /history_store_axi_tb/tail/m_axi_arvalid /history_store_axi_tb/tail/m_axi_arready /history_store_axi_tb/tail/m_axi_rvalid /history_store_axi_tb/tail/m_axi_rready /history_store_axi_tb/tail/m_axi_rlast /history_store_axi_tb/tail/m_axi_rresp}]
+## if {[llength $signals] != 15} {error "Missing selected signals"}
+## create_wave_config
+## add_wave -radix hex $signals
+## log_wave $signals
+## open_vcd trace.vcd
+## log_vcd $signals
+## run all
+PASS: history_store_axi FP=1 writer+reader+token directory+oneDMA overlap/concurrent/R-Berrors/held results/capacity/stale/reset pixels=27 results=8 concurrentCycles=116
+PASS: history_store_axi FP=37 writer+reader+token directory+oneDMA overlap/concurrent/R-Berrors/held results/capacity/stale/reset pixels=999 results=8 concurrentCycles=5562
+PASS: history_store_axi FP=269 writer+reader+token directory+oneDMA overlap/concurrent/R-Berrors/held results/capacity/stale/reset pixels=7263 results=8 concurrentCycles=39790
+PASS: history_store_axi ALL
+$finish called at time : 1245886 ns : File "D:/fpga_race/deploy/engineering_20261031/sim/sources/ddr3_test/history_store_axi_tb.sv" Line 252
+## close_vcd
+## save_wave_config focus.wcfg
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 18:53:28 2026...

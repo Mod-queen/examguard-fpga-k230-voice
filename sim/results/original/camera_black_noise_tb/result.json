@@ -1,0 +1,28 @@
+{
+  "top": "camera_black_noise_tb",
+  "status": "passed",
+  "active_modules": [
+    "camera_black_gate"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "camera_black_noise_tb"
+  ],
+  "testbench": "fpga/src/vision_guard/camera_black_noise_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/vision_guard/camera_black_noise_tb.sv",
+      "sha256": "cd56250191d414f9aa185813a60e670a7acd0fa58a6114e886d19a72b53ecd34"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/15950e21e551/camera_black_gate.v",
+      "sha256": "fce64430ab2e9c4ac0eac89408277f9fb45435b839a33e3a6f4c846be5cd18a6"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS quantization-compatible measured dark-noise replay, exact98 boundary,31/32 separation"
+  ],
+  "trace_bytes": 2000141,
+  "seconds": 1.25
+}

@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/sim/sources/ddr3_test/history_sample_source_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module history_sample_source_case
+INFO: [VRFC 10-311] analyzing module history_sample_source_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_capture_source.sv" into library work
+INFO: [VRFC 10-311] analyzing module history_capture_source
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_sample_source.sv" into library work
+INFO: [VRFC 10-311] analyzing module history_sample_source

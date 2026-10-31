@@ -1,0 +1,18 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module history_store_axi_tb $end
+$var wire 1 ! a $end
+$var wire 1 " b $end
+$var wire 1 # c $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+#49326000
+1!
+#297486000
+1"
+#1245886000
+1#

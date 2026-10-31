@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "synthetic": true,
+  "fixture_folder": "D:\\fpga_race\\verification_out\\agent_20261030\\browser_fixture_1793327558912492900",
+  "checks": [
+    "login",
+    "actual_frontend_fetch",
+    "event_query",
+    "joint_evidence",
+    "png_preview",
+    "frame_selection",
+    "review_record_download",
+    "mobile_layout",
+    "logout",
+    "system_diagram"
+  ],
+  "errors": []
+}

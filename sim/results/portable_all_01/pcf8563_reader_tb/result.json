@@ -1,0 +1,26 @@
+{
+  "top": "pcf8563_reader_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/persistence/pcf8563_reader_tb.sv",
+      "sha256": "bcdefdfdd23d2f2f2c7232a14f470fc401a353eb775687de9874be9ad75b3d08"
+    },
+    {
+      "path": "src/fpga/local_sources/a8328017a7aa/pcf8563_reader.sv",
+      "sha256": "cae1252215581075f1acb623e30c2eb0f151b4a8e67eb289b5e0b686b08f8cd4"
+    },
+    {
+      "path": "src/fpga/local_sources/c66e664ded59/pcf8563_calendar.sv",
+      "sha256": "f8c87466cd7973ed81e45ef41c1dd511afd5044c3cba8e9e8966a989ac646d29"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.015,
+  "pass_lines": [
+    "PASS: pcf8563_reader results=7 transactions=18 burst/reread/rollover/VL/I2C-error/stale/reset"
+  ],
+  "exit_code": 0
+}

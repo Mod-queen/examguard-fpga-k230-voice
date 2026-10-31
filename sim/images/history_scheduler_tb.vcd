@@ -1,0 +1,20 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module history_scheduler_tb $end
+$var wire 1 ! d $end
+$var wire 1 " c $end
+$var wire 1 # b $end
+$var wire 1 $ a $end
+$upscope $end
+$enddefinitions $end
+#0
+0$
+0#
+0"
+0!
+#3290000
+1#
+#21030000
+1"
+#45010000
+1$

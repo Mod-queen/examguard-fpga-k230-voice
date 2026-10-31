@@ -1,0 +1,22 @@
+{
+  "top": "camera_black_noise_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/vision_guard/camera_black_noise_tb.sv",
+      "sha256": "cd56250191d414f9aa185813a60e670a7acd0fa58a6114e886d19a72b53ecd34"
+    },
+    {
+      "path": "src/fpga/local_sources/97996d0703f5/camera_black_gate.v",
+      "sha256": "fce64430ab2e9c4ac0eac89408277f9fb45435b839a33e3a6f4c846be5cd18a6"
+    }
+  ],
+  "repairs": [],
+  "seconds": 1.0,
+  "pass_lines": [
+    "PASS quantization-compatible measured dark-noise replay, exact98 boundary,31/32 separation"
+  ],
+  "exit_code": 0
+}

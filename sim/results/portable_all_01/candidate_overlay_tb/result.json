@@ -1,0 +1,26 @@
+{
+  "top": "candidate_overlay_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/voice_interaction/candidate_overlay_tb.sv",
+      "sha256": "e981fb487a6d2e5f5d2ee5e8f44a05cbe254e70933020403c28eba2ace8a3488"
+    },
+    {
+      "path": "src/fpga/local_sources/2029ef185f4b/candidate_glyph.sv",
+      "sha256": "2c32255616e3d1e9f1dbbc7dce4df1d3b94d08978295df39d93a04095eeb008e"
+    },
+    {
+      "path": "src/fpga/local_sources/0d0080802b6c/candidate_overlay.sv",
+      "sha256": "2b962116c543d7d5a4304085f2d814bf61c39e145ea611ecf203593f9778d83f"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.047,
+  "pass_lines": [
+    "PASS: candidate_overlay frame_ack glyphs=16 passthrough lit=90"
+  ],
+  "exit_code": 0
+}

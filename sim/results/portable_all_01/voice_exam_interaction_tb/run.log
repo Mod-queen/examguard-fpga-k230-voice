@@ -1,0 +1,2 @@
+PASS: voice_exam_interaction scenarios=18
+D:\fpga_race\deploy\submission_20261031\sim\sources\voice_interaction\voice_exam_interaction_tb.sv:303: $finish called at 15271000 (1ps)

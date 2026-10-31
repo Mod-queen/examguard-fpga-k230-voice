@@ -1,0 +1,23 @@
+{
+  "top": "ai_mailbox_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ai_link/ai_mailbox_tb.v",
+      "sha256": "7ae1e16b33762419ec125de4811b7c7d710a806273e171aa77893942772c92f7"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ai_link/ai_mailbox.v",
+      "sha256": "2faef872097918371178326002ac9236e7ac362f80f0c0d8173df774c1127643"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.016,
+  "pass_lines": [
+    "PASS: ai_mailbox (auth ids + object classes)",
+    "PASS: ai_mailbox explicit none"
+  ],
+  "exit_code": 0
+}

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Oct 31 18:16:59 2026
+# Process ID: 15588
+# Current directory: D:/fpga_race/deploy/engineering_20261031/build/entry_acceptance_03/simulation/evidence_wrapper_reset_tb
+# Command line: wbtcv.exe -mode batch -source D:/fpga_race/deploy/engineering_20261031/build/entry_acceptance_03/simulation/evidence_wrapper_reset_tb/xsim.dir/case_snapshot/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/fpga_race/deploy/engineering_20261031/build/entry_acceptance_03/simulation/evidence_wrapper_reset_tb/webtalk.log
+# Journal file: D:/fpga_race/deploy/engineering_20261031/build/entry_acceptance_03/simulation/evidence_wrapper_reset_tb\webtalk.jou
+#-----------------------------------------------------------
+source D:/fpga_race/deploy/engineering_20261031/build/entry_acceptance_03/simulation/evidence_wrapper_reset_tb/xsim.dir/case_snapshot/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 31 18:17:00 2026...

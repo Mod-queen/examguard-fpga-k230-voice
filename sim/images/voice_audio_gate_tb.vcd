@@ -1,0 +1,165 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module voice_audio_gate_tb $end
+$var wire 3 " req_ready $end
+$var wire 3 # bus_req_valid $end
+$var wire 3 * bus_req_ready $end
+$var wire 32 , done_cookie $end
+$var wire 2 - done_owner $end
+$var wire 1 . done_ready $end
+$var wire 32 / done_round $end
+$var wire 64 0 done_tag $end
+$var wire 1 1 done_valid $end
+$var wire 3 8 req_valid $end
+$var wire 1 9 rst $end
+$upscope $end
+$enddefinitions $end
+#0
+19
+b0 8
+01
+b1001 0
+b1 /
+0.
+b0 -
+b1 ,
+b0 *
+bx #
+bx "
+#30000
+b0 "
+b0 #
+09
+#40000
+b1 #
+b111 8
+#50000
+b1 "
+b111 *
+#55000
+b0 "
+b0 #
+#60000
+b110 8
+b0 *
+#70000
+b1 -
+1.
+11
+#80000
+0.
+01
+#186000
+b10 ,
+#190000
+b0 -
+1.
+11
+#200000
+0.
+01
+#306000
+b10 /
+b1 ,
+#310000
+1.
+11
+#320000
+0.
+01
+#326000
+b1010 0
+b1 /
+#330000
+1.
+11
+#340000
+0.
+01
+#346000
+b1001 0
+#350000
+11
+#480000
+01
+#490000
+1.
+11
+#500000
+0.
+01
+#575000
+b10 #
+#590000
+b10 "
+b111 *
+#595000
+b0 "
+b0 #
+#600000
+b100 8
+b0 *
+#610000
+b1 -
+1.
+11
+#620000
+0.
+01
+#675000
+b100 #
+#690000
+b100 "
+b111 *
+#695000
+b0 "
+b0 #
+#700000
+b0 8
+b0 *
+#786000
+b0 0
+b0 /
+b0 ,
+#790000
+b10 -
+1.
+11
+#800000
+0.
+01
+#806000
+b1 #
+b1 8
+#820000
+b1 "
+b111 *
+#825000
+b0 "
+b0 #
+#830000
+b0 8
+b0 *
+#840000
+19
+#850000
+09
+#856000
+b1 #
+b1 8
+#870000
+b1 "
+b111 *
+#875000
+b0 "
+b0 #
+#880000
+b0 8
+b0 *
+#890000
+b0 -
+1.
+11
+#900000
+0.
+01

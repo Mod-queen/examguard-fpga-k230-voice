@@ -1,0 +1,32 @@
+{
+  "top": "shared_xadc_monitor_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/test_repairs/shared_xadc_monitor_tb/shared_xadc_monitor_tb.sv",
+      "sha256": "cd01a0ddb608f4640a57a58db854e557c46df54917ddc3311c64eb9323a5d811"
+    },
+    {
+      "path": "src/fpga/local_sources/7cd650dffdea/xadc_monitor_reader.sv",
+      "sha256": "4082cac7140c71d5a5684089426c05b6738c5e412651eea94c847879af9ebbd3"
+    },
+    {
+      "path": "src/fpga/local_sources/8d2967dae5eb/shared_xadc_monitor.sv",
+      "sha256": "ff3497f1b4769d746f750de032f9f3c472c96c756a3e17ec1738567370f5851e"
+    },
+    {
+      "path": "@vivado/glbl.v",
+      "sha256": "c48753ff3481f46872a09160eee14b5596b37444c1bf2b84bf2acd922e7c982d"
+    }
+  ],
+  "repairs": [
+    "Use reproducible fixture xadc_sim_analog_20261021.txt"
+  ],
+  "seconds": 6.188,
+  "pass_lines": [
+    "PASS: shared_xadc_monitor real UNISIM TEMP/INT/AUX/BRAM scan=1000000015555999955559772"
+  ],
+  "exit_code": 0
+}

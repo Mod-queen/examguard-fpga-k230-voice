@@ -1,0 +1,22 @@
+{
+  "top": "dvp_capture_contract_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/verification_20261031/dvp_capture_contract_tb.sv",
+      "sha256": "570c19c323280c264120fb2d0c4b6e1efc1597b16cca9b02c5f397f56b53aaba"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvp_capture/dvp_capture.v",
+      "sha256": "ef74e559e3c859d53742c8a8d510fc957d97c39071a79faa289af6a957cefac4"
+    }
+  ],
+  "repairs": [],
+  "seconds": 7.063,
+  "pass_lines": [
+    "PASS: dvp_capture_contract nine startup frames discarded/RGB565 byte order/12 pixels/three lines/coordinates/mid-pixel reset"
+  ],
+  "exit_code": 0
+}

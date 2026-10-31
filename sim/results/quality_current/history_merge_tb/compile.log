@@ -1,0 +1,12 @@
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\history_merge_tb.sv:64: warning: Port 8 (in_ok) of history_result_fork expects 1 bits, got 32.
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\history_merge_tb.sv:64:        : Pruning (signed) 31 high bits of the expression.
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\history_merge_tb.sv:64: warning: Port 9 (in_trunc) of history_result_fork expects 1 bits, got 32.
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\history_merge_tb.sv:64:        : Pruning (signed) 31 high bits of the expression.
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\history_merge_tb.sv:64: warning: Port 10 (in_cap) of history_result_fork expects 1 bits, got 32.
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\history_merge_tb.sv:64:        : Pruning (signed) 31 high bits of the expression.
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\history_merge_tb.sv:64: warning: Port 11 (in_gap_unknown) of history_result_fork expects 1 bits, got 32.
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\history_merge_tb.sv:64:        : Pruning (signed) 31 high bits of the expression.
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\history_merge_tb.sv:64: warning: Port 12 (in_gap_bad_range) of history_result_fork expects 1 bits, got 32.
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\history_merge_tb.sv:64:        : Pruning (signed) 31 high bits of the expression.
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\history_merge_tb.sv:64: warning: Port 13 (in_coverage) of history_result_fork expects 1 bits, got 32.
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\history_merge_tb.sv:64:        : Pruning (signed) 31 high bits of the expression.

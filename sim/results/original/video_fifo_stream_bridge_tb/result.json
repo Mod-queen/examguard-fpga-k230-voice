@@ -1,0 +1,38 @@
+{
+  "top": "video_fifo_stream_bridge_tb",
+  "engine": "AMD XSim 2018.3",
+  "status": "passed",
+  "active_modules": [
+    "video_fifo_stream_bridge"
+  ],
+  "repairs": [],
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "D:\\fpga_race\\fpga\\src\\ddr3_test\\video_fifo_stream_bridge_tb.sv",
+      "sha256": "f28981e4f85cd283f7f7eb9608d4c435ffeabb4040a91a736e4b6db978454410"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\ov5640_ddr3_hdmi_vga.srcs\\sources_1\\imports\\ddr3_test\\video_fifo_stream_bridge.v",
+      "sha256": "439fa08d11082e647b50af14628757ab517a84f4c68c010ae0fe175242952d37"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\ov5640_ddr3_hdmi_vga.srcs\\sources_1\\ip\\wr_ddr3_fifo\\wr_ddr3_fifo_sim_netlist.v",
+      "sha256": "199d863375db6da134c039998fc2c077edc864593c8c529ee4a7f1fde41fbb59"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\ov5640_ddr3_hdmi_vga.srcs\\sources_1\\ip\\rd_ddr3_fifo\\rd_ddr3_fifo_sim_netlist.v",
+      "sha256": "c97c8e713880079b519bc10c098d4677feae25a3ea1a6e5e509742c576bc5ea9"
+    },
+    {
+      "path": "D:\\vivado\\vivado2018.3\\Vivado\\2018.3\\data\\verilog\\src\\glbl.v",
+      "sha256": "c48753ff3481f46872a09160eee14b5596b37444c1bf2b84bf2acd922e7c982d"
+    }
+  ],
+  "seconds": 6.282,
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: video_fifo_stream_bridge all checks"
+  ],
+  "trace_bytes": 344331
+}

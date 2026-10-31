@@ -1,0 +1,2 @@
+PASS: cdc_frame_activity
+D:\fpga_race\deploy\engineering_quality_20261031\src\fpga\ov5640_ddr3_hdmi_vga.srcs\sources_1\fullscreen_monitor\cdc_frame_activity_tb.v:55: $finish called at 520000 (1ps)

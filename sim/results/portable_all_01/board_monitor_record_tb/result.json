@@ -1,0 +1,22 @@
+{
+  "top": "board_monitor_record_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/health/board_monitor_record_tb.sv",
+      "sha256": "46077638c90a41acbb01c0df1b472d9372b7c7f330f90435f37f7de2cbdf416e"
+    },
+    {
+      "path": "src/fpga/local_sources/0c606c7a4802/board_monitor_record.sv",
+      "sha256": "a4599d19f893d123c541d630f822ffc290041305c633336f26a2df28b2cac1f7"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.031,
+  "pass_lines": [
+    "PASS: board_monitor_record good/invalid two CRC packets"
+  ],
+  "exit_code": 0
+}

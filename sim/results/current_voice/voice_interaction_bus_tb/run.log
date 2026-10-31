@@ -1,0 +1,2 @@
+PASS: voice_interaction_bus scenarios=8 writes=5 reads=17 starts=52 stops=35
+D:\fpga_race\deploy\engineering_final_20261031\sim\sources\voice_interaction\voice_interaction_bus_tb.sv:198: $finish called at 465751000 (1ps)

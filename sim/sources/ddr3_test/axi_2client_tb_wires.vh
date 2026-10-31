@@ -1,0 +1,18 @@
+    wire [7:0] s_axi_awid,s_axi_bid,s_axi_arid,s_axi_rid;
+    wire [59:0] s_axi_awaddr,s_axi_araddr;
+    wire [15:0] s_axi_awlen,s_axi_arlen;
+    wire [5:0] s_axi_awsize,s_axi_awprot,s_axi_arsize,s_axi_arprot;
+    wire [3:0] s_axi_awburst,s_axi_arburst,s_axi_bresp,s_axi_rresp;
+    wire [1:0] s_axi_awlock,s_axi_arlock;
+    wire [7:0] s_axi_awcache,s_axi_awqos,s_axi_arcache,s_axi_arqos;
+    wire [1:0] s_axi_awvalid,s_axi_awready,s_axi_wlast,s_axi_wvalid,s_axi_wready;
+    wire [1:0] s_axi_bvalid,s_axi_bready,s_axi_arvalid,s_axi_arready,s_axi_rlast,s_axi_rvalid,s_axi_rready;
+    wire [255:0] s_axi_wdata,s_axi_rdata;
+    wire [31:0] s_axi_wstrb;
+    wire m_axi_awlock,m_axi_arlock;
+    wire [3:0] m_axi_awcache,m_axi_awqos,m_axi_arcache,m_axi_arqos;
+    wire [2:0] m_axi_awprot,m_axi_arprot;
+    wire write_busy,read_busy,write_owner,read_owner;
+    wire [3:0] protocol_fault;
+    wire [63:0] write_grants,read_grants,write_completed,read_completed;
+    wire [63:0] write_beats,read_beats,write_errors,read_errors,write_wait_max,read_wait_max;

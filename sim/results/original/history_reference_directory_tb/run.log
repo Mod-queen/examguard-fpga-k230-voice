@@ -1,0 +1,23 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/case_snapshot/xsim_script.tcl
+# xsim {case_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/verification_out/optimization_20261031/simulation/xsim_round3/history_reference_directory_tb/run.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/verification_out/optimization_20261031/simulation/xsim_round3/history_reference_directory_tb/run.tcl
+## open_vcd trace.vcd
+## log_vcd [get_objects /history_reference_directory_tb/*]
+## run all
+PASS: history_reference_directory N=1 original-time/shared refs/write protection/seal/late/truncation/backpressure/errors/reset/token
+PASS: history_reference_directory N=7 original-time/shared refs/write protection/seal/late/truncation/backpressure/errors/reset/token
+PASS: history_reference_directory N=7 original-time/shared refs/write protection/seal/late/truncation/backpressure/errors/reset/token
+PASS: history_reference_directory N=64 original-time/shared refs/write protection/seal/late/truncation/backpressure/errors/reset/token
+PASS: history_reference_directory ALL
+$finish called at time : 235287 ns : File "D:/fpga_race/verification_out/optimization_20261031/simulation/xsim_round3/history_reference_directory_tb/history_reference_directory_tb.sv" Line 218
+## close_vcd
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 17:10:00 2026...

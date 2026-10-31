@@ -1,0 +1,2 @@
+PASS: persistent_event_identity pending/asyncCancel/sessionTimePreserved/UID1to7/noReuseAfter3Cancels/MAX/newBootUID1
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\event_identity\persistent_event_identity_tb.sv:63: $finish called at 2360000 (1ps)

@@ -1,0 +1,21 @@
+{
+  "key": "02_camera_retry",
+  "title": "摄像头：失败应答与原事务重试",
+  "native_ide_screenshot": true,
+  "method": "own Vivado GUI static WDB viewer; no simulation rerun or source value edits",
+  "launched_pid": 17712,
+  "window_pid": 4864,
+  "window_title": "Vivado 2018.3",
+  "hardware_access": false,
+  "database_sha256": "bd1952b7a754182cf69682a6dd209b37250b6c7a38f650722264f31c24d73dcd",
+  "config_sha256": "669eddba8fe20bf5482577374824bdc684f4c532264a2cffdaea5629de8504d3",
+  "image_sha256": "18543c27365c82a973e49416af837360b645e0571536f4f834baf4aea27f6e51",
+  "source_result": "verification_out\\refinement_20261031\\cases\\camera_init_contract_tb\\result.json",
+  "source_result_sha256": "92136f84c5f2aaf733e77a84f11107dedcb19130a0cef7a8c1b95622cf2b7bec",
+  "window_ns": [
+    60942750.0,
+    61137750.0
+  ],
+  "image": "vivado_wave.png",
+  "visual_review": "pending"
+}

@@ -1,0 +1,96 @@
+{
+  "top": "maintenance_system_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/test_repairs/maintenance_system_tb/maintenance_system_tb.sv",
+      "sha256": "0e2695e0653d77bb01597bef6ca389051c073cde1e01be333f8fc2ccf1251d1d"
+    },
+    {
+      "path": "src/fpga/local_sources/cfe9e05c73c5/maintenance_record.sv",
+      "sha256": "abdeba1d1fe91377a94d3956dc9bd200ab17348963b86818163bb52bdb589d90"
+    },
+    {
+      "path": "src/fpga/local_sources/c5242e5fe116/pcf8563_setter.sv",
+      "sha256": "e25f0c88c17aaa5c90c99366bbd162a8021455fbf438737101e1a4b9aa78cd4b"
+    },
+    {
+      "path": "src/fpga/local_sources/6757b9ed1223/eeprom_page_writer.sv",
+      "sha256": "386a79443b25ddceaeab9d1053ba53029ea18dd2ee8ce3a29de17bf4ac2b8894"
+    },
+    {
+      "path": "src/fpga/local_sources/a8328017a7aa/pcf8563_reader.sv",
+      "sha256": "cae1252215581075f1acb623e30c2eb0f151b4a8e67eb289b5e0b686b08f8cd4"
+    },
+    {
+      "path": "src/fpga/local_sources/1dea5a5ec50d/eeprom_dualslot_store.sv",
+      "sha256": "7755f1cfebe6be4e48988132c47438cf7526afd3ed5401c8b6c7d07ad70f7a13"
+    },
+    {
+      "path": "src/fpga/local_sources/ee27b53745a7/rtc_time_anchor.sv",
+      "sha256": "165831fb384824d364263d3246d9b18ca233e47ca9e5fa38ce8737b6c9b5d8f8"
+    },
+    {
+      "path": "src/fpga/local_sources/473868420a86/eeprom_record_codec.sv",
+      "sha256": "2650ebdd7c40358b5cea4c2975d1dd48bd4310e373a22b2cc2ba46623f068834"
+    },
+    {
+      "path": "src/fpga/local_sources/c66e664ded59/pcf8563_calendar.sv",
+      "sha256": "f8c87466cd7973ed81e45ef41c1dd511afd5044c3cba8e9e8966a989ac646d29"
+    },
+    {
+      "path": "src/fpga/local_sources/b3552f47b77a/rtc_anchor_record.sv",
+      "sha256": "4a1b21fde243a3c715440e57323be5637a46f13754f1af81537f619dceba9694"
+    },
+    {
+      "path": "src/fpga/local_sources/0663b43ea7cd/persistent_config_decode.sv",
+      "sha256": "b31b4b9cbb81f5dc9303452cca01f7dd51316c05e2f8563080bf1261f4f517c6"
+    },
+    {
+      "path": "src/fpga/local_sources/682b9b4992fd/i2c_byte_master.sv",
+      "sha256": "4b7471ebdfcd080cbabc516e8a56793526a8ac7ecdbc0f51b42c8740dfd2bc8c"
+    },
+    {
+      "path": "src/fpga/local_sources/f0215bcf904a/persistent_boot_gate.sv",
+      "sha256": "c8d0a6f30842cbbaefa82d0a6670efd11c1fb0ecb128c4ff2bdd63c08801b416"
+    },
+    {
+      "path": "src/fpga/local_sources/f968173539ff/maintenance_endpoint.sv",
+      "sha256": "5f5ea9e22e947fa669163440aedc79baed228bb4fdf953d083fb3d09fe2e90b1"
+    },
+    {
+      "path": "src/fpga/local_sources/709b883505d5/rtc_anchor_client.sv",
+      "sha256": "e9638e6c7840cb0dcfd4f03e59723af577a80899eb44754e2308f33e2480b552"
+    },
+    {
+      "path": "src/fpga/local_sources/970a8a9f3bf9/persistent_maintenance_service.sv",
+      "sha256": "cabc1eb305af574c7cc26b8a0c60ef265e959132e93d91546eec702af87b858e"
+    },
+    {
+      "path": "src/fpga/local_sources/aff7f4c790db/maintenance_command_rx.sv",
+      "sha256": "a071991045c73d13474ba4647c4e1b63e9175c1babe1ca3f6db5445ba00349d3"
+    },
+    {
+      "path": "src/fpga/local_sources/49702224756b/persistent_config_manager.sv",
+      "sha256": "04c39e1d4ac76b3158b76697fb1ad0e7b680c9623ed66f84010358bdf4a3aea7"
+    },
+    {
+      "path": "src/fpga/local_sources/0e8d0fe30f17/i2c_register_master.sv",
+      "sha256": "a4d1144965e65a73169a89361a1d9be26d6a499512133b647f28829e8d55e8f0"
+    },
+    {
+      "path": "src/fpga/local_sources/cb4f400b368e/i2c_transaction_arbiter.sv",
+      "sha256": "e5d3a11a4b3f48382be966e16e3a40c61cd956ff04f533fe37e102e2c23391a9"
+    }
+  ],
+  "repairs": [
+    "Use reproducible fixture maintenance_commands_20261021.mem"
+  ],
+  "seconds": 7.797,
+  "pass_lines": [
+    "PASS: maintenance_system MC/endpoint/service/pin-only dual devices/MR executes=3 replies=4 RTCwrites=9 EEPROMwrites=256"
+  ],
+  "exit_code": 0
+}

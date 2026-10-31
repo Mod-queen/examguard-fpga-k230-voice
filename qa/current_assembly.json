@@ -1,0 +1,10 @@
+{
+  "seed_manifest_sha256": "7e60ea5cd0d0b6882c564159df3f55bb27693237de0f28a36a133b7ba4ca52c1",
+  "source_identity_check": "data/current_source_identity.json",
+  "documents_modified": false,
+  "hardware_access": false,
+  "cloud_requests": false,
+  "rtl_inventory_count": 159,
+  "new_related_regression_pending": false,
+  "related_regression_passed": 11
+}

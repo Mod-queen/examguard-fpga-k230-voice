@@ -1,0 +1,78 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module ai_link_rx_tb $end
+$var wire 1 ! result_valid $end
+$var wire 16 & frame_count $end
+$var wire 1 - rst $end
+$var wire 2 " msg_type $end
+$var wire 5 # msg_text_len $end
+$var wire 128 $ msg_text $end
+$var wire 8 % msg_score $end
+$var wire 16 ' bbox_y $end
+$var wire 16 ( bbox_x $end
+$var wire 16 ) bbox_w $end
+$var wire 16 * bbox_h $end
+$upscope $end
+$enddefinitions $end
+#0
+1-
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+x!
+#5000
+b0 &
+b0 %
+b0 #
+b0 $
+b0 *
+b0 )
+b0 '
+b0 (
+b0 "
+0!
+#45000
+0-
+#28125000
+b1 &
+1!
+b1010111 %
+b101 #
+b110010101100011011010010110110001000001 $
+b101000 *
+b11110 )
+b10100 '
+b1010 (
+b1 "
+#28135000
+0!
+#50525000
+b10 &
+1!
+b0 %
+b110010101101110011011110110100001110000 $
+b1000 *
+b111 )
+b110 '
+b101 (
+b10 "
+#50535000
+0!
+#73925000
+b11 &
+1!
+b0 #
+b0 $
+b1111000 *
+b10001100 )
+b1010000 '
+b1100100 (
+b11 "
+#73935000
+0!

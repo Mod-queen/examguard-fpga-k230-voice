@@ -1,0 +1,2 @@
+PASS: pcf8563_reader results=7 transactions=18 burst/reread/rollover/VL/I2C-error/stale/reset
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\persistence\pcf8563_reader_tb.sv:70: $finish called at 50940000 (1ps)

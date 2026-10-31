@@ -1,0 +1,33 @@
+{
+  "top": "candidate_overlay_tb",
+  "status": "passed",
+  "active_modules": [
+    "candidate_glyph",
+    "candidate_overlay"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "candidate_overlay_tb"
+  ],
+  "testbench": "fpga/src/voice_interaction/candidate_overlay_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/voice_interaction/candidate_overlay_tb.sv",
+      "sha256": "e981fb487a6d2e5f5d2ee5e8f44a05cbe254e70933020403c28eba2ace8a3488"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/22be593a8b13/candidate_glyph.sv",
+      "sha256": "2c32255616e3d1e9f1dbbc7dce4df1d3b94d08978295df39d93a04095eeb008e"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/b3b1a340375c/candidate_overlay.sv",
+      "sha256": "2b962116c543d7d5a4304085f2d814bf61c39e145ea611ecf203593f9778d83f"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: candidate_overlay frame_ack glyphs=16 passthrough lit=90"
+  ],
+  "trace_bytes": 145143,
+  "seconds": 0.141
+}

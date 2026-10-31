@@ -1,0 +1,28 @@
+{
+  "top": "eeprom_page_writer_tb",
+  "status": "passed",
+  "active_modules": [
+    "eeprom_page_writer"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "eeprom_page_writer_tb"
+  ],
+  "testbench": "fpga/src/persistence/eeprom_page_writer_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/persistence/eeprom_page_writer_tb.sv",
+      "sha256": "ddd4d78531d9045724bb0b9ea89061183871d57ef980ff7d432042cd93c3d24c"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/4ea846d85197/eeprom_page_writer.sv",
+      "sha256": "386a79443b25ddceaeab9d1053ba53029ea18dd2ee8ce3a29de17bf4ac2b8894"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: eeprom_page_writer results=8 transactions=16 page-tail/limit/poll-bound/verify-WP/errors/stalls/reset"
+  ],
+  "trace_bytes": 26974,
+  "seconds": 0.094
+}

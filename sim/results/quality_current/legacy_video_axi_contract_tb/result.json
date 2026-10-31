@@ -1,0 +1,26 @@
+{
+  "top": "legacy_video_axi_contract_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/ddr3_test/legacy_video_axi_contract_tb.sv",
+      "sha256": "6633d4c8308a5a6d33a87759282260c5f49a28d056f8a4b9c0201530c2e328fe"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ddr3_ctrl_2port/fifo_axi4_adapter/axi4_to_fifo.v",
+      "sha256": "21f66665845cee21eefd1cef6caddaed055f56481bb5afced7f06fd226cdf0f6"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ddr3_ctrl_2port/fifo_axi4_adapter/fifo_to_axi4.v",
+      "sha256": "2eddb0a1411726c5a2d9b8e962ab73daaa84876335edec4012cab7e7a282da7e"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.016,
+  "pass_lines": [
+    "PASS: legacy_video_axi_contract audit checks (known incompatibilities confirmed, NOT acceptance)"
+  ],
+  "exit_code": 0
+}

@@ -1,0 +1,40 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/verification_out/optimization_20261031/simulation/xsim_round3/maintenance_system_tb/maintenance_system_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module maintenance_system_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/11664d210aa1/maintenance_record.sv" into library work
+INFO: [VRFC 10-311] analyzing module maintenance_record
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/20a57578b747/pcf8563_setter.sv" into library work
+INFO: [VRFC 10-311] analyzing module pcf8563_setter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/4ea846d85197/eeprom_page_writer.sv" into library work
+INFO: [VRFC 10-311] analyzing module eeprom_page_writer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/5acd2aa6692b/pcf8563_reader.sv" into library work
+INFO: [VRFC 10-311] analyzing module pcf8563_reader
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/6f55019790ef/eeprom_dualslot_store.sv" into library work
+INFO: [VRFC 10-311] analyzing module eeprom_dualslot_store
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/73ffbc49762c/rtc_time_anchor.sv" into library work
+INFO: [VRFC 10-311] analyzing module rtc_time_anchor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/770359552324/eeprom_record_codec.sv" into library work
+INFO: [VRFC 10-311] analyzing module eeprom_record_codec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/79534ad6e7d0/pcf8563_calendar.sv" into library work
+INFO: [VRFC 10-311] analyzing module pcf8563_calendar
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/a8483d823073/rtc_anchor_record.sv" into library work
+INFO: [VRFC 10-311] analyzing module rtc_anchor_record
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/a84f893ed58a/persistent_config_decode.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_config_decode
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/ade9bc1b0ccb/i2c_byte_master.sv" into library work
+INFO: [VRFC 10-311] analyzing module i2c_byte_master
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/c076e82256e1/persistent_boot_gate.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_boot_gate
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/c27f2c04655e/maintenance_endpoint.sv" into library work
+INFO: [VRFC 10-311] analyzing module maintenance_endpoint
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/e4d91d5de499/rtc_anchor_client.sv" into library work
+INFO: [VRFC 10-311] analyzing module rtc_anchor_client
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/e8c391071012/persistent_maintenance_service.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_maintenance_service
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/eeaca5066441/maintenance_command_rx.sv" into library work
+INFO: [VRFC 10-311] analyzing module maintenance_command_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/f063d843e32e/persistent_config_manager.sv" into library work
+INFO: [VRFC 10-311] analyzing module persistent_config_manager
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/f0e5e6fadfb7/i2c_register_master.sv" into library work
+INFO: [VRFC 10-311] analyzing module i2c_register_master
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/ff4f43887cb5/i2c_transaction_arbiter.sv" into library work
+INFO: [VRFC 10-311] analyzing module i2c_transaction_arbiter

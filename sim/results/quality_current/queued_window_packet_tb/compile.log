@@ -1,0 +1,28 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/sim/sources/ddr3_test/queued_window_packet_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module queued_window_packet_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/crc32_d8.v" into library work
+INFO: [VRFC 10-311] analyzing module crc32_d8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/eth_udp_tx_gmii.v" into library work
+INFO: [VRFC 10-311] analyzing module eth_udp_tx_gmii
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/ip_checksum.v" into library work
+INFO: [VRFC 10-311] analyzing module ip_checksum
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v" into library work
+INFO: [VRFC 10-311] analyzing module async_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v" into library work
+INFO: [VRFC 10-311] analyzing module ddr3_axi_frame_dma
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_axi.v" into library work
+INFO: [VRFC 10-311] analyzing module ddr_evidence_axi
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_queued.v" into library work
+INFO: [VRFC 10-311] analyzing module ddr_evidence_queued
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_event_dispatch.v" into library work
+INFO: [VRFC 10-311] analyzing module evidence_event_dispatch
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_cdc.v" into library work
+INFO: [VRFC 10-311] analyzing module evidence_packet_cdc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_udp_bridge.v" into library work
+INFO: [VRFC 10-311] analyzing module evidence_packet_udp_bridge
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_window_packetizer.v" into library work
+INFO: [VRFC 10-311] analyzing module evidence_window_packetizer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v" into library work
+INFO: [VRFC 10-311] analyzing module evidence_reset_barrier
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/sim/sources/ddr3_test/axi_frame_slave_model.sv" into library work
+INFO: [VRFC 10-311] analyzing module axi_frame_slave_model

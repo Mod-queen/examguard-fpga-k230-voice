@@ -1,0 +1,28 @@
+{
+  "top": "persistent_config_decode_tb",
+  "engine": "AMD XSim 2018.3",
+  "status": "passed",
+  "active_modules": [
+    "persistent_config_decode"
+  ],
+  "repairs": [
+    "Use reproducible fixture persistent_config_vectors_20261021.mem"
+  ],
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "D:\\fpga_race\\verification_out\\optimization_20261031\\simulation\\xsim_round3\\persistent_config_decode_tb\\persistent_config_decode_tb.sv",
+      "sha256": "bc6d0e60354210e4568d2821f7ed2e19ebbfb21cc6072909db09e7e81feec3c1"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\a84f893ed58a\\persistent_config_decode.sv",
+      "sha256": "b31b4b9cbb81f5dc9303452cca01f7dd51316c05e2f8563080bf1261f4f517c6"
+    }
+  ],
+  "seconds": 5.89,
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: persistent_config_decode 317 host vectors/defaults/boundaries/single-bit-reserved"
+  ],
+  "trace_bytes": 69104
+}

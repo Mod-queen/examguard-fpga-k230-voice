@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "bytes": 16777216,
+  "sha256": "9a0d6fb5215faabb9569508ecb4809699236f82f91f7dde3174884b01c184a95",
+  "bit_sha256": "0efbb75c4403ae3fbc617f0c912295a18d877d02341b24ebc9efd048d31cb7bc",
+  "backup_VOICE3_sha256": "0bf1cc03eac070bf905b73374a0743f6aa7277c2403255e3823bd106c9531ad6",
+  "mcs": "D:\\fpga_race\\verification_out\\scene_guard_rev03_flash_plan_20261030\\scene_guard_rev03_full16m_preserved_tail.mcs",
+  "cold_boot_qualified": false,
+  "context_sha256": "0815692d9934886424a0ce436a53020fb9cab1fc0518de8fca696c38384956cc",
+  "scope": "Independent file audit of fresh backups/full readback; no cold boot claimed."
+}

@@ -1,0 +1,2 @@
+PASS: scene guard real FSM/motion/dimming/97.9 vs 98/confirmation/release/rearm/incomplete/blanking
+D:\fpga_race\fpga\src\vision_guard\scene_guard_tb.sv:78: $finish called at 130200000 (1ps)

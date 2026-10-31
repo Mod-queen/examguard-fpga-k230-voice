@@ -1,0 +1,23 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/case_snapshot/xsim_script.tcl
+# xsim {case_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/verification_out/optimization_20261031/simulation/focused_round4/persistent_boot_probe_tb/run.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/verification_out/optimization_20261031/simulation/focused_round4/persistent_boot_probe_tb/run.tcl
+## open_vcd trace.vcd
+## log_vcd [get_objects /persistent_boot_probe_tb/*]
+INFO: HDL object /persistent_boot_probe_tb/media is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /persistent_boot_probe_tb/rtc is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /persistent_boot_probe_tb/saved_slot is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+## run all
+PASS: persistent_boot_probe wireOnlySlave explicitBlankFormat/resetBoot1to3/oldSlot/WP/corrupt/oneAllocation/reservedOnly realUART5x348 START=292 STOP=171 busyNACK=24
+$finish called at time : 167824160 ns : File "D:/fpga_race/fpga/src/persistence/persistent_boot_probe_tb.sv" Line 145
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:49 . Memory (MB): peak = 218.746 ; gain = 0.000
+## close_vcd
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 17:21:13 2026...

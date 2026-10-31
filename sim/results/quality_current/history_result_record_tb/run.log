@@ -1,0 +1,2 @@
+PASS: history_result_record 128B magic/fields/flags/CRC/backpressure records=3
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\history_result_record_tb.sv:110: $finish called at 5190000 (1ps)

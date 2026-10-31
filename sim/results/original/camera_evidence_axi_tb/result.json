@@ -1,0 +1,46 @@
+{
+  "top": "camera_evidence_axi_tb",
+  "engine": "AMD XSim 2018.3",
+  "status": "passed",
+  "active_modules": [
+    "async_fifo",
+    "camera_frame_guard",
+    "ddr3_axi_frame_dma",
+    "ddr_evidence_axi"
+  ],
+  "repairs": [],
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "D:\\fpga_race\\fpga\\src\\ddr3_test\\camera_evidence_axi_tb.sv",
+      "sha256": "9db44db621f2f348bc77ee1152a5aaf0aa98a90794e21613c5c67c957cc9bb04"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\ov5640_ddr3_hdmi_vga.srcs\\sources_1\\imports\\ddr3_test\\async_fifo.v",
+      "sha256": "e00a965581e8b27bd820c5aa494acf399d4d9edd0f06c4fc315d1e06edc41f67"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\ov5640_ddr3_hdmi_vga.srcs\\sources_1\\imports\\ddr3_test\\camera_frame_guard.v",
+      "sha256": "d3496d7a5c35e108a0193237ff8222738cae65e00980413e32962f283b0134c5"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\ov5640_ddr3_hdmi_vga.srcs\\sources_1\\imports\\ddr3_test\\ddr3_axi_frame_dma.v",
+      "sha256": "5a7f8c5de37e13612a3b3eb01b14a9f69277a4261ac3d84c1fdc860f374d9f02"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\ov5640_ddr3_hdmi_vga.srcs\\sources_1\\imports\\ddr3_test\\ddr_evidence_axi.v",
+      "sha256": "758399072337810cbcfe347b2535b6c03f4bd9adef62d4d1ff9e585700202768"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\src\\ddr3_test\\axi_frame_slave_model.sv",
+      "sha256": "80cb737c5165193f9aee20ecc3d30a79a9535ffceb148bfc6dd9ab294b9f91e6"
+    }
+  ],
+  "seconds": 6.047,
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: camera_evidence_axi all checks"
+  ],
+  "run_log": "run_fixed_paths.log",
+  "trace_bytes": 2064518
+}

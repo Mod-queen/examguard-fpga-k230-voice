@@ -1,0 +1,5 @@
+sv work "D:/fpga_race/deploy/submission_20261031/sim/sources/host_link/phy_qualification_tb.sv"
+verilog work "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/mdio_bit_shift.v"
+verilog work "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/phy_reg_config.v"
+verilog work "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v"
+sv work "D:/fpga_race/deploy/submission_20261031/sim/sources/host_link/rtl8211f_wire_model.sv"

@@ -1,0 +1,5 @@
+VCD info: dumpfile trace.vcd opened for output.
+dispatch depth=          1 randomized cycles=1600 PASS
+dispatch depth=          3 randomized cycles=1600 PASS
+PASS: evidence_event_dispatch all checks
+D:\fpga_race\fpga\src\ddr3_test\evidence_event_dispatch_tb.sv:107: $finish called at 16810000 (1ps)

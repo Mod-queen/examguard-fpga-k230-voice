@@ -1,0 +1,5 @@
+sv work "D:/fpga_race/deploy/engineering_quality_20261031/sim/test_repairs/history_frame_writer_tb/history_frame_writer_tb.sv"
+verilog work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v"
+verilog work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_frame_writer.v"
+verilog work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_reference_directory.v"
+sv work "D:/fpga_race/deploy/engineering_quality_20261031/sim/sources/ddr3_test/axi_frame_slave_model.sv"

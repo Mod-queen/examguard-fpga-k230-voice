@@ -1,0 +1,16 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/case_snapshot/xsim_script.tcl
+# xsim {case_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/verification_out/quality_20261031/rtl_all_01/dvi_encoder_contract_tb/run.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/verification_out/quality_20261031/rtl_all_01/dvi_encoder_contract_tb/run.tcl
+## run all
+PASS: dvi_encoder_contract three RGB channels/independent decode/four blue controls/blanking/serialized lane mapping/both edges/clock pair decode=3087 bits=41160
+$finish called at time : 20820 ns : File "D:/fpga_race/deploy/engineering_quality_20261031/sim/sources/verification_20261031/dvi_encoder_contract_tb.sv" Line 63
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 23:05:35 2026...

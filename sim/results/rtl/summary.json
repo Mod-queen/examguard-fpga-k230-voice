@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "top": "camera_black_boundary_tb",
+      "passed": true,
+      "sources": [
+        "src/fpga/local_sources/97996d0703f5/camera_black_gate.v",
+        "src/rtl_support/vision_guard/camera_black_boundary_tb.sv"
+      ]
+    },
+    {
+      "top": "camera_black_720p_tb",
+      "passed": true,
+      "sources": [
+        "src/fpga/local_sources/97996d0703f5/camera_black_gate.v",
+        "src/rtl_support/vision_guard/camera_black_720p_tb.sv"
+      ]
+    },
+    {
+      "top": "camera_black_noise_tb",
+      "passed": true,
+      "sources": [
+        "src/fpga/local_sources/97996d0703f5/camera_black_gate.v",
+        "src/rtl_support/vision_guard/camera_black_noise_tb.sv"
+      ]
+    },
+    {
+      "top": "compact_identity_tb",
+      "passed": true,
+      "sources": [
+        "src/fpga/local_sources/0d0080802b6c/candidate_overlay.sv",
+        "src/fpga/local_sources/2029ef185f4b/candidate_glyph.sv",
+        "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/text_overlay/text_overlay.v",
+        "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/text_overlay/char_rom.v",
+        "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/text_overlay/char_rom_cn.v",
+        "src/rtl_support/vision_guard/compact_identity_tb.sv"
+      ]
+    },
+    {
+      "top": "history_reference_directory_tb",
+      "passed": true,
+      "sources": [
+        "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_reference_directory.v",
+        "src/rtl_support/ddr3_test/history_reference_directory_tb.sv"
+      ]
+    },
+    {
+      "top": "voice_notice_queue_tb",
+      "passed": true,
+      "sources": [
+        "src/fpga/local_sources/172741f07dfa/voice_notice_queue.sv",
+        "src/rtl_support/voice_interaction/voice_notice_queue_tb.sv"
+      ]
+    }
+  ],
+  "hardware_access": false
+}

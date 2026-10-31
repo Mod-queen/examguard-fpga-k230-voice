@@ -1,0 +1,4 @@
+arbiter policy Q=1 saturated grants>=100, independent directions, stalled responses/reset, fault flags, saturation PASS
+arbiter policy Q=3 saturated grants>=100, independent directions, stalled responses/reset, fault flags, saturation PASS
+PASS: axi_2client_policy all checks
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\axi_2client_policy_tb.sv:114: $finish called at 8810000 (1ps)

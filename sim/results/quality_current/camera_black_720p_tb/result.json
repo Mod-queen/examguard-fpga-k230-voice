@@ -1,0 +1,22 @@
+{
+  "top": "camera_black_720p_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/vision_guard/camera_black_720p_tb.sv",
+      "sha256": "7ebda16395f6c74c5c1620f08277d2dc4c82878ab3fe68374cb7932afb3fae9f"
+    },
+    {
+      "path": "src/fpga/local_sources/97996d0703f5/camera_black_gate.v",
+      "sha256": "fce64430ab2e9c4ac0eac89408277f9fb45435b839a33e3a6f4c846be5cd18a6"
+    }
+  ],
+  "repairs": [],
+  "seconds": 5.891,
+  "pass_lines": [
+    "PASS: 720p all921600 pixels exact903167/903168 threshold and confirmation"
+  ],
+  "exit_code": 0
+}

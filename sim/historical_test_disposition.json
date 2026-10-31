@@ -1,0 +1,77 @@
+{
+  "DVP_Capture_tb": {
+    "reason": "旧观察型测试，无自动判据",
+    "current_tests": [
+      "dvp_capture_contract_tb"
+    ]
+  },
+  "cdc2_level_tb": {
+    "reason": "依赖旧版抽取辅助模块",
+    "current_tests": [
+      "cdc_exam_status_tb",
+      "cdc_frame_activity_tb",
+      "status_mailbox_contract_tb"
+    ]
+  },
+  "config_rx_tb": {
+    "reason": "旧输入长度及任务名不适配当前接口",
+    "current_tests": [
+      "config_parser_contract_tb"
+    ]
+  },
+  "ddr3_ctrl_2port_tb": {
+    "reason": "旧DDR路径与外部存储模型依赖",
+    "current_tests": [
+      "video_memory_fabric_tb",
+      "evidence_wrapper_reset_tb"
+    ]
+  },
+  "dvi_encoder_tb": {
+    "reason": "旧观察型测试，无自动判据",
+    "current_tests": [
+      "dvi_encoder_contract_tb",
+      "tmds_decode_contract_tb",
+      "tmds_serializer_contract_tb"
+    ]
+  },
+  "fifo_axi4_adapter_tb": {
+    "reason": "旧版DDR适配器，当前综合未实例化",
+    "current_tests": [
+      "video_fifo_stream_bridge_tb",
+      "video_memory_fabric_tb"
+    ]
+  },
+  "phy_reg_config_tb": {
+    "reason": "旧端口与配置流程",
+    "current_tests": [
+      "phy_qualification_tb",
+      "mdio_readback_tb"
+    ]
+  },
+  "phy_reset_lifecycle_tb": {
+    "reason": "旧断言假设只有一次BMCR写入",
+    "current_tests": [
+      "phy_qualification_tb"
+    ]
+  },
+  "status_uart_tx_v2_tb": {
+    "reason": "旧采样时序与当前接口版本",
+    "current_tests": [
+      "status_uart_health_tb",
+      "transaction_uart_integration_tb"
+    ]
+  },
+  "text_overlay_tb": {
+    "reason": "旧字体与身份布局断言",
+    "current_tests": [
+      "compact_identity_tb",
+      "overlay_status_contract_tb"
+    ]
+  },
+  "voice_bus_diagnostics_tb": {
+    "reason": "依赖旧语音支持端口",
+    "current_tests": [
+      "voice_interaction_system_tb"
+    ]
+  }
+}

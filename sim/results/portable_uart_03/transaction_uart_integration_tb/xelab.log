@@ -1,0 +1,21 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/vivado2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe --relax --debug typical -L unisims_ver -L unimacro_ver -L secureip work.transaction_uart_integration_tb -s case_snapshot 
+Multi-threading is on. Using 22 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.u32_to_bcd
+Compiling module work.uart_stream_adapter
+Compiling module work.status_uart_tx(STATUS_PERIOD_CYC...
+Compiling module work.config_ack_tx(STREAM_OUTPUT=1)
+Compiling module work.evidence_dump(CAPTURE_LENGTH=2,S...
+Compiling module work.event_transaction_fork
+Compiling module work.event_request_fifo(SOURCES=1,DAT...
+Compiling module work.event_transaction_log
+Compiling module work.uart_tx_default
+Compiling module work.uart_packet_mux_default
+Compiling module work.transaction_uart_integration_tb
+Built simulation snapshot case_snapshot

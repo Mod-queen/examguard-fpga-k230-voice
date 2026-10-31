@@ -1,0 +1,8 @@
+{
+  "fpga_port": "COM5",
+  "k230_port": "COM12",
+  "status_port": 5005,
+  "downlink_port": 5006,
+  "image_port": 6102,
+  "k230_runtime": "book_assist_20261030"
+}

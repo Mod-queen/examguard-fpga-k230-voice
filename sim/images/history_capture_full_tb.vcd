@@ -1,0 +1,38 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module history_capture_full_tb $end
+$var wire 1 ! pixel_valid $end
+$var wire 1 " pixel_last $end
+$var wire 16 # pixel_data $end
+$var wire 1 + command_valid $end
+$var wire 1 2 command_ready $end
+$var wire 1 ; in_valid $end
+$var wire 1 < pixel_ready $end
+$var wire 1 = rst $end
+$var wire 1 > time_valid $end
+$var wire 32 C phase $end
+$var wire 5 $ occupancy $end
+$upscope $end
+$enddefinitions $end
+#0
+b0 C
+1>
+1=
+0<
+0;
+02
+0+
+bx $
+bx #
+x"
+0!
+#5000
+0"
+b0 #
+b0 $
+#51000
+0=
+#61000
+1;
+#65000
+b1 $

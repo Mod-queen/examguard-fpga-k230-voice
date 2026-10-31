@@ -1,0 +1,2 @@
+PASS: voice_uart_eight packets=8 bytes=1568
+D:\fpga_race\deploy\submission_20261031\sim\sources\voice_interaction\voice_uart_eight_tb.sv:33: $finish called at 3171660000 (1ps)

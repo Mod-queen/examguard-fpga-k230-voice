@@ -1,0 +1,14 @@
+[
+  {
+    "kind": "resources",
+    "image": "resources/vivado_utilization_summary.png",
+    "sha256": "e7b5957e07aff14dfb9a5d332c30789980501b93338d393e091e5b09fd048a69",
+    "state": "offline_verified_candidate_not_board_deployed"
+  },
+  {
+    "kind": "timing",
+    "image": "timing/vivado_timing_summary.png",
+    "sha256": "8fe4bfd3a1270ee6c76f68c0e569c26ca478c32db9547eb3d688921292de8fca",
+    "state": "offline_verified_candidate_not_board_deployed"
+  }
+]

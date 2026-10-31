@@ -1,0 +1,2 @@
+PASS: image evidence ring
+D:\fpga_race\deploy\submission_20261031\src\fpga\ov5640_ddr3_hdmi_vga.srcs\sources_1\image_evidence_ring\image_evidence_ring_tb.v:185: $finish called at 966000 (1ps)

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/fpga_race/verification_out/refinement_20261031/cases/event_request_fifo_optimized_tb/focus_snapshot.wdb" id="1">
+         <top_modules>
+            <top_module name="event_request_fifo_optimized_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+   <ZoomStartTime time="35000000fs" /><ZoomEndTime time="130000000fs" /><Cursor1Time time="35000000fs" /></zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/event_request_fifo_optimized_tb/single3/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/event_request_fifo_optimized_tb/single3/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/event_request_fifo_optimized_tb/single3/request" type="array">
+      <obj_property name="ElementShortName">request[0:0]</obj_property>
+      <obj_property name="ObjectShortName">request[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/event_request_fifo_optimized_tb/single3/event_ready" type="logic">
+      <obj_property name="ElementShortName">event_ready</obj_property>
+      <obj_property name="ObjectShortName">event_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/event_request_fifo_optimized_tb/single3/accepted" type="array">
+      <obj_property name="ElementShortName">accepted[0:0]</obj_property>
+      <obj_property name="ObjectShortName">accepted[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/event_request_fifo_optimized_tb/single3/rejected" type="array">
+      <obj_property name="ElementShortName">rejected[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rejected[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/event_request_fifo_optimized_tb/single3/event_valid" type="logic">
+      <obj_property name="ElementShortName">event_valid</obj_property>
+      <obj_property name="ObjectShortName">event_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/event_request_fifo_optimized_tb/single3/event_data" type="array">
+      <obj_property name="ElementShortName">event_data[255:0]</obj_property>
+      <obj_property name="ObjectShortName">event_data[255:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/event_request_fifo_optimized_tb/single3/occupancy" type="array">
+      <obj_property name="ElementShortName">occupancy[1:0]</obj_property>
+      <obj_property name="ObjectShortName">occupancy[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

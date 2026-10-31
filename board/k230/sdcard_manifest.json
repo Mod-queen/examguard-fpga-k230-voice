@@ -1,0 +1,127 @@
+{
+  "files": [
+    {
+      "source": "board/k230/models/candidate_act16.kmodel",
+      "target": "examguard_book_assist_20261030/candidate_act16.kmodel",
+      "sha256": "7954b4c1b26da2b86899dbd961564b580519710b16b2e1ff74b0e68b25c3b04b"
+    },
+    {
+      "source": "src/k230/runtime/eg_book_assist.py",
+      "target": "examguard_book_assist_20261030/eg_book_assist.py",
+      "sha256": "0db8ac5af63811984dd57074e8fd9904482ac1d729ee3f38d51eac9bed465325"
+    },
+    {
+      "source": "src/k230/runtime/eg_book_fast.py",
+      "target": "examguard_book_assist_20261030/eg_book_fast.py",
+      "sha256": "0e57d64b628184f792621e2b2dca0c845393197ed1877cc387ffa49756ec2366"
+    },
+    {
+      "source": "src/k230/runtime/eg_live_adapter.py",
+      "target": "examguard_book_assist_20261030/eg_live_adapter.py",
+      "sha256": "dea8c458f1ac37e10b371cffe47acb7647d8a6e72ba69794744ce1a7b7453aa9"
+    },
+    {
+      "source": "src/k230/runtime/eg_live_core.py",
+      "target": "examguard_book_assist_20261030/eg_live_core.py",
+      "sha256": "3720d0a8c745a9e1a318c5b55c8b4cdb1d422550288a9b04d6d7584c765cf323"
+    },
+    {
+      "source": "src/k230/runtime/eg_live_face.py",
+      "target": "examguard_book_assist_20261030/eg_live_face.py",
+      "sha256": "8c6c7733a7d2cb21f61678f54d399990c1bf445f36526eba8592852a0a5a62f9"
+    },
+    {
+      "source": "src/k230/runtime/eg_live_fast.py",
+      "target": "examguard_book_assist_20261030/eg_live_fast.py",
+      "sha256": "ce7db68a506388bc263a75491d7ce2d91314a779cc53f4652fba5f4f54d3ac51"
+    },
+    {
+      "source": "src/k230/runtime/eg_scene_guard.py",
+      "target": "examguard_book_assist_20261030/eg_scene_guard.py",
+      "sha256": "28f696464dd1eee96b30f5b5e4b34870327f3ce00467cf2f83a2437d43c08e64"
+    },
+    {
+      "source": "src/k230/runtime/live_app.py",
+      "target": "examguard_book_assist_20261030/live_app.py",
+      "sha256": "2f4dc4bfa7f5bc40b7c372b1020902bf782da91db89f36f9217588f076501f73"
+    },
+    {
+      "source": "src/k230/runtime/main.py",
+      "target": "examguard_book_assist_20261030/main.py",
+      "sha256": "b5c22b8bf8119f130318c7e93765c23de8e7944a5fdf2753366a70a94a8e8fdd"
+    },
+    {
+      "source": "board/k230/models/public_phone_act16.kmodel",
+      "target": "examguard_book_assist_20261030/public_phone_act16.kmodel",
+      "sha256": "c8dfe0fa9a3ff9d2a1eb75cb8b1727e9c367fd945b28a6db4d39b023d14843f6"
+    },
+    {
+      "source": "src/k230/root_main.py",
+      "target": "main.py",
+      "sha256": "a254ca4420a4d9ad3e43ffb3b06ad157aafff03ffd0f0b3aa52718ac19ff6c6d"
+    },
+    {
+      "source": "board/k230/kmodel/face_detection_320.kmodel",
+      "target": "kmodel/face_detection_320.kmodel",
+      "sha256": "56d35ded2a717fafcc1a357fd6e634531fa1693e59c77707140d8c6e1693eae9"
+    },
+    {
+      "source": "board/k230/kmodel/face_recognition.kmodel",
+      "target": "kmodel/face_recognition.kmodel",
+      "sha256": "2409a30f0b2afec68a87cddcbe3599bc84b84fff6c2a0b190d4ef89d78218472"
+    },
+    {
+      "source": "board/k230/utils/prior_data_320.bin",
+      "target": "utils/prior_data_320.bin",
+      "sha256": "b617d85d9b71110f775008e3bf2ecda74b7b850bbf36334e6ae0c22a802f5c42"
+    },
+    {
+      "source": "src/k230/vendor/libs/ai2d.py",
+      "target": "libs/AI2D.py",
+      "sha256": "ba1e6c4d076d428cb7f7d39b6fd53c6aa6811b6a6a5d095a2159a4e5d2f99484"
+    },
+    {
+      "source": "src/k230/vendor/libs/aibase.py",
+      "target": "libs/AIBase.py",
+      "sha256": "42700cba781c529e9698ebf569ea8b9505ff7256d1e656ec3ea95137ad619280"
+    },
+    {
+      "source": "src/k230/vendor/libs/pipeline.py",
+      "target": "libs/PipeLine.py",
+      "sha256": "9b3f93b1df8aaf131b4dcfe9668c9b13286a22385a8f4b68313150e6d781355f"
+    },
+    {
+      "source": "src/k230/vendor/libs/utils.py",
+      "target": "libs/Utils.py",
+      "sha256": "a5d8714251e3280cb54e577feecaf1ab91296ad8e2dbdd1c6e3832fd4d622a50"
+    },
+    {
+      "source": "src/k230/vendor/libs/ybprotocol.py",
+      "target": "libs/YbProtocol.py",
+      "sha256": "fb6aeae1cc83d45ca9a9177afa1874e6c65d760a2cca4234135f55a3f0216dbd"
+    },
+    {
+      "source": "src/k230/vendor/ybutils/ybrgb.py",
+      "target": "ybUtils/YbRGB.py",
+      "sha256": "c07ea308e7287e5cc3250aa9998ebe8ac13c252e244689e1d60637f46ab1431f"
+    },
+    {
+      "source": "src/k230/vendor/ybutils/ybuart.py",
+      "target": "ybUtils/YbUart.py",
+      "sha256": "25b529645c56f0d32088917b1566d1f6957b588732a6b13835c0e904e61b39c3"
+    },
+    {
+      "source": "src/k230/enrollment/register_live.py",
+      "target": "examguard/register_live.py",
+      "sha256": "f517737365b17f17898006214ca3ef03de2078252712eab3eeb84f9522bfcb95"
+    },
+    {
+      "source": "src/k230/enrollment/vendor_face.py",
+      "target": "examguard/vendor_face.py",
+      "sha256": "8c6c7733a7d2cb21f61678f54d399990c1bf445f36526eba8592852a0a5a62f9"
+    }
+  ],
+  "personal_face_database_included": false,
+  "runtime": "examguard_book_assist_20261030",
+  "restore_vendor_filename_case": true
+}

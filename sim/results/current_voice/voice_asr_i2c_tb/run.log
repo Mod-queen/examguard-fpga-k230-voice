@@ -1,0 +1,17 @@
+  ok   : word 1 recognised
+  ok   : word 1 -> acknowledge only
+  ok   : duplicate word suppressed
+  ok   : word 2 recognised
+  ok   : word 2 -> mute only
+  ok   : zero word ignored
+  ok   : word re-armed after zero
+  ok   : second mute action
+  ok   : TTS announcement written
+  ok   : word 3 recognised
+  ok   : word 3 -> manual trigger only
+  ok   : word 4 recorded
+  ok   : unmapped word has no action
+  ok   : last_id tracks latest word
+  ok   : no NACK reported
+PASS: voice_asr_i2c (5 words, 1 tts)
+D:\fpga_race\deploy\engineering_final_20261031\src\fpga\ov5640_ddr3_hdmi_vga.srcs\sources_1\voice_asr\voice_asr_i2c_tb.v:311: $finish called at 2400950000 (1ps)

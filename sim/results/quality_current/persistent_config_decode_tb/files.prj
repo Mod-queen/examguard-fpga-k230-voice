@@ -1,0 +1,2 @@
+sv work "D:/fpga_race/deploy/engineering_quality_20261031/sim/test_repairs/persistent_config_decode_tb/persistent_config_decode_tb.sv"
+sv work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/0663b43ea7cd/persistent_config_decode.sv"

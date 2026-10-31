@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: i2c_byte_master commands=9 owned-state/writeACK/readNACK/repeatedSTART/STOP/timeout
+D:\fpga_race\fpga\src\persistence\i2c_byte_master_tb.sv:52: $finish called at 11680000 (1ps)

@@ -1,0 +1,11 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+system 1: real face verified, no roster bypass
+system 2: VC config/presentation/heartbeat, real I2C FF40/41, guard/zero/reply
+system 3: one physical S3, preparation no timer, compact start
+system 4: exam help, exact VC handling, timer continues
+system 5: real exam timeout retains ticket, ended exact handler
+system 6: late config rejected, voice NACK revokes fresh
+system 7: PC heartbeat expiry/recovery
+PASS: voice_interaction_system scenarios=8 records=36 writes=7 reads=191
+$finish called at time : 1902851 ns : File "D:/fpga_race/fpga/src/voice_interaction/voice_interaction_system_tb.sv" Line 201

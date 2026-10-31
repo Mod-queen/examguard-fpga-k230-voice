@@ -1,0 +1,52 @@
+{
+  "arguments": {
+    "name": "public_objects320_v2",
+    "epochs": 30,
+    "imgsz": 320,
+    "batch": 32,
+    "workers": 4,
+    "threads": 4,
+    "amp": true,
+    "resume": false
+  },
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "python": "3.11.16 (main, Aug 25 2026, 13:59:19) [MSC v.1944 64 bit (AMD64)]",
+  "weights_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "dataset_audit": {
+    "images": 8291,
+    "splits": {
+      "train": 7706,
+      "val": 585
+    },
+    "boxes": {
+      "train": {
+        "phone": 4753,
+        "book": 12232
+      },
+      "val": {
+        "phone": 260,
+        "book": 713
+      }
+    },
+    "negative_images": {
+      "train": 1000,
+      "val": 200
+    },
+    "groups": 8284,
+    "excluded": {
+      "exact_duplicate": 2,
+      "cross_split_near_duplicate": 1
+    },
+    "index_sha256": "50d0c7f722d4f691d9d689513dba5e6ce38d643246a9981455d9566a5727b62e",
+    "check": "PASS: bytes, label conversion, class coverage, source split, exact/group leakage",
+    "limitations": "No human visual review of all images; dHash does not guarantee all near duplicates found; no K230 test."
+  },
+  "packages": {
+    "torch": "2.5.1+cu121",
+    "torchvision": "0.20.1+cu121",
+    "ultralytics": "8.3.0",
+    "numpy": "1.26.4",
+    "Pillow": "10.4.0"
+  },
+  "scope": "PUBLIC phone/book appearance candidate; not exam notes, not head pose, not K230 acceptance"
+}

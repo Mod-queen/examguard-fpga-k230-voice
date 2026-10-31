@@ -1,0 +1,28 @@
+{
+  "top": "timestamp_ms_tb",
+  "status": "passed",
+  "active_modules": [
+    "timestamp_ms"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "timestamp_ms_tb"
+  ],
+  "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/seven_seg/timestamp_ms_tb.v",
+  "sources": [
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/seven_seg/timestamp_ms_tb.v",
+      "sha256": "0110281d9e59245828743e927b39a9c0f79d2ff0a6352c806a19a591998073e6"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/seven_seg/timestamp_ms.v",
+      "sha256": "c6e31f638b7d22e314240b558c6ea0326a31bbec9963426d89092e91ef044ac6"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: millisecond timestamp"
+  ],
+  "trace_bytes": 6332,
+  "seconds": 0.093
+}

@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: rtc_time_anchor readerComposition bracketing/heldResult/stale/backwardCalendar/rollover/I2C/VL/bootChange/reset results=8
+D:\fpga_race\fpga\src\persistence\rtc_time_anchor_tb.sv:77: $finish called at 10280000 (1ps)

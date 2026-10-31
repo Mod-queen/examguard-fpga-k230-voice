@@ -1,0 +1,13 @@
+{
+  "status": "SOURCE_AUDIT_PASS_NOT_DEPLOYED",
+  "parent_references_preserved": 288,
+  "candidate_references": 288,
+  "changed_existing_sources": [
+    "ov5640_ddr3_hdmi_vga.srcs/sources_1/top/ov5640_ddr3_hdmi_vga.v"
+  ],
+  "regenerated_ip_products": [],
+  "original_bit_sha256": "9175982d95b6ec7bb1e8ad75068e5b2949e4ddca5af7f3034a8a2193f3a41929",
+  "model_sha256": "7954b4c1b26da2b86899dbd961564b580519710b16b2e1ff74b0e68b25c3b04b",
+  "deployment_performed": false,
+  "hardware_access": false
+}

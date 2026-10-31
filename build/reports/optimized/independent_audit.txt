@@ -1,0 +1,9 @@
+PASS cdc_exam_status_inst/dst_sync_reg[0] -> cdc_exam_status_inst/dst_sync_reg[1] max slack=12.675 requirement=13.468
+PASS cdc_exam_status_inst/dst_sync_reg[0] -> cdc_exam_status_inst/dst_sync_reg[1] min slack=0.159 requirement=0.000
+PASS cdc_frame_activity_inst/dst_sync_reg[0] -> cdc_frame_activity_inst/dst_sync_reg[1] max slack=19.356 requirement=20.000
+PASS cdc_frame_activity_inst/dst_sync_reg[0] -> cdc_frame_activity_inst/dst_sync_reg[1] min slack=0.121 requirement=0.000
+PASS evidence_busy_sync_reg[0] -> evidence_busy_sync_reg[1] max slack=19.356 requirement=20.000
+PASS evidence_busy_sync_reg[0] -> evidence_busy_sync_reg[1] min slack=0.121 requirement=0.000
+PASS log queue distributed RAM primitives=304
+PASS candidate pin map, I/O standards, clock periods and waveforms match accepted baseline
+Hardware deployment: NOT PERFORMED; board Flash remains accepted rev03

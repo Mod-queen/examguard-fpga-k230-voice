@@ -1,0 +1,95 @@
+{
+  "top": "evidence_capture_context_tb",
+  "status": "passed",
+  "active_modules": [
+    "async_fifo",
+    "camera_evidence_client",
+    "camera_frame_guard",
+    "camera_sample_guard",
+    "camera_time_guard",
+    "cdc_event_transaction",
+    "cdc_time_snapshot",
+    "ddr3_axi_frame_dma",
+    "ddr_evidence_axi",
+    "ddr_evidence_queued",
+    "evidence_event_dispatch",
+    "evidence_window_packetizer"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "evidence_capture_context_tb"
+  ],
+  "testbench": "fpga/src/ddr3_test/evidence_capture_context_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/ddr3_test/evidence_capture_context_tb.sv",
+      "sha256": "7e89338c8cccd7acf338ccd6c973fc21a8a74a854ae6d1683179a679b9896f4c"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+      "sha256": "e00a965581e8b27bd820c5aa494acf399d4d9edd0f06c4fc315d1e06edc41f67"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_evidence_client.v",
+      "sha256": "c8f3dd6215160d3ba0ba3b56765c036803a7fb283e181c1312578f9e542d0999"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_frame_guard.v",
+      "sha256": "d3496d7a5c35e108a0193237ff8222738cae65e00980413e32962f283b0134c5"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_sample_guard.v",
+      "sha256": "12bbc2ebb19f937d9e0b02c138ef35c04af85e01b093575275fdddcdff853798"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_time_guard.v",
+      "sha256": "eb7aaf46261fbde4b8492961cfbd521ce0f26c502f9aff8e4e24524a7b350465"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+      "sha256": "5a7f8c5de37e13612a3b3eb01b14a9f69277a4261ac3d84c1fdc860f374d9f02"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_axi.v",
+      "sha256": "758399072337810cbcfe347b2535b6c03f4bd9adef62d4d1ff9e585700202768"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_queued.v",
+      "sha256": "d77ee3f4e236700640a17b1c76f9ce75dedf2403d40307a9325286fbe8895e99"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_event_dispatch.v",
+      "sha256": "91d1a59a541ae4e524024cf272c03bf1f10cf5dec215126bea0dffd4050a1a09"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_window_packetizer.v",
+      "sha256": "2bf981557e1aca508a1cfef6d7cac572226d9a285e7cf3ed142f861906a9f51a"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+      "sha256": "2d2200f13132859ec81afaa54309a520655a7a7042438f0fded09807e4981f6a"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_time_snapshot.v",
+      "sha256": "94c865ed864fdb9cba0c26ebbbdc8e52cb0d58fb3b5b4fb65706df33ae881c6d"
+    },
+    {
+      "path": "fpga/src/ddr3_test/axi_frame_slave_model.sv",
+      "sha256": "80cb737c5165193f9aee20ecc3d30a79a9535ffceb148bfc6dd9ab294b9f91e6"
+    },
+    {
+      "path": "fpga/src/ddr3_test/evidence_capture_context.v",
+      "sha256": "e0cfff5d4ff6a475cd554afebe929885b087c213d9b2888c9362f56a54c4a94e"
+    },
+    {
+      "path": "fpga/src/event_identity/evidence_reset_epoch.v",
+      "sha256": "6aa5354b6c2ca582f14141236d0861a2e9b65ca8e4c303964245270b0cf59e50"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: evidence_capture_context time-qualified DDR frames, stale-clock rejection, in-flight B/event common reset, new UID window8pixels packet_sink=0 packets=0"
+  ],
+  "trace_bytes": 184388,
+  "seconds": 0.172
+}

@@ -1,0 +1,75 @@
+$date
+   Sat Oct 31 17:28:54 2026
+$end
+$version
+  2018.3
+$end
+$timescale
+  1ps
+$end
+$scope module video_memory_fabric_tb $end
+$var reg 1 ! rst $end
+$var wire 4 $ video_fault [3:0] $end
+$var wire 4 # protocol_fault [3:0] $end
+$var wire 1 % evidence_buffer_fault $end
+$var reg 1 " hold_b $end
+$var reg 1 & request $end
+$var wire 1 ' accepted $end
+$var wire 1 ( rejected $end
+$var wire 1 ) result_valid $end
+$var wire 1 * result_ok $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+bx #
+bx $
+x%
+0&
+0'
+0(
+x)
+x*
+$end
+#5000
+b0 #
+b0 $
+0%
+0'
+0)
+0*
+#80000
+0!
+0'
+#33594070000
+1&
+1'
+#33594075000
+1'
+#33594080000
+0&
+0'
+#33594085000
+0'
+#33612190000
+1&
+1'
+#33612195000
+1'
+#33612200000
+0&
+0'
+#33638905000
+1)
+1*
+#33638915000
+0'
+0)
+#33638925000
+0'
+#33683465000
+1)
+#33683475000
+0)

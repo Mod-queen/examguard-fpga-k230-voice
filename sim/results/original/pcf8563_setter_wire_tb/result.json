@@ -1,0 +1,48 @@
+{
+  "top": "pcf8563_setter_wire_tb",
+  "status": "passed",
+  "active_modules": [
+    "i2c_byte_master",
+    "i2c_register_master",
+    "pcf8563_calendar",
+    "pcf8563_reader",
+    "pcf8563_setter"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "pcf8563_setter_wire_tb"
+  ],
+  "testbench": "fpga/src/persistence/pcf8563_setter_wire_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/persistence/pcf8563_setter_wire_tb.sv",
+      "sha256": "1e36ec9ca0f581def3d9d0ca3d0ced3b85dd3a8104b43b0754be264766fcad35"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/20a57578b747/pcf8563_setter.sv",
+      "sha256": "e25f0c88c17aaa5c90c99366bbd162a8021455fbf438737101e1a4b9aa78cd4b"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/5acd2aa6692b/pcf8563_reader.sv",
+      "sha256": "cae1252215581075f1acb623e30c2eb0f151b4a8e67eb289b5e0b686b08f8cd4"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/79534ad6e7d0/pcf8563_calendar.sv",
+      "sha256": "f8c87466cd7973ed81e45ef41c1dd511afd5044c3cba8e9e8966a989ac646d29"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/ade9bc1b0ccb/i2c_byte_master.sv",
+      "sha256": "4b7471ebdfcd080cbabc516e8a56793526a8ac7ecdbc0f51b42c8740dfd2bc8c"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/f0e5e6fadfb7/i2c_register_master.sv",
+      "sha256": "a4d1144965e65a73169a89361a1d9be26d6a499512133b647f28829e8d55e8f0"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: pcf8563_setter_wire transactions=18 START=27 STOP=18 writes=22 NACK=1 normal/partial-write/run-recovery/explicit-retry/media-preserved"
+  ],
+  "trace_bytes": 690891,
+  "seconds": 0.297
+}

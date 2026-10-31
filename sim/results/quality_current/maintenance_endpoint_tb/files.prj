@@ -1,0 +1,4 @@
+sv work "D:/fpga_race/deploy/engineering_quality_20261031/sim/test_repairs/maintenance_endpoint_tb/maintenance_endpoint_tb.sv"
+sv work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/cfe9e05c73c5/maintenance_record.sv"
+sv work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/f968173539ff/maintenance_endpoint.sv"
+sv work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/local_sources/aff7f4c790db/maintenance_command_rx.sv"

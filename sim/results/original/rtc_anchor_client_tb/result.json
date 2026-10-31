@@ -1,0 +1,48 @@
+{
+  "top": "rtc_anchor_client_tb",
+  "status": "passed",
+  "active_modules": [
+    "pcf8563_calendar",
+    "pcf8563_reader",
+    "rtc_anchor_client",
+    "rtc_anchor_record",
+    "rtc_time_anchor"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "rtc_anchor_client_tb"
+  ],
+  "testbench": "fpga/src/persistence/rtc_anchor_client_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/persistence/rtc_anchor_client_tb.sv",
+      "sha256": "e7604db4cc97cf3142a96ff3e4a3af4a6dc8a0b6d320ee630669e977a1947c37"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/5acd2aa6692b/pcf8563_reader.sv",
+      "sha256": "cae1252215581075f1acb623e30c2eb0f151b4a8e67eb289b5e0b686b08f8cd4"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/73ffbc49762c/rtc_time_anchor.sv",
+      "sha256": "165831fb384824d364263d3246d9b18ca233e47ca9e5fa38ce8737b6c9b5d8f8"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/79534ad6e7d0/pcf8563_calendar.sv",
+      "sha256": "f8c87466cd7973ed81e45ef41c1dd511afd5044c3cba8e9e8966a989ac646d29"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/a8483d823073/rtc_anchor_record.sv",
+      "sha256": "4a1b21fde243a3c715440e57323be5637a46f13754f1af81537f619dceba9694"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/e4d91d5de499/rtc_anchor_client.sv",
+      "sha256": "e9638e6c7840cb0dcfd4f03e59723af577a80899eb44754e2308f33e2480b552"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: rtc_anchor_client actualReader+anchor+CRCRecord busBackpressure/valid+I2Cfail/randomStream2x132"
+  ],
+  "trace_bytes": 51024,
+  "seconds": 0.171
+}

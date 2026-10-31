@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/sim/test_repairs/pcf8563_setter_tb/pcf8563_setter_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module pcf8563_setter_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/c5242e5fe116/pcf8563_setter.sv" into library work
+INFO: [VRFC 10-311] analyzing module pcf8563_setter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/a8328017a7aa/pcf8563_reader.sv" into library work
+INFO: [VRFC 10-311] analyzing module pcf8563_reader
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/c66e664ded59/pcf8563_calendar.sv" into library work
+INFO: [VRFC 10-311] analyzing module pcf8563_calendar

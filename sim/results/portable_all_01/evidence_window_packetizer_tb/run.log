@@ -1,0 +1,5 @@
+window packet case=0 FP=1 chunk=1 checked_bytes=848 packets=10
+window packet case=1 FP=7 chunk=3 checked_bytes=1908 packets=22
+window packet case=2 FP=517 chunk=512 checked_bytes=5652 packets=18
+PASS: evidence_window_packetizer wire/CRC/identity/results/backpressure/reset
+D:\fpga_race\deploy\submission_20261031\sim\sources\ddr3_test\evidence_window_packetizer_tb.sv:165: $finish called at 114440000 (1ps)

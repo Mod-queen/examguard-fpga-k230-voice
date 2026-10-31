@@ -1,0 +1,38 @@
+{
+  "top": "pcf8563_setter_tb",
+  "engine": "AMD XSim 2018.3",
+  "status": "passed",
+  "active_modules": [
+    "pcf8563_calendar",
+    "pcf8563_reader",
+    "pcf8563_setter"
+  ],
+  "repairs": [
+    "Use reproducible fixture rtc_setter_monthends_20261021.mem"
+  ],
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "D:\\fpga_race\\verification_out\\optimization_20261031\\simulation\\xsim_round3\\pcf8563_setter_tb\\pcf8563_setter_tb.sv",
+      "sha256": "178490aac3b26c07b0d2bb576b08335072f489310479756b7ad126f444924e93"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\20a57578b747\\pcf8563_setter.sv",
+      "sha256": "e25f0c88c17aaa5c90c99366bbd162a8021455fbf438737101e1a4b9aa78cd4b"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\5acd2aa6692b\\pcf8563_reader.sv",
+      "sha256": "cae1252215581075f1acb623e30c2eb0f151b4a8e67eb289b5e0b686b08f8cd4"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\79534ad6e7d0\\pcf8563_calendar.sv",
+      "sha256": "f8c87466cd7973ed81e45ef41c1dd511afd5044c3cba8e9e8966a989ac646d29"
+    }
+  ],
+  "seconds": 6.172,
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: pcf8563_setter results=25 bus=91 writes=45 1200-month-end-oracle/auth/calendar/failure/recovery/readback/rollover/reset"
+  ],
+  "trace_bytes": 56935
+}

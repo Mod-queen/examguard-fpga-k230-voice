@@ -1,0 +1,7 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: history_capture_source FP1 D1 FRAME/DROP/FENCE/banks/order/stalls/invalid/interrupted/fullhalt/unknown/reset
+PASS: history_capture_source FP7 D3 FRAME/DROP/FENCE/banks/order/stalls/invalid/interrupted/fullhalt/unknown/reset
+WARNING: Dump file limit (2000000 bytes) exceeded.
+PASS: history_capture_source FP37 D8 FRAME/DROP/FENCE/banks/order/stalls/invalid/interrupted/fullhalt/unknown/reset
+PASS: history_capture_source ALL
+D:\fpga_race\fpga\src\ddr3_test\history_capture_source_tb.sv:179: $finish called at 234831000 (1ps)

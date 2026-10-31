@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "candidates": [
+    {
+      "face_id": 1,
+      "name": "未配置",
+      "exam_number": "000001",
+      "info_tag": "0000000000000001"
+    }
+  ]
+}

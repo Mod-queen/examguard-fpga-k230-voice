@@ -1,0 +1,2 @@
+PASS: history_result_udp_cdc src10ns/dst8ns records=2 packets=2 CRC PASS
+D:\fpga_race\deploy\submission_20261031\sim\sources\ddr3_test\history_result_udp_cdc_tb.sv:101: $finish called at 7040000 (1ps)

@@ -1,0 +1,28 @@
+{
+  "top": "async_fifo_tb",
+  "status": "passed",
+  "active_modules": [
+    "async_fifo"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "async_fifo_tb"
+  ],
+  "testbench": "fpga/src/ddr3_test/async_fifo_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/ddr3_test/async_fifo_tb.sv",
+      "sha256": "fedb336aba5b60ca1fa9fbe4d06935df4d0b3b993d624628b542e2dd30c7cfc0"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+      "sha256": "e00a965581e8b27bd820c5aa494acf399d4d9edd0f06c4fc315d1e06edc41f67"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: async_fifo all checks"
+  ],
+  "trace_bytes": 2000061,
+  "seconds": 0.438
+}

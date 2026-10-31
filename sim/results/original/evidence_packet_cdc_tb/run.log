@@ -1,0 +1,6 @@
+VCD info: dumpfile trace.vcd opened for output.
+WARNING: Dump file limit (2000000 bytes) exceeded.
+PASS: evidence_packet_cdc case=0 async periods=10/8 101packets/reset-held-last/stopped4domains stalls=66
+PASS: evidence_packet_cdc case=1 async periods=6/22 101packets/reset-held-last/stopped4domains stalls=99627
+PASS: evidence_packet_cdc all cases
+D:\fpga_race\fpga\src\ddr3_test\evidence_packet_cdc_tb.sv:89: $finish called at 788645000 (1ps)

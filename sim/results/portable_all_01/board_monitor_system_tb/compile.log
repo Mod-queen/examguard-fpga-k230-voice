@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/sim/test_repairs/board_monitor_system_tb/board_monitor_system_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module board_monitor_system_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/0c606c7a4802/board_monitor_record.sv" into library work
+INFO: [VRFC 10-311] analyzing module board_monitor_record
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v" into library work
+INFO: [VRFC 10-311] analyzing module cdc_event_transaction
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/cdc_stats_snapshot.v" into library work
+INFO: [VRFC 10-311] analyzing module cdc_stats_snapshot
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado/vivado2018.3/Vivado/2018.3/data/verilog/src/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_2_tempmon.v" into library work
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_2_tempmon
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/8d2967dae5eb/shared_xadc_monitor.sv" into library work
+INFO: [VRFC 10-311] analyzing module shared_xadc_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/7cd650dffdea/xadc_monitor_reader.sv" into library work
+INFO: [VRFC 10-311] analyzing module xadc_monitor_reader

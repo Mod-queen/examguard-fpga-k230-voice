@@ -1,0 +1,33 @@
+{
+  "top": "event_request_fifo_tb",
+  "status": "passed",
+  "active_modules": [
+    "event_request_fifo"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "event_request_fifo_case",
+    "event_request_fifo_tb"
+  ],
+  "testbench": "fpga/src/event_request_fifo/event_request_fifo_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/event_request_fifo/event_request_fifo_tb.sv",
+      "sha256": "e61f372c0714b0f7748d0d1eec81bc56abecd44095812814d48233d456efafdb"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v",
+      "sha256": "c0ba03f5efcad63349bab1bae3fd95d16927d4cd62acdec1d73c9cf4f5d1e2c9"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS event_request_fifo depth=1 full_pop=620 collisions=750 stalled=719",
+    "PASS event_request_fifo depth=3 full_pop=601 collisions=733 stalled=740",
+    "PASS event_request_fifo depth=8 full_pop=560 collisions=745 stalled=761",
+    "PASS event_request_fifo depth=16 full_pop=675 collisions=1055 stalled=768",
+    "PASS event_request_fifo_tb ALL"
+  ],
+  "trace_bytes": 1577667,
+  "seconds": 0.843
+}

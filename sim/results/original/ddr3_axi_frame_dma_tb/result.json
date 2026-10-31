@@ -1,0 +1,33 @@
+{
+  "top": "ddr3_axi_frame_dma_tb",
+  "status": "passed",
+  "active_modules": [
+    "ddr3_axi_frame_dma"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "ddr3_axi_frame_dma_tb",
+    "frame_dma_case"
+  ],
+  "testbench": "fpga/src/ddr3_test/ddr3_axi_frame_dma_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/ddr3_test/ddr3_axi_frame_dma_tb.sv",
+      "sha256": "a8cfa56f30480f6ab0befff33b6c5b7cbe12fff74f58f7dfd2742fa78c7f1e09"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+      "sha256": "5a7f8c5de37e13612a3b3eb01b14a9f69277a4261ac3d84c1fdc860f374d9f02"
+    },
+    {
+      "path": "fpga/src/ddr3_test/axi_frame_slave_model.sv",
+      "sha256": "80cb737c5165193f9aee20ecc3d30a79a9535ffceb148bfc6dd9ab294b9f91e6"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: ddr3_axi_frame_dma all checks"
+  ],
+  "trace_bytes": 1308825,
+  "seconds": 0.484
+}

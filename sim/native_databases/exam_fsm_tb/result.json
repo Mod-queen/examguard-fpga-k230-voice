@@ -1,0 +1,35 @@
+{
+  "top": "exam_fsm_tb",
+  "status": "passed",
+  "engine": "AMD XSim 2018.3",
+  "sources": [
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm_tb.v",
+      "sha256": "a2964a919a8d36e59b2cdf62ee7ecba1d4167f0b2f7aa5161c4e7fa80f70c4ee"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm.v",
+      "sha256": "99966b2469909e9bd205489ee97162df4bd8bde5b52d6abfcc1969bdeb914a77"
+    }
+  ],
+  "source_trace": "verification_out/refinement_20261031/cases/exam_fsm_tb/trace.vcd.gz",
+  "source_trace_sha256": "164d95fd4da6ddda39eb07df39df77956306d5966899dcc83481a82390fea8a9",
+  "result_record": "verification_out/refinement_20261031/cases/exam_fsm_tb/result.json",
+  "selected_signals": [
+    "rst",
+    "face_pulse",
+    "face_ok",
+    "start_pulse",
+    "stage_id",
+    "remaining_s",
+    "new_event",
+    "event_code",
+    "submit_pulse"
+  ],
+  "seconds": 6.969,
+  "pass_lines": [
+    "PASS: exam_fsm"
+  ],
+  "hardware_access": false,
+  "full_selected_signal_recording": true
+}

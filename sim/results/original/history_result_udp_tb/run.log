@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: history_result_udp_bridge records=2 packets=2 length=128 CRC PASS
+D:\fpga_race\fpga\src\ddr3_test\history_result_udp_tb.sv:99: $finish called at 7980000 (1ps)

@@ -1,0 +1,30 @@
+{
+  "top": "tmds_serializer_contract_tb",
+  "engine": "AMD XSim 2018.3",
+  "status": "passed",
+  "active_modules": [
+    "serdes_4b_10to1"
+  ],
+  "repairs": [],
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "D:\\fpga_race\\fpga\\src\\verification_20261031\\tmds_serializer_contract_tb.sv",
+      "sha256": "3ef6e6706b3bcc3bf4510976f52dca887958e92b3735c24881c0b0ea298a5d04"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\ov5640_ddr3_hdmi_vga.srcs\\sources_1\\dvi_encoder\\serdes_4b_10to1.v",
+      "sha256": "193faf53b9674b42338d6ffe75466132d39153da0f1e6814811cc9cf8210a810"
+    },
+    {
+      "path": "D:\\vivado\\vivado2018.3\\Vivado\\2018.3\\data\\verilog\\src\\glbl.v",
+      "sha256": "c48753ff3481f46872a09160eee14b5596b37444c1bf2b84bf2acd922e7c982d"
+    }
+  ],
+  "seconds": 6.922,
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: tmds_serializer_contract actual UNISIM ODDR/OBUFDS/four lanes/40 patterns/LSB-first ten bits/both edges/differential polarity bits=3200"
+  ],
+  "trace_bytes": 113610
+}

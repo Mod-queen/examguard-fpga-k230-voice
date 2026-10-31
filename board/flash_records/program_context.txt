@@ -1,0 +1,30 @@
+SCHEMA=examguard-scene-guard-qspi-v1
+MODE=scene-guard-rev03
+TARGET=localhost:3121/xilinx_tcf/Digilent/250825103635
+DEVICE=xc7a200t_0
+DRIVER=mx25l12845g-spi-x1_x2_x4
+IMAGE=D:/fpga_race/verification_out/scene_guard_rev03_flash_plan_20261030/scene_guard_rev03_full16m_preserved_tail.mcs
+RANGE=all16777216bytes; full-chip erase; not power-fail atomic
+STAGE=load_volatile_helper
+HELPER=D:/vivado/vivado2018.3/Vivado/2018.3/data/xicom/cfgmem/bitfile/spi_xc7a200t_pullnone.bit
+HELPER_PROGRAM_SUCCEEDED=1
+STAGE=fresh_read1
+STAGE=fresh_read2
+FRESH_VOICE3_BACKUP_VERIFIED=0bf1cc03eac070bf905b73374a0743f6aa7277c2403255e3823bd106c9531ad6
+FRESH_VOICE3_DOUBLE_BACKUP_VERIFIED=1
+FRESH_VOICE3_BACKUP_VERIFIED=0bf1cc03eac070bf905b73374a0743f6aa7277c2403255e3823bd106c9531ad6
+PROGRAM_FILES_ACTUAL=D:/fpga_race/verification_out/scene_guard_rev03_flash_plan_20261030/scene_guard_rev03_full16m_preserved_tail.mcs
+PROGRAM_FILES_PATH_VERIFIED=1
+STAGE=erase_program_verify
+PROGRAM_COMMAND_SUCCEEDED=1
+STAGE=full_readback
+{
+  "verified": true,
+  "bytes": 16777216,
+  "sha256": "9a0d6fb5215faabb9569508ecb4809699236f82f91f7dde3174884b01c184a95",
+  "bit_sha256": "0efbb75c4403ae3fbc617f0c912295a18d877d02341b24ebc9efd048d31cb7bc",
+  "backup_VOICE3_sha256": "0bf1cc03eac070bf905b73374a0743f6aa7277c2403255e3823bd106c9531ad6",
+  "mcs": "D:\\fpga_race\\verification_out\\scene_guard_rev03_flash_plan_20261030\\scene_guard_rev03_full16m_preserved_tail.mcs",
+  "cold_boot_qualified": false
+}
+COMPLETED=1; cold boot not yet tested

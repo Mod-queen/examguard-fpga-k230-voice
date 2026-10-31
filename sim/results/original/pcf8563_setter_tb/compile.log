@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/verification_out/optimization_20261031/simulation/xsim_round3/pcf8563_setter_tb/pcf8563_setter_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module pcf8563_setter_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/20a57578b747/pcf8563_setter.sv" into library work
+INFO: [VRFC 10-311] analyzing module pcf8563_setter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/5acd2aa6692b/pcf8563_reader.sv" into library work
+INFO: [VRFC 10-311] analyzing module pcf8563_reader
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/fpga/examguard_opt_20261031_work/local_sources/79534ad6e7d0/pcf8563_calendar.sv" into library work
+INFO: [VRFC 10-311] analyzing module pcf8563_calendar

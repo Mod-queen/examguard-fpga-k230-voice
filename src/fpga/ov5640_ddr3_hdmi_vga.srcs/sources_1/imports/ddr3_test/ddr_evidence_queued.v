@@ -1,0 +1,100 @@
+`timescale 1ns/1ps
+
+// Independent descriptor-aware evidence subsystem. UI-domain transaction pulse
+// input; capture-domain metadata {source_frame32, source_monotonic_ms64}.
+// Serial SERVICE-anchored windows. Queued event source time/identity is retained
+// verbatim; deferred windows are explicitly flagged, not called time-exact.
+// Result is a held valid/ready record; out_event identifies all streamed pixels.
+module ddr_evidence_queued #(
+    parameter integer FRAME_PIXELS=14400,
+    parameter integer PRE_FRAMES=2, POST_FRAMES=2, RING_FRAMES=8,
+    parameter integer FIFO_DEPTH=256, EVENT_DEPTH=4,
+    parameter [29:0] BASE_ADDR=30'h10000000,
+    parameter integer SLOT_W=RING_FRAMES<2 ? 1 : $clog2(RING_FRAMES),
+    parameter integer COUNT_W=$clog2(EVENT_DEPTH+1)
+)(
+    input wire clk, rst, cap_clk, cap_rst,
+    input wire pix_valid, pix_sof, pix_last,
+    input wire [15:0] pix_data,
+    input wire [95:0] pix_meta,
+    output wire pix_ready, fifo_full,
+    input wire request,
+    input wire [255:0] request_data,
+    output wire accepted, rejected,
+    output wire [COUNT_W-1:0] occupancy, high_water,
+    output wire [31:0] accepted_count, rejected_count, completed_count,
+    output wire out_valid, out_sof, out_last,
+    output wire [15:0] out_data,
+    output wire [95:0] out_meta,
+    output wire [255:0] out_event,
+    output wire out_deferred,
+    input wire out_ready,
+    output wire result_valid, result_ok, result_deferred,
+    output wire [255:0] result_event,
+    output wire [31:0] result_frames,
+    input wire result_ready,
+    output wire commit_valid,
+    output wire [SLOT_W-1:0] commit_slot,
+    output wire [95:0] commit_meta,
+    output wire [31:0] frames_committed, frames_failed, windows_completed, read_errors,
+    output wire [31:0] write_beats, read_beats,
+    output wire [3:0] m_axi_awid,
+    output wire [29:0] m_axi_awaddr,
+    output wire [7:0] m_axi_awlen,
+    output wire [2:0] m_axi_awsize,
+    output wire [1:0] m_axi_awburst,
+    output wire m_axi_awvalid,
+    input wire m_axi_awready,
+    output wire [127:0] m_axi_wdata,
+    output wire [15:0] m_axi_wstrb,
+    output wire m_axi_wlast, m_axi_wvalid,
+    input wire m_axi_wready,
+    input wire [3:0] m_axi_bid,
+    input wire [1:0] m_axi_bresp,
+    input wire m_axi_bvalid,
+    output wire m_axi_bready,
+    output wire [3:0] m_axi_arid,
+    output wire [29:0] m_axi_araddr,
+    output wire [7:0] m_axi_arlen,
+    output wire [2:0] m_axi_arsize,
+    output wire [1:0] m_axi_arburst,
+    output wire m_axi_arvalid,
+    input wire m_axi_arready,
+    input wire [3:0] m_axi_rid,
+    input wire [127:0] m_axi_rdata,
+    input wire [1:0] m_axi_rresp,
+    input wire m_axi_rlast, m_axi_rvalid,
+    output wire m_axi_rready
+);
+    wire engine_ready, engine_event, window_started, window_done, window_ok, active;
+    wire [31:0] window_frame_count;
+    evidence_event_dispatch #(.DEPTH(EVENT_DEPTH)) dispatcher (
+        .clk(clk),.rst(rst),.request(request),.request_data(request_data),
+        .accepted(accepted),.rejected(rejected),.occupancy(occupancy),.high_water(high_water),
+        .accepted_count(accepted_count),.rejected_count(rejected_count),.completed_count(completed_count),
+        .engine_ready(engine_ready),.engine_event(engine_event),
+        .window_started(window_started),.window_frames(window_frame_count),
+        .window_done(window_done),.window_ok(window_ok),.active(active),
+        .active_event(out_event),.active_deferred(out_deferred),
+        .result_valid(result_valid),.result_ready(result_ready),.result_event(result_event),
+        .result_deferred(result_deferred),.result_ok(result_ok),.result_frames(result_frames));
+    ddr_evidence_axi #(.FRAME_PIXELS(FRAME_PIXELS),.PRE_FRAMES(PRE_FRAMES),.POST_FRAMES(POST_FRAMES),
+        .RING_FRAMES(RING_FRAMES),.FIFO_DEPTH(FIFO_DEPTH),.BASE_ADDR(BASE_ADDR),.ENABLE_META(1)) pipeline (
+        .clk(clk),.rst(rst),.cap_clk(cap_clk),.cap_rst(cap_rst),
+        .pix_valid(pix_valid),.pix_data(pix_data),.pix_sof(pix_sof),.pix_last(pix_last),.pix_meta(pix_meta),
+        .pix_ready(pix_ready),.fifo_full(fifo_full),.event_pulse(engine_event),.event_ready(engine_ready),
+        .window_started(window_started),.window_frame_count(window_frame_count),
+        .out_valid(out_valid),.out_data(out_data),.out_sof(out_sof),.out_last(out_last),.out_meta(out_meta),
+        .out_ready(out_ready),.commit_valid(commit_valid),.commit_slot(commit_slot),.commit_meta(commit_meta),
+        .busy(),.pending(),.overrun(),.window_done(window_done),.window_ok(window_ok),
+        .frames_committed(frames_committed),.frames_failed(frames_failed),.windows_completed(windows_completed),
+        .read_errors(read_errors),.rejected_events(),.write_beats(write_beats),.read_beats(read_beats),
+        .m_axi_awid(m_axi_awid),.m_axi_awaddr(m_axi_awaddr),.m_axi_awlen(m_axi_awlen),
+        .m_axi_awsize(m_axi_awsize),.m_axi_awburst(m_axi_awburst),.m_axi_awvalid(m_axi_awvalid),.m_axi_awready(m_axi_awready),
+        .m_axi_wdata(m_axi_wdata),.m_axi_wstrb(m_axi_wstrb),.m_axi_wlast(m_axi_wlast),.m_axi_wvalid(m_axi_wvalid),.m_axi_wready(m_axi_wready),
+        .m_axi_bid(m_axi_bid),.m_axi_bresp(m_axi_bresp),.m_axi_bvalid(m_axi_bvalid),.m_axi_bready(m_axi_bready),
+        .m_axi_arid(m_axi_arid),.m_axi_araddr(m_axi_araddr),.m_axi_arlen(m_axi_arlen),
+        .m_axi_arsize(m_axi_arsize),.m_axi_arburst(m_axi_arburst),.m_axi_arvalid(m_axi_arvalid),.m_axi_arready(m_axi_arready),
+        .m_axi_rid(m_axi_rid),.m_axi_rdata(m_axi_rdata),.m_axi_rresp(m_axi_rresp),.m_axi_rlast(m_axi_rlast),
+        .m_axi_rvalid(m_axi_rvalid),.m_axi_rready(m_axi_rready));
+endmodule

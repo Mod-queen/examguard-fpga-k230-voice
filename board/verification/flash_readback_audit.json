@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "bytes": 16777216,
+  "sha256": "a82b6b819c718c784f4ba1eca65249614cc68483cfcd29b4034c2ea387192d80",
+  "bit_sha256": "6361343ff871e7667dfc48a29f38f1ee99bc58a602633c01c69e88c597de557e",
+  "backup_REV03_sha256": "9a0d6fb5215faabb9569508ecb4809699236f82f91f7dde3174884b01c184a95",
+  "mcs": "D:\\fpga_race\\verification_out\\refinement_20261031\\flash_plan\\voice_backlog_full16m_preserved_tail.mcs",
+  "cold_boot_qualified": false,
+  "context_sha256": "1a571fb34ba61321f637b7969f0db66d6b4e46ea3c847d23cfcf7f08053e8897",
+  "scope": "Independent file audit of fresh backups/full readback; no cold boot claimed."
+}

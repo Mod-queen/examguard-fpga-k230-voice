@@ -1,0 +1,22 @@
+{
+  "top": "xadc_monitor_reader_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/health/xadc_monitor_reader_tb.sv",
+      "sha256": "0787b275fad61d9ad39e6f5283df3ed190db425639c2b6ffe264c4e55f0d935d"
+    },
+    {
+      "path": "src/fpga/local_sources/7cd650dffdea/xadc_monitor_reader.sv",
+      "sha256": "4082cac7140c71d5a5684089426c05b6738c5e412651eea94c847879af9ebbd3"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.015,
+  "pass_lines": [
+    "PASS: xadc_monitor_reader four addresses/atomic batches/temp/timeout/reset"
+  ],
+  "exit_code": 0
+}

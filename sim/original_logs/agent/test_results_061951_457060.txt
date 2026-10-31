@@ -1,0 +1,422 @@
+test_cancellation_and_malformed_reply_are_explicit_failures (app.test_agent_vision.AgentVisionTests.test_cancellation_and_malformed_reply_are_explicit_failures) ... ERROR
+test_cancellation_and_malformed_reply_are_explicit_failures (app.test_agent_vision.AgentVisionTests.test_cancellation_and_malformed_reply_are_explicit_failures) ... ERROR
+test_dual_configuration_roundtrip_and_old_config_compatibility (app.test_agent_vision.AgentVisionTests.test_dual_configuration_roundtrip_and_old_config_compatibility) ... ERROR
+test_dual_configuration_roundtrip_and_old_config_compatibility (app.test_agent_vision.AgentVisionTests.test_dual_configuration_roundtrip_and_old_config_compatibility) ... ERROR
+test_maximum_three_frames_and_no_paths_in_cloud_payload (app.test_agent_vision.AgentVisionTests.test_maximum_three_frames_and_no_paths_in_cloud_payload) ... ERROR
+test_maximum_three_frames_and_no_paths_in_cloud_payload (app.test_agent_vision.AgentVisionTests.test_maximum_three_frames_and_no_paths_in_cloud_payload) ... ERROR
+test_modified_after_tool_verification_is_rejected (app.test_agent_vision.AgentVisionTests.test_modified_after_tool_verification_is_rejected) ... ERROR
+test_modified_after_tool_verification_is_rejected (app.test_agent_vision.AgentVisionTests.test_modified_after_tool_verification_is_rejected) ... ERROR
+test_no_images_or_invalid_evidence_never_calls_model (app.test_agent_vision.AgentVisionTests.test_no_images_or_invalid_evidence_never_calls_model) ... ERROR
+test_no_images_or_invalid_evidence_never_calls_model (app.test_agent_vision.AgentVisionTests.test_no_images_or_invalid_evidence_never_calls_model) ... ERROR
+test_visual_probe_uses_only_a_synthetic_image (app.test_agent_vision.AgentVisionTests.test_visual_probe_uses_only_a_synthetic_image) ... ERROR
+test_visual_request_sends_verified_png_bytes_and_keeps_text_model (app.test_agent_vision.AgentVisionTests.test_visual_request_sends_verified_png_bytes_and_keeps_text_model) ... ERROR
+test_visual_request_sends_verified_png_bytes_and_keeps_text_model (app.test_agent_vision.AgentVisionTests.test_visual_request_sends_verified_png_bytes_and_keeps_text_model) ... ERROR
+test_zhipu_http_uses_documented_auto_tools_and_disables_thinking (app.test_agent_vision.AgentVisionTests.test_zhipu_http_uses_documented_auto_tools_and_disables_thinking) ... ERROR
+
+======================================================================
+ERROR: test_cancellation_and_malformed_reply_are_explicit_failures (app.test_agent_vision.AgentVisionTests.test_cancellation_and_malformed_reply_are_explicit_failures)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\python\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpigc28z75\\evidence\\egv2_00000001_00000002_00000003_1234567800000001'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fpga_race\host\app\test_agent_vision.py", line 80, in test_cancellation_and_malformed_reply_are_explicit_failures
+    self.evidence()
+  File "D:\fpga_race\host\app\test_agent.py", line 57, in evidence
+    receiver.ingest(result_wire())
+  File "D:\fpga_race\host\app\evidence_v2_receiver.py", line 133, in ingest
+    return self._save(key, entry.window.status)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\fpga_race\host\app\evidence_v2_receiver.py", line 53, in _save
+    path = write_revision(self.root, entry.window, tuple(entry.datagrams), reason=reason,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\fpga_race\host\app\evidence_v2_store.py", line 52, in write_revision
+    parent.mkdir(parents=True, exist_ok=True)
+  File "D:\python\Lib\pathlib.py", line 1315, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File "D:\python\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpigc28z75\\evidence'
+
+======================================================================
+ERROR: test_cancellation_and_malformed_reply_are_explicit_failures (app.test_agent_vision.AgentVisionTests.test_cancellation_and_malformed_reply_are_explicit_failures)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<frozen os>", line 366, in walk
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpigc28z75'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fpga_race\host\app\test_agent.py", line 45, in tearDown
+    self.temp.cleanup()
+  File "D:\python\Lib\tempfile.py", line 950, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "D:\python\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "D:\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\shutil.py", line 623, in _rmtree_unsafe
+    for dirpath, dirnames, filenames in results:
+  File "<frozen os>", line 369, in walk
+  File "D:\python\Lib\shutil.py", line 621, in onerror
+    onexc(os.scandir, err.filename, err)
+  File "D:\python\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "D:\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "D:\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpigc28z75'
+
+======================================================================
+ERROR: test_dual_configuration_roundtrip_and_old_config_compatibility (app.test_agent_vision.AgentVisionTests.test_dual_configuration_roundtrip_and_old_config_compatibility)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\fpga_race\host\app\test_agent_vision.py", line 116, in test_dual_configuration_roundtrip_and_old_config_compatibility
+    save_agent_settings(self.config(), path=path)
+  File "D:\fpga_race\host\app\agent_settings.py", line 125, in save_agent_settings
+    path.parent.mkdir(parents=True, exist_ok=True)
+  File "D:\python\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpm5x494gh\\private'
+
+======================================================================
+ERROR: test_dual_configuration_roundtrip_and_old_config_compatibility (app.test_agent_vision.AgentVisionTests.test_dual_configuration_roundtrip_and_old_config_compatibility)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<frozen os>", line 366, in walk
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpm5x494gh'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fpga_race\host\app\test_agent.py", line 45, in tearDown
+    self.temp.cleanup()
+  File "D:\python\Lib\tempfile.py", line 950, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "D:\python\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "D:\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\shutil.py", line 623, in _rmtree_unsafe
+    for dirpath, dirnames, filenames in results:
+  File "<frozen os>", line 369, in walk
+  File "D:\python\Lib\shutil.py", line 621, in onerror
+    onexc(os.scandir, err.filename, err)
+  File "D:\python\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "D:\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "D:\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpm5x494gh'
+
+======================================================================
+ERROR: test_maximum_three_frames_and_no_paths_in_cloud_payload (app.test_agent_vision.AgentVisionTests.test_maximum_three_frames_and_no_paths_in_cloud_payload)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\python\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpqbvgcmdy\\evidence\\egv2_00000001_00000002_00000003_1234567800000001'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fpga_race\host\app\test_agent_vision.py", line 66, in test_maximum_three_frames_and_no_paths_in_cloud_payload
+    self.evidence()
+  File "D:\fpga_race\host\app\test_agent.py", line 57, in evidence
+    receiver.ingest(result_wire())
+  File "D:\fpga_race\host\app\evidence_v2_receiver.py", line 133, in ingest
+    return self._save(key, entry.window.status)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\fpga_race\host\app\evidence_v2_receiver.py", line 53, in _save
+    path = write_revision(self.root, entry.window, tuple(entry.datagrams), reason=reason,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\fpga_race\host\app\evidence_v2_store.py", line 52, in write_revision
+    parent.mkdir(parents=True, exist_ok=True)
+  File "D:\python\Lib\pathlib.py", line 1315, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File "D:\python\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpqbvgcmdy\\evidence'
+
+======================================================================
+ERROR: test_maximum_three_frames_and_no_paths_in_cloud_payload (app.test_agent_vision.AgentVisionTests.test_maximum_three_frames_and_no_paths_in_cloud_payload)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<frozen os>", line 366, in walk
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpqbvgcmdy'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fpga_race\host\app\test_agent.py", line 45, in tearDown
+    self.temp.cleanup()
+  File "D:\python\Lib\tempfile.py", line 950, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "D:\python\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "D:\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\shutil.py", line 623, in _rmtree_unsafe
+    for dirpath, dirnames, filenames in results:
+  File "<frozen os>", line 369, in walk
+  File "D:\python\Lib\shutil.py", line 621, in onerror
+    onexc(os.scandir, err.filename, err)
+  File "D:\python\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "D:\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "D:\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpqbvgcmdy'
+
+======================================================================
+ERROR: test_modified_after_tool_verification_is_rejected (app.test_agent_vision.AgentVisionTests.test_modified_after_tool_verification_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\python\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpsat_lifg\\evidence\\egv2_00000001_00000002_00000003_1234567800000001'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fpga_race\host\app\test_agent_vision.py", line 55, in test_modified_after_tool_verification_is_rejected
+    self.evidence()
+  File "D:\fpga_race\host\app\test_agent.py", line 57, in evidence
+    receiver.ingest(result_wire())
+  File "D:\fpga_race\host\app\evidence_v2_receiver.py", line 133, in ingest
+    return self._save(key, entry.window.status)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\fpga_race\host\app\evidence_v2_receiver.py", line 53, in _save
+    path = write_revision(self.root, entry.window, tuple(entry.datagrams), reason=reason,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\fpga_race\host\app\evidence_v2_store.py", line 52, in write_revision
+    parent.mkdir(parents=True, exist_ok=True)
+  File "D:\python\Lib\pathlib.py", line 1315, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File "D:\python\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpsat_lifg\\evidence'
+
+======================================================================
+ERROR: test_modified_after_tool_verification_is_rejected (app.test_agent_vision.AgentVisionTests.test_modified_after_tool_verification_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<frozen os>", line 366, in walk
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpsat_lifg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fpga_race\host\app\test_agent.py", line 45, in tearDown
+    self.temp.cleanup()
+  File "D:\python\Lib\tempfile.py", line 950, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "D:\python\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "D:\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\shutil.py", line 623, in _rmtree_unsafe
+    for dirpath, dirnames, filenames in results:
+  File "<frozen os>", line 369, in walk
+  File "D:\python\Lib\shutil.py", line 621, in onerror
+    onexc(os.scandir, err.filename, err)
+  File "D:\python\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "D:\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "D:\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpsat_lifg'
+
+======================================================================
+ERROR: test_no_images_or_invalid_evidence_never_calls_model (app.test_agent_vision.AgentVisionTests.test_no_images_or_invalid_evidence_never_calls_model)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\fpga_race\host\app\test_agent_vision.py", line 45, in test_no_images_or_invalid_evidence_never_calls_model
+    reply = review_images(self.tools(), self.event.transaction.hex(), self.config(), transport=forbidden)
+                          ^^^^^^^^^^^^
+  File "D:\fpga_race\host\app\test_agent.py", line 52, in tools
+    return AgentTools(self.source(), **kwargs)
+                      ^^^^^^^^^^^^^
+  File "D:\fpga_race\host\app\test_agent.py", line 49, in source
+    return AgentSource(Path(current.session_path), self.root / 'evidence', current if snapshot else None)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\pathlib.py", line 1162, in __init__
+    super().__init__(*args)
+  File "D:\python\Lib\pathlib.py", line 373, in __init__
+    raise TypeError(
+TypeError: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'
+
+======================================================================
+ERROR: test_no_images_or_invalid_evidence_never_calls_model (app.test_agent_vision.AgentVisionTests.test_no_images_or_invalid_evidence_never_calls_model)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<frozen os>", line 366, in walk
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpg72qyglv'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fpga_race\host\app\test_agent.py", line 45, in tearDown
+    self.temp.cleanup()
+  File "D:\python\Lib\tempfile.py", line 950, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "D:\python\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "D:\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\shutil.py", line 623, in _rmtree_unsafe
+    for dirpath, dirnames, filenames in results:
+  File "<frozen os>", line 369, in walk
+  File "D:\python\Lib\shutil.py", line 621, in onerror
+    onexc(os.scandir, err.filename, err)
+  File "D:\python\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "D:\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "D:\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpg72qyglv'
+
+======================================================================
+ERROR: test_visual_probe_uses_only_a_synthetic_image (app.test_agent_vision.AgentVisionTests.test_visual_probe_uses_only_a_synthetic_image)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<frozen os>", line 366, in walk
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmp0txj7_rq'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fpga_race\host\app\test_agent.py", line 45, in tearDown
+    self.temp.cleanup()
+  File "D:\python\Lib\tempfile.py", line 950, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "D:\python\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "D:\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\shutil.py", line 623, in _rmtree_unsafe
+    for dirpath, dirnames, filenames in results:
+  File "<frozen os>", line 369, in walk
+  File "D:\python\Lib\shutil.py", line 621, in onerror
+    onexc(os.scandir, err.filename, err)
+  File "D:\python\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "D:\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "D:\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmp0txj7_rq'
+
+======================================================================
+ERROR: test_visual_request_sends_verified_png_bytes_and_keeps_text_model (app.test_agent_vision.AgentVisionTests.test_visual_request_sends_verified_png_bytes_and_keeps_text_model)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\python\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpjopfhzn5\\evidence\\egv2_00000001_00000002_00000003_1234567800000001'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fpga_race\host\app\test_agent_vision.py", line 25, in test_visual_request_sends_verified_png_bytes_and_keeps_text_model
+    self.evidence()
+  File "D:\fpga_race\host\app\test_agent.py", line 57, in evidence
+    receiver.ingest(result_wire())
+  File "D:\fpga_race\host\app\evidence_v2_receiver.py", line 133, in ingest
+    return self._save(key, entry.window.status)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\fpga_race\host\app\evidence_v2_receiver.py", line 53, in _save
+    path = write_revision(self.root, entry.window, tuple(entry.datagrams), reason=reason,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\fpga_race\host\app\evidence_v2_store.py", line 52, in write_revision
+    parent.mkdir(parents=True, exist_ok=True)
+  File "D:\python\Lib\pathlib.py", line 1315, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File "D:\python\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpjopfhzn5\\evidence'
+
+======================================================================
+ERROR: test_visual_request_sends_verified_png_bytes_and_keeps_text_model (app.test_agent_vision.AgentVisionTests.test_visual_request_sends_verified_png_bytes_and_keeps_text_model)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<frozen os>", line 366, in walk
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpjopfhzn5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fpga_race\host\app\test_agent.py", line 45, in tearDown
+    self.temp.cleanup()
+  File "D:\python\Lib\tempfile.py", line 950, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "D:\python\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "D:\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\shutil.py", line 623, in _rmtree_unsafe
+    for dirpath, dirnames, filenames in results:
+  File "<frozen os>", line 369, in walk
+  File "D:\python\Lib\shutil.py", line 621, in onerror
+    onexc(os.scandir, err.filename, err)
+  File "D:\python\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "D:\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "D:\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmpjopfhzn5'
+
+======================================================================
+ERROR: test_zhipu_http_uses_documented_auto_tools_and_disables_thinking (app.test_agent_vision.AgentVisionTests.test_zhipu_http_uses_documented_auto_tools_and_disables_thinking)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<frozen os>", line 366, in walk
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmprtyz8vo2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fpga_race\host\app\test_agent.py", line 45, in tearDown
+    self.temp.cleanup()
+  File "D:\python\Lib\tempfile.py", line 950, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "D:\python\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "D:\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\shutil.py", line 623, in _rmtree_unsafe
+    for dirpath, dirnames, filenames in results:
+  File "<frozen os>", line 369, in walk
+  File "D:\python\Lib\shutil.py", line 621, in onerror
+    onexc(os.scandir, err.filename, err)
+  File "D:\python\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "D:\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "D:\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'D:\\fpga_race\\verification_out\\agent_20261030\\test_tmp\\tmprtyz8vo2'
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.037s
+
+FAILED (errors=14)

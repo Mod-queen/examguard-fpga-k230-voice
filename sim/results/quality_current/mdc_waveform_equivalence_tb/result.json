@@ -1,0 +1,30 @@
+{
+  "top": "mdc_waveform_equivalence_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/quality/mdc_waveform_equivalence_tb.sv",
+      "sha256": "fd26c3d708c5e90e6d0c9731c0920b90fa88d92dbd79735d3ab2f2750f375593"
+    },
+    {
+      "path": "sim/sources/quality/phy_reg_config_reference.v",
+      "sha256": "54f00255efcfadffb8e1617a8a3148ab486e4731428c50d6ae0d05d113cced6b"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/phy_reg_config.v",
+      "sha256": "08d898999ff6d32b96ea9f0ecc82eb022a09cb03b3cb5f1d5ea989299c75aa7f"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/mdio_bit_shift.v",
+      "sha256": "5d3e83a1aaf5d27619c56b69602d5dc7fc67abf9fc295c6f9faecf59f422d73b"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.875,
+  "pass_lines": [
+    "PASS: mdc_waveform_equivalence_tb four divisors, default period, asynchronous reset and restart"
+  ],
+  "exit_code": 0
+}

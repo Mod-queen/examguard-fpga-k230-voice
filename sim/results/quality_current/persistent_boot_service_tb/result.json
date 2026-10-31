@@ -1,0 +1,94 @@
+{
+  "top": "persistent_boot_service_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/persistence/persistent_boot_service_tb.sv",
+      "sha256": "a699b3947ba24f79f00045df04046bb50445e5bfeb3652a685b8abfbbf2159ac"
+    },
+    {
+      "path": "src/fpga/local_sources/328fc08a076a/persistent_rtc_service.sv",
+      "sha256": "7dd4cabbd8381b2d96f2a9eebcf5da282982023f47e93740225a4d856bb8f21e"
+    },
+    {
+      "path": "src/fpga/local_sources/6757b9ed1223/eeprom_page_writer.sv",
+      "sha256": "386a79443b25ddceaeab9d1053ba53029ea18dd2ee8ce3a29de17bf4ac2b8894"
+    },
+    {
+      "path": "src/fpga/local_sources/0c907ae5d25e/persistent_boot_service.sv",
+      "sha256": "b6be8544028da8624930d37c4fb28636e2c36f97c039b19f9f7db690bc0a8c09"
+    },
+    {
+      "path": "src/fpga/local_sources/a8328017a7aa/pcf8563_reader.sv",
+      "sha256": "cae1252215581075f1acb623e30c2eb0f151b4a8e67eb289b5e0b686b08f8cd4"
+    },
+    {
+      "path": "src/fpga/local_sources/1dea5a5ec50d/eeprom_dualslot_store.sv",
+      "sha256": "7755f1cfebe6be4e48988132c47438cf7526afd3ed5401c8b6c7d07ad70f7a13"
+    },
+    {
+      "path": "src/fpga/local_sources/ee27b53745a7/rtc_time_anchor.sv",
+      "sha256": "165831fb384824d364263d3246d9b18ca233e47ca9e5fa38ce8737b6c9b5d8f8"
+    },
+    {
+      "path": "src/fpga/local_sources/68436de0e25f/persistent_event_identity.v",
+      "sha256": "f28541be62169d77b45d8f90327dbb73e306706788592443cd3cd1bf1bc787b6"
+    },
+    {
+      "path": "src/fpga/local_sources/473868420a86/eeprom_record_codec.sv",
+      "sha256": "2650ebdd7c40358b5cea4c2975d1dd48bd4310e373a22b2cc2ba46623f068834"
+    },
+    {
+      "path": "src/fpga/local_sources/c66e664ded59/pcf8563_calendar.sv",
+      "sha256": "f8c87466cd7973ed81e45ef41c1dd511afd5044c3cba8e9e8966a989ac646d29"
+    },
+    {
+      "path": "src/fpga/local_sources/b3552f47b77a/rtc_anchor_record.sv",
+      "sha256": "4a1b21fde243a3c715440e57323be5637a46f13754f1af81537f619dceba9694"
+    },
+    {
+      "path": "src/fpga/local_sources/682b9b4992fd/i2c_byte_master.sv",
+      "sha256": "4b7471ebdfcd080cbabc516e8a56793526a8ac7ecdbc0f51b42c8740dfd2bc8c"
+    },
+    {
+      "path": "src/fpga/local_sources/8f15c7c17ef1/event_identity.v",
+      "sha256": "df26e9f6f78980d151006f8709bf579851b8c383b38c19af8d9929ae7bc9f564"
+    },
+    {
+      "path": "src/fpga/local_sources/f0215bcf904a/persistent_boot_gate.sv",
+      "sha256": "c8d0a6f30842cbbaefa82d0a6670efd11c1fb0ecb128c4ff2bdd63c08801b416"
+    },
+    {
+      "path": "src/fpga/local_sources/709b883505d5/rtc_anchor_client.sv",
+      "sha256": "e9638e6c7840cb0dcfd4f03e59723af577a80899eb44754e2308f33e2480b552"
+    },
+    {
+      "path": "src/fpga/local_sources/0e8d0fe30f17/i2c_register_master.sv",
+      "sha256": "a4d1144965e65a73169a89361a1d9be26d6a499512133b647f28829e8d55e8f0"
+    },
+    {
+      "path": "src/fpga/local_sources/cb4f400b368e/i2c_transaction_arbiter.sv",
+      "sha256": "e5d3a11a4b3f48382be966e16e3a40c61cd956ff04f533fe37e102e2c23391a9"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/exam_event_context.v",
+      "sha256": "7733c9f852e45b7f9a515a3c0ebaf227194d0f5354b847ef3ac766977cbdc260"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v",
+      "sha256": "c0ba03f5efcad63349bab1bae3fd95d16927d4cd62acdec1d73c9cf4f5d1e2c9"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_transaction_queue/event_transaction_queue.v",
+      "sha256": "2e5ca0042f187b64bc9b026c8e195552041b3914b436454d5f2031b4aca1aa07"
+    }
+  ],
+  "repairs": [],
+  "seconds": 16.015,
+  "pass_lines": [
+    "PASS: persistent_boot_service sharedRTC=0 actualPins+identity+context+queue boot5UID1/cancelUID2/boot5UID3/newBoot6UID1/WP/wrongDevice/corrupt/blank/MAX/noRetry oldslotPreserved START=148 STOP=91 busyNACK=16"
+  ],
+  "exit_code": 0
+}

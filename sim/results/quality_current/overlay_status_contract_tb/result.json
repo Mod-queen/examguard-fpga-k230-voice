@@ -1,0 +1,30 @@
+{
+  "top": "overlay_status_contract_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/verification_20261031/overlay_status_contract_tb.sv",
+      "sha256": "e38ec9a8fafc8928201f9c2dba3e86c62e9ddbed0267094bbf776b85e23f404b"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/overlay_status/overlay_status.v",
+      "sha256": "229530f58e23a8354470304a156bddf66d411853b1ec658c595c9afbe4e69cc8"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/text_overlay/char_rom_cn.v",
+      "sha256": "40fa29616c99d42dc69bafcdba6a53e2a355f06776532c995d6c6c3b554fdf6e"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/text_overlay/text_overlay.v",
+      "sha256": "034b8dcf4b909e6d490553b9fc6fe62d4dafc7d1bb19cddc6dfc2cbc3d0f3270"
+    }
+  ],
+  "repairs": [],
+  "seconds": 6.922,
+  "pass_lines": [
+    "PASS: overlay_status_contract DE/disabled passthrough/strip boundary/motion/risk priority/text palette/256 pixels"
+  ],
+  "exit_code": 0
+}

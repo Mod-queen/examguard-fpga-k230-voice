@@ -1,0 +1,70 @@
+{
+  "top": "transaction_uart_integration_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/host_link/transaction_uart_integration_tb.sv",
+      "sha256": "83c231ab95c00dba148c55e75cf1843edd7993b2ff00e771395758d7898956fc"
+    },
+    {
+      "path": "src/fpga/local_sources/cfe9e05c73c5/maintenance_record.sv",
+      "sha256": "abdeba1d1fe91377a94d3956dc9bd200ab17348963b86818163bb52bdb589d90"
+    },
+    {
+      "path": "src/fpga/local_sources/0c606c7a4802/board_monitor_record.sv",
+      "sha256": "a4599d19f893d123c541d630f822ffc290041305c633336f26a2df28b2cac1f7"
+    },
+    {
+      "path": "src/fpga/local_sources/b3552f47b77a/rtc_anchor_record.sv",
+      "sha256": "4a1b21fde243a3c715440e57323be5637a46f13754f1af81537f619dceba9694"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/evidence_dump/evidence_dump.v",
+      "sha256": "7b09b23a7b60b252b1adedf79eb4e97c8dd5f388c5f158b7e9f47553b03ab864"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/config_ack_tx.v",
+      "sha256": "4c8125c7f8e791edea5c632f0bfe29dbbc17ca40b8cb972bba18b09d5cc90983"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/event_transaction_fork.v",
+      "sha256": "f8800683c3de2c3f37136b28c1371165bb34470de38089131be89ce219ce6081"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/event_transaction_log.v",
+      "sha256": "8fd5b7f1b4fb3945286b08afcf8bdccc6429af83ced2b560d2ae91ae3bc7cd4e"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v",
+      "sha256": "c0ba03f5efcad63349bab1bae3fd95d16927d4cd62acdec1d73c9cf4f5d1e2c9"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_packet_mux.v",
+      "sha256": "edabbc2908155bd8c884a6de68c9252ab74db4b73f3bc926a3500950ef0a5267"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_stream_adapter.v",
+      "sha256": "58d881248fa139bd5988754c40b0e7c97a4a458e344ff4d1f7ccbb657f848bb1"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/status_uart_tx/status_uart_tx.v",
+      "sha256": "d94efddc694aaa28b6e7003c814b9a4280b006168404005feedc53c6257cf2ba"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/u32_to_bcd/u32_to_bcd.v",
+      "sha256": "f93bdca22e5a831bcd60626bb0fc3c6aef8189b7091fd6064e8455eee1ed8edf"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v",
+      "sha256": "85fdfaa0de41dbab46fd3fe892d57017a0a4f154c32b2268d198d5456aedfab1"
+    }
+  ],
+  "repairs": [],
+  "seconds": 492.969,
+  "pass_lines": [
+    "PASS: transaction_uart_integration actual ST320/AL-EI atomic/CA/EV-EO/ET13 sources one UART; fork12 + cancelled13 log retained"
+  ],
+  "exit_code": 0
+}

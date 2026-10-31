@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: pcf8563_setter_wire transactions=18 START=27 STOP=18 writes=22 NACK=1 normal/partial-write/run-recovery/explicit-retry/media-preserved
+D:\fpga_race\fpga\src\persistence\pcf8563_setter_wire_tb.sv:117: $finish called at 399800000 (1ps)

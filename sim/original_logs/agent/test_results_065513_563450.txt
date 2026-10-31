@@ -1,0 +1,6 @@
+test_query_select_visual_review_and_export_preserve_event_and_text_model (app.test_agent_vision.AgentDualPanelTests.test_query_select_visual_review_and_export_preserve_event_and_text_model) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.374s
+
+OK

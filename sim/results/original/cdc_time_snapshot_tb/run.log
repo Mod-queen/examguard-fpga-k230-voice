@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: cdc_time_snapshot coherent rollover/stopped-clock age/reset all checks
+D:\fpga_race\fpga\src\event_identity\cdc_time_snapshot_tb.sv:54: $finish called at 11137000 (1ps)

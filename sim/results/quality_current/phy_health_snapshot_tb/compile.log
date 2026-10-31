@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/engineering_quality_20261031/sim/sources/health/phy_health_snapshot_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module phy_health_snapshot_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v" into library work
+INFO: [VRFC 10-311] analyzing module cdc_event_transaction
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v" into library work
+INFO: [VRFC 10-311] analyzing module evidence_reset_barrier
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/cdc_stats_snapshot.v" into library work
+INFO: [VRFC 10-311] analyzing module cdc_stats_snapshot
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/phy_health_snapshot.v" into library work
+INFO: [VRFC 10-311] analyzing module phy_health_snapshot

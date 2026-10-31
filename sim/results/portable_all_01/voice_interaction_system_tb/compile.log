@@ -1,0 +1,37 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/sim/sources/voice_interaction/voice_interaction_system_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module voice_interaction_system_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/d69d06497899/voice_interaction_bus.sv" into library work
+INFO: [VRFC 10-311] analyzing module voice_interaction_bus
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/5fdb84914cbb/voice_info_confirm.sv" into library work
+INFO: [VRFC 10-311] analyzing module voice_info_confirm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/2029ef185f4b/candidate_glyph.sv" into library work
+INFO: [VRFC 10-311] analyzing module candidate_glyph
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/1ae9f9c36ffe/voice_interaction_system.sv" into library work
+INFO: [VRFC 10-311] analyzing module voice_interaction_system
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/5865e260549f/voice_host_endpoint.sv" into library work
+INFO: [VRFC 10-311] analyzing module voice_host_endpoint
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/682b9b4992fd/i2c_byte_master.sv" into library work
+INFO: [VRFC 10-311] analyzing module i2c_byte_master
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/0d0080802b6c/candidate_overlay.sv" into library work
+INFO: [VRFC 10-311] analyzing module candidate_overlay
+WARNING: [VRFC 10-3380] identifier 'line' is used before its declaration [D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/0d0080802b6c/candidate_overlay.sv:22]
+WARNING: [VRFC 10-3380] identifier 'line' is used before its declaration [D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/0d0080802b6c/candidate_overlay.sv:23]
+WARNING: [VRFC 10-3380] identifier 'line' is used before its declaration [D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/0d0080802b6c/candidate_overlay.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/5d4a07cf73fd/voice_audio_gate.sv" into library work
+INFO: [VRFC 10-311] analyzing module voice_audio_gate
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/35587c20f082/voice_status_record.sv" into library work
+INFO: [VRFC 10-311] analyzing module voice_status_record
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/172741f07dfa/voice_notice_queue.sv" into library work
+INFO: [VRFC 10-311] analyzing module voice_notice_queue
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/21bc7e4bb7c0/voice_exam_interaction.sv" into library work
+INFO: [VRFC 10-311] analyzing module voice_exam_interaction
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/0e8d0fe30f17/i2c_register_master.sv" into library work
+INFO: [VRFC 10-311] analyzing module i2c_register_master
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm.v" into library work
+INFO: [VRFC 10-311] analyzing module exam_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v" into library work
+INFO: [VRFC 10-311] analyzing module cdc_event_transaction
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/cdc_stats_snapshot.v" into library work
+INFO: [VRFC 10-311] analyzing module cdc_stats_snapshot
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/sim/sources/voice_interaction/wonderecho_wire_model.sv" into library work
+INFO: [VRFC 10-311] analyzing module wonderecho_wire_model

@@ -1,0 +1,11 @@
+{
+  "native_ide_screenshot": true,
+  "method": "Vivado GUI report_timing_summary from quality candidate routed checkpoint (not programmed to board); original pixels",
+  "checkpoint_sha256": "58336ee1613d6b076135129037e593965a721428f4221af0026143ada40bf3bd",
+  "bit_sha256": "85409010f98b1366342ce31469322cef92069643d6a543b3555776076f761126",
+  "source_report_sha256": "d4e48ec4046a80ab50e758f470733b6c8db4fae110958d909b93b20db83f64b6",
+  "image_sha256": "8fe4bfd3a1270ee6c76f68c0e569c26ca478c32db9547eb3d688921292de8fca",
+  "image": "vivado_timing_summary.png",
+  "hardware_access": false,
+  "design_modified": false
+}

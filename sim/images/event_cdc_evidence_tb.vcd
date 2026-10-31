@@ -1,0 +1,112 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module event_cdc_evidence_tb $end
+$var wire 1 $ rst $end
+$var wire 1 % control_rst $end
+$var wire 1 & cap_rst $end
+$var wire 4 ' control_request $end
+$var wire 4 - source_accepted $end
+$var wire 4 . source_rejected $end
+$var wire 1 / source_valid $end
+$var wire 1 0 source_ready $end
+$var wire 32 5 source_accept_count $end
+$var wire 32 6 source_reject_count $end
+$var wire 32 7 source_deliver_count $end
+$upscope $end
+$enddefinitions $end
+#0
+1$
+1%
+1&
+b0 '
+b0 -
+b0 .
+0/
+00
+bx 5
+bx 6
+bx 7
+#10000
+b0 5
+b0 6
+b0 7
+#200000
+0%
+10
+#210000
+0$
+#224000
+0&
+#3080000
+b1111 '
+b1111 -
+#3090000
+b1 -
+b1110 .
+1/
+b100 5
+#3100000
+b0 '
+b0 -
+b0 .
+#3110000
+00
+b1 7
+#3190000
+10
+#3210000
+00
+b10 7
+#3290000
+10
+#3310000
+00
+b11 7
+#3390000
+10
+#3410000
+0/
+00
+b100 7
+#6160000
+b1111 '
+b1111 -
+#6170000
+b0 -
+b1111 .
+1/
+b1000 5
+#6180000
+b0 '
+b0 .
+#6200000
+b1111 '
+b1111 .
+#6210000
+b100 6
+#6220000
+b0 '
+b0 .
+#9030000
+10
+#9050000
+00
+b101 7
+#14270000
+10
+#14290000
+00
+b110 7
+#19850000
+10
+#19870000
+00
+b111 7
+#25450000
+10
+#25470000
+0/
+00
+b1000 7
+#31170000
+10

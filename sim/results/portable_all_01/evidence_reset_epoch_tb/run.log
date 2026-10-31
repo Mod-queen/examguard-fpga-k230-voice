@@ -1,0 +1,2 @@
+PASS: evidence_reset_epoch stopped-control/capture clocks, stale-toggle/FIFO cancellation, restart80 and retrigger
+D:\fpga_race\deploy\submission_20261031\sim\sources\event_identity\evidence_reset_epoch_tb.sv:75: $finish called at 3450000 (1ps)

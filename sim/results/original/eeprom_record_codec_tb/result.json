@@ -1,0 +1,28 @@
+{
+  "top": "eeprom_record_codec_tb",
+  "status": "passed",
+  "active_modules": [
+    "eeprom_record_codec"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "eeprom_record_codec_tb"
+  ],
+  "testbench": "fpga/src/persistence/eeprom_record_codec_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/persistence/eeprom_record_codec_tb.sv",
+      "sha256": "cfb6cb696825a55d8c292cac24d4c0fc62752538208b7d1eac7cd5acbeafe121"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/770359552324/eeprom_record_codec.sv",
+      "sha256": "2650ebdd7c40358b5cea4c2975d1dd48bd4310e373a22b2cc2ba46623f068834"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: eeprom_record_codec checks=773 all768singlebit-corruptions/zeroIDs/response-hold"
+  ],
+  "trace_bytes": 2000754,
+  "seconds": 0.984
+}

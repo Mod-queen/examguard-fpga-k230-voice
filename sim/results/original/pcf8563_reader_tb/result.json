@@ -1,0 +1,33 @@
+{
+  "top": "pcf8563_reader_tb",
+  "status": "passed",
+  "active_modules": [
+    "pcf8563_calendar",
+    "pcf8563_reader"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "pcf8563_reader_tb"
+  ],
+  "testbench": "fpga/src/persistence/pcf8563_reader_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/persistence/pcf8563_reader_tb.sv",
+      "sha256": "bcdefdfdd23d2f2f2c7232a14f470fc401a353eb775687de9874be9ad75b3d08"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/5acd2aa6692b/pcf8563_reader.sv",
+      "sha256": "cae1252215581075f1acb623e30c2eb0f151b4a8e67eb289b5e0b686b08f8cd4"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/79534ad6e7d0/pcf8563_calendar.sv",
+      "sha256": "f8c87466cd7973ed81e45ef41c1dd511afd5044c3cba8e9e8966a989ac646d29"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: pcf8563_reader results=7 transactions=18 burst/reread/rollover/VL/I2C-error/stale/reset"
+  ],
+  "trace_bytes": 186630,
+  "seconds": 0.141
+}

@@ -1,0 +1,2 @@
+PASS: camera_capture_reset actual DVP/3edge release/stopped PCLK/short pulse/retrigger/warmup10/RGB565 recovery
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\camera_capture_reset_tb.sv:92: $finish called at 9525000 (1ps)

@@ -1,0 +1,43 @@
+{
+  "top": "evidence_dump_tb",
+  "status": "passed",
+  "active_modules": [
+    "evidence_dump",
+    "u32_to_bcd",
+    "uart_stream_adapter",
+    "uart_tx"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "evidence_dump_tb"
+  ],
+  "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/evidence_dump/evidence_dump_tb.v",
+  "sources": [
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/evidence_dump/evidence_dump_tb.v",
+      "sha256": "bbd701bcd5ce3fa4aa3363ed52bc14a6b6e077c9a86f78d6c73b54ddba26187e"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/evidence_dump/evidence_dump.v",
+      "sha256": "7b09b23a7b60b252b1adedf79eb4e97c8dd5f388c5f158b7e9f47553b03ab864"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_stream_adapter.v",
+      "sha256": "58d881248fa139bd5988754c40b0e7c97a4a458e344ff4d1f7ccbb657f848bb1"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/u32_to_bcd/u32_to_bcd.v",
+      "sha256": "f93bdca22e5a831bcd60626bb0fc3c6aef8189b7091fd6064e8455eee1ed8edf"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v",
+      "sha256": "85fdfaa0de41dbab46fd3fe892d57017a0a4f154c32b2268d198d5456aedfab1"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: evidence dump"
+  ],
+  "trace_bytes": 1932122,
+  "seconds": 0.453
+}

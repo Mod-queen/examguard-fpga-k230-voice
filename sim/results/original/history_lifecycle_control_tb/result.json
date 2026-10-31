@@ -1,0 +1,28 @@
+{
+  "top": "history_lifecycle_control_tb",
+  "status": "passed",
+  "active_modules": [
+    "history_lifecycle_control"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "history_lifecycle_control_tb"
+  ],
+  "testbench": "fpga/src/ddr3_test/history_lifecycle_control_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/ddr3_test/history_lifecycle_control_tb.sv",
+      "sha256": "c2c04cccdbbe0d786377e089e18a220fbc0863edb32b5585323c098d682dd42d"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_lifecycle_control.v",
+      "sha256": "510d739508bf341b35c7d56f4ad5ba528451bf1cfdeb76e9c48a4869bb17d069"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: history_lifecycle_control drain/start/run/local-halt/short-reset/stopped-clock"
+  ],
+  "trace_bytes": 11031,
+  "seconds": 0.079
+}

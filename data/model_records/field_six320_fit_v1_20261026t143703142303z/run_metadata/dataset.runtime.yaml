@@ -1,0 +1,4 @@
+path: "D:/fpga_race/k230_upgrade_20261026/runs/field_six320_fit_v1"
+train: train.txt
+val: validation.txt
+names: ["phone", "notes", "head_forward", "head_down_writing", "head_left", "head_right"]

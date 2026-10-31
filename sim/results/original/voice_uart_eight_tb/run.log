@@ -1,0 +1,4 @@
+VCD info: dumpfile trace.vcd opened for output.
+WARNING: Dump file limit (2000000 bytes) exceeded.
+PASS: voice_uart_eight packets=8 bytes=1568
+D:\fpga_race\fpga\src\voice_interaction\voice_uart_eight_tb.sv:33: $finish called at 3171660000 (1ps)

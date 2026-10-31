@@ -1,0 +1,23 @@
+{
+  "tests": 122,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "suites": [
+    "app.test_agent",
+    "app.test_dashboard_session",
+    "app.test_history_association",
+    "app.test_evidence_v2_receiver",
+    "app.test_replay_tasks",
+    "app.test_agent_fallback",
+    "app.test_agent_joycode",
+    "app.test_agent_opencode",
+    "app.test_agent_settings",
+    "app.test_agent_vision",
+    "app.test_agent_workflow"
+  ],
+  "python": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
+  "hardware_access": false,
+  "cloud_requests": false
+}

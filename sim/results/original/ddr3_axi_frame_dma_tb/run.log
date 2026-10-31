@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: ddr3_axi_frame_dma all checks
+D:\fpga_race\fpga\src\ddr3_test\ddr3_axi_frame_dma_tb.sv:103: $finish called at 65520000 (1ps)

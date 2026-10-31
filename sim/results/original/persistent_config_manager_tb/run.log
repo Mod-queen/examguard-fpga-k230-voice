@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: persistent_config_manager results=9 requests=131 writes=12 actual-dualslot/legacy/save/boot-preserve/oldslot/reject/error/reset
+D:\fpga_race\fpga\src\persistence\persistent_config_manager_tb.sv:135: $finish called at 69420000 (1ps)

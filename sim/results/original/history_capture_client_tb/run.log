@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: history_capture_client identity/timeCDC/epoch/sampling/autoRead frames=5 pixels=35 results=2 boot=2
+D:\fpga_race\fpga\src\ddr3_test\history_capture_client_tb.sv:365: $finish called at 26740000 (1ps)

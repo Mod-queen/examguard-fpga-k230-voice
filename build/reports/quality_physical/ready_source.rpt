@@ -1,0 +1,100 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Oct 31 23:53:32 2026
+| Host         : Jasper running 64-bit major release  (build 9200)
+| Command      : report_timing -to [get_cells ddr3_ready_source_reg] -max_paths 10 -file D:/fpga_race/verification_out/quality_20261031/physical_audit_02/ready_source.rpt
+| Design       : ov5640_ddr3_hdmi_vga
+| Device       : 7a200t-fbg484
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             5.135ns  (required time - arrival time)
+  Source:                 ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg/C
+                            (rising edge-triggered cell FDPE clocked by clk_pll_i  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            ddr3_ready_source_reg/D
+                            (rising edge-triggered cell FDCE clocked by clk_pll_i  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             clk_pll_i
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (clk_pll_i rise@10.000ns - clk_pll_i rise@0.000ns)
+  Data Path Delay:        4.500ns  (logic 0.589ns (13.088%)  route 3.911ns (86.912%))
+  Logic Levels:           2  (LUT2=1 LUT3=1)
+  Clock Path Skew:        -0.255ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.306ns = ( 10.306 - 10.000 ) 
+    Source Clock Delay      (SCD):    0.243ns
+    Clock Pessimism Removal (CPR):    -0.317ns
+  Clock Uncertainty:      0.063ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.104ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_pll_i rise edge)
+                                                      0.000     0.000 r  
+    W19                                               0.000     0.000 r  clk50m (IN)
+                         net (fo=0)                   0.000     0.000    pll/inst/clk_in1
+    W19                  IBUF (Prop_ibuf_I_O)         1.440     1.440 r  pll/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.080     2.520    pll/inst/clk_in1_pll
+    PLLE2_ADV_X0Y2       PLLE2_ADV (Prop_plle2_adv_CLKIN1_CLKOUT1)
+                                                     -7.646    -5.125 r  pll/inst/plle2_adv_inst/CLKOUT1
+                         net (fo=1, routed)           1.557    -3.568    pll/inst/clk_out2_pll
+    BUFGCTRL_X0Y2        BUFG (Prop_bufg_I_O)         0.081    -3.487 r  pll/inst/clkout2_buf/O
+                         net (fo=306, routed)         1.519    -1.969    ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/pi_dqs_found_lanes_r1_reg[3]
+    PLLE2_ADV_X1Y2       PLLE2_ADV (Prop_plle2_adv_CLKIN1_CLKOUT3)
+                                                      0.077    -1.892 r  ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/plle2_i/CLKOUT3
+                         net (fo=1, routed)           1.165    -0.727    ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/pll_clk3_out
+    BUFHCE_X1Y24         BUFH (Prop_bufh_I_O)         0.106    -0.621 r  ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/u_bufh_pll_clk3/O
+                         net (fo=1, routed)           0.813     0.192    ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/pll_clk3
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKFBOUT)
+                                                     -3.104    -2.912 r  ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/gen_mmcm.mmcm_i/CLKFBOUT
+                         net (fo=1, routed)           1.524    -1.388    ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/clk_pll_i
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.081    -1.307 r  ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/u_bufg_clkdiv0/O
+                         net (fo=21129, routed)       1.551     0.243    ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/CLK
+    SLICE_X156Y147       FDPE                                         r  ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X156Y147       FDPE (Prop_fdpe_C_Q)         0.379     0.622 f  ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg/Q
+                         net (fo=50, routed)          1.858     2.481    ddr3_ctrl_2port/ui_clk_sync_rst
+    SLICE_X104Y142       LUT2 (Prop_lut2_I0_O)        0.105     2.586 f  ddr3_ctrl_2port/ddr3_ready_source_i_3/O
+                         net (fo=3, routed)           0.563     3.149    ddr3_ctrl_2port/evidence_mig_raw_rst
+    SLICE_X104Y142       LUT3 (Prop_lut3_I2_O)        0.105     3.254 r  ddr3_ctrl_2port/ddr3_ready_source_i_1/O
+                         net (fo=1, routed)           1.490     4.744    ddr3_ready_source
+    SLICE_X71Y143        FDCE                                         r  ddr3_ready_source_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_pll_i rise edge)
+                                                     10.000    10.000 r  
+    W19                                               0.000    10.000 r  clk50m (IN)
+                         net (fo=0)                   0.000    10.000    pll/inst/clk_in1
+    W19                  IBUF (Prop_ibuf_I_O)         1.374    11.374 r  pll/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.019    12.393    pll/inst/clk_in1_pll
+    PLLE2_ADV_X0Y2       PLLE2_ADV (Prop_plle2_adv_CLKIN1_CLKOUT1)
+                                                     -6.905     5.487 r  pll/inst/plle2_adv_inst/CLKOUT1
+                         net (fo=1, routed)           1.484     6.972    pll/inst/clk_out2_pll
+    BUFGCTRL_X0Y2        BUFG (Prop_bufg_I_O)         0.077     7.049 r  pll/inst/clkout2_buf/O
+                         net (fo=306, routed)         1.417     8.466    ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/pi_dqs_found_lanes_r1_reg[3]
+    PLLE2_ADV_X1Y2       PLLE2_ADV (Prop_plle2_adv_CLKIN1_CLKOUT3)
+                                                      0.073     8.539 r  ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/plle2_i/CLKOUT3
+                         net (fo=1, routed)           1.029     9.568    ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/pll_clk3_out
+    BUFHCE_X1Y24         BUFH (Prop_bufh_I_O)         0.069     9.637 r  ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/u_bufh_pll_clk3/O
+                         net (fo=1, routed)           0.777    10.414    ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/pll_clk3
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKFBOUT)
+                                                     -2.927     7.486 r  ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/gen_mmcm.mmcm_i/CLKFBOUT
+                         net (fo=1, routed)           1.452     8.939    ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/clk_pll_i
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.077     9.016 r  ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/u_bufg_clkdiv0/O
+                         net (fo=21129, routed)       1.290    10.306    evidence_ui_clk
+    SLICE_X71Y143        FDCE                                         r  ddr3_ready_source_reg/C
+                         clock pessimism             -0.317     9.988    
+                         clock uncertainty           -0.063     9.925    
+    SLICE_X71Y143        FDCE (Setup_fdce_C_D)       -0.047     9.878    ddr3_ready_source_reg
+  -------------------------------------------------------------------
+                         required time                          9.878    
+                         arrival time                          -4.744    
+  -------------------------------------------------------------------
+                         slack                                  5.135    
+
+
+
+

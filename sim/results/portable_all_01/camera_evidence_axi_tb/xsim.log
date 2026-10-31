@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# xsim v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Oct 31 17:34:19 2026
+# Process ID: 28024
+# Current directory: D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/camera_evidence_axi_tb
+# Command line: xsim.exe -mode tcl -source {xsim.dir/case_snapshot/xsim_script.tcl}
+# Log file: D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/camera_evidence_axi_tb/xsim.log
+# Journal file: D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/camera_evidence_axi_tb\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/case_snapshot/xsim_script.tcl
+# xsim {case_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/camera_evidence_axi_tb/run.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/camera_evidence_axi_tb/run.tcl
+## run all
+camera input=17 buffered=9 sent=9 busy_drops=7 invalid=1 DDRcommits=9 windows=2 checked_pixels=2152
+PASS: camera_evidence_axi all checks
+$finish called at time : 217465 ns : File "D:/fpga_race/deploy/submission_20261031/sim/sources/ddr3_test/camera_evidence_axi_tb.sv" Line 117
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 17:34:26 2026...

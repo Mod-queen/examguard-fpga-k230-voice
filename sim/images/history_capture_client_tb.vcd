@@ -1,0 +1,80 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module history_capture_client_tb $end
+$var wire 1 " guard_fault $end
+$var wire 2 $ m_axi_arburst $end
+$var wire 2 ' m_axi_awburst $end
+$var wire 1 * rst $end
+$var wire 1 , ui_rst $end
+$var wire 32 - time_unknown_count $end
+$var wire 32 . time_stale_count $end
+$var wire 32 1 source_sofs $end
+$var wire 1 3 source_epoch_rst $end
+$var wire 1 7 result_valid $end
+$var wire 8 @ result_gap_first_reason $end
+$upscope $end
+$enddefinitions $end
+#0
+bx @
+x7
+x3
+bx 1
+bx .
+bx -
+x,
+x*
+b1 '
+b1 $
+0"
+#5000
+1*
+1,
+07
+#11000
+13
+#15000
+b0 @
+#21000
+b0 .
+b0 -
+b0 1
+#231000
+03
+#235000
+0*
+0,
+#2401000
+b1 1
+#5481000
+b10 1
+#7623000
+b11 1
+#9121000
+b100 1
+#10205000
+b10000001 @
+#11475000
+17
+#11485000
+07
+#15520000
+1*
+1,
+13
+#15525000
+b0 @
+#15533000
+b0 1
+#15631000
+03
+#15635000
+0*
+0,
+#15743000
+b1 1
+#20783000
+b10 1
+#22705000
+17
+#22715000
+07

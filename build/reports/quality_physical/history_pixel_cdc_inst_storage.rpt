@@ -1,0 +1,173 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Oct 31 23:53:34 2026
+| Host         : Jasper running 64-bit major release  (build 9200)
+| Command      : report_timing -from [get_cells -hier -filter {NAME =~ history_pixel_cdc_inst/fifo/mem* && (REF_NAME =~ RAMD* || REF_NAME =~ RAMS*)}] -to [get_cells -hier -filter {NAME =~ history_pixel_cdc_inst/dst_*reg* && PRIMITIVE_GROUP == FLOP_LATCH}] -max_paths 5 -file D:/fpga_race/verification_out/quality_20261031/physical_audit_02/history_pixel_cdc_inst_storage.rpt
+| Design       : ov5640_ddr3_hdmi_vga
+| Device       : 7a200t-fbg484
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             5.143ns  (required time - arrival time)
+  Source:                 history_pixel_cdc_inst/fifo/mem_reg_192_255_6_8/RAMC/CLK
+                            (rising edge-triggered cell RAMD64E clocked by clk_pll_i  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            history_pixel_cdc_inst/dst_last_reg/D
+                            (rising edge-triggered cell FDRE clocked by eth_clk125_unbuf  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             eth_clk125_unbuf
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            8.000ns  (MaxDelay Path 8.000ns)
+  Data Path Delay:        2.887ns  (logic 1.294ns (44.825%)  route 1.593ns (55.175%))
+  Logic Levels:           2  (LUT3=1 LUT6=1)
+  Timing Exception:       MaxDelay Path 8.000ns -datapath_only
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X104Y135                                    0.000     0.000 r  history_pixel_cdc_inst/fifo/mem_reg_192_255_6_8/RAMC/CLK
+    SLICE_X104Y135       RAMD64E (Prop_ramd64e_CLK_O)
+                                                      1.084     1.084 r  history_pixel_cdc_inst/fifo/mem_reg_192_255_6_8/RAMC/O
+                         net (fo=1, routed)           0.512     1.596    history_pixel_cdc_inst/fifo/mem_reg_192_255_6_8_n_2
+    SLICE_X105Y134       LUT6 (Prop_lut6_I0_O)        0.105     1.701 r  history_pixel_cdc_inst/fifo/dst_last_i_2__0/O
+                         net (fo=1, routed)           1.080     2.782    history_pixel_cdc_inst/fifo/p_0_in
+    SLICE_X99Y127        LUT3 (Prop_lut3_I0_O)        0.105     2.887 r  history_pixel_cdc_inst/fifo/dst_last_i_1__0/O
+                         net (fo=1, routed)           0.000     2.887    history_pixel_cdc_inst/fifo_n_1
+    SLICE_X99Y127        FDRE                                         r  history_pixel_cdc_inst/dst_last_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         max delay                    8.000     8.000    
+    SLICE_X99Y127        FDRE (Setup_fdre_C_D)        0.030     8.030    history_pixel_cdc_inst/dst_last_reg
+  -------------------------------------------------------------------
+                         required time                          8.030    
+                         arrival time                          -2.887    
+  -------------------------------------------------------------------
+                         slack                                  5.143    
+
+Slack (MET) :             5.787ns  (required time - arrival time)
+  Source:                 history_pixel_cdc_inst/fifo/mem_reg_64_127_0_2/RAMB/CLK
+                            (rising edge-triggered cell RAMD64E clocked by clk_pll_i  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            history_pixel_cdc_inst/dst_data_reg[1]/D
+                            (rising edge-triggered cell FDRE clocked by eth_clk125_unbuf  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             eth_clk125_unbuf
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            8.000ns  (MaxDelay Path 8.000ns)
+  Data Path Delay:        2.245ns  (logic 1.192ns (53.091%)  route 1.053ns (46.909%))
+  Logic Levels:           1  (LUT6=1)
+  Timing Exception:       MaxDelay Path 8.000ns -datapath_only
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X104Y134                                    0.000     0.000 r  history_pixel_cdc_inst/fifo/mem_reg_64_127_0_2/RAMB/CLK
+    SLICE_X104Y134       RAMD64E (Prop_ramd64e_CLK_O)
+                                                      1.087     1.087 r  history_pixel_cdc_inst/fifo/mem_reg_64_127_0_2/RAMB/O
+                         net (fo=1, routed)           1.053     2.140    history_pixel_cdc_inst/fifo/mem_reg_64_127_0_2_n_1
+    SLICE_X105Y134       LUT6 (Prop_lut6_I3_O)        0.105     2.245 r  history_pixel_cdc_inst/fifo/dst_data[1]_i_1__0/O
+                         net (fo=1, routed)           0.000     2.245    history_pixel_cdc_inst/fifo_n_5
+    SLICE_X105Y134       FDRE                                         r  history_pixel_cdc_inst/dst_data_reg[1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         max delay                    8.000     8.000    
+    SLICE_X105Y134       FDRE (Setup_fdre_C_D)        0.032     8.032    history_pixel_cdc_inst/dst_data_reg[1]
+  -------------------------------------------------------------------
+                         required time                          8.032    
+                         arrival time                          -2.245    
+  -------------------------------------------------------------------
+                         slack                                  5.787    
+
+Slack (MET) :             5.860ns  (required time - arrival time)
+  Source:                 history_pixel_cdc_inst/fifo/mem_reg_64_127_3_5/RAMB/CLK
+                            (rising edge-triggered cell RAMD64E clocked by clk_pll_i  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            history_pixel_cdc_inst/dst_data_reg[4]/D
+                            (rising edge-triggered cell FDRE clocked by eth_clk125_unbuf  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             eth_clk125_unbuf
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            8.000ns  (MaxDelay Path 8.000ns)
+  Data Path Delay:        2.172ns  (logic 1.192ns (54.891%)  route 0.980ns (45.109%))
+  Logic Levels:           1  (LUT6=1)
+  Timing Exception:       MaxDelay Path 8.000ns -datapath_only
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X104Y137                                    0.000     0.000 r  history_pixel_cdc_inst/fifo/mem_reg_64_127_3_5/RAMB/CLK
+    SLICE_X104Y137       RAMD64E (Prop_ramd64e_CLK_O)
+                                                      1.087     1.087 r  history_pixel_cdc_inst/fifo/mem_reg_64_127_3_5/RAMB/O
+                         net (fo=1, routed)           0.980     2.067    history_pixel_cdc_inst/fifo/mem_reg_64_127_3_5_n_1
+    SLICE_X109Y137       LUT6 (Prop_lut6_I3_O)        0.105     2.172 r  history_pixel_cdc_inst/fifo/dst_data[4]_i_1__0/O
+                         net (fo=1, routed)           0.000     2.172    history_pixel_cdc_inst/fifo_n_8
+    SLICE_X109Y137       FDRE                                         r  history_pixel_cdc_inst/dst_data_reg[4]/D
+  -------------------------------------------------------------------    -------------------
+
+                         max delay                    8.000     8.000    
+    SLICE_X109Y137       FDRE (Setup_fdre_C_D)        0.032     8.032    history_pixel_cdc_inst/dst_data_reg[4]
+  -------------------------------------------------------------------
+                         required time                          8.032    
+                         arrival time                          -2.172    
+  -------------------------------------------------------------------
+                         slack                                  5.860    
+
+Slack (MET) :             6.044ns  (required time - arrival time)
+  Source:                 history_pixel_cdc_inst/fifo/mem_reg_0_63_0_2/RAMC/CLK
+                            (rising edge-triggered cell RAMD64E clocked by clk_pll_i  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            history_pixel_cdc_inst/dst_data_reg[2]/D
+                            (rising edge-triggered cell FDRE clocked by eth_clk125_unbuf  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             eth_clk125_unbuf
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            8.000ns  (MaxDelay Path 8.000ns)
+  Data Path Delay:        1.988ns  (logic 1.189ns (59.821%)  route 0.799ns (40.179%))
+  Logic Levels:           1  (LUT6=1)
+  Timing Exception:       MaxDelay Path 8.000ns -datapath_only
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X108Y133                                    0.000     0.000 r  history_pixel_cdc_inst/fifo/mem_reg_0_63_0_2/RAMC/CLK
+    SLICE_X108Y133       RAMD64E (Prop_ramd64e_CLK_O)
+                                                      1.084     1.084 r  history_pixel_cdc_inst/fifo/mem_reg_0_63_0_2/RAMC/O
+                         net (fo=1, routed)           0.799     1.883    history_pixel_cdc_inst/fifo/mem_reg_0_63_0_2_n_2
+    SLICE_X105Y134       LUT6 (Prop_lut6_I5_O)        0.105     1.988 r  history_pixel_cdc_inst/fifo/dst_data[2]_i_1__0/O
+                         net (fo=1, routed)           0.000     1.988    history_pixel_cdc_inst/fifo_n_6
+    SLICE_X105Y134       FDRE                                         r  history_pixel_cdc_inst/dst_data_reg[2]/D
+  -------------------------------------------------------------------    -------------------
+
+                         max delay                    8.000     8.000    
+    SLICE_X105Y134       FDRE (Setup_fdre_C_D)        0.032     8.032    history_pixel_cdc_inst/dst_data_reg[2]
+  -------------------------------------------------------------------
+                         required time                          8.032    
+                         arrival time                          -1.988    
+  -------------------------------------------------------------------
+                         slack                                  6.044    
+
+Slack (MET) :             6.053ns  (required time - arrival time)
+  Source:                 history_pixel_cdc_inst/fifo/mem_reg_64_127_3_5/RAMA/CLK
+                            (rising edge-triggered cell RAMD64E clocked by clk_pll_i  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            history_pixel_cdc_inst/dst_data_reg[3]/D
+                            (rising edge-triggered cell FDRE clocked by eth_clk125_unbuf  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             eth_clk125_unbuf
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            8.000ns  (MaxDelay Path 8.000ns)
+  Data Path Delay:        1.977ns  (logic 1.186ns (59.992%)  route 0.791ns (40.008%))
+  Logic Levels:           1  (LUT6=1)
+  Timing Exception:       MaxDelay Path 8.000ns -datapath_only
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X104Y137                                    0.000     0.000 r  history_pixel_cdc_inst/fifo/mem_reg_64_127_3_5/RAMA/CLK
+    SLICE_X104Y137       RAMD64E (Prop_ramd64e_CLK_O)
+                                                      1.081     1.081 r  history_pixel_cdc_inst/fifo/mem_reg_64_127_3_5/RAMA/O
+                         net (fo=1, routed)           0.791     1.872    history_pixel_cdc_inst/fifo/mem_reg_64_127_3_5_n_0
+    SLICE_X109Y137       LUT6 (Prop_lut6_I3_O)        0.105     1.977 r  history_pixel_cdc_inst/fifo/dst_data[3]_i_1__0/O
+                         net (fo=1, routed)           0.000     1.977    history_pixel_cdc_inst/fifo_n_7
+    SLICE_X109Y137       FDRE                                         r  history_pixel_cdc_inst/dst_data_reg[3]/D
+  -------------------------------------------------------------------    -------------------
+
+                         max delay                    8.000     8.000    
+    SLICE_X109Y137       FDRE (Setup_fdre_C_D)        0.030     8.030    history_pixel_cdc_inst/dst_data_reg[3]
+  -------------------------------------------------------------------
+                         required time                          8.030    
+                         arrival time                          -1.977    
+  -------------------------------------------------------------------
+                         slack                                  6.053    
+
+
+
+

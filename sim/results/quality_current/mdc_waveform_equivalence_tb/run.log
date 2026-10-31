@@ -1,0 +1,2 @@
+PASS: mdc_waveform_equivalence_tb four divisors, default period, asynchronous reset and restart
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\quality\mdc_waveform_equivalence_tb.sv:42: $finish called at 600090000 (1ps)

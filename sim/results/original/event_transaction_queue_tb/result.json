@@ -1,0 +1,45 @@
+{
+  "top": "event_transaction_queue_tb",
+  "status": "passed",
+  "active_modules": [
+    "event_request_fifo",
+    "event_transaction_queue",
+    "exam_fsm"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "event_transaction_queue_tb",
+    "fsm_transaction_checker",
+    "transaction_queue_checker"
+  ],
+  "testbench": "fpga/src/event_transaction_queue/event_transaction_queue_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/event_transaction_queue/event_transaction_queue_tb.sv",
+      "sha256": "412570edf5109bbf154ab64d5c1392534433bfa3432644f0bd916292098614a0"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm.v",
+      "sha256": "99966b2469909e9bd205489ee97162df4bd8bde5b52d6abfcc1969bdeb914a77"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v",
+      "sha256": "c0ba03f5efcad63349bab1bae3fd95d16927d4cd62acdec1d73c9cf4f5d1e2c9"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_transaction_queue/event_transaction_queue.v",
+      "sha256": "2e5ca0042f187b64bc9b026c8e195552041b3914b436454d5f2031b4aca1aa07"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: FSM parallel transactions/auth/submission/timeout/dark hold/reset",
+    "PASS: transaction reference depth=1 ID_WIDTH=4 random=1500",
+    "PASS: transaction reference depth=3 ID_WIDTH=64 random=1500",
+    "PASS: transaction reference depth=3 ID_WIDTH=4 random=1500",
+    "PASS: transaction reference depth=16 ID_WIDTH=64 random=1500",
+    "PASS: event_transaction_queue all configurations"
+  ],
+  "trace_bytes": 2000429,
+  "seconds": 2.891
+}

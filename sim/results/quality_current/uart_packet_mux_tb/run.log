@@ -1,0 +1,2 @@
+PASS: uart_packet_mux complete-packet roundrobin/interleaved sources/incomplete cancel/oversize recovery
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\host_link\uart_packet_mux_tb.sv:60: $finish called at 25285000 (1ps)

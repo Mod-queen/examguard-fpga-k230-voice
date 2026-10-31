@@ -1,0 +1,4 @@
+sv work "D:/fpga_race/deploy/submission_20261031/sim/sources/verification_20261031/operator_alarm_contract_tb.sv"
+verilog work "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/alarm_beep/alarm_beep.v"
+verilog work "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/user_control/key_debounce.v"
+verilog work "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/user_control/user_control.v"

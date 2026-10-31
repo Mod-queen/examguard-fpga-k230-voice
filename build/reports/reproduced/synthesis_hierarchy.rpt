@@ -1,0 +1,232 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Oct 31 17:40:31 2026
+| Host         : Jasper running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -hierarchical_depth 3 -file D:/fpga_race/deploy/submission_20261031/build/reproduced/reports/synthesis_hierarchy.rpt
+| Design       : ov5640_ddr3_hdmi_vga
+| Device       : 7a200tfbg484-2
+| Design State : Synthesized
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-------------------------------------+--------------------------------------------+------------+------------+---------+------+-------+--------+--------+--------------+
+|               Instance              |                   Module                   | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs  | RAMB36 | RAMB18 | DSP48 Blocks |
++-------------------------------------+--------------------------------------------+------------+------------+---------+------+-------+--------+--------+--------------+
+| ov5640_ddr3_hdmi_vga                |                                      (top) |      42032 |      37697 |    3946 |  389 | 44999 |     70 |      1 |            3 |
+|   (ov5640_ddr3_hdmi_vga)            |                                      (top) |        152 |        152 |       0 |    0 |   223 |      0 |      0 |            0 |
+|   DVP_Capture                       |                                DVP_Capture |          7 |          7 |       0 |    0 |    33 |      0 |      0 |            0 |
+|   ai_link_rx_inst                   |                                 ai_link_rx |        708 |        708 |       0 |    0 |   464 |      0 |      0 |            0 |
+|   ai_mailbox_inst                   |                                 ai_mailbox |         34 |         34 |       0 |    0 |    11 |      0 |      0 |            0 |
+|   alarm_beep_inst                   |                                 alarm_beep |         29 |         29 |       0 |    0 |    68 |      0 |      0 |            0 |
+|   board_status_inst                 |                       board_status_control |         86 |         86 |       0 |    0 |    90 |      0 |      0 |            0 |
+|   camera_capture_reset_inst         |                          video_epoch_clear |          0 |          0 |       0 |    0 |     3 |      0 |      0 |            0 |
+|   camera_init                       |                                camera_init |        157 |        157 |       0 |    0 |   120 |      0 |      1 |            0 |
+|     (camera_init)                   |                                camera_init |         39 |         39 |       0 |    0 |    44 |      0 |      0 |            0 |
+|     i2c_control                     |                                i2c_control |        110 |        110 |       0 |    0 |    76 |      0 |      0 |            0 |
+|       (i2c_control)                 |                                i2c_control |         50 |         50 |       0 |    0 |    53 |      0 |      0 |            0 |
+|       i2c_bit_shift                 |                              i2c_bit_shift |         60 |         60 |       0 |    0 |    23 |      0 |      0 |            0 |
+|     ov5640_init_table_rgb_inst      |                      ov5640_init_table_rgb |          8 |          8 |       0 |    0 |     0 |      0 |      1 |            0 |
+|   candidate_overlay_inst            |                          candidate_overlay |        358 |        358 |       0 |    0 |   169 |      0 |      0 |            0 |
+|   candidate_to_host                 |         cdc_stats_snapshot__parameterized2 |         14 |         14 |       0 |    0 |   104 |      0 |      0 |            0 |
+|     (candidate_to_host)             |         cdc_stats_snapshot__parameterized2 |         10 |         10 |       0 |    0 |    32 |      0 |      0 |            0 |
+|     bridge                          |      cdc_event_transaction__parameterized2 |          4 |          4 |       0 |    0 |    72 |      0 |      0 |            0 |
+|   candidate_to_pixel                |         cdc_stats_snapshot__parameterized1 |          6 |          6 |       0 |    0 |   516 |      0 |      0 |            0 |
+|     (candidate_to_pixel)            |         cdc_stats_snapshot__parameterized1 |          2 |          2 |       0 |    0 |   170 |      0 |      0 |            0 |
+|     bridge                          |      cdc_event_transaction__parameterized1 |          4 |          4 |       0 |    0 |   346 |      0 |      0 |            0 |
+|   cdc_exam_status_inst              |                            cdc_exam_status |         44 |         44 |       0 |    0 |    30 |      0 |      0 |            0 |
+|   cdc_frame_activity_inst           |                         cdc_frame_activity |          5 |          5 |       0 |    0 |    20 |      0 |      0 |            0 |
+|   color_enhance_inst                |                              color_enhance |        945 |        920 |       0 |   25 |   143 |      0 |      0 |            0 |
+|   config_ack_tx_inst                |                              config_ack_tx |         17 |         17 |       0 |    0 |    19 |      0 |      0 |            0 |
+|     (config_ack_tx_inst)            |                              config_ack_tx |          7 |          7 |       0 |    0 |    11 |      0 |      0 |            0 |
+|     holding_stream.adapter          |                    uart_stream_adapter_133 |         10 |         10 |       0 |    0 |     8 |      0 |      0 |            0 |
+|   config_mailbox_inst               |                             config_mailbox |          2 |          2 |       0 |    0 |     4 |      0 |      0 |            0 |
+|   cover98_inst                      |                          camera_black_gate |         21 |         21 |       0 |    0 |    51 |      0 |      0 |            0 |
+|   ddr3_ctrl_2port                   |                     ddr3_shared_video_ctrl |       9955 |       8595 |     996 |  364 |  8599 |      4 |      0 |            0 |
+|     (ddr3_ctrl_2port)               |                     ddr3_shared_video_ctrl |          9 |          9 |       0 |    0 |     0 |      0 |      0 |            0 |
+|     fabric                          |                        video_memory_fabric |        925 |        651 |     268 |    6 |   774 |      4 |      0 |            0 |
+|       arbiter                       |                        axi_2client_arbiter |        150 |        150 |       0 |    0 |   112 |      0 |      0 |            0 |
+|       buffered_evidence_read.buffer |                      axi_read_burst_buffer |        112 |         20 |      92 |    0 |    14 |      0 |      0 |            0 |
+|       video                         |                        video_fifo_axi_port |        663 |        481 |     176 |    6 |   648 |      4 |      0 |            0 |
+|     u_mig_7series_0                 |                              mig_7series_0 |       9021 |       7935 |     728 |  358 |  7825 |      0 |      0 |            0 |
+|       (u_mig_7series_0)             |                              mig_7series_0 |          0 |          0 |       0 |    0 |     0 |      0 |      0 |            0 |
+|       u_mig_7series_0_mig           |                          mig_7series_0_mig |       9021 |       7935 |     728 |  358 |  7825 |      0 |      0 |            0 |
+|   disp_driver                       |                                disp_driver |        122 |        122 |       0 |    0 |    46 |      0 |      0 |            0 |
+|   dvi_encoder                       |                                dvi_encoder |        176 |        176 |       0 |    0 |   167 |      0 |      0 |            0 |
+|     encb                            |                                     encode |         54 |         54 |       0 |    0 |    44 |      0 |      0 |            0 |
+|     encg                            |                                  encode_27 |         47 |         47 |       0 |    0 |    41 |      0 |      0 |            0 |
+|     encr                            |                                  encode_28 |         47 |         47 |       0 |    0 |    41 |      0 |      0 |            0 |
+|     serdes_4b_10to1_inst            |                            serdes_4b_10to1 |         28 |         28 |       0 |    0 |    41 |      0 |      0 |            0 |
+|   dvi_pll                           |                                    dvi_pll |          1 |          1 |       0 |    0 |     0 |      0 |      0 |            0 |
+|     inst                            |                   dvi_pll__dvi_pll_clk_wiz |          1 |          1 |       0 |    0 |     0 |      0 |      0 |            0 |
+|   eth_phy_reg_config_inst           |                             phy_reg_config |        182 |        182 |       0 |    0 |   229 |      0 |      0 |            0 |
+|     (eth_phy_reg_config_inst)       |                             phy_reg_config |         57 |         57 |       0 |    0 |   179 |      0 |      0 |            0 |
+|     mdio_bit_shift                  |                             mdio_bit_shift |        125 |        125 |       0 |    0 |    50 |      0 |      0 |            0 |
+|   event_identity_inst               |                             event_identity |         10 |         10 |       0 |    0 |    34 |      0 |      0 |            0 |
+|   event_meta_ring_inst              |                            event_meta_ring |        185 |        185 |       0 |    0 |    33 |      2 |      0 |            0 |
+|   evidence_dump_inst                |                              evidence_dump |        254 |        254 |       0 |    0 |   391 |      0 |      0 |            0 |
+|     (evidence_dump_inst)            |                              evidence_dump |        120 |        120 |       0 |    0 |   142 |      0 |      0 |            0 |
+|     frame_converter                 |                              u32_to_bcd_24 |         65 |         65 |       0 |    0 |   120 |      0 |      0 |            0 |
+|     holding_stream.adapter          |                     uart_stream_adapter_25 |          6 |          6 |       0 |    0 |     9 |      0 |      0 |            0 |
+|     timestamp_converter             |                              u32_to_bcd_26 |         63 |         63 |       0 |    0 |   120 |      0 |      0 |            0 |
+|   evidence_eth_tx_inst              |                            eth_udp_tx_gmii |        192 |        192 |       0 |    0 |   180 |      0 |      0 |            0 |
+|     (evidence_eth_tx_inst)          |                            eth_udp_tx_gmii |        110 |        110 |       0 |    0 |   135 |      0 |      0 |            0 |
+|     crc32_d8                        |                                   crc32_d8 |         51 |         51 |       0 |    0 |    32 |      0 |      0 |            0 |
+|     ip_checksum                     |                                ip_checksum |         31 |         31 |       0 |    0 |    13 |      0 |      0 |            0 |
+|   evidence_event_context_inst       |                         exam_event_context |         61 |         61 |       0 |    0 |   220 |      0 |      0 |            0 |
+|   evidence_event_fork_inst          |                     event_transaction_fork |          7 |          7 |       0 |    0 |   210 |      0 |      0 |            0 |
+|   evidence_event_log_inst           |                      event_transaction_log |        117 |        117 |       0 |    0 |   236 |      0 |      0 |            0 |
+|   evidence_event_queue_inst         |                    event_transaction_queue |       1940 |       1940 |       0 |    0 |  1844 |      0 |      0 |            0 |
+|     (evidence_event_queue_inst)     |                    event_transaction_queue |         53 |         53 |       0 |    0 |    96 |      0 |      0 |            0 |
+|     queue                           |                         event_request_fifo |       1887 |       1887 |       0 |    0 |  1748 |      0 |      0 |            0 |
+|   evidence_health_inst              |                  evidence_health_telemetry |        286 |        286 |       0 |    0 |  1083 |      0 |      0 |            0 |
+|     (evidence_health_inst)          |                  evidence_health_telemetry |         45 |         45 |       0 |    0 |    66 |      0 |      0 |            0 |
+|     cap_snapshot                    |         cdc_stats_snapshot__parameterized3 |         22 |         22 |       0 |    0 |    41 |      0 |      0 |            0 |
+|       (cap_snapshot)                |         cdc_stats_snapshot__parameterized3 |         17 |         17 |       0 |    0 |    33 |      0 |      0 |            0 |
+|       bridge                        |   cdc_event_transaction__parameterized4_23 |          5 |          5 |       0 |    0 |     8 |      0 |      0 |            0 |
+|     eth_snapshot                    |         cdc_stats_snapshot__parameterized4 |         61 |         61 |       0 |    0 |   239 |      0 |      0 |            0 |
+|       (eth_snapshot)                |         cdc_stats_snapshot__parameterized4 |         57 |         57 |       0 |    0 |    99 |      0 |      0 |            0 |
+|       bridge                        |      cdc_event_transaction__parameterized5 |          4 |          4 |       0 |    0 |   140 |      0 |      0 |            0 |
+|     ui_snapshot                     |      cdc_stats_snapshot__parameterized3_21 |        158 |        158 |       0 |    0 |   737 |      0 |      0 |            0 |
+|       (ui_snapshot)                 |      cdc_stats_snapshot__parameterized3_21 |        154 |        154 |       0 |    0 |   265 |      0 |      0 |            0 |
+|       bridge                        |   cdc_event_transaction__parameterized4_22 |          4 |          4 |       0 |    0 |   472 |      0 |      0 |            0 |
+|   evidence_identity_inst            |                  persistent_event_identity |        182 |        182 |       0 |    0 |   102 |      0 |      0 |            0 |
+|     (evidence_identity_inst)        |                  persistent_event_identity |         99 |         99 |       0 |    0 |     4 |      0 |      0 |            0 |
+|     identity                        |          event_identity__parameterized0_20 |         83 |         83 |       0 |    0 |    98 |      0 |      0 |            0 |
+|   evidence_log_queue_inst           |         event_request_fifo__parameterized0 |        180 |         28 |     152 |    0 |    10 |      0 |      0 |            0 |
+|   evidence_reset_barrier_inst       |     evidence_reset_barrier__parameterized0 |         54 |         54 |       0 |    0 |    44 |      0 |      0 |            0 |
+|   evidence_rgmii_inst               |                              gmii_to_rgmii |          0 |          0 |       0 |    0 |     0 |      0 |      0 |            0 |
+|   exam_fsm_inst                     |                                   exam_fsm |        156 |        156 |       0 |    0 |   113 |      0 |      0 |            0 |
+|   fullscreen_monitor_inst           |                         fullscreen_monitor |        581 |        125 |     456 |    0 |    59 |      0 |      0 |            0 |
+|   hc595_driver_inst                 |                               hc595_driver |        106 |        106 |       0 |    0 |    25 |      0 |      0 |            0 |
+|   health_monitor_inst               |                             health_monitor |         19 |         19 |       0 |    0 |    39 |      0 |      0 |            0 |
+|   hex8_inst                         |                                       hex8 |         67 |         67 |       0 |    0 |    40 |      0 |      0 |            0 |
+|   hist_event_cdc                    |      cdc_event_transaction__parameterized4 |        544 |        544 |       0 |    0 |   424 |      0 |      0 |            0 |
+|   hist_ms_tick_cdc                  |                                  pulse_cdc |          1 |          1 |       0 |    0 |     3 |      0 |      0 |            0 |
+|   hist_session_end_cdc              |                                pulse_cdc_0 |          0 |          0 |       0 |    0 |     3 |      0 |      0 |            0 |
+|   hist_session_start_cdc            |                                pulse_cdc_1 |          0 |          0 |       0 |    0 |     3 |      0 |      0 |            0 |
+|   hist_source_time_cdc              |                          cdc_time_snapshot |         29 |         29 |       0 |    0 |   233 |      0 |      0 |            0 |
+|     (hist_source_time_cdc)          |                          cdc_time_snapshot |         25 |         25 |       0 |    0 |    97 |      0 |      0 |            0 |
+|     bridge                          |   cdc_event_transaction__parameterized3_19 |          4 |          4 |       0 |    0 |   136 |      0 |      0 |            0 |
+|   history_axi_guard_inst            |                    history_axi_epoch_guard |        177 |         81 |      96 |    0 |   109 |      0 |      0 |            0 |
+|   history_byte_mux_inst             |                          evidence_byte_mux |          4 |          4 |       0 |    0 |     3 |      0 |      0 |            0 |
+|   history_client_inst               |                     history_capture_client |       6962 |       6236 |     726 |    0 |  7200 |     64 |      0 |            3 |
+|     (history_client_inst)           |                     history_capture_client |          1 |          1 |       0 |    0 |    33 |      0 |      0 |            0 |
+|     bridge                          |                         history_stream_cdc |        359 |        215 |     144 |    0 |   167 |      0 |      0 |            0 |
+|       (bridge)                      |                         history_stream_cdc |        145 |        145 |       0 |    0 |   111 |      0 |      0 |            0 |
+|       fifo                          |                                 async_fifo |        214 |         70 |     144 |    0 |    56 |      0 |      0 |            0 |
+|     epoch                           |                       history_stream_epoch |          8 |          8 |       0 |    0 |    22 |      0 |      0 |            0 |
+|       (epoch)                       |                       history_stream_epoch |          1 |          1 |       0 |    0 |     8 |      0 |      0 |            0 |
+|       barrier                       |                  evidence_reset_barrier_18 |          7 |          7 |       0 |    0 |    14 |      0 |      0 |            0 |
+|     identity                        |                    evidence_epoch_identity |         14 |         14 |       0 |    0 |    39 |      0 |      0 |            0 |
+|       (identity)                    |                    evidence_epoch_identity |          2 |          2 |       0 |    0 |     6 |      0 |      0 |            0 |
+|       identity                      |             event_identity__parameterized0 |         12 |         12 |       0 |    0 |    33 |      0 |      0 |            0 |
+|     ingress                         |                    history_ordered_ingress |        241 |        241 |       0 |    0 |   244 |      0 |      0 |            0 |
+|     sampler                         |                      history_sample_source |        760 |        694 |      66 |    0 |   403 |     64 |      0 |            1 |
+|       (sampler)                     |                      history_sample_source |          4 |          4 |       0 |    0 |   123 |      0 |      0 |            1 |
+|       source                        |                     history_capture_source |        756 |        690 |      66 |    0 |   280 |     64 |      0 |            0 |
+|     startup                         |                       history_startup_gate |          2 |          2 |       0 |    0 |     1 |      0 |      0 |            0 |
+|     store                           |                    history_scheduled_store |       5797 |       5281 |     516 |    0 |  6283 |      0 |      0 |            2 |
+|       scheduler                     |                   history_closed_scheduler |       1180 |        980 |     200 |    0 |  2263 |      0 |      0 |            0 |
+|       store                         |                          history_store_axi |       4617 |       4301 |     316 |    0 |  4020 |      0 |      0 |            2 |
+|     time_snapshot                   |                       cdc_time_snapshot_17 |          4 |          4 |       0 |    0 |     8 |      0 |      0 |            0 |
+|       bridge                        |      cdc_event_transaction__parameterized3 |          4 |          4 |       0 |    0 |     8 |      0 |      0 |            0 |
+|   history_health_stats_inst         |                       history_health_stats |         83 |         83 |       0 |    0 |   163 |      0 |      0 |            0 |
+|   history_hr_cdc_inst               |                        evidence_packet_cdc |         98 |         50 |      48 |    0 |    82 |      0 |      0 |            0 |
+|     (history_hr_cdc_inst)           |                        evidence_packet_cdc |          2 |          2 |       0 |    0 |    10 |      0 |      0 |            0 |
+|     fifo                            |              async_fifo__parameterized0_16 |         96 |         48 |      48 |    0 |    72 |      0 |      0 |            0 |
+|   history_hr_record_inst            |                      history_result_record |        300 |        300 |       0 |    0 |   728 |      0 |      0 |            0 |
+|   history_lifecycle_inst            |                  history_lifecycle_control |          3 |          3 |       0 |    0 |     3 |      0 |      0 |            0 |
+|   history_pixel_cdc_inst            |                      evidence_packet_cdc_2 |        107 |         59 |      48 |    0 |    82 |      0 |      0 |            0 |
+|     (history_pixel_cdc_inst)        |                      evidence_packet_cdc_2 |         11 |         11 |       0 |    0 |    10 |      0 |      0 |            0 |
+|     fifo                            |                 async_fifo__parameterized0 |         96 |         48 |      48 |    0 |    72 |      0 |      0 |            0 |
+|   history_pixel_packetizer_inst     |                 evidence_window_packetizer |        646 |        470 |     176 |    0 |   855 |      0 |      0 |            0 |
+|   history_result_fork_inst          |                        history_result_fork |         94 |         94 |       0 |    0 |   654 |      0 |      0 |            0 |
+|   history_udp_bridge_inst           | evidence_packet_udp_bridge__parameterized0 |        367 |        151 |     216 |    0 |   100 |      0 |      0 |            0 |
+|   maintenance_endpoint_inst         |                       maintenance_endpoint |       1723 |       1723 |       0 |    0 |  3556 |      0 |      0 |            0 |
+|     (maintenance_endpoint_inst)     |                       maintenance_endpoint |         37 |         37 |       0 |    0 |  1936 |      0 |      0 |            0 |
+|     receiver                        |                     maintenance_command_rx |       1204 |       1204 |       0 |    0 |  1072 |      0 |      0 |            0 |
+|     record_inst                     |                         maintenance_record |        482 |        482 |       0 |    0 |   548 |      0 |      0 |            0 |
+|   monitor_record                    |                       board_monitor_record |        434 |        434 |       0 |    0 |   509 |      0 |      0 |            0 |
+|   monitor_snapshot                  |         cdc_stats_snapshot__parameterized0 |         46 |         46 |       0 |    0 |   300 |      0 |      0 |            0 |
+|     (monitor_snapshot)              |         cdc_stats_snapshot__parameterized0 |         42 |         42 |       0 |    0 |    98 |      0 |      0 |            0 |
+|     bridge                          |      cdc_event_transaction__parameterized0 |          4 |          4 |       0 |    0 |   202 |      0 |      0 |            0 |
+|   motion_detect_inst                |                              motion_detect |        819 |        363 |     456 |    0 |   109 |      0 |      0 |            0 |
+|   overlay_status_inst               |                             overlay_status |        350 |        350 |       0 |    0 |     0 |      0 |      0 |            0 |
+|     text_overlay_inst               |                               text_overlay |        350 |        350 |       0 |    0 |     0 |      0 |      0 |            0 |
+|       (text_overlay_inst)           |                               text_overlay |          3 |          3 |       0 |    0 |     0 |      0 |      0 |            0 |
+|       char_rom_cn_inst              |                                char_rom_cn |        347 |        347 |       0 |    0 |     0 |      0 |      0 |            0 |
+|   persistent_boot_inst              |             persistent_maintenance_service |       6495 |       6495 |       0 |    0 |  7804 |      0 |      0 |            0 |
+|     (persistent_boot_inst)          |             persistent_maintenance_service |        192 |        192 |       0 |    0 |   680 |      0 |      0 |            0 |
+|     anchor                          |                          rtc_anchor_client |        504 |        504 |       0 |    0 |   904 |      0 |      0 |            0 |
+|       anchor                        |                            rtc_time_anchor |        168 |        168 |       0 |    0 |   553 |      0 |      0 |            0 |
+|       record_inst                   |                          rtc_anchor_record |        336 |        336 |       0 |    0 |   351 |      0 |      0 |            0 |
+|     arbiter                         |                    i2c_transaction_arbiter |         71 |         71 |       0 |    0 |   279 |      0 |      0 |            0 |
+|     config_manager                  |                  persistent_config_manager |        541 |        541 |       0 |    0 |   558 |      0 |      0 |            0 |
+|       (config_manager)              |                  persistent_config_manager |        511 |        511 |       0 |    0 |   558 |      0 |      0 |            0 |
+|       proposed                      |                persistent_config_decode_15 |         30 |         30 |       0 |    0 |     0 |      0 |      0 |            0 |
+|     gate                            |                       persistent_boot_gate |        197 |        197 |       0 |    0 |    42 |      0 |      0 |            0 |
+|     master                          |                     i2c_register_master_13 |        654 |        654 |       0 |    0 |   608 |      0 |      0 |            0 |
+|       (master)                      |                     i2c_register_master_13 |        272 |        272 |       0 |    0 |   544 |      0 |      0 |            0 |
+|       bytes                         |                         i2c_byte_master_14 |        382 |        382 |       0 |    0 |    64 |      0 |      0 |            0 |
+|     setter                          |                             pcf8563_setter |        490 |        490 |       0 |    0 |   326 |      0 |      0 |            0 |
+|       (setter)                      |                             pcf8563_setter |        251 |        251 |       0 |    0 |   141 |      0 |      0 |            0 |
+|       reader                        |             pcf8563_reader__parameterized0 |        239 |        239 |       0 |    0 |   185 |      0 |      0 |            0 |
+|     store                           |                      eeprom_dualslot_store |       3846 |       3846 |       0 |    0 |  4407 |      0 |      0 |            0 |
+|       (store)                       |                      eeprom_dualslot_store |       1715 |       1715 |       0 |    0 |  3254 |      0 |      0 |            0 |
+|       codec                         |                        eeprom_record_codec |       1563 |       1563 |       0 |    0 |   876 |      0 |      0 |            0 |
+|       pages                         |                         eeprom_page_writer |        568 |        568 |       0 |    0 |   277 |      0 |      0 |            0 |
+|   phy_health_inst                   |                        phy_health_snapshot |         40 |         40 |       0 |    0 |    79 |      0 |      0 |            0 |
+|     (phy_health_inst)               |                        phy_health_snapshot |          7 |          7 |       0 |    0 |     0 |      0 |      0 |            0 |
+|     barrier                         |                     evidence_reset_barrier |         14 |         14 |       0 |    0 |    14 |      0 |      0 |            0 |
+|     snapshot                        |                         cdc_stats_snapshot |         19 |         19 |       0 |    0 |    65 |      0 |      0 |            0 |
+|       (snapshot)                    |                         cdc_stats_snapshot |         16 |         16 |       0 |    0 |    41 |      0 |      0 |            0 |
+|       bridge                        |                      cdc_event_transaction |          3 |          3 |       0 |    0 |    24 |      0 |      0 |            0 |
+|   pll                               |                                        pll |          1 |          1 |       0 |    0 |     0 |      0 |      0 |            0 |
+|     inst                            |                           pll__pll_clk_wiz |          1 |          1 |       0 |    0 |     0 |      0 |      0 |            0 |
+|   profile_decode                    |                   persistent_config_decode |          0 |          0 |       0 |    0 |     0 |      0 |      0 |            0 |
+|   pulse_cdc_cfg_applied             |                                pulse_cdc_3 |          1 |          1 |       0 |    0 |     3 |      0 |      0 |            0 |
+|   pulse_cdc_image_overrun           |                                pulse_cdc_4 |          1 |          1 |       0 |    0 |     3 |      0 |      0 |            0 |
+|   pulse_cdc_manual_event            |                                pulse_cdc_5 |          1 |          1 |       0 |    0 |     4 |      0 |      0 |            0 |
+|   pulse_cdc_workflow_reset          |                                pulse_cdc_6 |          2 |          2 |       0 |    0 |     4 |      0 |      0 |            0 |
+|   status_mailbox_inst               |                             status_mailbox |         16 |         16 |       0 |    0 |   223 |      0 |      0 |            0 |
+|   status_uart_tx_inst               |                             status_uart_tx |       1071 |       1071 |       0 |    0 |  1713 |      0 |      0 |            0 |
+|     (status_uart_tx_inst)           |                             status_uart_tx |         99 |         99 |       0 |    0 |  1304 |      0 |      0 |            0 |
+|     duration_converter              |                                 u32_to_bcd |         54 |         54 |       0 |    0 |    80 |      0 |      0 |            0 |
+|     frame_converter                 |                              u32_to_bcd_10 |         91 |         91 |       0 |    0 |   120 |      0 |      0 |            0 |
+|     holding_stream.adapter          |                        uart_stream_adapter |        664 |        664 |       0 |    0 |     9 |      0 |      0 |            0 |
+|     remaining_converter             |                              u32_to_bcd_11 |         58 |         58 |       0 |    0 |    80 |      0 |      0 |            0 |
+|     timestamp_converter             |                              u32_to_bcd_12 |        105 |        105 |       0 |    0 |   120 |      0 |      0 |            0 |
+|   timestamp_ms_inst                 |                               timestamp_ms |         22 |         22 |       0 |    0 |    50 |      0 |      0 |            0 |
+|   uart_packet_mux_inst              |                            uart_packet_mux |       1050 |        474 |     576 |    0 |   300 |      0 |      0 |            0 |
+|     (uart_packet_mux_inst)          |                            uart_packet_mux |        878 |        302 |     576 |    0 |   254 |      0 |      0 |            0 |
+|     physical_uart                   |                                    uart_tx |        172 |        172 |       0 |    0 |    46 |      0 |      0 |            0 |
+|   uart_rx_inst                      |                                    uart_rx |         66 |         66 |       0 |    0 |    41 |      0 |      0 |            0 |
+|   user_control_inst                 |                               user_control |         54 |         54 |       0 |    0 |   153 |      0 |      0 |            0 |
+|     (user_control_inst)             |                               user_control |          0 |          0 |       0 |    0 |     1 |      0 |      0 |            0 |
+|     g_key[0].key_debounce_inst      |                               key_debounce |         15 |         15 |       0 |    0 |    38 |      0 |      0 |            0 |
+|     g_key[1].key_debounce_inst      |                             key_debounce_7 |         13 |         13 |       0 |    0 |    38 |      0 |      0 |            0 |
+|     g_key[2].key_debounce_inst      |                             key_debounce_8 |         13 |         13 |       0 |    0 |    38 |      0 |      0 |            0 |
+|     g_key[3].key_debounce_inst      |                             key_debounce_9 |         13 |         13 |       0 |    0 |    38 |      0 |      0 |            0 |
+|   voice_interaction_inst            |                   voice_interaction_system |       3095 |       3095 |       0 |    0 |  3731 |      0 |      0 |            0 |
+|     (voice_interaction_inst)        |                   voice_interaction_system |         35 |         35 |       0 |    0 |   283 |      0 |      0 |            0 |
+|     audio                           |                           voice_audio_gate |         30 |         30 |       0 |    0 |   156 |      0 |      0 |            0 |
+|     bus                             |                      voice_interaction_bus |        476 |        476 |       0 |    0 |   496 |      0 |      0 |            0 |
+|       (bus)                         |                      voice_interaction_bus |        283 |        283 |       0 |    0 |   397 |      0 |      0 |            0 |
+|       bus                           |                        i2c_register_master |        193 |        193 |       0 |    0 |    99 |      0 |      0 |            0 |
+|     host_endpoint                   |                        voice_host_endpoint |       1137 |       1137 |       0 |    0 |  1637 |      0 |      0 |            0 |
+|     information                     |                         voice_info_confirm |        272 |        272 |       0 |    0 |   171 |      0 |      0 |            0 |
+|     notices                         |                         voice_notice_queue |        365 |        365 |       0 |    0 |   311 |      0 |      0 |            0 |
+|     preparation                     |                     voice_exam_interaction |        356 |        356 |       0 |    0 |   209 |      0 |      0 |            0 |
+|     record                          |                        voice_status_record |        424 |        424 |       0 |    0 |   468 |      0 |      0 |            0 |
++-------------------------------------+--------------------------------------------+------------+------------+---------+------+-------+--------+--------+--------------+
+
+

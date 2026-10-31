@@ -1,0 +1,28 @@
+{
+  "top": "video_epoch_clear_tb",
+  "status": "passed",
+  "active_modules": [
+    "video_epoch_clear"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "video_epoch_clear_tb"
+  ],
+  "testbench": "fpga/src/ddr3_test/video_epoch_clear_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/ddr3_test/video_epoch_clear_tb.sv",
+      "sha256": "d77522007802f9e2b90be65471597bb1df052f7282a204dbc662a1a78e3cdad2"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_epoch_clear.v",
+      "sha256": "c515ed6b731759e7bc6ed06c729aff3765072c23c99bc80b9ca7ef432a4f28e9"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: video_epoch_clear short pulse/reset busy/retrigger all checks"
+  ],
+  "trace_bytes": 1589,
+  "seconds": 0.094
+}

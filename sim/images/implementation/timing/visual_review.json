@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "original_pixels": true,
+  "checks": [
+    "完整Vivado2018.3原生窗口，标题绑定margin_05/routed.dcp",
+    "Design Timing Summary页面清晰完整",
+    "WNS +0.374ns、WHS +0.027ns与最终报告一致",
+    "TNS/THS为0，setup/hold失败端点均为0",
+    "未修改像素，无聊天遮挡"
+  ],
+  "design_state": "offline_verified_candidate_not_board_deployed",
+  "scope": "当前已定义约束下的时序结果；不代替剩余外部接口预算与CDC结构签核。"
+}

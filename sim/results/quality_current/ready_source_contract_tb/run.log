@@ -1,0 +1,2 @@
+PASS: ready_source_contract_tb readiness, glitch, MIG reset, stopped clock and restart
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\quality\ready_source_contract_tb.sv:27: $finish called at 81000 (1ps)

@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: persistent_boot_gate checks=13 verified-only/blank-explicit/all-errors/no-double-allocation
+D:\fpga_race\fpga\src\persistence\persistent_boot_gate_tb.sv:31: $finish called at 13780000 (1ps)

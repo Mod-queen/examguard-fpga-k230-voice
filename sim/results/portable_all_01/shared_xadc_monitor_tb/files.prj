@@ -1,0 +1,4 @@
+sv work "D:/fpga_race/deploy/submission_20261031/sim/test_repairs/shared_xadc_monitor_tb/shared_xadc_monitor_tb.sv"
+sv work "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/7cd650dffdea/xadc_monitor_reader.sv"
+sv work "D:/fpga_race/deploy/submission_20261031/src/fpga/local_sources/8d2967dae5eb/shared_xadc_monitor.sv"
+verilog work "D:/vivado/vivado2018.3/Vivado/2018.3/data/verilog/src/glbl.v"

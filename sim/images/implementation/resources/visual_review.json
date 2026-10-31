@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "original_pixels": true,
+  "checks": [
+    "完整Vivado原生窗口",
+    "Summary表与条形图清晰",
+    "8项百分比与最终报告一致",
+    "无聊天遮挡、未修改读数"
+  ],
+  "design_state": "offline_verified_candidate_not_board_deployed"
+}

@@ -1,0 +1,20 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/case_snapshot/xsim_script.tcl
+# xsim {case_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/verification_out/optimization_20261031/simulation/xsim_round1/phy_qualification_tb/run_fixed_paths.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/verification_out/optimization_20261031/simulation/xsim_round1/phy_qualification_tb/run_fixed_paths.tcl
+## open_vcd trace.vcd
+## log_vcd [get_objects /phy_qualification_tb/*]
+## run all
+PASS: phy_qualification ID/pages/delay/actual10-100-1000/downshift/link/TA/fallback/reset/barrier
+$finish called at time : 65466950 ns : File "D:/fpga_race/fpga/src/host_link/phy_qualification_tb.sv" Line 138
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:01:30 . Memory (MB): peak = 218.629 ; gain = 0.000
+## close_vcd
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 17:11:42 2026...

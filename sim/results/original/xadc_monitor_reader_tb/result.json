@@ -1,0 +1,28 @@
+{
+  "top": "xadc_monitor_reader_tb",
+  "status": "passed",
+  "active_modules": [
+    "xadc_monitor_reader"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "xadc_monitor_reader_tb"
+  ],
+  "testbench": "fpga/src/health/xadc_monitor_reader_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/health/xadc_monitor_reader_tb.sv",
+      "sha256": "0787b275fad61d9ad39e6f5283df3ed190db425639c2b6ffe264c4e55f0d935d"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/bbdf99da2627/xadc_monitor_reader.sv",
+      "sha256": "4082cac7140c71d5a5684089426c05b6738c5e412651eea94c847879af9ebbd3"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: xadc_monitor_reader four addresses/atomic batches/temp/timeout/reset"
+  ],
+  "trace_bytes": 8354,
+  "seconds": 0.078
+}

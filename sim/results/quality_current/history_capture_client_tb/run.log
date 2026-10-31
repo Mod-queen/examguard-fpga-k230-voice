@@ -1,0 +1,2 @@
+PASS: history_capture_client identity/timeCDC/epoch/sampling/autoRead frames=5 pixels=35 results=2 boot=2
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\history_capture_client_tb.sv:365: $finish called at 26740000 (1ps)

@@ -1,0 +1,14 @@
+[
+  {
+    "source": "D:\\项目\\xiao_car\\K230视觉模块\\程序源码\\14.export\\CanmvIDE-K230\\08.face_recognition.py",
+    "sha256": "648b5acce9590c6d2f08b6f47e0b6a403895feaf857c657c3fa749441d25771b",
+    "output": "vendor_face.py",
+    "modifications": "keep imports/classes; omit UART imports, top-level instances, draw_result, demo loops"
+  },
+  {
+    "source": "D:\\项目\\xiao_car\\K230视觉模块\\程序源码\\14.export\\CanmvIDE-K230\\14.object_detect_yolov8n.py",
+    "sha256": "eec980930883dd42069d883da11ce662d149ac556ec4cd0d638e4a80e590fb9d",
+    "output": "vendor_object.py",
+    "modifications": "keep imports/classes; omit UART imports, top-level instances, draw_result, demo loops"
+  }
+]

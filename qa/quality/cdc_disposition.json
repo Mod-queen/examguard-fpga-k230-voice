@@ -1,0 +1,416 @@
+{
+  "report_sha256": "196afcf721e689c7a249408828fb8a081c2edf8b2ea04c73d785c1e7294ae746",
+  "summary": {
+    "CDC-1": {
+      "severity": "Critical",
+      "count": 2
+    },
+    "CDC-3": {
+      "severity": "Info",
+      "count": 69
+    },
+    "CDC-6": {
+      "severity": "Warning",
+      "count": 6
+    },
+    "CDC-8": {
+      "severity": "Warning",
+      "count": 1
+    },
+    "CDC-9": {
+      "severity": "Info",
+      "count": 24
+    },
+    "CDC-10": {
+      "severity": "Critical",
+      "count": 13
+    },
+    "CDC-11": {
+      "severity": "Critical",
+      "count": 4
+    },
+    "CDC-12": {
+      "severity": "Critical",
+      "count": 4
+    },
+    "CDC-15": {
+      "severity": "Warning",
+      "count": 928
+    }
+  },
+  "critical_count": 23,
+  "printed_critical_rows": 23,
+  "rows": [
+    {
+      "check": "CDC-10",
+      "source_clock": "clk_out1_pll",
+      "destination_clock": "camera_pclk_audit",
+      "source": "camera_init/Init_Done_reg/C",
+      "destination": "ddr3_ctrl_2port/fabric/video/w_fifo_reset/release_ff_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-12",
+      "source_clock": "clk_out1_pll",
+      "destination_clock": "camera_pclk_audit",
+      "source": "camera_init/Init_Done_reg/C",
+      "destination": "ddr3_ctrl_2port/fabric/video/w_fifo_reset/release_ff_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-10",
+      "source_clock": "clk_pll_i",
+      "destination_clock": "camera_pclk_audit",
+      "source": "ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/init_calib_complete_reg/C",
+      "destination": "camera_capture_reset_inst/release_ff_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-10",
+      "source_clock": "clk_pll_i",
+      "destination_clock": "camera_pclk_audit",
+      "source": "video_fabric_rst_sync_reg[2]/C",
+      "destination": "ddr3_ctrl_2port/fabric/video/w_fifo_reset/release_ff_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-12",
+      "source_clock": "clk_pll_i",
+      "destination_clock": "camera_pclk_audit",
+      "source": "video_fabric_rst_sync_reg[2]/C",
+      "destination": "ddr3_ctrl_2port/fabric/video/w_fifo_reset/release_ff_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-10",
+      "source_clock": "clk_out1_pll",
+      "destination_clock": "clk_out1_dvi_pll",
+      "source": "eth_phy_reg_config_inst/settle_reg[25]/C",
+      "destination": "evidence_reset_barrier_inst/domain[1].release_pipe_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-12",
+      "source_clock": "clk_out1_pll",
+      "destination_clock": "clk_out1_dvi_pll",
+      "source": "eth_phy_reg_config_inst/settle_reg[25]/C",
+      "destination": "evidence_reset_barrier_inst/domain[1].release_pipe_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-10",
+      "source_clock": "clk_out1_pll",
+      "destination_clock": "clk_out1_dvi_pll",
+      "source": "history_client_inst/epoch/cancelled_reg/C",
+      "destination": "history_client_inst/epoch/barrier/domain[0].release_pipe_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-11",
+      "source_clock": "clk_out1_pll",
+      "destination_clock": "clk_out1_dvi_pll",
+      "source": "history_client_inst/epoch/cancelled_reg/C",
+      "destination": "history_client_inst/epoch/barrier/domain[0].release_pipe_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-10",
+      "source_clock": "clk_pll_i",
+      "destination_clock": "clk_out1_dvi_pll",
+      "source": "video_fabric_rst_sync_reg[2]/C",
+      "destination": "ddr3_ctrl_2port/fabric/video/r_fifo_reset/release_ff_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-10",
+      "source_clock": "clk_pll_i",
+      "destination_clock": "clk_out1_dvi_pll",
+      "source": "ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/init_calib_complete_reg/C",
+      "destination": "evidence_reset_barrier_inst/domain[1].release_pipe_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-12",
+      "source_clock": "clk_pll_i",
+      "destination_clock": "clk_out1_dvi_pll",
+      "source": "ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/init_calib_complete_reg/C",
+      "destination": "evidence_reset_barrier_inst/domain[1].release_pipe_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-10",
+      "source_clock": "clk_pll_i",
+      "destination_clock": "clk_out1_pll",
+      "source": "ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/init_calib_complete_reg/C",
+      "destination": "evidence_reset_barrier_inst/domain[0].release_pipe_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-11",
+      "source_clock": "clk_pll_i",
+      "destination_clock": "clk_out1_pll",
+      "source": "ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/init_calib_complete_reg/C",
+      "destination": "evidence_reset_barrier_inst/domain[0].release_pipe_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-10",
+      "source_clock": "camera_pclk_audit",
+      "destination_clock": "clk_pll_i",
+      "source": "ddr3_ctrl_2port/fabric/video/w_fifo_reset/release_ff_reg[2]/C",
+      "destination": "ddr3_ctrl_2port/fabric/video/w_client_epoch/release_ff_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-10",
+      "source_clock": "clk_out1_dvi_pll",
+      "destination_clock": "clk_pll_i",
+      "source": "ddr3_ctrl_2port/fabric/video/r_fifo_reset/release_ff_reg[2]/C",
+      "destination": "ddr3_ctrl_2port/fabric/video/r_client_epoch/release_ff_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-10",
+      "source_clock": "clk_out1_pll",
+      "destination_clock": "eth_clk125_unbuf",
+      "source": "eth_phy_reg_config_inst/settle_reg[25]/C",
+      "destination": "evidence_reset_barrier_inst/domain[3].release_pipe_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-11",
+      "source_clock": "clk_out1_pll",
+      "destination_clock": "eth_clk125_unbuf",
+      "source": "eth_phy_reg_config_inst/settle_reg[25]/C",
+      "destination": "evidence_reset_barrier_inst/domain[3].release_pipe_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-10",
+      "source_clock": "clk_pll_i",
+      "destination_clock": "eth_clk125_unbuf",
+      "source": "ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/init_calib_complete_reg/C",
+      "destination": "evidence_reset_barrier_inst/domain[3].release_pipe_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-11",
+      "source_clock": "clk_pll_i",
+      "destination_clock": "eth_clk125_unbuf",
+      "source": "ddr3_ctrl_2port/u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/init_calib_complete_reg/C",
+      "destination": "evidence_reset_barrier_inst/domain[3].release_pipe_reg[0]/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-10",
+      "source_clock": "clk_pll_i",
+      "destination_clock": "eth_clk125_unbuf",
+      "source": "history_client_inst/epoch/barrier/domain[1].release_pipe_reg[2]/C",
+      "destination": "hist_eth_meta_reg/PRE",
+      "exception": "False Path",
+      "category": "异步断言、当地时钟释放的复位路径",
+      "review": "保留结构提示；异步断言只进入对应复位释放结构，未用全局时钟域豁免。相关复位、停钟与恢复场景自检已通过；单列结构核对，不宣称工具严重项已清零。",
+      "evidence": [
+        "sim/results/quality_current/evidence_reset_barrier_tb/run.log",
+        "sim/results/quality_current/video_epoch_clear_tb/run.log",
+        "sim/results/quality_current/evidence_wrapper_reset_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-1",
+      "source_clock": "clk_pll_i",
+      "destination_clock": "eth_clk125_unbuf",
+      "source": "history_hr_cdc_inst/fifo/mem_reg_0_63_6_8/RAMC/CLK",
+      "destination": "history_hr_cdc_inst/dst_last_reg/D",
+      "exception": "Max Delay Datapath Only",
+      "category": "双时钟FIFO异步存储读出",
+      "review": "Gray指针跨域同步控制读取；源存储到目标保持寄存器的最差最大延迟仍由8ns约束检查，并保留正裕量。功能顺序和跨域复位均有自检，不对多位数据逐位套同步器。",
+      "evidence": [
+        "build/reports/quality_physical/fifo_storage_paths.tsv",
+        "sim/results/quality_current/history_stream_cdc_tb/run.log",
+        "sim/results/quality_current/async_fifo_tb/run.log"
+      ],
+      "waiver_added": false
+    },
+    {
+      "check": "CDC-1",
+      "source_clock": "clk_pll_i",
+      "destination_clock": "eth_clk125_unbuf",
+      "source": "history_pixel_cdc_inst/fifo/mem_reg_0_63_6_8/RAMC/CLK",
+      "destination": "history_pixel_cdc_inst/dst_last_reg/D",
+      "exception": "Max Delay Datapath Only",
+      "category": "双时钟FIFO异步存储读出",
+      "review": "Gray指针跨域同步控制读取；源存储到目标保持寄存器的最差最大延迟仍由8ns约束检查，并保留正裕量。功能顺序和跨域复位均有自检，不对多位数据逐位套同步器。",
+      "evidence": [
+        "build/reports/quality_physical/fifo_storage_paths.tsv",
+        "sim/results/quality_current/history_stream_cdc_tb/run.log",
+        "sim/results/quality_current/async_fifo_tb/run.log"
+      ],
+      "waiver_added": false
+    }
+  ],
+  "waivers_added": false,
+  "constraints_modified": false,
+  "scope": "端点结构、功能自检和实现路径联合核对；不代替外部器件和PCB时序预算，不把严重提示自动豁免或改名为工具通过。"
+}

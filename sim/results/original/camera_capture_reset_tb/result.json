@@ -1,0 +1,33 @@
+{
+  "top": "camera_capture_reset_tb",
+  "status": "passed",
+  "active_modules": [
+    "DVP_Capture",
+    "video_epoch_clear"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "camera_capture_reset_tb"
+  ],
+  "testbench": "fpga/src/ddr3_test/camera_capture_reset_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/ddr3_test/camera_capture_reset_tb.sv",
+      "sha256": "2cf1f374e8d3faf779b88317a9c8f7bcb9a66443ef37b8b9c275a05d4f8497d0"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/DVP_Capture/DVP_Capture.v",
+      "sha256": "ef74e559e3c859d53742c8a8d510fc957d97c39071a79faa289af6a957cefac4"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_epoch_clear.v",
+      "sha256": "c515ed6b731759e7bc6ed06c729aff3765072c23c99bc80b9ca7ef432a4f28e9"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: camera_capture_reset actual DVP/3edge release/stopped PCLK/short pulse/retrigger/warmup10/RGB565 recovery"
+  ],
+  "trace_bytes": 82580,
+  "seconds": 0.11
+}

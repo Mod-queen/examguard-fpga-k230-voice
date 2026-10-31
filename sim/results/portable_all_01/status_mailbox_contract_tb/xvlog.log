@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/fpga_race/deploy/submission_20261031/sim/sources/verification_20261031/status_mailbox_contract_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module status_mailbox_contract_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga_race/deploy/submission_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/status_mailbox/status_mailbox.v" into library work
+INFO: [VRFC 10-311] analyzing module status_mailbox

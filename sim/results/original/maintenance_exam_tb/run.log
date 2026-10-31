@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: maintenance_exam runtime60/start-maintenance-gate/in-exam-duration-locked/forced-timeout
+D:\fpga_race\fpga\src\persistence\maintenance_exam_tb.sv:29: $finish called at 360000 (1ps)

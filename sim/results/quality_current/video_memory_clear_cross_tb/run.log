@@ -1,0 +1,16 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/case_snapshot/xsim_script.tcl
+# xsim {case_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/verification_out/quality_20261031/rtl_all_01/video_memory_clear_cross_tb/run.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/verification_out/quality_20261031/rtl_all_01/video_memory_clear_cross_tb/run.tcl
+## run all
+PASS: video_memory_clear_cross AW/W/B/AR/R/buffer isolation video_pixels=256 evidence_W/R=9/9
+$finish called at time : 24430 ns : File "D:/fpga_race/deploy/engineering_quality_20261031/sim/sources/ddr3_test/video_memory_clear_cross_tb.sv" Line 328
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 23:11:15 2026...

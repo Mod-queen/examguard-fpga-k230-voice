@@ -1,0 +1,6 @@
+VCD info: dumpfile trace.vcd opened for output.
+WARNING: Dump file limit (2000000 bytes) exceeded.
+PASS: history_stream_cdc SH7 DH5 depth4 mixed80 frames/drop/fence full/stall/cancel/stopped domains/restart
+PASS: history_stream_cdc SH3 DH11 depth16 mixed80 frames/drop/fence full/stall/cancel/stopped domains/restart
+PASS: history_stream_cdc ALL
+D:\fpga_race\fpga\src\ddr3_test\history_stream_cdc_tb.sv:136: $finish called at 175219000 (1ps)

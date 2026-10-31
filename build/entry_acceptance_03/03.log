@@ -1,0 +1,17 @@
+camera_black_boundary_tb 通过
+config_mailbox_contract_tb 通过
+config_parser_contract_tb 通过
+camera_init_contract_tb 通过
+event_request_fifo_tb 通过
+dvp_capture_contract_tb 通过
+exam_fsm_tb 通过
+evidence_wrapper_reset_tb 通过
+gmii_rgmii_contract_tb 通过
+mdio_readback_tb 通过
+status_mailbox_contract_tb 通过
+tmds_decode_contract_tb 通过
+tmds_serializer_contract_tb 通过
+video_fifo_stream_bridge_tb 通过
+voice_interaction_system_tb 通过
+history_sample_source_tb 通过
+结果文件：D:\fpga_race\deploy\engineering_20261031\build\entry_acceptance_03\simulation\summary.json

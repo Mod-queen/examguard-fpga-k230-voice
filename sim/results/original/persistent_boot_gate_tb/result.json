@@ -1,0 +1,28 @@
+{
+  "top": "persistent_boot_gate_tb",
+  "status": "passed",
+  "active_modules": [
+    "persistent_boot_gate"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "persistent_boot_gate_tb"
+  ],
+  "testbench": "fpga/src/persistence/persistent_boot_gate_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/persistence/persistent_boot_gate_tb.sv",
+      "sha256": "27586e327f785b5651b20f10d9cc90952085f995c5fb8889859459b929fd3b1a"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/c076e82256e1/persistent_boot_gate.sv",
+      "sha256": "c8d0a6f30842cbbaefa82d0a6670efd11c1fb0ecb128c4ff2bdd63c08801b416"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: persistent_boot_gate checks=13 verified-only/blank-explicit/all-errors/no-double-allocation"
+  ],
+  "trace_bytes": 24678,
+  "seconds": 0.094
+}

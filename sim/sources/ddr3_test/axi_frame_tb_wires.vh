@@ -1,0 +1,10 @@
+    wire [3:0] m_axi_awid, m_axi_bid, m_axi_arid, m_axi_rid;
+    wire [29:0] m_axi_awaddr, m_axi_araddr;
+    wire [7:0] m_axi_awlen, m_axi_arlen;
+    wire [2:0] m_axi_awsize, m_axi_arsize;
+    wire [1:0] m_axi_awburst, m_axi_arburst, m_axi_bresp, m_axi_rresp;
+    wire m_axi_awvalid, m_axi_awready, m_axi_wlast, m_axi_wvalid, m_axi_wready;
+    wire m_axi_bvalid, m_axi_bready, m_axi_arvalid, m_axi_arready;
+    wire m_axi_rlast, m_axi_rvalid, m_axi_rready;
+    wire [127:0] m_axi_wdata, m_axi_rdata;
+    wire [15:0] m_axi_wstrb;

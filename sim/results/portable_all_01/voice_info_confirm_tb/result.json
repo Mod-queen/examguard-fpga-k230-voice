@@ -1,0 +1,22 @@
+{
+  "top": "voice_info_confirm_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/voice_interaction/voice_info_confirm_tb.sv",
+      "sha256": "a457b6d669750fb4454a82a25446c2788f6b87eff7487b0e67c427d321f9f237"
+    },
+    {
+      "path": "src/fpga/local_sources/5fdb84914cbb/voice_info_confirm.sv",
+      "sha256": "e1331a3496a220524b304acf544a956e42b77f7b83057b07e0f59e390f764f78"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.016,
+  "pass_lines": [
+    "PASS: voice_info_confirm scenarios=18"
+  ],
+  "exit_code": 0
+}

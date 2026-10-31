@@ -1,0 +1,7 @@
+set_false_path -to [get_pins -hier -filter {NAME =~ board_status_inst/sw_meta_reg*/D}]
+set_false_path -to [get_pins monitor_snapshot/bridge/req_meta_reg/D]
+set_false_path -to [get_pins monitor_snapshot/bridge/ack_meta_reg/D]
+set_false_path -to [get_pins {monitor_network_pipe_reg[0]/D}]
+set_false_path -to [get_pins -of_objects [get_cells -hier -filter {NAME =~ monitor_reset_pipe_reg*}] -filter {REF_PIN_NAME == PRE}]
+set_false_path -to [get_pins -of_objects [get_cells -hier -filter {NAME =~ *u_tempmon/xadc_supplied_temperature.monitor_release_reg*}] -filter {REF_PIN_NAME == PRE}]
+set_max_delay -datapath_only 20.000 -from [get_cells -hier -filter {NAME =~ monitor_snapshot/bridge/payload_hold_reg* && REF_NAME =~ FD*}] -to [get_cells -hier -filter {NAME =~ monitor_snapshot/bridge/dst_data_reg* && REF_NAME =~ FD*}]

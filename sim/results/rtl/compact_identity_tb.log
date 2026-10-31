@@ -1,0 +1,2 @@
+PASS compact identity background area=7488 prior=22528; glyph positions and ack preserved
+D:\fpga_race\deploy\submission_20261030\src\rtl_support\vision_guard\compact_identity_tb.sv:36: $finish called at 22542000 (1ps)

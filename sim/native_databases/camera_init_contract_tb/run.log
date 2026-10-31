@@ -1,0 +1,27 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/focus_snapshot/xsim_script.tcl
+# xsim {focus_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/verification_out/refinement_20261031/cases/camera_init_contract_tb/run.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/verification_out/refinement_20261031/cases/camera_init_contract_tb/run.tcl
+## set signals [get_objects {/camera_init_contract_tb/rst_n /camera_init_contract_tb/scl /camera_init_contract_tb/sda /camera_init_contract_tb/active /camera_init_contract_tb/done /camera_init_contract_tb/nack_this /camera_init_contract_tb/accepted /camera_init_contract_tb/attempts /camera_init_contract_tb/nacks}]
+## if {[llength $signals] != 9} {error "Missing selected signals"}
+## create_wave_config
+## add_wave -radix hex $signals
+## log_wave $signals
+## open_vcd trace.vcd
+## log_vcd $signals
+## run all
+PASS: camera init wire all267 including474020
+PASS: camera_init_contract ACK all bytes/NACK retry/permanent NACK/reset body/restart/no replay
+$finish called at time : 281499740 ns : File "D:/fpga_race/deploy/engineering_20261031/sim/sources/ddr3_test/camera_init_contract_tb.sv" Line 109
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 219.793 ; gain = 0.000
+## close_vcd
+## save_wave_config focus.wcfg
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 18:52:58 2026...

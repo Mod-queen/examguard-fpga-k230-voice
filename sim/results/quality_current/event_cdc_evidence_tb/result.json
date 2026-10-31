@@ -1,0 +1,94 @@
+{
+  "top": "event_cdc_evidence_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/ddr3_test/event_cdc_evidence_tb.sv",
+      "sha256": "21beb20192b75b74066dc85b0ae13186caf500d820b4103c50af867a0694e328"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+      "sha256": "e00a965581e8b27bd820c5aa494acf399d4d9edd0f06c4fc315d1e06edc41f67"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_2client_arbiter.v",
+      "sha256": "fb539ae2672b78207f16c56c63548c512a0893323e2831d23b4be94ea3e87dc5"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_read_burst_buffer.v",
+      "sha256": "46f38c559f84f46a68c77401aadf52a626462a671ec90482e556dbca61e17038"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_evidence_client.v",
+      "sha256": "c8f3dd6215160d3ba0ba3b56765c036803a7fb283e181c1312578f9e542d0999"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_frame_guard.v",
+      "sha256": "d3496d7a5c35e108a0193237ff8222738cae65e00980413e32962f283b0134c5"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_sample_guard.v",
+      "sha256": "12bbc2ebb19f937d9e0b02c138ef35c04af85e01b093575275fdddcdff853798"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+      "sha256": "5a7f8c5de37e13612a3b3eb01b14a9f69277a4261ac3d84c1fdc860f374d9f02"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_axi.v",
+      "sha256": "758399072337810cbcfe347b2535b6c03f4bd9adef62d4d1ff9e585700202768"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_queued.v",
+      "sha256": "d77ee3f4e236700640a17b1c76f9ce75dedf2403d40307a9325286fbe8895e99"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_event_dispatch.v",
+      "sha256": "91d1a59a541ae4e524024cf272c03bf1f10cf5dec215126bea0dffd4050a1a09"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_axi_client.v",
+      "sha256": "5a3310b484084fcae94df7e1af0622765d63a2ac5ad0e7a1e87a842b27843d1c"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_epoch_clear.v",
+      "sha256": "c515ed6b731759e7bc6ed06c729aff3765072c23c99bc80b9ca7ef432a4f28e9"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_fifo_axi_port.v",
+      "sha256": "11be247027fb19707f07996db66008fcfc6c134bc25594934294f94187c3cc84"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_fifo_stream_bridge.v",
+      "sha256": "439fa08d11082e647b50af14628757ab517a84f4c68c010ae0fe175242952d37"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_memory_fabric.v",
+      "sha256": "4a972513ed42b6971566e79e80f4d2d60a7d49c5577c07a557ed59d90567a331"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+      "sha256": "2d2200f13132859ec81afaa54309a520655a7a7042438f0fded09807e4981f6a"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v",
+      "sha256": "c0ba03f5efcad63349bab1bae3fd95d16927d4cd62acdec1d73c9cf4f5d1e2c9"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_transaction_queue/event_transaction_queue.v",
+      "sha256": "2e5ca0042f187b64bc9b026c8e195552041b3914b436454d5f2031b4aca1aa07"
+    },
+    {
+      "path": "sim/sources/ddr3_test/axi_frame_slave_model.sv",
+      "sha256": "80cb737c5165193f9aee20ecc3d30a79a9535ffceb148bfc6dd9ab294b9f91e6"
+    }
+  ],
+  "repairs": [],
+  "seconds": 7.078,
+  "pass_lines": [
+    "PASS: event_cdc_evidence four-source accepted8/rejected4 windows8 pixels=1184 original UID/time preserved"
+  ],
+  "exit_code": 0
+}

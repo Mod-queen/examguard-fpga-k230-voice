@@ -1,0 +1,2 @@
+PASS: rtc_anchor_client actualReader+anchor+CRCRecord busBackpressure/valid+I2Cfail/randomStream2x132
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\persistence\rtc_anchor_client_tb.sv:51: $finish called at 10820000 (1ps)

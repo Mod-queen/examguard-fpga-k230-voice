@@ -1,0 +1,28 @@
+{
+  "top": "ai_link_rx_tb",
+  "status": "passed",
+  "active_modules": [
+    "ai_link_rx"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "ai_link_rx_tb"
+  ],
+  "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ai_link/ai_link_rx_tb.v",
+  "sources": [
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ai_link/ai_link_rx_tb.v",
+      "sha256": "ebe3c1d7df1b9ac2c9712e7cd52ad437ef09a36d6d38a18bed8dec65715316b0"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ai_link/ai_link_rx.v",
+      "sha256": "edf76874e811ec99ecebc2361261e44ba2467992f6d39f2b20036b6f834f4daa"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: ai_link_rx (face + object + gaze frames parsed)"
+  ],
+  "trace_bytes": 312517,
+  "seconds": 0.156
+}

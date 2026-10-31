@@ -1,0 +1,191 @@
+# async_fifo
+
+当前工程实例化：是。关联19个自检用例。
+
+| 用例 | 仿真器 | 当前结果 | 运行日志 | 结果记录 |
+| --- | --- | --- | --- | --- |
+| async_fifo_tb | icarus | 通过 | [日志](../../sim/results/quality_current/async_fifo_tb/run.log) | [记录](../../sim/results/quality_current/async_fifo_tb/result.json) |
+| camera_evidence_axi_tb | xsim | 通过 | [日志](../../sim/results/quality_current/camera_evidence_axi_tb/run.log) | [记录](../../sim/results/quality_current/camera_evidence_axi_tb/result.json) |
+| camera_evidence_transport_tb | icarus | 通过 | [日志](../../sim/results/quality_current/camera_evidence_transport_tb/run.log) | [记录](../../sim/results/quality_current/camera_evidence_transport_tb/result.json) |
+| camera_queued_evidence_tb | xsim | 通过 | [日志](../../sim/results/quality_current/camera_queued_evidence_tb/run.log) | [记录](../../sim/results/quality_current/camera_queued_evidence_tb/result.json) |
+| ddr_evidence_axi_tb | icarus | 通过 | [日志](../../sim/results/quality_current/ddr_evidence_axi_tb/run.log) | [记录](../../sim/results/quality_current/ddr_evidence_axi_tb/result.json) |
+| ddr_evidence_probe_tb | icarus | 通过 | [日志](../../sim/results/quality_current/ddr_evidence_probe_tb/run.log) | [记录](../../sim/results/quality_current/ddr_evidence_probe_tb/result.json) |
+| ddr_evidence_queued_tb | xsim | 通过 | [日志](../../sim/results/quality_current/ddr_evidence_queued_tb/run.log) | [记录](../../sim/results/quality_current/ddr_evidence_queued_tb/result.json) |
+| event_cdc_evidence_tb | xsim | 通过 | [日志](../../sim/results/quality_current/event_cdc_evidence_tb/run.log) | [记录](../../sim/results/quality_current/event_cdc_evidence_tb/result.json) |
+| evidence_capture_context_tb | icarus | 通过 | [日志](../../sim/results/quality_current/evidence_capture_context_tb/run.log) | [记录](../../sim/results/quality_current/evidence_capture_context_tb/result.json) |
+| evidence_packet_cdc_tb | icarus | 通过 | [日志](../../sim/results/quality_current/evidence_packet_cdc_tb/run.log) | [记录](../../sim/results/quality_current/evidence_packet_cdc_tb/result.json) |
+| evidence_reset_epoch_tb | icarus | 通过 | [日志](../../sim/results/quality_current/evidence_reset_epoch_tb/run.log) | [记录](../../sim/results/quality_current/evidence_reset_epoch_tb/result.json) |
+| history_capture_client_tb | icarus | 通过 | [日志](../../sim/results/quality_current/history_capture_client_tb/run.log) | [记录](../../sim/results/quality_current/history_capture_client_tb/result.json) |
+| history_capture_pipeline_tb | icarus | 通过 | [日志](../../sim/results/quality_current/history_capture_pipeline_tb/run.log) | [记录](../../sim/results/quality_current/history_capture_pipeline_tb/result.json) |
+| history_result_udp_cdc_tb | icarus | 通过 | [日志](../../sim/results/quality_current/history_result_udp_cdc_tb/run.log) | [记录](../../sim/results/quality_current/history_result_udp_cdc_tb/result.json) |
+| history_stream_cdc_tb | icarus | 通过 | [日志](../../sim/results/quality_current/history_stream_cdc_tb/run.log) | [记录](../../sim/results/quality_current/history_stream_cdc_tb/result.json) |
+| history_top_interconnect_tb | xsim | 通过 | [日志](../../sim/results/quality_current/history_top_interconnect_tb/run.log) | [记录](../../sim/results/quality_current/history_top_interconnect_tb/result.json) |
+| queued_window_packet_tb | xsim | 通过 | [日志](../../sim/results/quality_current/queued_window_packet_tb/run.log) | [记录](../../sim/results/quality_current/queued_window_packet_tb/result.json) |
+| shared_evidence_axi_tb | xsim | 通过 | [日志](../../sim/results/quality_current/shared_evidence_axi_tb/run.log) | [记录](../../sim/results/quality_current/shared_evidence_axi_tb/result.json) |
+| video_memory_fabric_tb | xsim | 通过 | [日志](../../sim/results/quality_current/video_memory_fabric_tb/run.log) | [记录](../../sim/results/quality_current/video_memory_fabric_tb/result.json) |
+
+单独重跑本模块关联用例（工程根目录）：
+
+```powershell
+python sim/run_module_tests.py --only async_fifo_tb camera_evidence_axi_tb camera_evidence_transport_tb camera_queued_evidence_tb ddr_evidence_axi_tb ddr_evidence_probe_tb ddr_evidence_queued_tb event_cdc_evidence_tb evidence_capture_context_tb evidence_packet_cdc_tb evidence_reset_epoch_tb history_capture_client_tb history_capture_pipeline_tb history_result_udp_cdc_tb history_stream_cdc_tb history_top_interconnect_tb queued_window_packet_tb shared_evidence_axi_tb video_memory_fabric_tb --vivado-bin "$env:EXAMGUARD_VIVADO_BIN" --iverilog-bin "$env:EXAMGUARD_IVERILOG_BIN"
+```
+
+先按[复原说明](../../build/reproduction.md)配置工具。每次生成新的结果目录。
+
+## async_fifo_tb
+
+用例源码：[async_fifo_tb.sv](../../sim/sources/ddr3_test/async_fifo_tb.sv)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![async_fifo_tb](../../sim/images/async_fifo_tb.png)
+
+## camera_evidence_axi_tb
+
+用例源码：[camera_evidence_axi_tb.sv](../../sim/sources/ddr3_test/camera_evidence_axi_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![camera_evidence_axi_tb](../../sim/images/camera_evidence_axi_tb.png)
+
+## camera_evidence_transport_tb
+
+用例源码：[camera_evidence_transport_tb.sv](../../sim/sources/ddr3_test/camera_evidence_transport_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![camera_evidence_transport_tb](../../sim/images/camera_evidence_transport_tb.png)
+
+## camera_queued_evidence_tb
+
+用例源码：[camera_queued_evidence_tb.sv](../../sim/sources/ddr3_test/camera_queued_evidence_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![camera_queued_evidence_tb](../../sim/images/camera_queued_evidence_tb.png)
+
+## ddr_evidence_axi_tb
+
+用例源码：[ddr_evidence_axi_tb.sv](../../sim/sources/ddr3_test/ddr_evidence_axi_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![ddr_evidence_axi_tb](../../sim/images/ddr_evidence_axi_tb.png)
+
+## ddr_evidence_probe_tb
+
+用例源码：[ddr_evidence_probe_tb.sv](../../sim/sources/ddr3_test/ddr_evidence_probe_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv), [ddr_evidence_probe.v](../../sim/sources/ddr3_test/ddr_evidence_probe.v)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![ddr_evidence_probe_tb](../../sim/images/ddr_evidence_probe_tb.png)
+
+## ddr_evidence_queued_tb
+
+用例源码：[ddr_evidence_queued_tb.sv](../../sim/sources/ddr3_test/ddr_evidence_queued_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
+
+Vivado原生波形（与所列用例及WDB对应）：
+
+![证据排队及结果](../../sim/images/native_selected/08_evidence_result_clean/vivado_wave.png)
+
+[原始WDB](../../sim/native_databases/ddr_evidence_queued_tb/focus_snapshot.wdb)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![ddr_evidence_queued_tb](../../sim/images/ddr_evidence_queued_tb.png)
+
+## event_cdc_evidence_tb
+
+用例源码：[event_cdc_evidence_tb.sv](../../sim/sources/ddr3_test/event_cdc_evidence_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![event_cdc_evidence_tb](../../sim/images/event_cdc_evidence_tb.png)
+
+## evidence_capture_context_tb
+
+用例源码：[evidence_capture_context_tb.sv](../../sim/sources/ddr3_test/evidence_capture_context_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv), [evidence_capture_context.v](../../sim/sources/ddr3_test/evidence_capture_context.v), [evidence_reset_epoch.v](../../sim/sources/event_identity/evidence_reset_epoch.v)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![evidence_capture_context_tb](../../sim/images/evidence_capture_context_tb.png)
+
+## evidence_packet_cdc_tb
+
+用例源码：[evidence_packet_cdc_tb.sv](../../sim/sources/ddr3_test/evidence_packet_cdc_tb.sv)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![evidence_packet_cdc_tb](../../sim/images/evidence_packet_cdc_tb.png)
+
+## evidence_reset_epoch_tb
+
+用例源码：[evidence_reset_epoch_tb.sv](../../sim/sources/event_identity/evidence_reset_epoch_tb.sv), [evidence_reset_epoch.v](../../sim/sources/event_identity/evidence_reset_epoch.v)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![evidence_reset_epoch_tb](../../sim/images/evidence_reset_epoch_tb.png)
+
+## history_capture_client_tb
+
+用例源码：[history_capture_client_tb.sv](../../sim/sources/ddr3_test/history_capture_client_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![history_capture_client_tb](../../sim/images/history_capture_client_tb.png)
+
+## history_capture_pipeline_tb
+
+用例源码：[history_capture_pipeline_tb.sv](../../sim/sources/ddr3_test/history_capture_pipeline_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![history_capture_pipeline_tb](../../sim/images/history_capture_pipeline_tb.png)
+
+## history_result_udp_cdc_tb
+
+用例源码：[history_result_udp_cdc_tb.sv](../../sim/sources/ddr3_test/history_result_udp_cdc_tb.sv)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![history_result_udp_cdc_tb](../../sim/images/history_result_udp_cdc_tb.png)
+
+## history_stream_cdc_tb
+
+用例源码：[history_stream_cdc_tb.sv](../../sim/sources/ddr3_test/history_stream_cdc_tb.sv)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![history_stream_cdc_tb](../../sim/images/history_stream_cdc_tb.png)
+
+## history_top_interconnect_tb
+
+用例源码：[history_top_interconnect_tb.sv](../../sim/sources/ddr3_test/history_top_interconnect_tb.sv)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![history_top_interconnect_tb](../../sim/images/history_top_interconnect_tb.png)
+
+## queued_window_packet_tb
+
+用例源码：[queued_window_packet_tb.sv](../../sim/sources/ddr3_test/queued_window_packet_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![queued_window_packet_tb](../../sim/images/queued_window_packet_tb.png)
+
+## shared_evidence_axi_tb
+
+用例源码：[shared_evidence_axi_tb.sv](../../sim/sources/ddr3_test/shared_evidence_axi_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv), [video_fifo_path_source.sv](../../sim/sources/ddr3_test/video_fifo_path_source.sv), [axi_2client_arbiter_tb.sv](../../sim/sources/ddr3_test/axi_2client_arbiter_tb.sv)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![shared_evidence_axi_tb](../../sim/images/shared_evidence_axi_tb.png)
+
+## video_memory_fabric_tb
+
+用例源码：[video_memory_fabric_tb.sv](../../sim/sources/ddr3_test/video_memory_fabric_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
+
+历史VCD数据导出图（并非Vivado截图）：
+
+![video_memory_fabric_tb](../../sim/images/video_memory_fabric_tb.png)

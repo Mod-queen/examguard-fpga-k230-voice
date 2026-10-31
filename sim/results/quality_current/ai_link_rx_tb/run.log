@@ -1,0 +1,2 @@
+PASS: ai_link_rx (face + object + gaze frames parsed)
+D:\fpga_race\deploy\engineering_quality_20261031\src\fpga\ov5640_ddr3_hdmi_vga.srcs\sources_1\ai_link\ai_link_rx_tb.v:147: $finish called at 75345000 (1ps)

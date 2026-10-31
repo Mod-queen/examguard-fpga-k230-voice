@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/fpga_race/verification_out/refinement_20261031/cases/ddr_evidence_queued_tb/focus_snapshot.wdb" id="1">
+         <top_modules>
+            <top_module name="ddr_evidence_queued_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+   <ZoomStartTime time="8065000000fs" /><ZoomEndTime time="8265000000fs" /><Cursor1Time time="8065000000fs" /></zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/ddr_evidence_queued_tb/request" type="logic">
+      <obj_property name="ElementShortName">request</obj_property>
+      <obj_property name="ObjectShortName">request</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddr_evidence_queued_tb/accepted" type="logic">
+      <obj_property name="ElementShortName">accepted</obj_property>
+      <obj_property name="ObjectShortName">accepted</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddr_evidence_queued_tb/rejected" type="logic">
+      <obj_property name="ElementShortName">rejected</obj_property>
+      <obj_property name="ObjectShortName">rejected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddr_evidence_queued_tb/result_valid" type="logic">
+      <obj_property name="ElementShortName">result_valid</obj_property>
+      <obj_property name="ObjectShortName">result_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddr_evidence_queued_tb/result_ok" type="logic">
+      <obj_property name="ElementShortName">result_ok</obj_property>
+      <obj_property name="ObjectShortName">result_ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddr_evidence_queued_tb/result_frames" type="array">
+      <obj_property name="ElementShortName">result_frames[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result_frames[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddr_evidence_queued_tb/frames_committed" type="array">
+      <obj_property name="ElementShortName">frames_committed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">frames_committed[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddr_evidence_queued_tb/windows_completed" type="array">
+      <obj_property name="ElementShortName">windows_completed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">windows_completed[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddr_evidence_queued_tb/read_errors" type="array">
+      <obj_property name="ElementShortName">read_errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_errors[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

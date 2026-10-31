@@ -1,0 +1,12 @@
+PASS voice_scl=C14 exclusive IOBUF GROUND LVCMOS33 PULLUP
+PASS voice_sda=C15 exclusive IOBUF GROUND LVCMOS33 PULLUP
+PASS UART unique
+PASS MIG unique
+PASS XADC unique
+PASS cover max requirement=20.000 slack=19.356
+PASS cover min requirement=0.000 slack=0.121
+PASS voice_scl max requirement=20.000 slack=19.330
+PASS voice_scl min requirement=0.000 slack=0.159
+PASS voice_sda max requirement=20.000 slack=19.347
+PASS voice_sda min requirement=0.000 slack=0.130
+PASS pixel black gate registers=51

@@ -1,0 +1,2 @@
+PASS: eeprom_dualslot_store powercuts=256 results=530 explicit-format/config/boot/CRC/device/errors/raw-oracle
+D:\fpga_race\deploy\submission_20261031\sim\sources\persistence\eeprom_dualslot_store_tb.sv:190: $finish called at 6453060000 (1ps)

@@ -1,0 +1,2 @@
+PASS: cdc_time_snapshot coherent rollover/stopped-clock age/reset all checks
+D:\fpga_race\deploy\submission_20261031\sim\sources\event_identity\cdc_time_snapshot_tb.sv:54: $finish called at 11137000 (1ps)

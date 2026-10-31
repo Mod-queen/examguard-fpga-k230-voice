@@ -1,0 +1,29 @@
+{
+  "top": "ai_mailbox_tb",
+  "status": "passed",
+  "active_modules": [
+    "ai_mailbox"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "ai_mailbox_tb"
+  ],
+  "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ai_link/ai_mailbox_tb.v",
+  "sources": [
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ai_link/ai_mailbox_tb.v",
+      "sha256": "7ae1e16b33762419ec125de4811b7c7d710a806273e171aa77893942772c92f7"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ai_link/ai_mailbox.v",
+      "sha256": "2faef872097918371178326002ac9236e7ac362f80f0c0d8173df774c1127643"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: ai_mailbox (auth ids + object classes)",
+    "PASS: ai_mailbox explicit none"
+  ],
+  "trace_bytes": 8091,
+  "seconds": 0.109
+}

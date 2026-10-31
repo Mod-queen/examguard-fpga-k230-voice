@@ -1,0 +1,3 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: xadc_monitor_reader four addresses/atomic batches/temp/timeout/reset
+D:\fpga_race\fpga\src\health\xadc_monitor_reader_tb.sv:25: $finish called at 671000 (1ps)

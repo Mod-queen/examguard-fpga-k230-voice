@@ -1,0 +1,28 @@
+{
+  "top": "camera_black_boundary_tb",
+  "status": "passed",
+  "active_modules": [
+    "camera_black_gate"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "camera_black_boundary_tb"
+  ],
+  "testbench": "fpga/src/vision_guard/camera_black_boundary_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/vision_guard/camera_black_boundary_tb.sv",
+      "sha256": "0db62b615aa6a59c638b97419ed60f1204ba6cfa44a828bfee1d8ef10ce8f01e"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/15950e21e551/camera_black_gate.v",
+      "sha256": "fce64430ab2e9c4ac0eac89408277f9fb45435b839a33e3a6f4c846be5cd18a6"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: camera_black_boundary first-active-SOF/RGB16vs17/96vs98/overflow"
+  ],
+  "trace_bytes": 29934,
+  "seconds": 0.109
+}

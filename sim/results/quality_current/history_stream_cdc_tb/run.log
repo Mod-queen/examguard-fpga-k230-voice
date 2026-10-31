@@ -1,0 +1,4 @@
+PASS: history_stream_cdc SH7 DH5 depth4 mixed80 frames/drop/fence full/stall/cancel/stopped domains/restart
+PASS: history_stream_cdc SH3 DH11 depth16 mixed80 frames/drop/fence full/stall/cancel/stopped domains/restart
+PASS: history_stream_cdc ALL
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\history_stream_cdc_tb.sv:136: $finish called at 175219000 (1ps)

@@ -1,0 +1,20 @@
+{
+  "version": "accepted_voice_backlog_20261031",
+  "bit": "board/fpga/examguard_current_20261031.bit",
+  "bit_sha256": "6361343ff871e7667dfc48a29f38f1ee99bc58a602633c01c69e88c597de557e",
+  "flash_image": "board/fpga/current_full16m.mcs",
+  "full_readback_verified": true,
+  "flash_sha256": "a82b6b819c718c784f4ba1eca65249614cc68483cfcd29b4034c2ea387192d80",
+  "metrics": {
+    "lut": 41473,
+    "registers": 44610,
+    "bram": 70.5,
+    "dsp": 3,
+    "wns_ns": 0.134,
+    "whs_ns": 0.031
+  },
+  "physical_power_cycle_user_reply": "已上电",
+  "post_poweron_passive_receipts": "board/verification/poweron_passive.json",
+  "later_user_reply": "好我演示完了",
+  "scope": "已完成Flash全读回校验、K230软件自启核验及上电后双串口观察；本次未另取得HDMI与启动语音逐项确认。历史plan和audit保留生成当时状态，以本收据识别当前版。"
+}

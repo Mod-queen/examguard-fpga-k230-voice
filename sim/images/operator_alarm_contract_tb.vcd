@@ -1,0 +1,97 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module operator_alarm_contract_tb $end
+$var wire 1 " rst $end
+$var wire 1 % alarm_ack_pulse $end
+$var wire 1 ' manual_event_pulse $end
+$var wire 32 . acks $end
+$var wire 4 # key $end
+$var wire 1 $ mute_toggle_pulse $end
+$var wire 1 & buzzer_mute $end
+$var wire 4 ( key_pressed $end
+$var wire 4 ) key_press_pulse $end
+$var wire 1 * warning_active $end
+$var wire 1 + alarm_active $end
+$upscope $end
+$enddefinitions $end
+#0
+1"
+b1111 #
+0$
+x%
+x&
+x'
+bx (
+bx )
+0*
+0+
+b0 .
+#5000
+0%
+0&
+0'
+b0 (
+b0 )
+#40000
+0"
+#50000
+b1110 #
+#95000
+b1 (
+#105000
+1%
+b1 )
+#115000
+0%
+b0 )
+b1 .
+#170000
+b1111 #
+#215000
+b0 (
+#300000
+b1011 #
+#345000
+b100 (
+#355000
+1'
+b100 )
+#365000
+0'
+b0 )
+#420000
+b1111 #
+#465000
+b0 (
+#550000
+b1101 #
+#595000
+b10 (
+#605000
+b10 )
+#615000
+1&
+b0 )
+#670000
+b1111 #
+#715000
+b0 (
+#800000
+1$
+#805000
+0&
+#810000
+0$
+#820000
+b1110 #
+#830000
+b1111 #
+#930000
+1+
+#1430000
+1*
+0+
+#1880000
+0*
+#1910000
+1"

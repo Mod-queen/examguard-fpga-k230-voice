@@ -1,0 +1,10 @@
+{
+  "date_local": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "bit_sha256": "6361343ff871e7667dfc48a29f38f1ee99bc58a602633c01c69e88c597de557e",
+  "user_reported_pass": true,
+  "checks": ["连续手机报警语音", "手机与紫书报警依次播报", "左右扭头与当前识别演示"],
+  "user_feedback": ["没问题", "我刚刚演示了一下这下识别没问题", "包括扭头，当前都正常"],
+  "scope": "用户现场反馈，不是独立音频测量或视觉精度统计。K230仍是验收时book_assist版本。",
+  "flash_authorization": "可以都写入flash吗，然后接着任务继续下一步"
+}

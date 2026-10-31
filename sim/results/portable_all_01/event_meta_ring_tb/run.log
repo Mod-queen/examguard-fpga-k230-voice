@@ -1,0 +1,2 @@
+PASS: metadata evidence ring
+D:\fpga_race\deploy\submission_20261031\src\fpga\ov5640_ddr3_hdmi_vga.srcs\sources_1\event_meta_ring\event_meta_ring_tb.v:166: $finish called at 146000 (1ps)

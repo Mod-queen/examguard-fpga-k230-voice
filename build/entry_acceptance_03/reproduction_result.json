@@ -1,0 +1,72 @@
+{
+  "start_utc": "2026-10-31T10:16:13.438248+00:00",
+  "python": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
+  "root": "D:\\fpga_race\\deploy\\engineering_20261031",
+  "output": "D:\\fpga_race\\deploy\\engineering_20261031\\build\\entry_acceptance_03",
+  "hardware_access": false,
+  "cloud_requests": false,
+  "steps": [
+    {
+      "name": "工程文件与依赖校验",
+      "exit_code": 0,
+      "seconds": 0.641,
+      "log": "01.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\fpga_race\\deploy\\engineering_20261031\\tools\\verify_package.py"
+      ]
+    },
+    {
+      "name": "PC本地功能测试",
+      "exit_code": 0,
+      "seconds": 20.75,
+      "log": "02.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\fpga_race\\deploy\\engineering_20261031\\sim\\run_pc_tests.py",
+        "--output",
+        "D:\\fpga_race\\deploy\\engineering_20261031\\build\\entry_acceptance_03\\pc_tests"
+      ]
+    },
+    {
+      "name": "RTL模块自检仿真",
+      "exit_code": 0,
+      "seconds": 87.172,
+      "log": "03.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\fpga_race\\deploy\\engineering_20261031\\sim\\run_module_tests.py",
+        "--output",
+        "D:\\fpga_race\\deploy\\engineering_20261031\\build\\entry_acceptance_03\\simulation",
+        "--jobs",
+        "2",
+        "--vivado-bin",
+        "D:\\vivado\\vivado2018.3\\Vivado\\2018.3\\bin",
+        "--iverilog-bin",
+        "C:\\iverilog\\bin"
+      ]
+    },
+    {
+      "name": "准备K230的SD文件目录",
+      "exit_code": 0,
+      "seconds": 0.125,
+      "log": "04.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\fpga_race\\deploy\\engineering_20261031\\tools\\prepare_sdcard.py",
+        "--output",
+        "D:\\fpga_race\\deploy\\engineering_20261031\\build\\entry_acceptance_03\\sdcard"
+      ]
+    }
+  ],
+  "status": "passed",
+  "finished_utc": "2026-10-31T10:18:02.134014+00:00"
+}

@@ -1,0 +1,5 @@
+sv work "D:/fpga_race/deploy/engineering_quality_20261031/sim/sources/health/status_uart_health_tb.sv"
+verilog work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_stream_adapter.v"
+verilog work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/status_uart_tx/status_uart_tx.v"
+verilog work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/u32_to_bcd/u32_to_bcd.v"
+verilog work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v"

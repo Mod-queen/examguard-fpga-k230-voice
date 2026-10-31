@@ -1,0 +1,2 @@
+PASS: image evidence capture path
+D:\fpga_race\deploy\submission_20261031\src\fpga\ov5640_ddr3_hdmi_vga.srcs\sources_1\image_evidence_ring\image_evidence_capture_tb.v:258: $finish called at 30688000 (1ps)

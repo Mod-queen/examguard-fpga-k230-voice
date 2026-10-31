@@ -1,0 +1,27 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/vivado2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe --relax --debug typical -L unisims_ver -L unimacro_ver -L secureip work.board_monitor_system_tb work.glbl -s case_snapshot 
+Multi-threading is on. Using 22 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.xadc_monitor_reader
+Compiling module unisims_ver.XADC(INIT_40=16'b01000000000000,...
+Compiling module work.shared_xadc_monitor
+Compiling module work.mig_7series_v4_2_tempmon_default
+Compiling module work.cdc_event_transaction(DATA_WIDTH...
+Compiling module work.cdc_stats_snapshot(WIDTH=97)
+Compiling module work.board_monitor_record(PERIOD_CYCL...
+Compiling module work.board_monitor_system_tb
+Compiling module work.glbl
+Built simulation snapshot case_snapshot
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/fpga_race/verification_out/optimization_20261031/simulation/xsim_round2/board_monitor_system_tb/xsim.dir/case_snapshot/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 31 17:05:23 2026...

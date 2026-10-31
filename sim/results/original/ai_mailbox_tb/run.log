@@ -1,0 +1,4 @@
+VCD info: dumpfile trace.vcd opened for output.
+PASS: ai_mailbox (auth ids + object classes)
+PASS: ai_mailbox explicit none
+D:\fpga_race\fpga\examguard_opt_20261031_work\ov5640_ddr3_hdmi_vga.srcs\sources_1\ai_link\ai_mailbox_tb.v:141: $finish called at 370000 (1ps)

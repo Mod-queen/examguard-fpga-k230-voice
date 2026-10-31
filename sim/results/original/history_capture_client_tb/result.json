@@ -1,0 +1,162 @@
+{
+  "top": "history_capture_client_tb",
+  "status": "passed",
+  "active_modules": [
+    "async_fifo",
+    "cdc_event_transaction",
+    "cdc_time_snapshot",
+    "ddr3_axi_frame_dma",
+    "event_identity",
+    "evidence_epoch_identity",
+    "evidence_packet_udp_bridge",
+    "evidence_reset_barrier",
+    "history_axi_epoch_guard",
+    "history_capture_client",
+    "history_capture_source",
+    "history_closed_scheduler",
+    "history_descriptor_reader",
+    "history_frame_writer",
+    "history_gap_journal",
+    "history_lifecycle_control",
+    "history_ordered_ingress",
+    "history_reference_directory",
+    "history_result_record",
+    "history_result_udp_bridge",
+    "history_sample_source",
+    "history_scheduled_store",
+    "history_startup_gate",
+    "history_store_axi",
+    "history_stream_cdc",
+    "history_stream_epoch",
+    "history_window_reader"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "history_capture_client_tb"
+  ],
+  "testbench": "fpga/src/ddr3_test/history_capture_client_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/ddr3_test/history_capture_client_tb.sv",
+      "sha256": "5683b0c4d600367c2e290c59fba781e08429bba0fa8ba00d964ae9cb4354136b"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/aef1935f67d8/event_identity.v",
+      "sha256": "df26e9f6f78980d151006f8709bf579851b8c383b38c19af8d9929ae7bc9f564"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+      "sha256": "e00a965581e8b27bd820c5aa494acf399d4d9edd0f06c4fc315d1e06edc41f67"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+      "sha256": "5a7f8c5de37e13612a3b3eb01b14a9f69277a4261ac3d84c1fdc860f374d9f02"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_udp_bridge.v",
+      "sha256": "14c5f721877e9bcdeff6f1377dd78ef03902203f7723e7eaf212e53d6771fa3e"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_axi_epoch_guard.sv",
+      "sha256": "557c5f10fdca136e9eb17bedab391eca22e66c25528f1765741cb6fcd1ccc06b"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_capture_client.sv",
+      "sha256": "8b57a590fedddbb39cc876d6a2f3ac83eb2637e05fcbe017e9515b9b6bdcc4b4"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_capture_source.sv",
+      "sha256": "296b88613fd1a53ddea04076ad699e706b6534f4186f9e66dcd6e59fcc56d850"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_closed_scheduler.sv",
+      "sha256": "e6fe6936f15d656914de9964d9a16f8d5309c9ad1514f815835648b5304df905"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_descriptor_reader.v",
+      "sha256": "f9b74283dac36837b12c9755dc3ebc209a48828468cac2b2350c6539a9c9bce1"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_frame_writer.v",
+      "sha256": "00998ed6257c37308ebfc5d35fb023f50e27de38e57aa1deb21f897e3c5302be"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_gap_journal.v",
+      "sha256": "3fea2b7e0421a93def85af63e0316c60b03b38487b211bce833a6c2006112985"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_lifecycle_control.v",
+      "sha256": "510d739508bf341b35c7d56f4ad5ba528451bf1cfdeb76e9c48a4869bb17d069"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_ordered_ingress.v",
+      "sha256": "b185435a9bed9d23dd028890ee05ccc40399ce2183ee30e122467d7e17f35357"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_reference_directory.v",
+      "sha256": "85cd4b3b218d1e762bc7f8c8d30e5988394194261bbd4e5060566fc8a4cee724"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_result_record.sv",
+      "sha256": "7c5986405acc78a3783ae01f8af41c5503fbd5e23852dc9e1df55a22edcfb811"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_result_udp_bridge.sv",
+      "sha256": "c09e19a68588a4247493c11bc91ebbee3e805e5bd1893b8be951ebb404624e53"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_sample_source.sv",
+      "sha256": "7f359fa4ce784056a2b0c3c7836925eb23a43fa8259994dc622894e4b957fe20"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_scheduled_store.sv",
+      "sha256": "07223a2c2c133e857449bca2ce14ac1406270714d5f11fc9f1300541ec4e8283"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_startup_gate.v",
+      "sha256": "960adedd4b21f7dc7969f85151578661767cfb629ec359d550ae2f8041c6821b"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_store_axi.sv",
+      "sha256": "c5f477d7032878a01dc6ebdb0f9ec4a89a21076d18e80276f67c3c9d4aba55ea"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_stream_cdc.sv",
+      "sha256": "0da5fa159f1974ae9971837f86ae48dc0f2fa9eb3277731e92c04397daacecfc"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_stream_epoch.v",
+      "sha256": "082483b12e8f6cc6c1ead2724f93dac3a74ae30decfb950be6bb5142bf442ed6"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_window_reader.v",
+      "sha256": "b0026b8a859b958b1992a196c3f012ab75aa94cd3b02acc6946d2268349b436a"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+      "sha256": "2d2200f13132859ec81afaa54309a520655a7a7042438f0fded09807e4981f6a"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_time_snapshot.v",
+      "sha256": "94c865ed864fdb9cba0c26ebbbdc8e52cb0d58fb3b5b4fb65706df33ae881c6d"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_epoch_identity.v",
+      "sha256": "bf939029bb9e929fa6f7ecb608af82161950f8a198a7b7b17a8418b6b54ad8c3"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v",
+      "sha256": "f77911d0aab89ae9fb8ff75e8f08873edf81b030e1338eb3348c699433b0ae86"
+    },
+    {
+      "path": "fpga/src/ddr3_test/axi_frame_slave_model.sv",
+      "sha256": "80cb737c5165193f9aee20ecc3d30a79a9535ffceb148bfc6dd9ab294b9f91e6"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: history_capture_client identity/timeCDC/epoch/sampling/autoRead frames=5 pixels=35 results=2 boot=2"
+  ],
+  "trace_bytes": 425012,
+  "seconds": 0.281
+}

@@ -1,0 +1,4 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+PASS: voice_info_confirm scenarios=18
+$finish called at time : 5791 ns : File "D:/fpga_race/fpga/src/voice_interaction/voice_info_confirm_tb.sv" Line 229

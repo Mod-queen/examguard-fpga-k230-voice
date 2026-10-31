@@ -1,0 +1,27 @@
+{
+  "top": "event_identity_tb",
+  "engine": "AMD XSim 2018.3",
+  "status": "passed",
+  "active_modules": [
+    "event_identity"
+  ],
+  "repairs": [],
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "D:\\fpga_race\\fpga\\src\\event_identity\\event_identity_tb.sv",
+      "sha256": "5889a31e35525038b67817919f757999b5f92f41202ba0408e562a8c3a717512"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\aef1935f67d8\\event_identity.v",
+      "sha256": "df26e9f6f78980d151006f8709bf579851b8c383b38c19af8d9929ae7bc9f564"
+    }
+  ],
+  "seconds": 6.859,
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: event_identity all checks"
+  ],
+  "run_log": "run_fixed_paths.log",
+  "trace_bytes": 2330
+}

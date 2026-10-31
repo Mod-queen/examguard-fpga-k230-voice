@@ -1,0 +1,2 @@
+PASS: fullscreen_monitor (global=0)
+D:\fpga_race\deploy\submission_20261031\src\fpga\ov5640_ddr3_hdmi_vga.srcs\sources_1\fullscreen_monitor\fullscreen_monitor_tb.v:102: $finish called at 38530000 (1ps)

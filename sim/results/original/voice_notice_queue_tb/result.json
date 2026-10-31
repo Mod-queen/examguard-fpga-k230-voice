@@ -1,0 +1,28 @@
+{
+  "top": "voice_notice_queue_tb",
+  "status": "passed",
+  "active_modules": [
+    "voice_notice_queue"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "voice_notice_queue_tb"
+  ],
+  "testbench": "fpga/src/voice_interaction/voice_notice_queue_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/voice_interaction/voice_notice_queue_tb.sv",
+      "sha256": "f4be7cae28a0b36c467699eaf9b0afb0b9b16cad444f0a395e41407253dfc367"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/d2caaaa262be/voice_notice_queue.sv",
+      "sha256": "f10ea773553ae101a176fe1e90dfba299444beaed72ac2dd43db39b44da0d0af"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: voice_notice_queue scenarios=9"
+  ],
+  "trace_bytes": 31840,
+  "seconds": 0.141
+}

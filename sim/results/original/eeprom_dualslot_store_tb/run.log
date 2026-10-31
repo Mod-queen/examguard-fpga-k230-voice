@@ -1,0 +1,4 @@
+VCD info: dumpfile trace.vcd opened for output.
+WARNING: Dump file limit (2000000 bytes) exceeded.
+PASS: eeprom_dualslot_store powercuts=256 results=530 explicit-format/config/boot/CRC/device/errors/raw-oracle
+D:\fpga_race\fpga\src\persistence\eeprom_dualslot_store_tb.sv:190: $finish called at 6453060000 (1ps)

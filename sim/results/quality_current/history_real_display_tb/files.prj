@@ -1,0 +1,5 @@
+sv work "D:/fpga_race/deploy/engineering_quality_20261031/sim/sources/ddr3_test/history_real_display_tb.sv"
+verilog work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/disp_driver/disp_driver.v"
+verilog work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/color_enhance.v"
+sv work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_capture_source.sv"
+sv work "D:/fpga_race/deploy/engineering_quality_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_sample_source.sv"

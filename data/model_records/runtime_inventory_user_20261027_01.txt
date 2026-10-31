@@ -1,0 +1,21 @@
+EXAMGUARD_RUNTIME_INVENTORY_V1
+sys.version: 3.4.0; CanMV v1.4.3(based on Micropython e00a144) on 2026-01-20
+sys.implementation: (name='micropython', version=(1, 21, 0), _machine='k230_canmv_yahboom with K230', _mpy=262)
+os.uname: (sysname='rt-smart', nodename='rt-smart', release='v1.4.3-273db2e', version='v1.4.3 on 2026-01-20', machine='k230_canmv_yahboom')
+nncase_runtime.__version__: UNAVAILABLE
+nncase_runtime.VERSION: UNAVAILABLE
+nncase_runtime.version: CALLABLE_NOT_INVOKED
+nncase_runtime.__file__: UNAVAILABLE
+nncase_runtime.symbols: ['__class__', '__dict__', '__name__', 'ai2d', 'ai2d_format', 'from_numpy', 'interp_method', 'interp_mode', 'kpu', 'shrink_memory_pool', 'version']
+FILE /sdcard/kmodel/face_detection_320.kmodel 584576
+FILE /sdcard/kmodel/face_recognition.kmodel 46333280
+FILE /sdcard/kmodel/yolov8n_224.kmodel 3439872
+FILE /sdcard/kmodel/eye_gaze.kmodel 30992408
+FILE /sdcard/kmodel/face_pose.kmodel 3801144
+FILE /sdcard/kmodel/yolov8n_320.kmodel 3650464
+FILE /sdcard/libs/AIBase.py 2845
+FILE /sdcard/ybUtils/YbUart.py 1559
+compiler_pair: UNCONFIRMED (needs firmware build provenance)
+EXAMGUARD_RUNTIME_INVENTORY_DONE
+MPY: soft reboot
+CanMV v1.4.3(based on Micropython e00a144) on 2026-01-20; k230_canmv_yahboom with K230

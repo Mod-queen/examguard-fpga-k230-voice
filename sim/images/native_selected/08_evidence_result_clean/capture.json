@@ -1,0 +1,21 @@
+{
+  "key": "08_evidence_result",
+  "title": "取证流程：结果回执与完成计数",
+  "native_ide_screenshot": true,
+  "method": "own Vivado GUI static WDB viewer; no simulation rerun or source value edits",
+  "launched_pid": 30652,
+  "window_pid": 25940,
+  "window_title": "Vivado 2018.3",
+  "hardware_access": false,
+  "database_sha256": "129e616c7e1af17c44c249d86710d533452140872c2ccb34e0c13cf673e7d5e2",
+  "config_sha256": "e38a1f4cefefdaacbbaedf5a998c472842a1baf3679771e2ddf228288d5c5616",
+  "image_sha256": "ea3fc45519dade9fe2a90a81e11910991bfc246ae4ec409beb1eadb91f2463c2",
+  "source_result": "verification_out\\refinement_20261031\\cases\\ddr_evidence_queued_tb\\result.json",
+  "source_result_sha256": "3114d073d3777bffd0af893a6804719356ae28b812cfc4325010bc9c8261fa5f",
+  "window_ns": [
+    8065.0,
+    8265.0
+  ],
+  "image": "vivado_wave.png",
+  "visual_review": "pending"
+}

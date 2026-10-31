@@ -1,0 +1,3840 @@
+{
+  "project": "fpga\\examguard_opt_20261031_work",
+  "active_modules": {
+    "DVP_Capture": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/DVP_Capture/DVP_Capture.v",
+    "ai_link_rx": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ai_link/ai_link_rx.v",
+    "ai_mailbox": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ai_link/ai_mailbox.v",
+    "alarm_beep": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/alarm_beep/alarm_beep.v",
+    "alarm_output": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/alarm_output/alarm_output.v",
+    "async_fifo": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+    "axi4_to_fifo": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ddr3_ctrl_2port/fifo_axi4_adapter/axi4_to_fifo.v",
+    "axi_2client_arbiter": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_2client_arbiter.v",
+    "axi_read_burst_buffer": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_read_burst_buffer.v",
+    "board_monitor_record": "fpga/examguard_opt_20261031_work/local_sources/43de1890e43f/board_monitor_record.sv",
+    "board_status_control": "fpga/examguard_opt_20261031_work/local_sources/68118bfcd58e/board_status_control.sv",
+    "camera_black_gate": "fpga/examguard_opt_20261031_work/local_sources/15950e21e551/camera_black_gate.v",
+    "camera_evidence_client": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_evidence_client.v",
+    "camera_evidence_transport": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_evidence_transport.v",
+    "camera_frame_guard": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_frame_guard.v",
+    "camera_init": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/camera_init/camera_init.v",
+    "camera_sample_guard": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_sample_guard.v",
+    "camera_time_guard": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_time_guard.v",
+    "candidate_glyph": "fpga/examguard_opt_20261031_work/local_sources/22be593a8b13/candidate_glyph.sv",
+    "candidate_overlay": "fpga/examguard_opt_20261031_work/local_sources/b3b1a340375c/candidate_overlay.sv",
+    "cdc_byte_channel": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_udp/cdc_byte_channel.v",
+    "cdc_event_transaction": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+    "cdc_exam_status": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/cdc_exam_status.v",
+    "cdc_frame_activity": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/fullscreen_monitor/cdc_frame_activity.v",
+    "cdc_stats_snapshot": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/cdc_stats_snapshot.v",
+    "cdc_time_snapshot": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_time_snapshot.v",
+    "char_rom": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/text_overlay/char_rom.v",
+    "char_rom_cn": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/text_overlay/char_rom_cn.v",
+    "color_enhance": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/color_enhance.v",
+    "config_ack_tx": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/config_ack_tx.v",
+    "config_mailbox": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/config_mailbox.v",
+    "config_rx": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/config_rx.v",
+    "crc32_d8": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/crc32_d8.v",
+    "ddr3_axi_frame_dma": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+    "ddr3_ctrl_2port": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ddr3_ctrl_2port/ddr3_ctrl_2port.v",
+    "ddr3_shared_video_ctrl": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_shared_video_ctrl.v",
+    "ddr_evidence_axi": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_axi.v",
+    "ddr_evidence_queued": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_queued.v",
+    "disp_driver": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/disp_driver/disp_driver.v",
+    "dvi_encoder": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/dvi_encoder.v",
+    "eeprom_dualslot_store": "fpga/examguard_opt_20261031_work/local_sources/6f55019790ef/eeprom_dualslot_store.sv",
+    "eeprom_page_writer": "fpga/examguard_opt_20261031_work/local_sources/4ea846d85197/eeprom_page_writer.sv",
+    "eeprom_record_codec": "fpga/examguard_opt_20261031_work/local_sources/770359552324/eeprom_record_codec.sv",
+    "encode": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/encode.v",
+    "eth_udp_tx_gmii": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/eth_udp_tx_gmii.v",
+    "event_identity": "fpga/examguard_opt_20261031_work/local_sources/aef1935f67d8/event_identity.v",
+    "event_meta_ring": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/event_meta_ring/event_meta_ring.v",
+    "event_request_fifo": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v",
+    "event_transaction_fork": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/event_transaction_fork.v",
+    "event_transaction_log": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/event_transaction_log.v",
+    "event_transaction_queue": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_transaction_queue/event_transaction_queue.v",
+    "evidence_byte_mux": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_byte_mux.sv",
+    "evidence_dump": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/evidence_dump/evidence_dump.v",
+    "evidence_epoch_identity": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_epoch_identity.v",
+    "evidence_event_dispatch": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_event_dispatch.v",
+    "evidence_health_telemetry": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/evidence_health_telemetry.v",
+    "evidence_packet_cdc": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_cdc.v",
+    "evidence_packet_udp_bridge": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_udp_bridge.v",
+    "evidence_reset_barrier": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v",
+    "evidence_window_packetizer": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_window_packetizer.v",
+    "exam_event_context": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/exam_event_context.v",
+    "exam_fsm": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm.v",
+    "fifo_axi4_adapter": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ddr3_ctrl_2port/fifo_axi4_adapter/fifo_axi4_adapter.v",
+    "fifo_to_axi4": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ddr3_ctrl_2port/fifo_axi4_adapter/fifo_to_axi4.v",
+    "fullscreen_monitor": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/fullscreen_monitor/fullscreen_monitor.v",
+    "gmii_to_rgmii": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/gmii_to_rgmii.v",
+    "hc595_driver": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/seven_seg/hc595_driver.v",
+    "health_monitor": "fpga/examguard_opt_20261031_work/local_sources/6e486d9851a3/health_monitor.v",
+    "hex8": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/seven_seg/hex8.v",
+    "history_axi_epoch_guard": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_axi_epoch_guard.sv",
+    "history_capture_client": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_capture_client.sv",
+    "history_capture_source": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_capture_source.sv",
+    "history_closed_scheduler": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_closed_scheduler.sv",
+    "history_descriptor_reader": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_descriptor_reader.v",
+    "history_frame_writer": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_frame_writer.v",
+    "history_gap_journal": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_gap_journal.v",
+    "history_health_stats": "fpga/examguard_opt_20261031_work/local_sources/5727509018fb/history_health_stats.v",
+    "history_lifecycle_control": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_lifecycle_control.v",
+    "history_ordered_ingress": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_ordered_ingress.v",
+    "history_reference_directory": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_reference_directory.v",
+    "history_result_fork": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_result_fork.sv",
+    "history_result_record": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_result_record.sv",
+    "history_result_udp_bridge": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_result_udp_bridge.sv",
+    "history_result_udp_cdc": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_result_udp_cdc.sv",
+    "history_sample_source": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_sample_source.sv",
+    "history_scheduled_store": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_scheduled_store.sv",
+    "history_startup_gate": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_startup_gate.v",
+    "history_store_axi": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_store_axi.sv",
+    "history_stream_cdc": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_stream_cdc.sv",
+    "history_stream_epoch": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_stream_epoch.v",
+    "history_window_reader": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_window_reader.v",
+    "i2c_bit_shift": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/camera_init/i2c_control/i2c_bit_shift.v",
+    "i2c_byte_master": "fpga/examguard_opt_20261031_work/local_sources/ade9bc1b0ccb/i2c_byte_master.sv",
+    "i2c_control": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/camera_init/i2c_control/i2c_control.v",
+    "i2c_register_master": "fpga/examguard_opt_20261031_work/local_sources/f0e5e6fadfb7/i2c_register_master.sv",
+    "i2c_transaction_arbiter": "fpga/examguard_opt_20261031_work/local_sources/ff4f43887cb5/i2c_transaction_arbiter.sv",
+    "image_downsampler": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/image_downsampler.v",
+    "image_evidence_capture": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/image_evidence_capture.v",
+    "image_evidence_ring": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/image_evidence_ring.v",
+    "image_evidence_udp_acx750_tx": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_udp/image_evidence_udp_acx750_tx.v",
+    "image_evidence_udp_packetizer": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_udp/image_evidence_udp_packetizer.v",
+    "image_evidence_udp_source": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_udp/image_evidence_udp_source.v",
+    "image_evidence_udp_tx_bridge": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_udp/image_evidence_udp_tx_bridge.v",
+    "ip_checksum": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/ip_checksum.v",
+    "key_debounce": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/user_control/key_debounce.v",
+    "maintenance_command_rx": "fpga/examguard_opt_20261031_work/local_sources/eeaca5066441/maintenance_command_rx.sv",
+    "maintenance_endpoint": "fpga/examguard_opt_20261031_work/local_sources/c27f2c04655e/maintenance_endpoint.sv",
+    "maintenance_record": "fpga/examguard_opt_20261031_work/local_sources/11664d210aa1/maintenance_record.sv",
+    "mdio_bit_shift": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/mdio_bit_shift.v",
+    "motion_detect": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/motion_detect/motion_detect.v",
+    "ov5640_ddr3_hdmi_vga": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/top/ov5640_ddr3_hdmi_vga.v",
+    "ov5640_init_table_jpeg": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/new/ov5640_init_table_jpeg.v",
+    "ov5640_init_table_rgb": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/camera_init/ov5640_init_table_rgb.v",
+    "ov7725_init_table_rgb": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/new/ov7725_init_table_rgb.v",
+    "overlay_status": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/overlay_status/overlay_status.v",
+    "pcf8563_calendar": "fpga/examguard_opt_20261031_work/local_sources/79534ad6e7d0/pcf8563_calendar.sv",
+    "pcf8563_reader": "fpga/examguard_opt_20261031_work/local_sources/5acd2aa6692b/pcf8563_reader.sv",
+    "pcf8563_setter": "fpga/examguard_opt_20261031_work/local_sources/20a57578b747/pcf8563_setter.sv",
+    "persistent_boot_gate": "fpga/examguard_opt_20261031_work/local_sources/c076e82256e1/persistent_boot_gate.sv",
+    "persistent_boot_service": "fpga/examguard_opt_20261031_work/local_sources/52e2f921e933/persistent_boot_service.sv",
+    "persistent_config_decode": "fpga/examguard_opt_20261031_work/local_sources/a84f893ed58a/persistent_config_decode.sv",
+    "persistent_config_manager": "fpga/examguard_opt_20261031_work/local_sources/f063d843e32e/persistent_config_manager.sv",
+    "persistent_event_identity": "fpga/examguard_opt_20261031_work/local_sources/76299e41bf82/persistent_event_identity.v",
+    "persistent_maintenance_service": "fpga/examguard_opt_20261031_work/local_sources/e8c391071012/persistent_maintenance_service.sv",
+    "persistent_rtc_service": "fpga/examguard_opt_20261031_work/local_sources/3047e25f2d69/persistent_rtc_service.sv",
+    "phy_health_snapshot": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/phy_health_snapshot.v",
+    "phy_reg_config": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/phy_reg_config.v",
+    "pulse_cdc": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/user_control/pulse_cdc.v",
+    "rtc_anchor_client": "fpga/examguard_opt_20261031_work/local_sources/e4d91d5de499/rtc_anchor_client.sv",
+    "rtc_anchor_record": "fpga/examguard_opt_20261031_work/local_sources/a8483d823073/rtc_anchor_record.sv",
+    "rtc_time_anchor": "fpga/examguard_opt_20261031_work/local_sources/73ffbc49762c/rtc_time_anchor.sv",
+    "serdes_4b_10to1": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/serdes_4b_10to1.v",
+    "shared_xadc_monitor": "fpga/examguard_opt_20261031_work/local_sources/e4628d4a0f2d/shared_xadc_monitor.sv",
+    "sim_dat_gen": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/sim_dat_gen/sim_dat_gen.v",
+    "status_mailbox": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/status_mailbox/status_mailbox.v",
+    "status_uart_tx": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/status_uart_tx/status_uart_tx.v",
+    "text_overlay": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/text_overlay/text_overlay.v",
+    "timestamp_ms": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/seven_seg/timestamp_ms.v",
+    "u32_to_bcd": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/u32_to_bcd/u32_to_bcd.v",
+    "uart_packet_mux": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_packet_mux.v",
+    "uart_rx": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/uart_rx.v",
+    "uart_stream_adapter": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_stream_adapter.v",
+    "uart_tx": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v",
+    "user_control": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/user_control/user_control.v",
+    "video_axi_client": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_axi_client.v",
+    "video_epoch_clear": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_epoch_clear.v",
+    "video_fifo_axi_port": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_fifo_axi_port.v",
+    "video_fifo_stream_bridge": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_fifo_stream_bridge.v",
+    "video_memory_fabric": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_memory_fabric.v",
+    "voice_announcer": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/voice_asr/voice_announcer.v",
+    "voice_asr_i2c": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/voice_asr/voice_asr_i2c.v",
+    "voice_audio_gate": "fpga/examguard_opt_20261031_work/local_sources/b7965763a525/voice_audio_gate.sv",
+    "voice_command_map": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/voice_asr/voice_command_map.v",
+    "voice_exam_interaction": "fpga/examguard_opt_20261031_work/local_sources/e1d0aca88e4d/voice_exam_interaction.sv",
+    "voice_host_endpoint": "fpga/examguard_opt_20261031_work/local_sources/9da09028ef2e/voice_host_endpoint.sv",
+    "voice_info_confirm": "fpga/examguard_opt_20261031_work/local_sources/21f6f02914e8/voice_info_confirm.sv",
+    "voice_interaction_bus": "fpga/examguard_opt_20261031_work/local_sources/1eb0899fb0f5/voice_interaction_bus.sv",
+    "voice_interaction_system": "fpga/examguard_opt_20261031_work/local_sources/4a56847ccf94/voice_interaction_system.sv",
+    "voice_notice_queue": "fpga/examguard_opt_20261031_work/local_sources/d2caaaa262be/voice_notice_queue.sv",
+    "voice_status_record": "fpga/examguard_opt_20261031_work/local_sources/c7fdde6a7598/voice_status_record.sv",
+    "workflow_fsm": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/workflow_fsm/workflow_fsm.v",
+    "xadc_monitor_reader": "fpga/examguard_opt_20261031_work/local_sources/bbdf99da2627/xadc_monitor_reader.sv"
+  },
+  "vendor_modules": {
+    "mig_7series_0": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0.v",
+    "mig_7series_0_mig": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig.v",
+    "mig_7series_v4_2_arb_mux": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_arb_mux.v",
+    "mig_7series_v4_2_arb_row_col": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_arb_row_col.v",
+    "mig_7series_v4_2_arb_select": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_arb_select.v",
+    "mig_7series_v4_2_axi_ctrl_addr_decode": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_ctrl_addr_decode.v",
+    "mig_7series_v4_2_axi_ctrl_read": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_ctrl_read.v",
+    "mig_7series_v4_2_axi_ctrl_reg": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_ctrl_reg.v",
+    "mig_7series_v4_2_axi_ctrl_reg_bank": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_ctrl_reg_bank.v",
+    "mig_7series_v4_2_axi_ctrl_top": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_ctrl_top.v",
+    "mig_7series_v4_2_axi_ctrl_write": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_ctrl_write.v",
+    "mig_7series_v4_2_axi_mc": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc.v",
+    "mig_7series_v4_2_axi_mc_ar_channel": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_ar_channel.v",
+    "mig_7series_v4_2_axi_mc_aw_channel": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_aw_channel.v",
+    "mig_7series_v4_2_axi_mc_b_channel": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_b_channel.v",
+    "mig_7series_v4_2_axi_mc_cmd_arbiter": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_cmd_arbiter.v",
+    "mig_7series_v4_2_axi_mc_cmd_fsm": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_cmd_fsm.v",
+    "mig_7series_v4_2_axi_mc_cmd_translator": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_cmd_translator.v",
+    "mig_7series_v4_2_axi_mc_fifo": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_fifo.v",
+    "mig_7series_v4_2_axi_mc_incr_cmd": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_incr_cmd.v",
+    "mig_7series_v4_2_axi_mc_r_channel": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_r_channel.v",
+    "mig_7series_v4_2_axi_mc_simple_fifo": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_simple_fifo.v",
+    "mig_7series_v4_2_axi_mc_w_channel": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_w_channel.v",
+    "mig_7series_v4_2_axi_mc_wr_cmd_fsm": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_wr_cmd_fsm.v",
+    "mig_7series_v4_2_axi_mc_wrap_cmd": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_wrap_cmd.v",
+    "mig_7series_v4_2_bank_cntrl": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_cntrl.v",
+    "mig_7series_v4_2_bank_common": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_common.v",
+    "mig_7series_v4_2_bank_compare": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_compare.v",
+    "mig_7series_v4_2_bank_mach": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_mach.v",
+    "mig_7series_v4_2_bank_queue": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_queue.v",
+    "mig_7series_v4_2_bank_state": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_state.v",
+    "mig_7series_v4_2_clk_ibuf": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_2_clk_ibuf.v",
+    "mig_7series_v4_2_col_mach": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_col_mach.v",
+    "mig_7series_v4_2_ddr_a_upsizer": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_a_upsizer.v",
+    "mig_7series_v4_2_ddr_axi_register_slice": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_axi_register_slice.v",
+    "mig_7series_v4_2_ddr_axi_upsizer": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_axi_upsizer.v",
+    "mig_7series_v4_2_ddr_axic_register_slice": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_axic_register_slice.v",
+    "mig_7series_v4_2_ddr_byte_group_io": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_group_io.v",
+    "mig_7series_v4_2_ddr_byte_lane": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v",
+    "mig_7series_v4_2_ddr_calib_top": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_calib_top.v",
+    "mig_7series_v4_2_ddr_carry_and": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_carry_and.v",
+    "mig_7series_v4_2_ddr_carry_latch_and": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_carry_latch_and.v",
+    "mig_7series_v4_2_ddr_carry_latch_or": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_carry_latch_or.v",
+    "mig_7series_v4_2_ddr_carry_or": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_carry_or.v",
+    "mig_7series_v4_2_ddr_command_fifo": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_command_fifo.v",
+    "mig_7series_v4_2_ddr_comparator": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_comparator.v",
+    "mig_7series_v4_2_ddr_comparator_sel": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_comparator_sel.v",
+    "mig_7series_v4_2_ddr_comparator_sel_static": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_comparator_sel_static.v",
+    "mig_7series_v4_2_ddr_if_post_fifo": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_if_post_fifo.v",
+    "mig_7series_v4_2_ddr_mc_phy": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v",
+    "mig_7series_v4_2_ddr_mc_phy_wrapper": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy_wrapper.v",
+    "mig_7series_v4_2_ddr_of_pre_fifo": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_of_pre_fifo.v",
+    "mig_7series_v4_2_ddr_phy_4lanes": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_4lanes.v",
+    "mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay.v",
+    "mig_7series_v4_2_ddr_phy_dqs_found_cal": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_dqs_found_cal.v",
+    "mig_7series_v4_2_ddr_phy_dqs_found_cal_hr": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_dqs_found_cal_hr.v",
+    "mig_7series_v4_2_ddr_phy_init": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_init.v",
+    "mig_7series_v4_2_ddr_phy_ocd_cntlr": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_cntlr.v",
+    "mig_7series_v4_2_ddr_phy_ocd_data": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_data.v",
+    "mig_7series_v4_2_ddr_phy_ocd_edge": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_edge.v",
+    "mig_7series_v4_2_ddr_phy_ocd_lim": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_lim.v",
+    "mig_7series_v4_2_ddr_phy_ocd_mux": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_mux.v",
+    "mig_7series_v4_2_ddr_phy_ocd_po_cntlr": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_po_cntlr.v",
+    "mig_7series_v4_2_ddr_phy_ocd_samp": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_samp.v",
+    "mig_7series_v4_2_ddr_phy_oclkdelay_cal": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_oclkdelay_cal.v",
+    "mig_7series_v4_2_ddr_phy_prbs_rdlvl": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_prbs_rdlvl.v",
+    "mig_7series_v4_2_ddr_phy_rdlvl": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_rdlvl.v",
+    "mig_7series_v4_2_ddr_phy_tempmon": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_tempmon.v",
+    "mig_7series_v4_2_ddr_phy_top": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_top.v",
+    "mig_7series_v4_2_ddr_phy_wrcal": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrcal.v",
+    "mig_7series_v4_2_ddr_phy_wrlvl": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrlvl.v",
+    "mig_7series_v4_2_ddr_phy_wrlvl_off_delay": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrlvl_off_delay.v",
+    "mig_7series_v4_2_ddr_prbs_gen": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_prbs_gen.v",
+    "mig_7series_v4_2_ddr_r_upsizer": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_r_upsizer.v",
+    "mig_7series_v4_2_ddr_skip_calib_tap": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_skip_calib_tap.v",
+    "mig_7series_v4_2_ddr_w_upsizer": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_w_upsizer.v",
+    "mig_7series_v4_2_ecc_buf": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_2_ecc_buf.v",
+    "mig_7series_v4_2_ecc_dec_fix": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_2_ecc_dec_fix.v",
+    "mig_7series_v4_2_ecc_gen": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_2_ecc_gen.v",
+    "mig_7series_v4_2_ecc_merge_enc": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_2_ecc_merge_enc.v",
+    "mig_7series_v4_2_fi_xor": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_2_fi_xor.v",
+    "mig_7series_v4_2_infrastructure": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_2_infrastructure.v",
+    "mig_7series_v4_2_iodelay_ctrl": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_2_iodelay_ctrl.v",
+    "mig_7series_v4_2_mc": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_mc.v",
+    "mig_7series_v4_2_mem_intfc": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_2_mem_intfc.v",
+    "mig_7series_v4_2_memc_ui_top_axi": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_2_memc_ui_top_axi.v",
+    "mig_7series_v4_2_poc_cc": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_cc.v",
+    "mig_7series_v4_2_poc_edge_store": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_edge_store.v",
+    "mig_7series_v4_2_poc_meta": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_meta.v",
+    "mig_7series_v4_2_poc_pd": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_pd.v",
+    "mig_7series_v4_2_poc_tap_base": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_tap_base.v",
+    "mig_7series_v4_2_poc_top": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_top.v",
+    "mig_7series_v4_2_rank_cntrl": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_rank_cntrl.v",
+    "mig_7series_v4_2_rank_common": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_rank_common.v",
+    "mig_7series_v4_2_rank_mach": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_rank_mach.v",
+    "mig_7series_v4_2_round_robin_arb": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_round_robin_arb.v",
+    "mig_7series_v4_2_tempmon": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_2_tempmon.v",
+    "mig_7series_v4_2_ui_cmd": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_2_ui_cmd.v",
+    "mig_7series_v4_2_ui_rd_data": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_2_ui_rd_data.v",
+    "mig_7series_v4_2_ui_top": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_2_ui_top.v",
+    "mig_7series_v4_2_ui_wr_data": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_2_ui_wr_data.v"
+  },
+  "tests": [
+    {
+      "top": "DVP_Capture_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/DVP_Capture/DVP_Capture_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/DVP_Capture/DVP_Capture.v"
+      ],
+      "active_modules": [
+        "DVP_Capture"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "DVP_Capture_tb"
+      ]
+    },
+    {
+      "top": "ai_link_rx_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ai_link/ai_link_rx_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ai_link/ai_link_rx.v"
+      ],
+      "active_modules": [
+        "ai_link_rx"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "ai_link_rx_tb"
+      ]
+    },
+    {
+      "top": "ai_mailbox_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ai_link/ai_mailbox_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ai_link/ai_mailbox.v"
+      ],
+      "active_modules": [
+        "ai_mailbox"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "ai_mailbox_tb"
+      ]
+    },
+    {
+      "top": "alarm_output_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/alarm_output/alarm_output_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/alarm_output/alarm_output.v"
+      ],
+      "active_modules": [
+        "alarm_output"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "alarm_output_tb"
+      ]
+    },
+    {
+      "top": "async_fifo_tb",
+      "testbench": "fpga/src/ddr3_test/async_fifo_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v"
+      ],
+      "active_modules": [
+        "async_fifo"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "async_fifo_tb"
+      ]
+    },
+    {
+      "top": "axi_2client_arbiter_tb",
+      "testbench": "fpga/src/ddr3_test/axi_2client_arbiter_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_2client_arbiter.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "axi_2client_arbiter"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "arbiter_case",
+        "arbitration_master",
+        "axi_2client_arbiter_tb"
+      ]
+    },
+    {
+      "top": "axi_2client_policy_tb",
+      "testbench": "fpga/src/ddr3_test/axi_2client_policy_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_2client_arbiter.v"
+      ],
+      "active_modules": [
+        "axi_2client_arbiter"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "axi_2client_policy_tb",
+        "policy_case"
+      ]
+    },
+    {
+      "top": "axi_read_burst_buffer_tb",
+      "testbench": "fpga/src/ddr3_test/axi_read_burst_buffer_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_read_burst_buffer.v"
+      ],
+      "active_modules": [
+        "axi_read_burst_buffer"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "axi_read_burst_buffer_tb"
+      ]
+    },
+    {
+      "top": "board_monitor_record_tb",
+      "testbench": "fpga/src/health/board_monitor_record_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/43de1890e43f/board_monitor_record.sv"
+      ],
+      "active_modules": [
+        "board_monitor_record"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "board_monitor_record_tb"
+      ]
+    },
+    {
+      "top": "board_monitor_system_tb",
+      "testbench": "fpga/src/health/board_monitor_system_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/43de1890e43f/board_monitor_record.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/cdc_stats_snapshot.v"
+      ],
+      "active_modules": [
+        "board_monitor_record",
+        "cdc_event_transaction",
+        "cdc_stats_snapshot"
+      ],
+      "vendor_dependencies": [
+        "mig_7series_v4_2_tempmon"
+      ],
+      "support_modules": [],
+      "own_modules": [
+        "board_monitor_system_tb"
+      ]
+    },
+    {
+      "top": "board_status_control_tb",
+      "testbench": "fpga/src/persistence/board_status_control_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/68118bfcd58e/board_status_control.sv"
+      ],
+      "active_modules": [
+        "board_status_control"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "board_status_control_tb"
+      ]
+    },
+    {
+      "top": "camera_black_720p_tb",
+      "testbench": "fpga/src/vision_guard/camera_black_720p_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/15950e21e551/camera_black_gate.v"
+      ],
+      "active_modules": [
+        "camera_black_gate"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "camera_black_720p_tb"
+      ]
+    },
+    {
+      "top": "camera_black_boundary_tb",
+      "testbench": "fpga/src/vision_guard/camera_black_boundary_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/15950e21e551/camera_black_gate.v"
+      ],
+      "active_modules": [
+        "camera_black_gate"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "camera_black_boundary_tb"
+      ]
+    },
+    {
+      "top": "camera_black_driver_tb",
+      "testbench": "fpga/src/vision_guard/camera_black_driver_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/15950e21e551/camera_black_gate.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/disp_driver/disp_driver.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/color_enhance.v"
+      ],
+      "active_modules": [
+        "camera_black_gate",
+        "color_enhance",
+        "disp_driver"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "camera_black_driver_tb"
+      ]
+    },
+    {
+      "top": "camera_black_noise_tb",
+      "testbench": "fpga/src/vision_guard/camera_black_noise_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/15950e21e551/camera_black_gate.v"
+      ],
+      "active_modules": [
+        "camera_black_gate"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "camera_black_noise_tb"
+      ]
+    },
+    {
+      "top": "camera_capture_reset_tb",
+      "testbench": "fpga/src/ddr3_test/camera_capture_reset_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/DVP_Capture/DVP_Capture.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_epoch_clear.v"
+      ],
+      "active_modules": [
+        "DVP_Capture",
+        "video_epoch_clear"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "camera_capture_reset_tb"
+      ]
+    },
+    {
+      "top": "camera_evidence_axi_tb",
+      "testbench": "fpga/src/ddr3_test/camera_evidence_axi_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_frame_guard.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_axi.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "camera_frame_guard",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "camera_evidence_axi_tb"
+      ]
+    },
+    {
+      "top": "camera_evidence_transport_tb",
+      "testbench": "fpga/src/ddr3_test/camera_evidence_transport_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/aef1935f67d8/event_identity.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/crc32_d8.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/eth_udp_tx_gmii.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/ip_checksum.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_evidence_client.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_evidence_transport.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_frame_guard.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_sample_guard.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_time_guard.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_axi.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_queued.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_event_dispatch.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_cdc.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_udp_bridge.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_window_packetizer.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_time_snapshot.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/event_transaction_fork.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/event_transaction_log.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_epoch_identity.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/exam_event_context.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_transaction_queue/event_transaction_queue.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/cdc_stats_snapshot.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/evidence_health_telemetry.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_packet_mux.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "camera_evidence_client",
+        "camera_evidence_transport",
+        "camera_frame_guard",
+        "camera_sample_guard",
+        "camera_time_guard",
+        "cdc_event_transaction",
+        "cdc_stats_snapshot",
+        "cdc_time_snapshot",
+        "crc32_d8",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "ddr_evidence_queued",
+        "eth_udp_tx_gmii",
+        "event_identity",
+        "event_request_fifo",
+        "event_transaction_fork",
+        "event_transaction_log",
+        "event_transaction_queue",
+        "evidence_epoch_identity",
+        "evidence_event_dispatch",
+        "evidence_health_telemetry",
+        "evidence_packet_cdc",
+        "evidence_packet_udp_bridge",
+        "evidence_reset_barrier",
+        "evidence_window_packetizer",
+        "exam_event_context",
+        "exam_fsm",
+        "ip_checksum",
+        "uart_packet_mux",
+        "uart_tx"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "camera_evidence_transport_tb"
+      ]
+    },
+    {
+      "top": "camera_frame_guard_tb",
+      "testbench": "fpga/src/ddr3_test/camera_frame_guard_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_frame_guard.v"
+      ],
+      "active_modules": [
+        "camera_frame_guard"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "camera_frame_guard_tb",
+        "guard_case"
+      ]
+    },
+    {
+      "top": "camera_init_audit_tb",
+      "testbench": "fpga/src/ddr3_test/camera_init_audit_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/camera_init/camera_init.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/camera_init/ov5640_init_table_rgb.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/new/ov5640_init_table_jpeg.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/new/ov7725_init_table_rgb.v"
+      ],
+      "active_modules": [
+        "camera_init",
+        "ov5640_init_table_jpeg",
+        "ov5640_init_table_rgb",
+        "ov7725_init_table_rgb"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "camera_init_audit_tb",
+        "i2c_control"
+      ]
+    },
+    {
+      "top": "camera_init_contract_tb",
+      "testbench": "fpga/src/ddr3_test/camera_init_contract_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/camera_init/camera_init.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/camera_init/i2c_control/i2c_bit_shift.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/camera_init/i2c_control/i2c_control.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/camera_init/ov5640_init_table_rgb.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/new/ov5640_init_table_jpeg.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/new/ov7725_init_table_rgb.v"
+      ],
+      "active_modules": [
+        "camera_init",
+        "i2c_bit_shift",
+        "i2c_control",
+        "ov5640_init_table_jpeg",
+        "ov5640_init_table_rgb",
+        "ov7725_init_table_rgb"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "camera_init_contract_tb"
+      ]
+    },
+    {
+      "top": "camera_queued_evidence_tb",
+      "testbench": "fpga/src/ddr3_test/camera_queued_evidence_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_frame_guard.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_axi.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_queued.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_event_dispatch.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "camera_frame_guard",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "ddr_evidence_queued",
+        "evidence_event_dispatch"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "camera_queued_evidence_tb"
+      ]
+    },
+    {
+      "top": "camera_sample_guard_tb",
+      "testbench": "fpga/src/ddr3_test/camera_sample_guard_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_frame_guard.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_sample_guard.v"
+      ],
+      "active_modules": [
+        "camera_frame_guard",
+        "camera_sample_guard"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "camera_sample_case",
+        "camera_sample_guard_tb"
+      ]
+    },
+    {
+      "top": "camera_time_guard_tb",
+      "testbench": "fpga/src/ddr3_test/camera_time_guard_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_frame_guard.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_sample_guard.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_time_guard.v"
+      ],
+      "active_modules": [
+        "camera_frame_guard",
+        "camera_sample_guard",
+        "camera_time_guard"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "camera_time_guard_tb"
+      ]
+    },
+    {
+      "top": "candidate_overlay_tb",
+      "testbench": "fpga/src/voice_interaction/candidate_overlay_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/22be593a8b13/candidate_glyph.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/b3b1a340375c/candidate_overlay.sv"
+      ],
+      "active_modules": [
+        "candidate_glyph",
+        "candidate_overlay"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "candidate_overlay_tb"
+      ]
+    },
+    {
+      "top": "cdc2_level_tb",
+      "testbench": "fpga/src/host_link/cdc2_level_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/crc32_d8.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/eth_udp_tx_gmii.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/ip_checksum.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_udp_bridge.v"
+      ],
+      "active_modules": [
+        "crc32_d8",
+        "eth_udp_tx_gmii",
+        "evidence_packet_udp_bridge",
+        "ip_checksum"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "cdc2_level_tb"
+      ]
+    },
+    {
+      "top": "cdc_event_transaction_tb",
+      "testbench": "fpga/src/event_identity/cdc_event_transaction_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v"
+      ],
+      "active_modules": [
+        "cdc_event_transaction"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "cdc_event_transaction_tb",
+        "transaction_cdc_case"
+      ]
+    },
+    {
+      "top": "cdc_exam_status_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/cdc_exam_status_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/cdc_exam_status.v"
+      ],
+      "active_modules": [
+        "cdc_exam_status"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "cdc_exam_status_tb"
+      ]
+    },
+    {
+      "top": "cdc_frame_activity_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/fullscreen_monitor/cdc_frame_activity_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/fullscreen_monitor/cdc_frame_activity.v"
+      ],
+      "active_modules": [
+        "cdc_frame_activity"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "cdc_frame_activity_tb"
+      ]
+    },
+    {
+      "top": "cdc_stats_snapshot_tb",
+      "testbench": "fpga/src/health/cdc_stats_snapshot_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/cdc_stats_snapshot.v"
+      ],
+      "active_modules": [
+        "cdc_event_transaction",
+        "cdc_stats_snapshot",
+        "evidence_reset_barrier"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "cdc_stats_snapshot_tb"
+      ]
+    },
+    {
+      "top": "cdc_time_snapshot_tb",
+      "testbench": "fpga/src/event_identity/cdc_time_snapshot_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_time_snapshot.v"
+      ],
+      "active_modules": [
+        "cdc_event_transaction",
+        "cdc_time_snapshot"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "cdc_time_snapshot_tb"
+      ]
+    },
+    {
+      "top": "compact_identity_tb",
+      "testbench": "fpga/src/vision_guard/compact_identity_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/22be593a8b13/candidate_glyph.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/b3b1a340375c/candidate_overlay.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/text_overlay/char_rom_cn.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/text_overlay/text_overlay.v"
+      ],
+      "active_modules": [
+        "candidate_glyph",
+        "candidate_overlay",
+        "char_rom_cn",
+        "text_overlay"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "compact_identity_tb"
+      ]
+    },
+    {
+      "top": "config_ack_tx_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/config_ack_tx_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/config_ack_tx.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_stream_adapter.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v"
+      ],
+      "active_modules": [
+        "config_ack_tx",
+        "uart_stream_adapter",
+        "uart_tx"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "config_ack_tx_tb"
+      ]
+    },
+    {
+      "top": "config_mailbox_contract_tb",
+      "testbench": "fpga/src/verification_20261031/config_mailbox_contract_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/config_mailbox.v"
+      ],
+      "active_modules": [
+        "config_mailbox"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "config_mailbox_contract_tb"
+      ]
+    },
+    {
+      "top": "config_parser_contract_tb",
+      "testbench": "fpga/src/verification_20261031/config_parser_contract_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/config_rx.v"
+      ],
+      "active_modules": [
+        "config_rx"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "config_parser_contract_tb"
+      ]
+    },
+    {
+      "top": "config_rx_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/config_rx_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/config_rx.v"
+      ],
+      "active_modules": [
+        "config_rx"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "config_rx_tb"
+      ]
+    },
+    {
+      "top": "ddr3_axi_frame_dma_tb",
+      "testbench": "fpga/src/ddr3_test/ddr3_axi_frame_dma_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "ddr3_axi_frame_dma"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "ddr3_axi_frame_dma_tb",
+        "frame_dma_case"
+      ]
+    },
+    {
+      "top": "ddr3_ctrl_2port_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ddr3_ctrl_2port/ddr3_ctrl_2port_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ddr3_ctrl_2port/ddr3_ctrl_2port.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ddr3_ctrl_2port/fifo_axi4_adapter/axi4_to_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ddr3_ctrl_2port/fifo_axi4_adapter/fifo_axi4_adapter.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ddr3_ctrl_2port/fifo_axi4_adapter/fifo_to_axi4.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv",
+        "fpga/src/ddr3_test/mig_axi_reset_contract_model.sv"
+      ],
+      "active_modules": [
+        "axi4_to_fifo",
+        "ddr3_ctrl_2port",
+        "fifo_axi4_adapter",
+        "fifo_to_axi4"
+      ],
+      "vendor_dependencies": [
+        "mig_7series_0"
+      ],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "ddr3_ctrl_2port_tb"
+      ]
+    },
+    {
+      "top": "ddr_evidence_axi_tb",
+      "testbench": "fpga/src/ddr3_test/ddr_evidence_axi_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_axi.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "ddr_evidence_axi_tb"
+      ]
+    },
+    {
+      "top": "ddr_evidence_probe_tb",
+      "testbench": "fpga/src/ddr3_test/ddr_evidence_probe_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_axi.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv",
+        "fpga/src/ddr3_test/ddr_evidence_probe.v"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "uart_tx"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model",
+        "ddr_evidence_probe"
+      ],
+      "own_modules": [
+        "ddr_evidence_probe_tb"
+      ]
+    },
+    {
+      "top": "ddr_evidence_queued_tb",
+      "testbench": "fpga/src/ddr3_test/ddr_evidence_queued_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_axi.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_queued.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_event_dispatch.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "ddr_evidence_queued",
+        "evidence_event_dispatch"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "ddr_evidence_queued_tb"
+      ]
+    },
+    {
+      "top": "dvi_encoder_contract_tb",
+      "testbench": "fpga/src/verification_20261031/dvi_encoder_contract_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/dvi_encoder.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/encode.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/serdes_4b_10to1.v"
+      ],
+      "active_modules": [
+        "dvi_encoder",
+        "encode",
+        "serdes_4b_10to1"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "dvi_encoder_contract_tb"
+      ]
+    },
+    {
+      "top": "dvi_encoder_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/dvi_encoder_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/dvi_encoder.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/encode.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/serdes_4b_10to1.v"
+      ],
+      "active_modules": [
+        "dvi_encoder",
+        "encode",
+        "serdes_4b_10to1"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "dvi_encoder_tb"
+      ]
+    },
+    {
+      "top": "dvp_capture_contract_tb",
+      "testbench": "fpga/src/verification_20261031/dvp_capture_contract_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/DVP_Capture/DVP_Capture.v"
+      ],
+      "active_modules": [
+        "DVP_Capture"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "dvp_capture_contract_tb"
+      ]
+    },
+    {
+      "top": "eeprom_dualslot_store_tb",
+      "testbench": "fpga/src/persistence/eeprom_dualslot_store_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/4ea846d85197/eeprom_page_writer.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/6f55019790ef/eeprom_dualslot_store.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/770359552324/eeprom_record_codec.sv"
+      ],
+      "active_modules": [
+        "eeprom_dualslot_store",
+        "eeprom_page_writer",
+        "eeprom_record_codec"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "eeprom_dualslot_store_tb"
+      ]
+    },
+    {
+      "top": "eeprom_page_writer_tb",
+      "testbench": "fpga/src/persistence/eeprom_page_writer_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/4ea846d85197/eeprom_page_writer.sv"
+      ],
+      "active_modules": [
+        "eeprom_page_writer"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "eeprom_page_writer_tb"
+      ]
+    },
+    {
+      "top": "eeprom_record_codec_tb",
+      "testbench": "fpga/src/persistence/eeprom_record_codec_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/770359552324/eeprom_record_codec.sv"
+      ],
+      "active_modules": [
+        "eeprom_record_codec"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "eeprom_record_codec_tb"
+      ]
+    },
+    {
+      "top": "event_cdc_evidence_tb",
+      "testbench": "fpga/src/ddr3_test/event_cdc_evidence_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_2client_arbiter.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_read_burst_buffer.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_evidence_client.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_frame_guard.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_sample_guard.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_axi.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_queued.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_event_dispatch.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_axi_client.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_epoch_clear.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_fifo_axi_port.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_fifo_stream_bridge.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_memory_fabric.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_transaction_queue/event_transaction_queue.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "axi_2client_arbiter",
+        "axi_read_burst_buffer",
+        "camera_evidence_client",
+        "camera_frame_guard",
+        "camera_sample_guard",
+        "cdc_event_transaction",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "ddr_evidence_queued",
+        "event_request_fifo",
+        "event_transaction_queue",
+        "evidence_event_dispatch",
+        "video_axi_client",
+        "video_epoch_clear",
+        "video_fifo_axi_port",
+        "video_fifo_stream_bridge",
+        "video_memory_fabric"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "camera_event_cdc_evidence_tb",
+        "camera_evidence_client_tb",
+        "event_cdc_evidence_tb",
+        "shared_camera_evidence_client_tb",
+        "shared_camera_test_memory"
+      ]
+    },
+    {
+      "top": "event_identity_queue_tb",
+      "testbench": "fpga/src/event_identity/event_identity_queue_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/aef1935f67d8/event_identity.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_transaction_queue/event_transaction_queue.v"
+      ],
+      "active_modules": [
+        "event_identity",
+        "event_request_fifo",
+        "event_transaction_queue"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "event_identity_queue_tb"
+      ]
+    },
+    {
+      "top": "event_identity_tb",
+      "testbench": "fpga/src/event_identity/event_identity_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/aef1935f67d8/event_identity.v"
+      ],
+      "active_modules": [
+        "event_identity"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "event_identity_tb"
+      ]
+    },
+    {
+      "top": "event_meta_ring_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/event_meta_ring/event_meta_ring_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/event_meta_ring/event_meta_ring.v"
+      ],
+      "active_modules": [
+        "event_meta_ring"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "event_meta_ring_tb"
+      ]
+    },
+    {
+      "top": "event_request_fifo_optimized_tb",
+      "testbench": "fpga/src/verification_20261031/event_request_fifo_optimized_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v"
+      ],
+      "active_modules": [
+        "event_request_fifo"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "event_request_fifo_case",
+        "event_request_fifo_optimized_tb"
+      ]
+    },
+    {
+      "top": "event_request_fifo_tb",
+      "testbench": "fpga/src/event_request_fifo/event_request_fifo_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v"
+      ],
+      "active_modules": [
+        "event_request_fifo"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "event_request_fifo_case",
+        "event_request_fifo_tb"
+      ]
+    },
+    {
+      "top": "event_transaction_fork_tb",
+      "testbench": "fpga/src/event_identity/event_transaction_fork_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/event_transaction_fork.v"
+      ],
+      "active_modules": [
+        "event_transaction_fork"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "event_transaction_fork_tb"
+      ]
+    },
+    {
+      "top": "event_transaction_log_tb",
+      "testbench": "fpga/src/event_identity/event_transaction_log_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/event_transaction_log.v"
+      ],
+      "active_modules": [
+        "event_transaction_log"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "event_transaction_log_tb"
+      ]
+    },
+    {
+      "top": "event_transaction_queue_tb",
+      "testbench": "fpga/src/event_transaction_queue/event_transaction_queue_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_transaction_queue/event_transaction_queue.v"
+      ],
+      "active_modules": [
+        "event_request_fifo",
+        "event_transaction_queue",
+        "exam_fsm"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "event_transaction_queue_tb",
+        "fsm_transaction_checker",
+        "transaction_queue_checker"
+      ]
+    },
+    {
+      "top": "evidence_capture_context_tb",
+      "testbench": "fpga/src/ddr3_test/evidence_capture_context_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_evidence_client.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_frame_guard.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_sample_guard.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_time_guard.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_axi.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_queued.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_event_dispatch.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_window_packetizer.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_time_snapshot.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv",
+        "fpga/src/ddr3_test/evidence_capture_context.v",
+        "fpga/src/event_identity/evidence_reset_epoch.v"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "camera_evidence_client",
+        "camera_frame_guard",
+        "camera_sample_guard",
+        "camera_time_guard",
+        "cdc_event_transaction",
+        "cdc_time_snapshot",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "ddr_evidence_queued",
+        "evidence_event_dispatch",
+        "evidence_window_packetizer"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model",
+        "evidence_capture_context",
+        "evidence_reset_epoch"
+      ],
+      "own_modules": [
+        "evidence_capture_context_tb"
+      ]
+    },
+    {
+      "top": "evidence_dump_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/evidence_dump/evidence_dump_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/evidence_dump/evidence_dump.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_stream_adapter.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/u32_to_bcd/u32_to_bcd.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v"
+      ],
+      "active_modules": [
+        "evidence_dump",
+        "u32_to_bcd",
+        "uart_stream_adapter",
+        "uart_tx"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "evidence_dump_tb"
+      ]
+    },
+    {
+      "top": "evidence_epoch_identity_tb",
+      "testbench": "fpga/src/event_identity/evidence_epoch_identity_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/aef1935f67d8/event_identity.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_epoch_identity.v"
+      ],
+      "active_modules": [
+        "event_identity",
+        "evidence_epoch_identity"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "evidence_epoch_identity_tb"
+      ]
+    },
+    {
+      "top": "evidence_event_dispatch_tb",
+      "testbench": "fpga/src/ddr3_test/evidence_event_dispatch_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_event_dispatch.v"
+      ],
+      "active_modules": [
+        "evidence_event_dispatch"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "dispatch_case",
+        "evidence_event_dispatch_tb"
+      ]
+    },
+    {
+      "top": "evidence_health_telemetry_tb",
+      "testbench": "fpga/src/health/evidence_health_telemetry_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/cdc_stats_snapshot.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/evidence_health_telemetry.v"
+      ],
+      "active_modules": [
+        "cdc_event_transaction",
+        "cdc_stats_snapshot",
+        "evidence_health_telemetry",
+        "evidence_reset_barrier"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "evidence_health_telemetry_tb"
+      ]
+    },
+    {
+      "top": "evidence_packet_cdc_tb",
+      "testbench": "fpga/src/ddr3_test/evidence_packet_cdc_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_cdc.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "evidence_packet_cdc",
+        "evidence_reset_barrier"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "evidence_packet_cdc_tb",
+        "packet_cdc_case"
+      ]
+    },
+    {
+      "top": "evidence_packet_udp_bridge_tb",
+      "testbench": "fpga/src/ddr3_test/evidence_packet_udp_bridge_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_udp_bridge.v"
+      ],
+      "active_modules": [
+        "evidence_packet_udp_bridge"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "evidence_packet_udp_bridge_tb"
+      ]
+    },
+    {
+      "top": "evidence_reset_barrier_tb",
+      "testbench": "fpga/src/event_identity/evidence_reset_barrier_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v"
+      ],
+      "active_modules": [
+        "evidence_reset_barrier"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "evidence_reset_barrier_tb"
+      ]
+    },
+    {
+      "top": "evidence_reset_epoch_tb",
+      "testbench": "fpga/src/event_identity/evidence_reset_epoch_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+        "fpga/src/event_identity/evidence_reset_epoch.v"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "cdc_event_transaction"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "evidence_reset_epoch"
+      ],
+      "own_modules": [
+        "evidence_reset_epoch_tb"
+      ]
+    },
+    {
+      "top": "evidence_window_packetizer_tb",
+      "testbench": "fpga/src/ddr3_test/evidence_window_packetizer_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_window_packetizer.v"
+      ],
+      "active_modules": [
+        "evidence_window_packetizer"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "evidence_window_packetizer_tb",
+        "window_packet_case"
+      ]
+    },
+    {
+      "top": "evidence_wrapper_reset_tb",
+      "testbench": "fpga/src/ddr3_test/evidence_wrapper_reset_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_2client_arbiter.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_read_burst_buffer.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_shared_video_ctrl.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_axi_client.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_epoch_clear.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_fifo_axi_port.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_fifo_stream_bridge.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_memory_fabric.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv",
+        "fpga/src/ddr3_test/mig_axi_reset_contract_model.sv"
+      ],
+      "active_modules": [
+        "axi_2client_arbiter",
+        "axi_read_burst_buffer",
+        "ddr3_shared_video_ctrl",
+        "evidence_reset_barrier",
+        "video_axi_client",
+        "video_epoch_clear",
+        "video_fifo_axi_port",
+        "video_fifo_stream_bridge",
+        "video_memory_fabric"
+      ],
+      "vendor_dependencies": [
+        "mig_7series_0"
+      ],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "evidence_wrapper_reset_tb"
+      ]
+    },
+    {
+      "top": "exam_event_context_tb",
+      "testbench": "fpga/src/event_identity/exam_event_context_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/aef1935f67d8/event_identity.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/exam_event_context.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_transaction_queue/event_transaction_queue.v"
+      ],
+      "active_modules": [
+        "event_identity",
+        "event_request_fifo",
+        "event_transaction_queue",
+        "exam_event_context",
+        "exam_fsm"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "exam_event_context_tb"
+      ]
+    },
+    {
+      "top": "exam_fsm_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm.v"
+      ],
+      "active_modules": [
+        "exam_fsm"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "exam_fsm_tb"
+      ]
+    },
+    {
+      "top": "fifo_axi4_adapter_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ddr3_ctrl_2port/fifo_axi4_adapter/fifo_axi4_adapter_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ddr3_ctrl_2port/fifo_axi4_adapter/axi4_to_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ddr3_ctrl_2port/fifo_axi4_adapter/fifo_axi4_adapter.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ddr3_ctrl_2port/fifo_axi4_adapter/fifo_to_axi4.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv",
+        "fpga/src/ddr3_test/mig_axi_reset_contract_model.sv"
+      ],
+      "active_modules": [
+        "axi4_to_fifo",
+        "fifo_axi4_adapter",
+        "fifo_to_axi4"
+      ],
+      "vendor_dependencies": [
+        "mig_7series_0"
+      ],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "fifo_axi4_adapter_tb"
+      ]
+    },
+    {
+      "top": "fullscreen_monitor_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/fullscreen_monitor/fullscreen_monitor_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/fullscreen_monitor/fullscreen_monitor.v"
+      ],
+      "active_modules": [
+        "fullscreen_monitor"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "fullscreen_monitor_tb"
+      ]
+    },
+    {
+      "top": "gmii_rgmii_contract_tb",
+      "testbench": "fpga/src/verification_20261031/gmii_rgmii_contract_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/gmii_to_rgmii.v"
+      ],
+      "active_modules": [
+        "gmii_to_rgmii"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "gmii_rgmii_contract_tb"
+      ]
+    },
+    {
+      "top": "health_monitor_tb",
+      "testbench": "fpga/src/health/health_monitor_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/6e486d9851a3/health_monitor.v"
+      ],
+      "active_modules": [
+        "health_monitor"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "health_monitor_tb"
+      ]
+    },
+    {
+      "top": "history_axi_epoch_guard_tb",
+      "testbench": "fpga/src/ddr3_test/history_axi_epoch_guard_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_axi_epoch_guard.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_lifecycle_control.v"
+      ],
+      "active_modules": [
+        "history_axi_epoch_guard",
+        "history_lifecycle_control"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "history_axi_epoch_guard_tb"
+      ]
+    },
+    {
+      "top": "history_capture_client_tb",
+      "testbench": "fpga/src/ddr3_test/history_capture_client_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/aef1935f67d8/event_identity.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_udp_bridge.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_axi_epoch_guard.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_capture_client.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_capture_source.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_closed_scheduler.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_descriptor_reader.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_frame_writer.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_gap_journal.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_lifecycle_control.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_ordered_ingress.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_reference_directory.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_result_record.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_result_udp_bridge.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_sample_source.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_scheduled_store.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_startup_gate.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_store_axi.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_stream_cdc.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_stream_epoch.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_window_reader.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_time_snapshot.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_epoch_identity.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "cdc_event_transaction",
+        "cdc_time_snapshot",
+        "ddr3_axi_frame_dma",
+        "event_identity",
+        "evidence_epoch_identity",
+        "evidence_packet_udp_bridge",
+        "evidence_reset_barrier",
+        "history_axi_epoch_guard",
+        "history_capture_client",
+        "history_capture_source",
+        "history_closed_scheduler",
+        "history_descriptor_reader",
+        "history_frame_writer",
+        "history_gap_journal",
+        "history_lifecycle_control",
+        "history_ordered_ingress",
+        "history_reference_directory",
+        "history_result_record",
+        "history_result_udp_bridge",
+        "history_sample_source",
+        "history_scheduled_store",
+        "history_startup_gate",
+        "history_store_axi",
+        "history_stream_cdc",
+        "history_stream_epoch",
+        "history_window_reader"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "history_capture_client_tb"
+      ]
+    },
+    {
+      "top": "history_capture_full_tb",
+      "testbench": "fpga/src/ddr3_test/history_capture_full_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_capture_source.sv"
+      ],
+      "active_modules": [
+        "history_capture_source"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "history_capture_full_tb"
+      ]
+    },
+    {
+      "top": "history_capture_pipeline_tb",
+      "testbench": "fpga/src/ddr3_test/history_capture_pipeline_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_capture_source.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_descriptor_reader.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_frame_writer.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_gap_journal.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_ordered_ingress.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_reference_directory.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_sample_source.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_store_axi.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_stream_cdc.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_stream_epoch.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_window_reader.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "ddr3_axi_frame_dma",
+        "evidence_reset_barrier",
+        "history_capture_source",
+        "history_descriptor_reader",
+        "history_frame_writer",
+        "history_gap_journal",
+        "history_ordered_ingress",
+        "history_reference_directory",
+        "history_sample_source",
+        "history_store_axi",
+        "history_stream_cdc",
+        "history_stream_epoch",
+        "history_window_reader"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "history_capture_pipeline_tb"
+      ]
+    },
+    {
+      "top": "history_capture_source_tb",
+      "testbench": "fpga/src/ddr3_test/history_capture_source_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_capture_source.sv"
+      ],
+      "active_modules": [
+        "history_capture_source"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "history_capture_source_case",
+        "history_capture_source_tb"
+      ]
+    },
+    {
+      "top": "history_descriptor_reader_tb",
+      "testbench": "fpga/src/ddr3_test/history_descriptor_reader_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_descriptor_reader.v"
+      ],
+      "active_modules": [
+        "history_descriptor_reader"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "history_descriptor_reader_tb"
+      ]
+    },
+    {
+      "top": "history_frame_writer_tb",
+      "testbench": "fpga/src/ddr3_test/history_frame_writer_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_frame_writer.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_reference_directory.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "ddr3_axi_frame_dma",
+        "history_frame_writer",
+        "history_reference_directory"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "history_frame_writer_case",
+        "history_frame_writer_tb"
+      ]
+    },
+    {
+      "top": "history_gap_journal_tb",
+      "testbench": "fpga/src/ddr3_test/history_gap_journal_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_gap_journal.v"
+      ],
+      "active_modules": [
+        "history_gap_journal"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "history_gap_journal_case",
+        "history_gap_journal_tb"
+      ]
+    },
+    {
+      "top": "history_health_stats_tb",
+      "testbench": "fpga/src/health/history_health_stats_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/5727509018fb/history_health_stats.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/cdc_stats_snapshot.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/evidence_health_telemetry.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_stream_adapter.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/status_uart_tx/status_uart_tx.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/u32_to_bcd/u32_to_bcd.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v"
+      ],
+      "active_modules": [
+        "cdc_event_transaction",
+        "cdc_stats_snapshot",
+        "evidence_health_telemetry",
+        "history_health_stats",
+        "status_uart_tx",
+        "u32_to_bcd",
+        "uart_stream_adapter",
+        "uart_tx"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "history_health_stats_tb"
+      ]
+    },
+    {
+      "top": "history_lifecycle_control_tb",
+      "testbench": "fpga/src/ddr3_test/history_lifecycle_control_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_lifecycle_control.v"
+      ],
+      "active_modules": [
+        "history_lifecycle_control"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "history_lifecycle_control_tb"
+      ]
+    },
+    {
+      "top": "history_merge_tb",
+      "testbench": "fpga/src/ddr3_test/history_merge_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_byte_mux.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_result_fork.sv"
+      ],
+      "active_modules": [
+        "evidence_byte_mux",
+        "history_result_fork"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "history_merge_case",
+        "history_merge_tb"
+      ]
+    },
+    {
+      "top": "history_ordered_ingress_tb",
+      "testbench": "fpga/src/ddr3_test/history_ordered_ingress_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_descriptor_reader.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_frame_writer.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_gap_journal.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_ordered_ingress.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_reference_directory.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_store_axi.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_window_reader.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "ddr3_axi_frame_dma",
+        "history_descriptor_reader",
+        "history_frame_writer",
+        "history_gap_journal",
+        "history_ordered_ingress",
+        "history_reference_directory",
+        "history_store_axi",
+        "history_window_reader"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "history_ordered_ingress_tb"
+      ]
+    },
+    {
+      "top": "history_real_display_tb",
+      "testbench": "fpga/src/ddr3_test/history_real_display_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/disp_driver/disp_driver.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/color_enhance.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_capture_source.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_sample_source.sv"
+      ],
+      "active_modules": [
+        "color_enhance",
+        "disp_driver",
+        "history_capture_source",
+        "history_sample_source"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "history_real_display_tb"
+      ]
+    },
+    {
+      "top": "history_reference_directory_tb",
+      "testbench": "fpga/src/ddr3_test/history_reference_directory_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_reference_directory.v"
+      ],
+      "active_modules": [
+        "history_reference_directory"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "history_reference_directory_case",
+        "history_reference_directory_tb"
+      ]
+    },
+    {
+      "top": "history_result_record_tb",
+      "testbench": "fpga/src/ddr3_test/history_result_record_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_result_record.sv"
+      ],
+      "active_modules": [
+        "history_result_record"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "history_result_record_tb"
+      ]
+    },
+    {
+      "top": "history_result_udp_cdc_tb",
+      "testbench": "fpga/src/ddr3_test/history_result_udp_cdc_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_cdc.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_udp_bridge.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_result_record.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_result_udp_cdc.sv"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "evidence_packet_cdc",
+        "evidence_packet_udp_bridge",
+        "history_result_record",
+        "history_result_udp_cdc"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "history_result_udp_cdc_tb"
+      ]
+    },
+    {
+      "top": "history_result_udp_tb",
+      "testbench": "fpga/src/ddr3_test/history_result_udp_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_udp_bridge.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_result_record.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_result_udp_bridge.sv"
+      ],
+      "active_modules": [
+        "evidence_packet_udp_bridge",
+        "history_result_record",
+        "history_result_udp_bridge"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "history_result_udp_tb"
+      ]
+    },
+    {
+      "top": "history_sample_source_tb",
+      "testbench": "fpga/src/ddr3_test/history_sample_source_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_capture_source.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_sample_source.sv"
+      ],
+      "active_modules": [
+        "history_capture_source",
+        "history_sample_source"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "history_sample_source_case",
+        "history_sample_source_tb"
+      ]
+    },
+    {
+      "top": "history_scheduler_tb",
+      "testbench": "fpga/src/ddr3_test/history_scheduler_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_closed_scheduler.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_descriptor_reader.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_frame_writer.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_gap_journal.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_reference_directory.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_scheduled_store.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_store_axi.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_window_reader.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "ddr3_axi_frame_dma",
+        "history_closed_scheduler",
+        "history_descriptor_reader",
+        "history_frame_writer",
+        "history_gap_journal",
+        "history_reference_directory",
+        "history_scheduled_store",
+        "history_store_axi",
+        "history_window_reader"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "history_scheduler_case",
+        "history_scheduler_tb"
+      ]
+    },
+    {
+      "top": "history_shared_read_tb",
+      "testbench": "fpga/src/ddr3_test/history_shared_read_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_descriptor_reader.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_reference_directory.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "ddr3_axi_frame_dma",
+        "history_descriptor_reader",
+        "history_reference_directory"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "history_shared_read_tb"
+      ]
+    },
+    {
+      "top": "history_startup_gate_tb",
+      "testbench": "fpga/src/ddr3_test/history_startup_gate_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_startup_gate.v"
+      ],
+      "active_modules": [
+        "history_startup_gate"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "history_startup_gate_tb"
+      ]
+    },
+    {
+      "top": "history_store_axi_tb",
+      "testbench": "fpga/src/ddr3_test/history_store_axi_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_descriptor_reader.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_frame_writer.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_reference_directory.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_store_axi.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_window_reader.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "ddr3_axi_frame_dma",
+        "history_descriptor_reader",
+        "history_frame_writer",
+        "history_reference_directory",
+        "history_store_axi",
+        "history_window_reader"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "history_store_axi_case",
+        "history_store_axi_tb"
+      ]
+    },
+    {
+      "top": "history_stream_cdc_tb",
+      "testbench": "fpga/src/ddr3_test/history_stream_cdc_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_stream_cdc.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_stream_epoch.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "evidence_reset_barrier",
+        "history_stream_cdc",
+        "history_stream_epoch"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "history_stream_cdc_case",
+        "history_stream_cdc_tb"
+      ]
+    },
+    {
+      "top": "history_top_interconnect_tb",
+      "testbench": "fpga/src/ddr3_test/history_top_interconnect_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_cdc.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/user_control/pulse_cdc.v"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "cdc_event_transaction",
+        "evidence_packet_cdc",
+        "pulse_cdc"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "history_top_interconnect_tb"
+      ]
+    },
+    {
+      "top": "history_window_reader_tb",
+      "testbench": "fpga/src/ddr3_test/history_window_reader_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_descriptor_reader.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_reference_directory.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_window_reader.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "ddr3_axi_frame_dma",
+        "history_descriptor_reader",
+        "history_reference_directory",
+        "history_window_reader"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "history_window_reader_case",
+        "history_window_reader_tb"
+      ]
+    },
+    {
+      "top": "i2c_byte_master_tb",
+      "testbench": "fpga/src/persistence/i2c_byte_master_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/ade9bc1b0ccb/i2c_byte_master.sv"
+      ],
+      "active_modules": [
+        "i2c_byte_master"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "i2c_byte_master_tb"
+      ]
+    },
+    {
+      "top": "i2c_register_master_tb",
+      "testbench": "fpga/src/persistence/i2c_register_master_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/4ea846d85197/eeprom_page_writer.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/5acd2aa6692b/pcf8563_reader.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/73ffbc49762c/rtc_time_anchor.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/79534ad6e7d0/pcf8563_calendar.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/a8483d823073/rtc_anchor_record.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/ade9bc1b0ccb/i2c_byte_master.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/e4d91d5de499/rtc_anchor_client.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/f0e5e6fadfb7/i2c_register_master.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/ff4f43887cb5/i2c_transaction_arbiter.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v",
+        "fpga/src/persistence/persistence_inventory_probe.sv"
+      ],
+      "active_modules": [
+        "eeprom_page_writer",
+        "i2c_byte_master",
+        "i2c_register_master",
+        "i2c_transaction_arbiter",
+        "pcf8563_calendar",
+        "pcf8563_reader",
+        "rtc_anchor_client",
+        "rtc_anchor_record",
+        "rtc_time_anchor",
+        "uart_tx"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "persistence_inventory_probe"
+      ],
+      "own_modules": [
+        "i2c_register_master_tb"
+      ]
+    },
+    {
+      "top": "i2c_transaction_arbiter_tb",
+      "testbench": "fpga/src/persistence/i2c_transaction_arbiter_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/ff4f43887cb5/i2c_transaction_arbiter.sv"
+      ],
+      "active_modules": [
+        "i2c_transaction_arbiter"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "i2c_transaction_arbiter_tb"
+      ]
+    },
+    {
+      "top": "image_evidence_capture_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/image_evidence_capture_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/image_downsampler.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/image_evidence_capture.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/image_evidence_ring.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_udp/cdc_byte_channel.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_udp/image_evidence_udp_source.v"
+      ],
+      "active_modules": [
+        "cdc_byte_channel",
+        "image_downsampler",
+        "image_evidence_capture",
+        "image_evidence_ring",
+        "image_evidence_udp_source"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "image_evidence_capture_tb"
+      ]
+    },
+    {
+      "top": "image_evidence_ring_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/image_evidence_ring_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/image_evidence_ring.v"
+      ],
+      "active_modules": [
+        "image_evidence_ring"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "image_evidence_ring_tb"
+      ]
+    },
+    {
+      "top": "image_evidence_udp_packetizer_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_udp/image_evidence_udp_packetizer_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_udp/image_evidence_udp_packetizer.v"
+      ],
+      "active_modules": [
+        "image_evidence_udp_packetizer"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "image_evidence_udp_packetizer_tb"
+      ]
+    },
+    {
+      "top": "image_evidence_udp_tx_bridge_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_udp/image_evidence_udp_tx_bridge_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_udp/image_evidence_udp_packetizer.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_udp/image_evidence_udp_tx_bridge.v"
+      ],
+      "active_modules": [
+        "image_evidence_udp_packetizer",
+        "image_evidence_udp_tx_bridge"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "image_evidence_udp_tx_bridge_tb"
+      ]
+    },
+    {
+      "top": "key_debounce_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/user_control/key_debounce_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/user_control/key_debounce.v"
+      ],
+      "active_modules": [
+        "key_debounce"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "key_debounce_tb"
+      ]
+    },
+    {
+      "top": "legacy_video_axi_contract_tb",
+      "testbench": "fpga/src/ddr3_test/legacy_video_axi_contract_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ddr3_ctrl_2port/fifo_axi4_adapter/axi4_to_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/ddr3_ctrl_2port/fifo_axi4_adapter/fifo_to_axi4.v"
+      ],
+      "active_modules": [
+        "axi4_to_fifo",
+        "fifo_to_axi4"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "legacy_video_axi_contract_tb"
+      ]
+    },
+    {
+      "top": "maintenance_endpoint_tb",
+      "testbench": "fpga/src/persistence/maintenance_endpoint_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/11664d210aa1/maintenance_record.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/c27f2c04655e/maintenance_endpoint.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/eeaca5066441/maintenance_command_rx.sv"
+      ],
+      "active_modules": [
+        "maintenance_command_rx",
+        "maintenance_endpoint",
+        "maintenance_record"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "maintenance_endpoint_tb"
+      ]
+    },
+    {
+      "top": "maintenance_exam_tb",
+      "testbench": "fpga/src/persistence/maintenance_exam_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm.v"
+      ],
+      "active_modules": [
+        "exam_fsm"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "maintenance_exam_tb"
+      ]
+    },
+    {
+      "top": "maintenance_system_tb",
+      "testbench": "fpga/src/persistence/maintenance_system_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/11664d210aa1/maintenance_record.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/20a57578b747/pcf8563_setter.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/4ea846d85197/eeprom_page_writer.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/5acd2aa6692b/pcf8563_reader.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/6f55019790ef/eeprom_dualslot_store.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/73ffbc49762c/rtc_time_anchor.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/770359552324/eeprom_record_codec.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/79534ad6e7d0/pcf8563_calendar.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/a8483d823073/rtc_anchor_record.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/a84f893ed58a/persistent_config_decode.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/ade9bc1b0ccb/i2c_byte_master.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/c076e82256e1/persistent_boot_gate.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/c27f2c04655e/maintenance_endpoint.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/e4d91d5de499/rtc_anchor_client.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/e8c391071012/persistent_maintenance_service.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/eeaca5066441/maintenance_command_rx.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/f063d843e32e/persistent_config_manager.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/f0e5e6fadfb7/i2c_register_master.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/ff4f43887cb5/i2c_transaction_arbiter.sv"
+      ],
+      "active_modules": [
+        "eeprom_dualslot_store",
+        "eeprom_page_writer",
+        "eeprom_record_codec",
+        "i2c_byte_master",
+        "i2c_register_master",
+        "i2c_transaction_arbiter",
+        "maintenance_command_rx",
+        "maintenance_endpoint",
+        "maintenance_record",
+        "pcf8563_calendar",
+        "pcf8563_reader",
+        "pcf8563_setter",
+        "persistent_boot_gate",
+        "persistent_config_decode",
+        "persistent_config_manager",
+        "persistent_maintenance_service",
+        "rtc_anchor_client",
+        "rtc_anchor_record",
+        "rtc_time_anchor"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "maintenance_system_tb"
+      ]
+    },
+    {
+      "top": "mdio_readback_tb",
+      "testbench": "fpga/src/host_link/mdio_readback_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/mdio_bit_shift.v"
+      ],
+      "active_modules": [
+        "mdio_bit_shift"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "mdio_readback_tb"
+      ]
+    },
+    {
+      "top": "motion_detect_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/motion_detect/motion_detect_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/motion_detect/motion_detect.v"
+      ],
+      "active_modules": [
+        "motion_detect"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "motion_detect_tb"
+      ]
+    },
+    {
+      "top": "network_isolation_tb",
+      "testbench": "fpga/src/ddr3_test/network_isolation_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/crc32_d8.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/eth_udp_tx_gmii.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/ip_checksum.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_udp_bridge.v"
+      ],
+      "active_modules": [
+        "crc32_d8",
+        "eth_udp_tx_gmii",
+        "evidence_packet_udp_bridge",
+        "ip_checksum"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "network_isolation_tb"
+      ]
+    },
+    {
+      "top": "operator_alarm_contract_tb",
+      "testbench": "fpga/src/verification_20261031/operator_alarm_contract_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/alarm_beep/alarm_beep.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/user_control/key_debounce.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/user_control/user_control.v"
+      ],
+      "active_modules": [
+        "alarm_beep",
+        "key_debounce",
+        "user_control"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "operator_alarm_contract_tb"
+      ]
+    },
+    {
+      "top": "overlay_status_contract_tb",
+      "testbench": "fpga/src/verification_20261031/overlay_status_contract_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/overlay_status/overlay_status.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/text_overlay/char_rom_cn.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/text_overlay/text_overlay.v"
+      ],
+      "active_modules": [
+        "char_rom_cn",
+        "overlay_status",
+        "text_overlay"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "overlay_status_contract_tb"
+      ]
+    },
+    {
+      "top": "pcf8563_calendar_tb",
+      "testbench": "fpga/src/persistence/pcf8563_calendar_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/79534ad6e7d0/pcf8563_calendar.sv"
+      ],
+      "active_modules": [
+        "pcf8563_calendar"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "pcf8563_calendar_tb"
+      ]
+    },
+    {
+      "top": "pcf8563_reader_tb",
+      "testbench": "fpga/src/persistence/pcf8563_reader_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/5acd2aa6692b/pcf8563_reader.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/79534ad6e7d0/pcf8563_calendar.sv"
+      ],
+      "active_modules": [
+        "pcf8563_calendar",
+        "pcf8563_reader"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "pcf8563_reader_tb"
+      ]
+    },
+    {
+      "top": "pcf8563_setter_tb",
+      "testbench": "fpga/src/persistence/pcf8563_setter_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/20a57578b747/pcf8563_setter.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/5acd2aa6692b/pcf8563_reader.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/79534ad6e7d0/pcf8563_calendar.sv"
+      ],
+      "active_modules": [
+        "pcf8563_calendar",
+        "pcf8563_reader",
+        "pcf8563_setter"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "pcf8563_setter_tb"
+      ]
+    },
+    {
+      "top": "pcf8563_setter_wire_tb",
+      "testbench": "fpga/src/persistence/pcf8563_setter_wire_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/20a57578b747/pcf8563_setter.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/5acd2aa6692b/pcf8563_reader.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/79534ad6e7d0/pcf8563_calendar.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/ade9bc1b0ccb/i2c_byte_master.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/f0e5e6fadfb7/i2c_register_master.sv"
+      ],
+      "active_modules": [
+        "i2c_byte_master",
+        "i2c_register_master",
+        "pcf8563_calendar",
+        "pcf8563_reader",
+        "pcf8563_setter"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "pcf8563_setter_wire_tb"
+      ]
+    },
+    {
+      "top": "persistent_boot_gate_tb",
+      "testbench": "fpga/src/persistence/persistent_boot_gate_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/c076e82256e1/persistent_boot_gate.sv"
+      ],
+      "active_modules": [
+        "persistent_boot_gate"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "persistent_boot_gate_tb"
+      ]
+    },
+    {
+      "top": "persistent_boot_probe_tb",
+      "testbench": "fpga/src/persistence/persistent_boot_probe_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/4ea846d85197/eeprom_page_writer.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/6f55019790ef/eeprom_dualslot_store.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/770359552324/eeprom_record_codec.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/ade9bc1b0ccb/i2c_byte_master.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/c076e82256e1/persistent_boot_gate.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/f0e5e6fadfb7/i2c_register_master.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v",
+        "fpga/src/persistence/persistence_inventory_probe.sv",
+        "fpga/src/persistence/persistent_boot_probe.sv"
+      ],
+      "active_modules": [
+        "eeprom_dualslot_store",
+        "eeprom_page_writer",
+        "eeprom_record_codec",
+        "i2c_byte_master",
+        "i2c_register_master",
+        "persistent_boot_gate",
+        "uart_tx"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "persistence_inventory_probe",
+        "persistent_boot_probe"
+      ],
+      "own_modules": [
+        "persistent_boot_probe_tb"
+      ]
+    },
+    {
+      "top": "persistent_boot_service_tb",
+      "testbench": "fpga/src/persistence/persistent_boot_service_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/3047e25f2d69/persistent_rtc_service.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/4ea846d85197/eeprom_page_writer.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/52e2f921e933/persistent_boot_service.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/5acd2aa6692b/pcf8563_reader.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/6f55019790ef/eeprom_dualslot_store.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/73ffbc49762c/rtc_time_anchor.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/76299e41bf82/persistent_event_identity.v",
+        "fpga/examguard_opt_20261031_work/local_sources/770359552324/eeprom_record_codec.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/79534ad6e7d0/pcf8563_calendar.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/a8483d823073/rtc_anchor_record.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/ade9bc1b0ccb/i2c_byte_master.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/aef1935f67d8/event_identity.v",
+        "fpga/examguard_opt_20261031_work/local_sources/c076e82256e1/persistent_boot_gate.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/e4d91d5de499/rtc_anchor_client.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/f0e5e6fadfb7/i2c_register_master.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/ff4f43887cb5/i2c_transaction_arbiter.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/exam_event_context.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_transaction_queue/event_transaction_queue.v"
+      ],
+      "active_modules": [
+        "eeprom_dualslot_store",
+        "eeprom_page_writer",
+        "eeprom_record_codec",
+        "event_identity",
+        "event_request_fifo",
+        "event_transaction_queue",
+        "exam_event_context",
+        "i2c_byte_master",
+        "i2c_register_master",
+        "i2c_transaction_arbiter",
+        "pcf8563_calendar",
+        "pcf8563_reader",
+        "persistent_boot_gate",
+        "persistent_boot_service",
+        "persistent_event_identity",
+        "persistent_rtc_service",
+        "rtc_anchor_client",
+        "rtc_anchor_record",
+        "rtc_time_anchor"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "persistent_boot_service_tb"
+      ]
+    },
+    {
+      "top": "persistent_config_decode_tb",
+      "testbench": "fpga/src/persistence/persistent_config_decode_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/a84f893ed58a/persistent_config_decode.sv"
+      ],
+      "active_modules": [
+        "persistent_config_decode"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "persistent_config_decode_tb"
+      ]
+    },
+    {
+      "top": "persistent_config_manager_tb",
+      "testbench": "fpga/src/persistence/persistent_config_manager_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/4ea846d85197/eeprom_page_writer.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/6f55019790ef/eeprom_dualslot_store.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/770359552324/eeprom_record_codec.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/a84f893ed58a/persistent_config_decode.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/f063d843e32e/persistent_config_manager.sv"
+      ],
+      "active_modules": [
+        "eeprom_dualslot_store",
+        "eeprom_page_writer",
+        "eeprom_record_codec",
+        "persistent_config_decode",
+        "persistent_config_manager"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "persistent_config_manager_tb"
+      ]
+    },
+    {
+      "top": "persistent_event_identity_tb",
+      "testbench": "fpga/src/event_identity/persistent_event_identity_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/76299e41bf82/persistent_event_identity.v",
+        "fpga/examguard_opt_20261031_work/local_sources/aef1935f67d8/event_identity.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_transaction_queue/event_transaction_queue.v"
+      ],
+      "active_modules": [
+        "event_identity",
+        "event_request_fifo",
+        "event_transaction_queue",
+        "persistent_event_identity"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "persistent_event_identity_tb"
+      ]
+    },
+    {
+      "top": "persistent_maintenance_service_tb",
+      "testbench": "fpga/src/persistence/persistent_maintenance_service_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/20a57578b747/pcf8563_setter.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/4ea846d85197/eeprom_page_writer.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/5acd2aa6692b/pcf8563_reader.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/6f55019790ef/eeprom_dualslot_store.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/73ffbc49762c/rtc_time_anchor.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/770359552324/eeprom_record_codec.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/79534ad6e7d0/pcf8563_calendar.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/a8483d823073/rtc_anchor_record.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/a84f893ed58a/persistent_config_decode.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/ade9bc1b0ccb/i2c_byte_master.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/c076e82256e1/persistent_boot_gate.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/e4d91d5de499/rtc_anchor_client.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/e8c391071012/persistent_maintenance_service.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/f063d843e32e/persistent_config_manager.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/f0e5e6fadfb7/i2c_register_master.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/ff4f43887cb5/i2c_transaction_arbiter.sv"
+      ],
+      "active_modules": [
+        "eeprom_dualslot_store",
+        "eeprom_page_writer",
+        "eeprom_record_codec",
+        "i2c_byte_master",
+        "i2c_register_master",
+        "i2c_transaction_arbiter",
+        "pcf8563_calendar",
+        "pcf8563_reader",
+        "pcf8563_setter",
+        "persistent_boot_gate",
+        "persistent_config_decode",
+        "persistent_config_manager",
+        "persistent_maintenance_service",
+        "rtc_anchor_client",
+        "rtc_anchor_record",
+        "rtc_time_anchor"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "persistent_maintenance_service_tb"
+      ]
+    },
+    {
+      "top": "phy_health_snapshot_tb",
+      "testbench": "fpga/src/health/phy_health_snapshot_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/cdc_stats_snapshot.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/phy_health_snapshot.v"
+      ],
+      "active_modules": [
+        "cdc_event_transaction",
+        "cdc_stats_snapshot",
+        "evidence_reset_barrier",
+        "phy_health_snapshot"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "phy_health_snapshot_tb"
+      ]
+    },
+    {
+      "top": "phy_qualification_tb",
+      "testbench": "fpga/src/host_link/phy_qualification_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/mdio_bit_shift.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/phy_reg_config.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v",
+        "fpga/src/host_link/rtl8211f_wire_model.sv"
+      ],
+      "active_modules": [
+        "evidence_reset_barrier",
+        "mdio_bit_shift",
+        "phy_reg_config"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "rtl8211f_wire_model"
+      ],
+      "own_modules": [
+        "phy_qualification_tb"
+      ]
+    },
+    {
+      "top": "phy_reg_config_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/phy_reg_config_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/mdio_bit_shift.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/phy_reg_config.v"
+      ],
+      "active_modules": [
+        "mdio_bit_shift",
+        "phy_reg_config"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "phy_reg_config_tb"
+      ]
+    },
+    {
+      "top": "phy_reset_lifecycle_tb",
+      "testbench": "fpga/src/host_link/phy_reset_lifecycle_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/mdio_bit_shift.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/phy_reg_config.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v"
+      ],
+      "active_modules": [
+        "evidence_reset_barrier",
+        "mdio_bit_shift",
+        "phy_reg_config"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "phy_reset_lifecycle_tb"
+      ]
+    },
+    {
+      "top": "queued_window_packet_tb",
+      "testbench": "fpga/src/ddr3_test/queued_window_packet_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/crc32_d8.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/eth_udp_tx_gmii.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/ip_checksum.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_axi.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_queued.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_event_dispatch.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_cdc.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_udp_bridge.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_window_packetizer.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "crc32_d8",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "ddr_evidence_queued",
+        "eth_udp_tx_gmii",
+        "evidence_event_dispatch",
+        "evidence_packet_cdc",
+        "evidence_packet_udp_bridge",
+        "evidence_reset_barrier",
+        "evidence_window_packetizer",
+        "ip_checksum"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "queued_window_packet_tb"
+      ]
+    },
+    {
+      "top": "rtc_anchor_client_tb",
+      "testbench": "fpga/src/persistence/rtc_anchor_client_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/5acd2aa6692b/pcf8563_reader.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/73ffbc49762c/rtc_time_anchor.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/79534ad6e7d0/pcf8563_calendar.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/a8483d823073/rtc_anchor_record.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/e4d91d5de499/rtc_anchor_client.sv"
+      ],
+      "active_modules": [
+        "pcf8563_calendar",
+        "pcf8563_reader",
+        "rtc_anchor_client",
+        "rtc_anchor_record",
+        "rtc_time_anchor"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "rtc_anchor_client_tb"
+      ]
+    },
+    {
+      "top": "rtc_anchor_record_tb",
+      "testbench": "fpga/src/persistence/rtc_anchor_record_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/a8483d823073/rtc_anchor_record.sv"
+      ],
+      "active_modules": [
+        "rtc_anchor_record"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "rtc_anchor_record_tb"
+      ]
+    },
+    {
+      "top": "rtc_time_anchor_tb",
+      "testbench": "fpga/src/persistence/rtc_time_anchor_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/5acd2aa6692b/pcf8563_reader.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/73ffbc49762c/rtc_time_anchor.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/79534ad6e7d0/pcf8563_calendar.sv"
+      ],
+      "active_modules": [
+        "pcf8563_calendar",
+        "pcf8563_reader",
+        "rtc_time_anchor"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "rtc_time_anchor_tb"
+      ]
+    },
+    {
+      "top": "scene_guard_tb",
+      "testbench": "fpga/src/vision_guard/scene_guard_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/15950e21e551/camera_black_gate.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm.v"
+      ],
+      "active_modules": [
+        "camera_black_gate",
+        "exam_fsm"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "scene_guard_tb"
+      ]
+    },
+    {
+      "top": "seven_seg_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/seven_seg/seven_seg_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/seven_seg/hc595_driver.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/seven_seg/hex8.v"
+      ],
+      "active_modules": [
+        "hc595_driver",
+        "hex8"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "seven_seg_tb"
+      ]
+    },
+    {
+      "top": "shared_evidence_axi_tb",
+      "testbench": "fpga/src/ddr3_test/shared_evidence_axi_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_2client_arbiter.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_axi.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_queued.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_event_dispatch.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_axi_client.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_epoch_clear.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_fifo_stream_bridge.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv",
+        "fpga/src/ddr3_test/video_fifo_path_source.sv"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "axi_2client_arbiter",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "ddr_evidence_queued",
+        "evidence_event_dispatch",
+        "video_axi_client",
+        "video_epoch_clear",
+        "video_fifo_stream_bridge"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model",
+        "video_fifo_path_source"
+      ],
+      "own_modules": [
+        "shared_evidence_axi_tb"
+      ]
+    },
+    {
+      "top": "shared_xadc_monitor_tb",
+      "testbench": "fpga/src/health/shared_xadc_monitor_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/bbdf99da2627/xadc_monitor_reader.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/e4628d4a0f2d/shared_xadc_monitor.sv"
+      ],
+      "active_modules": [
+        "shared_xadc_monitor",
+        "xadc_monitor_reader"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "shared_xadc_monitor_tb"
+      ]
+    },
+    {
+      "top": "status_mailbox_contract_tb",
+      "testbench": "fpga/src/verification_20261031/status_mailbox_contract_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/status_mailbox/status_mailbox.v"
+      ],
+      "active_modules": [
+        "status_mailbox"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "status_mailbox_contract_tb"
+      ]
+    },
+    {
+      "top": "status_uart_health_tb",
+      "testbench": "fpga/src/health/status_uart_health_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_stream_adapter.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/status_uart_tx/status_uart_tx.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/u32_to_bcd/u32_to_bcd.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v"
+      ],
+      "active_modules": [
+        "status_uart_tx",
+        "u32_to_bcd",
+        "uart_stream_adapter",
+        "uart_tx"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "status_uart_health_tb"
+      ]
+    },
+    {
+      "top": "status_uart_timer_tb",
+      "testbench": "fpga/src/event_identity/status_uart_timer_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_stream_adapter.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/status_uart_tx/status_uart_tx.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/u32_to_bcd/u32_to_bcd.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v"
+      ],
+      "active_modules": [
+        "exam_fsm",
+        "status_uart_tx",
+        "u32_to_bcd",
+        "uart_stream_adapter",
+        "uart_tx"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "status_uart_timer_tb"
+      ]
+    },
+    {
+      "top": "status_uart_tx_v2_tb",
+      "testbench": "fpga/src/event_identity/status_uart_tx_v2_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_stream_adapter.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/status_uart_tx/status_uart_tx.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/u32_to_bcd/u32_to_bcd.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v"
+      ],
+      "active_modules": [
+        "status_uart_tx",
+        "u32_to_bcd",
+        "uart_stream_adapter",
+        "uart_tx"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "status_uart_tx_v2_tb"
+      ]
+    },
+    {
+      "top": "text_overlay_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/text_overlay/text_overlay_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/text_overlay/char_rom_cn.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/text_overlay/text_overlay.v"
+      ],
+      "active_modules": [
+        "char_rom_cn",
+        "text_overlay"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "text_overlay_tb"
+      ]
+    },
+    {
+      "top": "timestamp_ms_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/seven_seg/timestamp_ms_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/seven_seg/timestamp_ms.v"
+      ],
+      "active_modules": [
+        "timestamp_ms"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "timestamp_ms_tb"
+      ]
+    },
+    {
+      "top": "tmds_decode_contract_tb",
+      "testbench": "fpga/src/verification_20261031/tmds_decode_contract_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/encode.v"
+      ],
+      "active_modules": [
+        "encode"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "tmds_decode_contract_tb"
+      ]
+    },
+    {
+      "top": "tmds_serializer_contract_tb",
+      "testbench": "fpga/src/verification_20261031/tmds_serializer_contract_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/dvi_encoder/serdes_4b_10to1.v"
+      ],
+      "active_modules": [
+        "serdes_4b_10to1"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "tmds_serializer_contract_tb"
+      ]
+    },
+    {
+      "top": "transaction_uart_integration_tb",
+      "testbench": "fpga/src/host_link/transaction_uart_integration_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/11664d210aa1/maintenance_record.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/43de1890e43f/board_monitor_record.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/a8483d823073/rtc_anchor_record.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/evidence_dump/evidence_dump.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/config_ack_tx.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/event_transaction_fork.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/event_transaction_log.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_request_fifo/event_request_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_packet_mux.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_stream_adapter.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/status_uart_tx/status_uart_tx.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/u32_to_bcd/u32_to_bcd.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v"
+      ],
+      "active_modules": [
+        "board_monitor_record",
+        "config_ack_tx",
+        "event_request_fifo",
+        "event_transaction_fork",
+        "event_transaction_log",
+        "evidence_dump",
+        "maintenance_record",
+        "rtc_anchor_record",
+        "status_uart_tx",
+        "u32_to_bcd",
+        "uart_packet_mux",
+        "uart_stream_adapter",
+        "uart_tx"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "transaction_uart_integration_tb"
+      ]
+    },
+    {
+      "top": "uart_packet_mux_tb",
+      "testbench": "fpga/src/host_link/uart_packet_mux_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_packet_mux.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v"
+      ],
+      "active_modules": [
+        "uart_packet_mux",
+        "uart_tx"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "uart_packet_mux_tb"
+      ]
+    },
+    {
+      "top": "uart_rx_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/uart_rx_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/uart_rx.v"
+      ],
+      "active_modules": [
+        "uart_rx"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "uart_rx_tb"
+      ]
+    },
+    {
+      "top": "uart_stream_adapter_tb",
+      "testbench": "fpga/src/host_link/uart_stream_adapter_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_stream_adapter.v"
+      ],
+      "active_modules": [
+        "uart_stream_adapter"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "uart_stream_adapter_tb"
+      ]
+    },
+    {
+      "top": "video_axi_client_edges_tb",
+      "testbench": "fpga/src/ddr3_test/video_axi_client_edges_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_axi_client.v"
+      ],
+      "active_modules": [
+        "video_axi_client"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "video_axi_client_edges_tb",
+        "video_edges_case"
+      ]
+    },
+    {
+      "top": "video_axi_client_tb",
+      "testbench": "fpga/src/ddr3_test/video_axi_client_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_axi_client.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "video_axi_client"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "video_axi_client_tb"
+      ]
+    },
+    {
+      "top": "video_epoch_clear_tb",
+      "testbench": "fpga/src/ddr3_test/video_epoch_clear_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_epoch_clear.v"
+      ],
+      "active_modules": [
+        "video_epoch_clear"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "video_epoch_clear_tb"
+      ]
+    },
+    {
+      "top": "video_fifo_stream_bridge_tb",
+      "testbench": "fpga/src/ddr3_test/video_fifo_stream_bridge_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_fifo_stream_bridge.v"
+      ],
+      "active_modules": [
+        "video_fifo_stream_bridge"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "video_fifo_stream_bridge_tb"
+      ]
+    },
+    {
+      "top": "video_memory_clear_cross_tb",
+      "testbench": "fpga/src/ddr3_test/video_memory_clear_cross_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_2client_arbiter.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_read_burst_buffer.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_axi_epoch_guard.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_axi_client.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_epoch_clear.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_fifo_axi_port.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_fifo_stream_bridge.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_memory_fabric.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "axi_2client_arbiter",
+        "axi_read_burst_buffer",
+        "history_axi_epoch_guard",
+        "video_axi_client",
+        "video_epoch_clear",
+        "video_fifo_axi_port",
+        "video_fifo_stream_bridge",
+        "video_memory_fabric"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "video_memory_clear_cross_tb"
+      ]
+    },
+    {
+      "top": "video_memory_fabric_tb",
+      "testbench": "fpga/src/ddr3_test/video_memory_fabric_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/crc32_d8.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/eth_udp_tx_gmii.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/eth_acx750/ip_checksum.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/async_fifo.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_2client_arbiter.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/axi_read_burst_buffer.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_evidence_client.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_evidence_transport.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_frame_guard.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_sample_guard.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/camera_time_guard.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_axi.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr_evidence_queued.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_event_dispatch.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_cdc.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_packet_udp_bridge.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/evidence_window_packetizer.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_axi_client.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_epoch_clear.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_fifo_axi_port.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_fifo_stream_bridge.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/video_memory_fabric.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_time_snapshot.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/evidence_reset_barrier.v",
+        "fpga/src/ddr3_test/axi_frame_slave_model.sv"
+      ],
+      "active_modules": [
+        "async_fifo",
+        "axi_2client_arbiter",
+        "axi_read_burst_buffer",
+        "camera_evidence_client",
+        "camera_evidence_transport",
+        "camera_frame_guard",
+        "camera_sample_guard",
+        "camera_time_guard",
+        "cdc_event_transaction",
+        "cdc_time_snapshot",
+        "crc32_d8",
+        "ddr3_axi_frame_dma",
+        "ddr_evidence_axi",
+        "ddr_evidence_queued",
+        "eth_udp_tx_gmii",
+        "evidence_event_dispatch",
+        "evidence_packet_cdc",
+        "evidence_packet_udp_bridge",
+        "evidence_reset_barrier",
+        "evidence_window_packetizer",
+        "ip_checksum",
+        "video_axi_client",
+        "video_epoch_clear",
+        "video_fifo_axi_port",
+        "video_fifo_stream_bridge",
+        "video_memory_fabric"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "axi_frame_slave_model"
+      ],
+      "own_modules": [
+        "video_memory_fabric_tb"
+      ]
+    },
+    {
+      "top": "voice_announcer_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/voice_asr/voice_announcer_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/voice_asr/voice_announcer.v"
+      ],
+      "active_modules": [
+        "voice_announcer"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "voice_announcer_tb"
+      ]
+    },
+    {
+      "top": "voice_asr_i2c_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/voice_asr/voice_asr_i2c_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/voice_asr/voice_asr_i2c.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/voice_asr/voice_command_map.v"
+      ],
+      "active_modules": [
+        "voice_asr_i2c",
+        "voice_command_map"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "voice_asr_i2c_tb"
+      ]
+    },
+    {
+      "top": "voice_audio_gate_tb",
+      "testbench": "fpga/src/voice_interaction/voice_audio_gate_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/b7965763a525/voice_audio_gate.sv"
+      ],
+      "active_modules": [
+        "voice_audio_gate"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "voice_audio_gate_tb"
+      ]
+    },
+    {
+      "top": "voice_bus_diagnostics_tb",
+      "testbench": "fpga/src/voice_interaction/voice_bus_diagnostics_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/1eb0899fb0f5/voice_interaction_bus.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/ade9bc1b0ccb/i2c_byte_master.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/c7fdde6a7598/voice_status_record.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/f0e5e6fadfb7/i2c_register_master.sv",
+        "fpga/src/voice_interaction/voice_bus_diagnostics.sv",
+        "fpga/src/voice_interaction/wonderecho_wire_model.sv"
+      ],
+      "active_modules": [
+        "i2c_byte_master",
+        "i2c_register_master",
+        "voice_interaction_bus",
+        "voice_status_record"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "voice_bus_diagnostics",
+        "wonderecho_wire_model"
+      ],
+      "own_modules": [
+        "voice_bus_diagnostics_tb"
+      ]
+    },
+    {
+      "top": "voice_exam_interaction_tb",
+      "testbench": "fpga/src/voice_interaction/voice_exam_interaction_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/21f6f02914e8/voice_info_confirm.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/e1d0aca88e4d/voice_exam_interaction.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm.v"
+      ],
+      "active_modules": [
+        "exam_fsm",
+        "voice_exam_interaction",
+        "voice_info_confirm"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "voice_exam_interaction_tb"
+      ]
+    },
+    {
+      "top": "voice_host_endpoint_tb",
+      "testbench": "fpga/src/voice_interaction/voice_host_endpoint_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/9da09028ef2e/voice_host_endpoint.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/c7fdde6a7598/voice_status_record.sv"
+      ],
+      "active_modules": [
+        "voice_host_endpoint",
+        "voice_status_record"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "voice_host_endpoint_tb"
+      ]
+    },
+    {
+      "top": "voice_info_confirm_tb",
+      "testbench": "fpga/src/voice_interaction/voice_info_confirm_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/21f6f02914e8/voice_info_confirm.sv"
+      ],
+      "active_modules": [
+        "voice_info_confirm"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "voice_info_confirm_tb"
+      ]
+    },
+    {
+      "top": "voice_interaction_bus_tb",
+      "testbench": "fpga/src/voice_interaction/voice_interaction_bus_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/1eb0899fb0f5/voice_interaction_bus.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/ade9bc1b0ccb/i2c_byte_master.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/f0e5e6fadfb7/i2c_register_master.sv"
+      ],
+      "active_modules": [
+        "i2c_byte_master",
+        "i2c_register_master",
+        "voice_interaction_bus"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "voice_interaction_bus_tb"
+      ]
+    },
+    {
+      "top": "voice_interaction_system_tb",
+      "testbench": "fpga/src/voice_interaction/voice_interaction_system_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/1eb0899fb0f5/voice_interaction_bus.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/21f6f02914e8/voice_info_confirm.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/22be593a8b13/candidate_glyph.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/4a56847ccf94/voice_interaction_system.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/9da09028ef2e/voice_host_endpoint.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/ade9bc1b0ccb/i2c_byte_master.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/b3b1a340375c/candidate_overlay.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/b7965763a525/voice_audio_gate.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/c7fdde6a7598/voice_status_record.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/d2caaaa262be/voice_notice_queue.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/e1d0aca88e4d/voice_exam_interaction.sv",
+        "fpga/examguard_opt_20261031_work/local_sources/f0e5e6fadfb7/i2c_register_master.sv",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/event_identity/cdc_event_transaction.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/health/cdc_stats_snapshot.v",
+        "fpga/src/voice_interaction/wonderecho_wire_model.sv"
+      ],
+      "active_modules": [
+        "candidate_glyph",
+        "candidate_overlay",
+        "cdc_event_transaction",
+        "cdc_stats_snapshot",
+        "exam_fsm",
+        "i2c_byte_master",
+        "i2c_register_master",
+        "voice_audio_gate",
+        "voice_exam_interaction",
+        "voice_host_endpoint",
+        "voice_info_confirm",
+        "voice_interaction_bus",
+        "voice_interaction_system",
+        "voice_notice_queue",
+        "voice_status_record"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [
+        "wonderecho_wire_model"
+      ],
+      "own_modules": [
+        "voice_interaction_system_tb"
+      ]
+    },
+    {
+      "top": "voice_notice_queue_tb",
+      "testbench": "fpga/src/voice_interaction/voice_notice_queue_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/d2caaaa262be/voice_notice_queue.sv"
+      ],
+      "active_modules": [
+        "voice_notice_queue"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "voice_notice_queue_tb"
+      ]
+    },
+    {
+      "top": "voice_uart_eight_tb",
+      "testbench": "fpga/src/voice_interaction/voice_uart_eight_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_packet_mux.v",
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/uart_tx/uart_tx.v"
+      ],
+      "active_modules": [
+        "uart_packet_mux",
+        "uart_tx"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "voice_uart_eight_tb"
+      ]
+    },
+    {
+      "top": "workflow_fsm_tb",
+      "testbench": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/workflow_fsm/workflow_fsm_tb.v",
+      "files": [
+        "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/workflow_fsm/workflow_fsm.v"
+      ],
+      "active_modules": [
+        "workflow_fsm"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "workflow_fsm_tb"
+      ]
+    },
+    {
+      "top": "xadc_monitor_reader_tb",
+      "testbench": "fpga/src/health/xadc_monitor_reader_tb.sv",
+      "files": [
+        "fpga/examguard_opt_20261031_work/local_sources/bbdf99da2627/xadc_monitor_reader.sv"
+      ],
+      "active_modules": [
+        "xadc_monitor_reader"
+      ],
+      "vendor_dependencies": [],
+      "support_modules": [],
+      "own_modules": [
+        "xadc_monitor_reader_tb"
+      ]
+    }
+  ]
+}

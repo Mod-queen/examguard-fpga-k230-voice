@@ -1,0 +1,5 @@
+DRIVER frame=1 de_pixels=921600 in_range=920160 x=2..1281 y=0..719 gate_count=920160
+DRIVER frame=2 de_pixels=921600 in_range=920160 x=2..1281 y=0..719 gate_count=920160
+DRIVER frame=3 de_pixels=921600 in_range=920160 x=2..1281 y=0..719 gate_count=920160
+FATAL: fpga/src/vision_guard/camera_black_driver_tb.sv:26: REPRO: real driver pure black never confirms cover
+       Time: 7441533100  Scope: camera_black_driver_tb

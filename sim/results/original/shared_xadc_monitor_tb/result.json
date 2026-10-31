@@ -1,0 +1,37 @@
+{
+  "top": "shared_xadc_monitor_tb",
+  "engine": "AMD XSim 2018.3",
+  "status": "passed",
+  "active_modules": [
+    "shared_xadc_monitor",
+    "xadc_monitor_reader"
+  ],
+  "repairs": [
+    "Use reproducible fixture xadc_sim_analog_20261021.txt"
+  ],
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "D:\\fpga_race\\verification_out\\optimization_20261031\\simulation\\xsim_round3\\shared_xadc_monitor_tb\\shared_xadc_monitor_tb.sv",
+      "sha256": "a86014f2a33bc81a83acc863dca28b773952f6709a7a93d161a4c4c15bb3becf"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\bbdf99da2627\\xadc_monitor_reader.sv",
+      "sha256": "4082cac7140c71d5a5684089426c05b6738c5e412651eea94c847879af9ebbd3"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\e4628d4a0f2d\\shared_xadc_monitor.sv",
+      "sha256": "ff3497f1b4769d746f750de032f9f3c472c96c756a3e17ec1738567370f5851e"
+    },
+    {
+      "path": "D:\\vivado\\vivado2018.3\\Vivado\\2018.3\\data\\verilog\\src\\glbl.v",
+      "sha256": "c48753ff3481f46872a09160eee14b5596b37444c1bf2b84bf2acd922e7c982d"
+    }
+  ],
+  "seconds": 6.313,
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: shared_xadc_monitor real UNISIM TEMP/INT/AUX/BRAM scan=1000000015555999955559772"
+  ],
+  "trace_bytes": 810448
+}

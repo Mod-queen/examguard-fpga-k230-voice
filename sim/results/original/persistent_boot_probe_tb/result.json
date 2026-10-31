@@ -1,0 +1,64 @@
+{
+  "top": "persistent_boot_probe_tb",
+  "engine": "AMD XSim 2018.3",
+  "status": "passed",
+  "active_modules": [
+    "eeprom_dualslot_store",
+    "eeprom_page_writer",
+    "eeprom_record_codec",
+    "i2c_byte_master",
+    "i2c_register_master",
+    "persistent_boot_gate",
+    "uart_tx"
+  ],
+  "repairs": [],
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "D:\\fpga_race\\fpga\\src\\persistence\\persistent_boot_probe_tb.sv",
+      "sha256": "170abe3a1becfe59e8f135395b107c9bd534ad50419b117a00372caaf16c891c"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\4ea846d85197\\eeprom_page_writer.sv",
+      "sha256": "386a79443b25ddceaeab9d1053ba53029ea18dd2ee8ce3a29de17bf4ac2b8894"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\6f55019790ef\\eeprom_dualslot_store.sv",
+      "sha256": "7755f1cfebe6be4e48988132c47438cf7526afd3ed5401c8b6c7d07ad70f7a13"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\770359552324\\eeprom_record_codec.sv",
+      "sha256": "2650ebdd7c40358b5cea4c2975d1dd48bd4310e373a22b2cc2ba46623f068834"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\ade9bc1b0ccb\\i2c_byte_master.sv",
+      "sha256": "4b7471ebdfcd080cbabc516e8a56793526a8ac7ecdbc0f51b42c8740dfd2bc8c"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\c076e82256e1\\persistent_boot_gate.sv",
+      "sha256": "c8d0a6f30842cbbaefa82d0a6670efd11c1fb0ecb128c4ff2bdd63c08801b416"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\local_sources\\f0e5e6fadfb7\\i2c_register_master.sv",
+      "sha256": "a4d1144965e65a73169a89361a1d9be26d6a499512133b647f28829e8d55e8f0"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\examguard_opt_20261031_work\\ov5640_ddr3_hdmi_vga.srcs\\sources_1\\uart_tx\\uart_tx.v",
+      "sha256": "85fdfaa0de41dbab46fd3fe892d57017a0a4f154c32b2268d198d5456aedfab1"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\src\\persistence\\persistence_inventory_probe.sv",
+      "sha256": "e946df68495104d5df653553da690ba45dbe66b32340d117712ffe370231f71d"
+    },
+    {
+      "path": "D:\\fpga_race\\fpga\\src\\persistence\\persistent_boot_probe.sv",
+      "sha256": "a421e0e265aa61facb98ced24c07f4edb8b6ebcc2479aa6c8be46753b3b33af0"
+    }
+  ],
+  "seconds": 55.422,
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: persistent_boot_probe wireOnlySlave explicitBlankFormat/resetBoot1to3/oldSlot/WP/corrupt/oneAllocation/reservedOnly realUART5x348 START=292 STOP=171 busyNACK=24"
+  ],
+  "trace_bytes": 309263714
+}

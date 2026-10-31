@@ -1,0 +1,2 @@
+PASS: history_health_stats canonicalWords/reservedZero/counters/dualPacketSaturation/independentReset/realUART320
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\health\history_health_stats_tb.sv:75: $finish called at 29799170000 (1ps)

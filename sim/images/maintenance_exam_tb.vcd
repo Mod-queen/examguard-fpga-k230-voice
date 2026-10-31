@@ -1,0 +1,121 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module maintenance_exam_tb $end
+$var wire 3 ! stage $end
+$var wire 1 ' rst $end
+$var wire 16 " remaining $end
+$var wire 1 # busy $end
+$var wire 16 % duration $end
+$var wire 1 & face $end
+$var wire 1 ( start $end
+$var wire 1 ) submit $end
+$var wire 1 * tick $end
+$var wire 1 $ clk $end
+$upscope $end
+$enddefinitions $end
+#0
+0*
+0)
+0(
+1'
+0&
+b111100 %
+0$
+0#
+bx "
+bx !
+#10000
+b0 "
+b0 !
+1$
+#20000
+0$
+#30000
+1$
+#40000
+0$
+#50000
+1$
+#60000
+0$
+#70000
+1$
+#80000
+0'
+0$
+#90000
+1$
+#100000
+1*
+0$
+#110000
+b1 !
+1$
+#120000
+0*
+0$
+#130000
+1$
+#140000
+1*
+0$
+#150000
+1$
+#160000
+0*
+0$
+#170000
+1$
+#180000
+1&
+0$
+#190000
+b10 !
+1$
+#200000
+1(
+1#
+0&
+0$
+#210000
+1$
+#220000
+0$
+#230000
+1$
+#240000
+0$
+#250000
+1$
+#260000
+0#
+0$
+#270000
+b111100 "
+b11 !
+1$
+#280000
+b1110000100000 %
+0(
+0$
+#290000
+1$
+#300000
+1*
+0$
+#310000
+b111011 "
+1$
+#320000
+0*
+0$
+#330000
+1$
+#340000
+0$
+#350000
+b100 !
+b0 "
+1$
+#360000
+0$

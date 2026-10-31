@@ -1,0 +1,22 @@
+{
+  "top": "voice_announcer_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/voice_asr/voice_announcer_tb.v",
+      "sha256": "c1709a1fa15a42d1381b3d68a594e1a85c64f50851f2eb9ba097c1892d74a5af"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/voice_asr/voice_announcer.v",
+      "sha256": "1120293cf869d61ac083d13095874f54e648316738f975b5a8feb56a3ccff68c"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.031,
+  "pass_lines": [
+    "PASS: voice_announcer"
+  ],
+  "exit_code": 0
+}

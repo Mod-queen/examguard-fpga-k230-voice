@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>智察考场 · 复核助手</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<header><span class="brand">智察考场</span><span>ExamGuard / Agent 决策交互层</span><span id="mode" class="badge">尚未登录</span></header>
+<main>
+<section class="intro"><p class="eyebrow">把疑似报警，交给证据核对</p><h1>考场复核助手</h1><p>查询报警、核对证据、查看原始帧。由老师完成最终复核。</p></section>
+<section id="login" class="login card"><h2>评审登录</h2><form id="login-form"><label>账号<input id="username" autocomplete="username" value="judge" required></label><label>访问密码<input id="password" type="password" autocomplete="current-password" required maxlength="128"></label><button>登录查看</button></form><p id="login-error" role="alert"></p><small>需要作品提供方给出的访问密码。API密钥由服务端配置。</small></section>
+<section id="workspace" hidden>
+<div class="sourcebar"><div><strong id="scope"></strong><p id="source"></p></div><button class="secondary" id="logout">退出登录</button></div>
+<div class="layout"><section class="card chat"><div class="section-head"><h2>与复核助手对话</h2><span>只读查询</span></div><div id="messages" aria-live="polite"></div><div class="quick"><button class="secondary" data-question="最近30分钟有没有手机报警？">手机报警</button><button class="secondary" data-question="最近30分钟事件和证据">最近事件</button><button class="secondary" data-question="系统健康和温度怎么样？">系统健康</button></div><form id="ask-form"><label class="sr-only" for="question">输入问题</label><input id="question" placeholder="例如：最近30分钟有没有手机报警？" maxlength="2000" required><button id="send">发送</button></form><p id="query-state" role="status"></p></section>
+<aside class="card"><div class="section-head"><h2>证据复核</h2><span>原始图像与完整性</span></div><p class="muted">事件不等于违规。证据状态来自工具校验；图片仅展示实际保存的帧。</p><div id="evidence"><p class="empty">查询后，在这里查看事件及原始图像。</p></div></aside></div>
+<section class="card records"><div class="section-head"><h2>工具核验记录</h2><button class="secondary" id="export-review" disabled>下载本次复核记录</button></div><pre id="verified">尚未执行查询。</pre><details><summary>查看本次工具调用</summary><pre id="trace"></pre></details></section>
+</section>
+</main><footer>多模态考场复核 Agent · 感知与取证由端侧执行 · 上位机负责查询和解释</footer>
+</body></html>

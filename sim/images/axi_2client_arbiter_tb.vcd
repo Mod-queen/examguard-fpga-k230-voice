@@ -1,0 +1,10 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module axi_2client_arbiter_tb $end
+$var wire 1 ! b $end
+$var wire 1 " a $end
+$upscope $end
+$enddefinitions $end
+#0
+0"
+0!

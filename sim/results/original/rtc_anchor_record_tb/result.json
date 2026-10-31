@@ -1,0 +1,28 @@
+{
+  "top": "rtc_anchor_record_tb",
+  "status": "passed",
+  "active_modules": [
+    "rtc_anchor_record"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "rtc_anchor_record_tb"
+  ],
+  "testbench": "fpga/src/persistence/rtc_anchor_record_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/persistence/rtc_anchor_record_tb.sv",
+      "sha256": "83097becfbd123dc2267a7d21b0759f92f3fb33cb3d4ebacde2868a02721d14e"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/local_sources/a8483d823073/rtc_anchor_record.sv",
+      "sha256": "4a1b21fde243a3c715440e57323be5637a46f13754f1af81537f619dceba9694"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: rtc_anchor_record immutable2x132/CRCstream/randomBackpressure/heldLAST/resetCancel"
+  ],
+  "trace_bytes": 56013,
+  "seconds": 0.125
+}

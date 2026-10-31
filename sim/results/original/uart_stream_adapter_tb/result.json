@@ -1,0 +1,28 @@
+{
+  "top": "uart_stream_adapter_tb",
+  "status": "passed",
+  "active_modules": [
+    "uart_stream_adapter"
+  ],
+  "vendor_dependencies": [],
+  "test_doubles": [
+    "uart_stream_adapter_tb"
+  ],
+  "testbench": "fpga/src/host_link/uart_stream_adapter_tb.sv",
+  "sources": [
+    {
+      "path": "fpga/src/host_link/uart_stream_adapter_tb.sv",
+      "sha256": "2c6cb41a1121638d76ae71a86ddb2843361e3186b2aa9edf92c140fe81cc9431"
+    },
+    {
+      "path": "fpga/examguard_opt_20261031_work/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/host_link/uart_stream_adapter.v",
+      "sha256": "58d881248fa139bd5988754c40b0e7c97a4a458e344ff4d1f7ccbb657f848bb1"
+    }
+  ],
+  "exit_code": 0,
+  "pass_lines": [
+    "PASS: uart_stream_adapter start/busy holding/data/last/reset"
+  ],
+  "trace_bytes": 10211,
+  "seconds": 0.094
+}

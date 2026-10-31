@@ -1,0 +1,2 @@
+PASS: eeprom_page_writer results=8 transactions=16 page-tail/limit/poll-bound/verify-WP/errors/stalls/reset
+D:\fpga_race\deploy\submission_20261031\sim\sources\persistence\eeprom_page_writer_tb.sv:65: $finish called at 6400000 (1ps)

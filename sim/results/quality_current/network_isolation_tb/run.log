@@ -1,0 +1,2 @@
+PASS: network_isolation realMAC offline/partial/START/header/payload/recovery no shared reset sent=3 dropped=6
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\ddr3_test\network_isolation_tb.sv:77: $finish called at 8240000 (1ps)

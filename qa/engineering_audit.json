@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-31T10:20:56.277587+00:00",
+  "scope": "工程与验证专包；报告、海报按用户要求暂停更新，保留在原交付目录。",
+  "selected_rtl_tests": 158,
+  "passed_rtl_tests": 158,
+  "pc_tests": 122,
+  "entry_rtl_tests": 16,
+  "private_runtime_paths_found": 0,
+  "credential_pattern_hits": 0,
+  "filename_issues": 0,
+  "scan_scope": "对白名单内路径及文本检查；不代表对任意形式秘密的数学保证。",
+  "source_rebuild_passed": true,
+  "hardware_access": false,
+  "cloud_requests": false,
+  "candidate_status": "built_not_deployed",
+  "documents_modified": false
+}

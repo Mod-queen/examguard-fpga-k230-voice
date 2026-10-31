@@ -1,0 +1,4 @@
+event CDC clocks=20/10 width=256 ordered301/stall/reset/saturation PASS
+event CDC clocks=6/22 width=37 ordered301/stall/reset/saturation PASS
+PASS: cdc_event_transaction all checks
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\event_identity\cdc_event_transaction_tb.sv:83: $finish called at 57177000 (1ps)

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "utc": "2026-10-30T12:55:47.227624+00:00",
+  "tool": "Vivado 2018.3",
+  "source": "Packaged relocated source, fresh synth/IP runs/place/route/bitstream",
+  "wns_ns": 0.217,
+  "whs_ns": 0.026,
+  "lut": 41811,
+  "registers": 46268,
+  "bram": 70.5,
+  "dsp": 3,
+  "reproduced_bit_sha256": "c179a3fd4f7f4715d63795f723f3bc0d45f1377bd9c609fdc25f5859b6534710",
+  "previously_field_accepted_bit_sha256": "0efbb75c4403ae3fbc617f0c912295a18d877d02341b24ebc9efd048d31cb7bc",
+  "hardware_programmed_this_task": false,
+  "scope": "Build reproduction on this existing Windows tool installation, not an independent clean PC or new-board acceptance."
+}

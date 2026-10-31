@@ -1,0 +1,16 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/case_snapshot/xsim_script.tcl
+# xsim {case_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/board_monitor_system_tb/run.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/deploy/submission_20261031/sim/results/portable_all_01/board_monitor_system_tb/run.tcl
+## run all
+PASS: board_monitor_system actual MIG temp sync/one UNISIM XADC/97bit CDC/BM CRC
+$finish called at time : 404031 ns : File "D:/fpga_race/deploy/submission_20261031/sim/test_repairs/board_monitor_system_tb/board_monitor_system_tb.sv" Line 25
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 17:34:11 2026...

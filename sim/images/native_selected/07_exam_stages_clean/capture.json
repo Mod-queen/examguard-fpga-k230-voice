@@ -1,0 +1,21 @@
+{
+  "key": "07_exam_stages",
+  "title": "考试状态机：核验与进入考试",
+  "native_ide_screenshot": true,
+  "method": "own Vivado GUI static WDB viewer; no simulation rerun or source value edits",
+  "launched_pid": 28712,
+  "window_pid": 15064,
+  "window_title": "Vivado 2018.3",
+  "hardware_access": false,
+  "database_sha256": "5ba73b65fb7966aeac39b199d47de13b21114c6e540d0b47545e61518acebc38",
+  "config_sha256": "d597148ebaef2948f398f836c0b70a727b9661354feea4f8dd28b94939491e77",
+  "image_sha256": "cb321d0728f27cee1dcee09a4a32ba0c5933581248f9cd30b767f8c9cb9e23a5",
+  "source_result": "verification_out\\refinement_20261031\\cases\\exam_fsm_tb\\result.json",
+  "source_result_sha256": "002d725f8dce4c3373c78a4b2c49853207602e46528479e46f149c9928a5632d",
+  "window_ns": [
+    0.0,
+    440.0
+  ],
+  "image": "vivado_wave.png",
+  "visual_review": "pending"
+}

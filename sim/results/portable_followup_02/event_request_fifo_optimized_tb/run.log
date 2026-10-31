@@ -1,0 +1,10 @@
+PASS event_request_fifo depth=1 full_pop=2464 collisions=3012 stalled=2890
+PASS event_request_fifo depth=1 full_pop=1032 collisions=0 stalled=2127
+PASS event_request_fifo depth=3 full_pop=2293 collisions=2996 stalled=3077
+PASS event_request_fifo depth=3 full_pop=406 collisions=0 stalled=2658
+PASS event_request_fifo depth=8 full_pop=2373 collisions=2980 stalled=3009
+PASS event_request_fifo depth=8 full_pop=105 collisions=0 stalled=2807
+PASS event_request_fifo depth=16 full_pop=2692 collisions=4152 stalled=3038
+PASS event_request_fifo depth=16 full_pop=93 collisions=0 stalled=2921
+PASS event_request_fifo_tb ALL
+D:\fpga_race\deploy\submission_20261031\sim\sources\verification_20261031\event_request_fifo_optimized_tb.sv:122: $finish called at 60796000 (1ps)

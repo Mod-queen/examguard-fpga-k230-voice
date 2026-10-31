@@ -1,0 +1,2 @@
+PASS: candidate_overlay frame_ack glyphs=16 passthrough lit=90
+D:\fpga_race\deploy\engineering_quality_20261031\sim\sources\voice_interaction\candidate_overlay_tb.sv:48: $finish called at 2025000 (1ps)

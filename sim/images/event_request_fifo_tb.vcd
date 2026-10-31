@@ -1,0 +1,25 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module event_request_fifo_tb $end
+$var wire 1 ! d8 $end
+$var wire 1 " d3 $end
+$var wire 1 # d16 $end
+$var wire 1 $ d1 $end
+$var wire 1 % all_pass $end
+$upscope $end
+$enddefinitions $end
+#0
+0%
+0$
+0#
+0"
+0!
+#15346000
+1$
+#15406000
+1"
+#15556000
+1!
+#15796000
+1%
+1#

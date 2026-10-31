@@ -1,0 +1,30 @@
+{
+  "top": "voice_interaction_bus_tb",
+  "engine": "icarus",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/sources/voice_interaction/voice_interaction_bus_tb.sv",
+      "sha256": "9c2e85ca8783d55844bfd8b88117cc6aa04b4662497e7528b0607ff2d4842b07"
+    },
+    {
+      "path": "src/fpga/local_sources/d69d06497899/voice_interaction_bus.sv",
+      "sha256": "23c33ed0dd1bf67848eb9cc9b284546ad08b4533775638da1bdf92c97e3d014d"
+    },
+    {
+      "path": "src/fpga/local_sources/682b9b4992fd/i2c_byte_master.sv",
+      "sha256": "4b7471ebdfcd080cbabc516e8a56793526a8ac7ecdbc0f51b42c8740dfd2bc8c"
+    },
+    {
+      "path": "src/fpga/local_sources/0e8d0fe30f17/i2c_register_master.sv",
+      "sha256": "a4d1144965e65a73169a89361a1d9be26d6a499512133b647f28829e8d55e8f0"
+    }
+  ],
+  "repairs": [],
+  "seconds": 0.094,
+  "pass_lines": [
+    "PASS: voice_interaction_bus scenarios=8 writes=5 reads=17 starts=52 stops=35"
+  ],
+  "exit_code": 0
+}

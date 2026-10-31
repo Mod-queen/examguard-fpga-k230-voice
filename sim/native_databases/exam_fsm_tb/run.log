@@ -1,0 +1,25 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/focus_snapshot/xsim_script.tcl
+# xsim {focus_snapshot} -autoloadwcfg -tclbatch {D:/fpga_race/verification_out/refinement_20261031/cases/exam_fsm_tb/run.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source D:/fpga_race/verification_out/refinement_20261031/cases/exam_fsm_tb/run.tcl
+## set signals [get_objects {/exam_fsm_tb/rst /exam_fsm_tb/face_pulse /exam_fsm_tb/face_ok /exam_fsm_tb/start_pulse /exam_fsm_tb/stage_id /exam_fsm_tb/remaining_s /exam_fsm_tb/new_event /exam_fsm_tb/event_code /exam_fsm_tb/submit_pulse}]
+## if {[llength $signals] != 9} {error "Missing selected signals"}
+## create_wave_config
+## add_wave -radix hex $signals
+## log_wave $signals
+## open_vcd trace.vcd
+## log_vcd $signals
+## run all
+PASS: exam_fsm
+$finish called at time : 5570 ns : File "D:/fpga_race/deploy/engineering_20261031/src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/exam_fsm_tb.v" Line 295
+## close_vcd
+## save_wave_config focus.wcfg
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 31 18:53:13 2026...

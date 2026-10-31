@@ -1,0 +1,14 @@
+$comment Actual selected VCD transitions; excerpt only. $end
+$timescale 1ps $end
+$scope module history_window_reader_tb $end
+$var wire 1 ! a $end
+$var wire 1 " b $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+#9936000
+1!
+#47086000
+1"

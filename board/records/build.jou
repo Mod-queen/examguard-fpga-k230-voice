@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Oct 30 17:03:57 2026
+# Process ID: 15980
+# Current directory: D:/fpga_race
+# Command line: vivado.exe -mode batch -source tools\build_scene_guard_rev03.tcl -log verification_out\scene_guard_rev03_20261030\build.log -journal verification_out\scene_guard_rev03_20261030\build.jou
+# Log file: D:/fpga_race/verification_out/scene_guard_rev03_20261030/build.log
+# Journal file: D:/fpga_race\verification_out\scene_guard_rev03_20261030\build.jou
+#-----------------------------------------------------------
+source {tools\build_scene_guard_rev03.tcl}

@@ -1,0 +1,42 @@
+{
+  "top": "history_window_reader_tb",
+  "engine": "xsim",
+  "status": "passed",
+  "hardware_access": false,
+  "sources": [
+    {
+      "path": "sim/test_repairs/history_window_reader_tb/history_window_reader_tb.sv",
+      "sha256": "3ab67a8fcfc369688ca2d602d3424b5ef17a5a0dfa80b288c8675edb8c1fafe5"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/ddr3_axi_frame_dma.v",
+      "sha256": "5a7f8c5de37e13612a3b3eb01b14a9f69277a4261ac3d84c1fdc860f374d9f02"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_descriptor_reader.v",
+      "sha256": "f9b74283dac36837b12c9755dc3ebc209a48828468cac2b2350c6539a9c9bce1"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_reference_directory.v",
+      "sha256": "85cd4b3b218d1e762bc7f8c8d30e5988394194261bbd4e5060566fc8a4cee724"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/imports/ddr3_test/history_window_reader.v",
+      "sha256": "b0026b8a859b958b1992a196c3f012ab75aa94cd3b02acc6946d2268349b436a"
+    },
+    {
+      "path": "sim/sources/ddr3_test/axi_frame_slave_model.sv",
+      "sha256": "80cb737c5165193f9aee20ecc3d30a79a9535ffceb148bfc6dd9ab294b9f91e6"
+    }
+  ],
+  "repairs": [
+    "Connect added directory diagnostic outputs explicitly; no assertion removed."
+  ],
+  "seconds": 7.172,
+  "pass_lines": [
+    "PASS: history_window_reader FP=1 realDMA sorted pixels/context/Rfailure/result-release stalls/stale handle/MAX/reset",
+    "PASS: history_window_reader FP=37 realDMA sorted pixels/context/Rfailure/result-release stalls/stale handle/MAX/reset",
+    "PASS: history_window_reader ALL"
+  ],
+  "exit_code": 0
+}
