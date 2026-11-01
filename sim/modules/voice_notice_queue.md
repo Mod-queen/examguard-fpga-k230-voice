@@ -19,7 +19,7 @@ python sim/run_module_tests.py --only voice_interaction_system_tb voice_notice_q
 
 用例源码：[voice_interaction_system_tb.sv](../../sim/sources/voice_interaction/voice_interaction_system_tb.sv), [wonderecho_wire_model.sv](../../sim/sources/voice_interaction/wonderecho_wire_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![voice_interaction_system_tb](../../sim/images/voice_interaction_system_tb.png)
 
@@ -27,6 +27,6 @@ python sim/run_module_tests.py --only voice_interaction_system_tb voice_notice_q
 
 用例源码：[voice_notice_queue_tb.sv](../../sim/sources/voice_interaction/voice_notice_queue_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![voice_notice_queue_tb](../../sim/images/voice_notice_queue_tb.png)

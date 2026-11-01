@@ -18,6 +18,6 @@ python sim/run_module_tests.py --only board_status_control_tb --vivado-bin "$env
 
 用例源码：[board_status_control_tb.sv](../../sim/sources/persistence/board_status_control_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![board_status_control_tb](../../sim/images/board_status_control_tb.png)

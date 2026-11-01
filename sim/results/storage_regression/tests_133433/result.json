@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tests": 10,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "suites": [
+    "app.test_agent_vision"
+  ],
+  "hardware_access": false,
+  "cloud_requests": false
+}

@@ -42,22 +42,12 @@
 
 ## MCP配置
 
-服务名：examguard。用途：只读查询当前启动参数明确选择的会话和对应证据目录。
+在监考台JoyCode联动页点击“复制MCP配置”，粘贴到JoyCode并启用examguard。配置使用当前Python、start_agent_mcp.py和--current-session-file；随桌面选定会话与证据目录更新，不需逐场手改数据库路径。
 
-本机启动入口为 `D:\fpga_real\src\pc\start_agent_mcp.py`，stdio传输，Python为 `D:\fpga_real\.venv\Scripts\python.exe`。四个工具共享现有严格校验逻辑，不启串口，不写设备，不要求另建通用SQLite或文件系统MCP。
+[可配置样例](mcp_follow_dashboard.json)以D:/examguard为工程根、D:/python为Python路径，下载后按实际路径修改。stdio共享现有数据，不占板卡串口。登录网页是业务入口，不是MCP URL。
 
-已核对JoyCode官方MCP说明：https://joycode.jd.com/docs/scalability/MCP/ 。stdio允许command为完整可执行文件路径，支持Python启动；npx/uvx只是运行方式选择，不必为了格式提示安装它们。当前机器有Python及npx，未发现uv/uvx。配置已明确type=stdio、Python -u及PYTHONUTF8=1，不需要API密钥环境变量。
+## 使用与验证
 
-相邻 `mcp_local_example.json` 可供支持本机stdio的客户端参考。它明确选择2026年10月28日旧场次，属于历史复核；截至10月30日已超出最近24小时，近期事件查询为空是正常结果，不能包装为实时演示。正式采集后，将该会话路径替换为明确选定的新会话。
+[完整操作与可复制提问](../../data/review_workflow.md)；[统一保存目录](storage.md)。桌面已具备文本模型、最多3帧视觉复核、免费优先与授权收费回退、网页登录密码更新及与JoyCode交接功能。实际调用状态以界面显示为准。
 
-配置格式是否直接可粘贴取决于平台。若创建页只接受MCP服务器URL，本机stdio不能直接填入，尚需部署受保护的远程MCP接口。本工程现有登录网页是业务应用，并非MCP协议URL。没有把云平台连接或公网MCP称为已验收。
-
-## 开场白和示例问题
-
-开场白：你好，我可以帮你查询疑似报警、核对证据状态和找到对应图像。识别结果需要老师复核。请说明要查看的时间范围。
-
-建议问题：最近30分钟有没有疑似手机事件？最近的报警有哪些证据可看？系统最后收到的状态是什么？
-
-## 当前验证范围
-
-协议、工具调用和导出使用隔离合成数据验证；另有明确旧场次的只读进程测试。2026年10月30日用户回传JoyCode已实际调用get_system_health、check_evidence_status和get_image_path，正确识别历史状态及无关联图像；平台模型到本机MCP的这三项历史查询已由用户反馈确认。当前场次、有图像的复核及公网评审仍未验证，PC自带API输入区也未单独接入真实服务。不宣称比赛交付已全部完成，识别精度问题仍单独处理。
+本地回归与真实模型查询分别有来源；JoyCode用户回传已验证工具查询及证据状态。工具返回路径不等于平台已看图；所有识别结果交由老师复核。

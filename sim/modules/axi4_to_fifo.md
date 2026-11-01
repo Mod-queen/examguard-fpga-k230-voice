@@ -18,6 +18,6 @@ python sim/run_module_tests.py --only legacy_video_axi_contract_tb --vivado-bin 
 
 用例源码：[legacy_video_axi_contract_tb.sv](../../sim/sources/ddr3_test/legacy_video_axi_contract_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![legacy_video_axi_contract_tb](../../sim/images/legacy_video_axi_contract_tb.png)

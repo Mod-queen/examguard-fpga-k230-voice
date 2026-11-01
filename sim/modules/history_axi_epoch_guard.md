@@ -20,7 +20,7 @@ python sim/run_module_tests.py --only history_axi_epoch_guard_tb history_capture
 
 用例源码：[history_axi_epoch_guard_tb.sv](../../sim/sources/ddr3_test/history_axi_epoch_guard_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_axi_epoch_guard_tb](../../sim/images/history_axi_epoch_guard_tb.png)
 
@@ -28,7 +28,7 @@ python sim/run_module_tests.py --only history_axi_epoch_guard_tb history_capture
 
 用例源码：[history_capture_client_tb.sv](../../sim/sources/ddr3_test/history_capture_client_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_capture_client_tb](../../sim/images/history_capture_client_tb.png)
 
@@ -36,6 +36,6 @@ python sim/run_module_tests.py --only history_axi_epoch_guard_tb history_capture
 
 用例源码：[video_memory_clear_cross_tb.sv](../../sim/sources/ddr3_test/video_memory_clear_cross_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![video_memory_clear_cross_tb](../../sim/images/video_memory_clear_cross_tb.png)

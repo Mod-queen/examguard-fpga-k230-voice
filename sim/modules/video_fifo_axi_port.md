@@ -21,7 +21,7 @@ python sim/run_module_tests.py --only event_cdc_evidence_tb evidence_wrapper_res
 
 用例源码：[event_cdc_evidence_tb.sv](../../sim/sources/ddr3_test/event_cdc_evidence_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![event_cdc_evidence_tb](../../sim/images/event_cdc_evidence_tb.png)
 
@@ -29,7 +29,7 @@ python sim/run_module_tests.py --only event_cdc_evidence_tb evidence_wrapper_res
 
 用例源码：[evidence_wrapper_reset_tb.sv](../../sim/test_repairs/evidence_wrapper_reset_tb/evidence_wrapper_reset_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv), [mig_axi_reset_contract_model.sv](../../sim/test_repairs/evidence_wrapper_reset_tb/mig_axi_reset_contract_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![evidence_wrapper_reset_tb](../../sim/images/evidence_wrapper_reset_tb.png)
 
@@ -37,7 +37,7 @@ python sim/run_module_tests.py --only event_cdc_evidence_tb evidence_wrapper_res
 
 用例源码：[video_memory_clear_cross_tb.sv](../../sim/sources/ddr3_test/video_memory_clear_cross_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![video_memory_clear_cross_tb](../../sim/images/video_memory_clear_cross_tb.png)
 
@@ -45,6 +45,6 @@ python sim/run_module_tests.py --only event_cdc_evidence_tb evidence_wrapper_res
 
 用例源码：[video_memory_fabric_tb.sv](../../sim/sources/ddr3_test/video_memory_fabric_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![video_memory_fabric_tb](../../sim/images/video_memory_fabric_tb.png)

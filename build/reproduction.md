@@ -1,6 +1,6 @@
 # 从零复原
 
-已验证环境：Windows x64，Vivado **2018.3 build 2405991**，Artix-7器件支持，Python3.12，Icarus12.0 devel。器件xc7a200tfbg484-2。沿用2018.3是为了匹配现有MIG、FIFO、时钟与显示IP；这是对指南其他版本说明要求的明确声明，未宣称新版本已验证。
+已验证环境：Windows x64，Vivado **2018.3 build 2405991**，Artix-7器件支持，Python3.12，Icarus12.0 devel。器件xc7a200tfbg484-2。沿用2018.3是为了匹配现有MIG、FIFO、时钟与显示IP；复原以此工具版本为基准。
 
 1. 将仓库放到英文路径，例如D:/examguard。安装Python3.12（含Tkinter）与pyserial；Vivado和Icarus按各自许可安装。新工具和缓存建议放D盘。
 2. PowerShell设置一次工具位置（按本机路径修改）：
@@ -30,9 +30,11 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tools/reproduce.ps1 -Mode fu
 5. 每次结果保存在新的build/reproduction_时间目录。脚本先核文件，再运行请求的步骤；任何失败停止并给出日志，不覆盖旧结果，不访问串口或自动烧板。日志内历史D:/fpga_race路径是当时来源，不是新机器依赖。
 6. 新板连接、加载位流、准备SD和登记身份见board/k230/readme.md及report附录。K230固件须匹配现有运行环境；固件与个人特征由使用者准备。PC模型连接使用自己的账户。生成实际MCP配置后重连JoyCode。
 
-## 位流选择
+## 位流与保存位置
 
-board/current_release.json指向已现场验收的语音版本及其Flash镜像；board/candidates/quality_status.json指向本轮离线升级候选。不要把候选源码复原成功当成已完成现场验收，也不要直接把候选bit与旧Flash镜像混用。
+根目录[bit](../bit/readme.md)集中保存当前已固化、冷启和现场复测版本的位流及Flash镜像；[版本指针](../board/current_release.json)关联哈希与验证记录。源码、实现报告与该bit一致。
+
+PC的storage_root设置为D:/fpga_real/证据回溯，详见[目录配置](../board/pc/storage.md)。异机可改为自己的位置，确保接收、会话和回放采用同一配置。
 
 ## 结果检查
 

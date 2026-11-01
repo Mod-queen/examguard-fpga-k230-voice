@@ -1,7 +1,7 @@
 {
-  "status": "offline_verified_candidate_not_board_deployed",
-  "bit": "board/candidates/examguard_quality_20261031.bit",
+  "status": "flash_programmed_cold_started_user_field_pass",
+  "bit": "bit/examguard_current.bit",
   "sha256": "85409010f98b1366342ce31469322cef92069643d6a543b3555776076f761126",
   "board_release": "board/current_release.json",
-  "flash_written": false
+  "flash_written": true
 }

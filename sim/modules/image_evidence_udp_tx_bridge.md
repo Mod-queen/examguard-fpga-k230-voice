@@ -18,6 +18,6 @@ python sim/run_module_tests.py --only image_evidence_udp_tx_bridge_tb --vivado-b
 
 用例源码：[image_evidence_udp_tx_bridge_tb.v](../../src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_udp/image_evidence_udp_tx_bridge_tb.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![image_evidence_udp_tx_bridge_tb](../../sim/images/image_evidence_udp_tx_bridge_tb.png)

@@ -26,7 +26,7 @@ python sim/run_module_tests.py --only history_capture_client_tb history_capture_
 
 用例源码：[history_capture_client_tb.sv](../../sim/sources/ddr3_test/history_capture_client_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_capture_client_tb](../../sim/images/history_capture_client_tb.png)
 
@@ -34,7 +34,7 @@ python sim/run_module_tests.py --only history_capture_client_tb history_capture_
 
 用例源码：[history_capture_pipeline_tb.sv](../../sim/sources/ddr3_test/history_capture_pipeline_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_capture_pipeline_tb](../../sim/images/history_capture_pipeline_tb.png)
 
@@ -42,7 +42,7 @@ python sim/run_module_tests.py --only history_capture_client_tb history_capture_
 
 用例源码：[history_frame_writer_tb.sv](../../sim/test_repairs/history_frame_writer_tb/history_frame_writer_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_frame_writer_tb](../../sim/images/history_frame_writer_tb.png)
 
@@ -50,7 +50,7 @@ python sim/run_module_tests.py --only history_capture_client_tb history_capture_
 
 用例源码：[history_ordered_ingress_tb.sv](../../sim/sources/ddr3_test/history_ordered_ingress_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_ordered_ingress_tb](../../sim/images/history_ordered_ingress_tb.png)
 
@@ -58,7 +58,7 @@ python sim/run_module_tests.py --only history_capture_client_tb history_capture_
 
 用例源码：[history_reference_directory_tb.sv](../../sim/test_repairs/history_reference_directory_tb/history_reference_directory_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_reference_directory_tb](../../sim/images/history_reference_directory_tb.png)
 
@@ -66,7 +66,7 @@ python sim/run_module_tests.py --only history_capture_client_tb history_capture_
 
 用例源码：[history_scheduler_tb.sv](../../sim/sources/ddr3_test/history_scheduler_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_scheduler_tb](../../sim/images/history_scheduler_tb.png)
 
@@ -74,7 +74,7 @@ python sim/run_module_tests.py --only history_capture_client_tb history_capture_
 
 用例源码：[history_shared_read_tb.sv](../../sim/test_repairs/history_shared_read_tb/history_shared_read_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_shared_read_tb](../../sim/images/history_shared_read_tb.png)
 
@@ -88,7 +88,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 [原始WDB](../../sim/native_databases/history_store_axi_tb/focus_snapshot.wdb)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_store_axi_tb](../../sim/images/history_store_axi_tb.png)
 
@@ -96,6 +96,6 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[history_window_reader_tb.sv](../../sim/test_repairs/history_window_reader_tb/history_window_reader_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_window_reader_tb](../../sim/images/history_window_reader_tb.png)

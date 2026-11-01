@@ -18,6 +18,6 @@ python sim/run_module_tests.py --only fullscreen_monitor_tb --vivado-bin "$env:E
 
 用例源码：[fullscreen_monitor_tb.v](../../src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/fullscreen_monitor/fullscreen_monitor_tb.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![fullscreen_monitor_tb](../../sim/images/fullscreen_monitor_tb.png)

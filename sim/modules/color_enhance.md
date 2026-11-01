@@ -19,7 +19,7 @@ python sim/run_module_tests.py --only camera_black_driver_tb history_real_displa
 
 用例源码：[camera_black_driver_tb.sv](../../sim/sources/vision_guard/camera_black_driver_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_black_driver_tb](../../sim/images/camera_black_driver_tb.png)
 
@@ -27,6 +27,6 @@ python sim/run_module_tests.py --only camera_black_driver_tb history_real_displa
 
 用例源码：[history_real_display_tb.sv](../../sim/sources/ddr3_test/history_real_display_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_real_display_tb](../../sim/images/history_real_display_tb.png)

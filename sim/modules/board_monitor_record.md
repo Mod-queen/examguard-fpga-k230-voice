@@ -20,7 +20,7 @@ python sim/run_module_tests.py --only board_monitor_record_tb board_monitor_syst
 
 用例源码：[board_monitor_record_tb.sv](../../sim/sources/health/board_monitor_record_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![board_monitor_record_tb](../../sim/images/board_monitor_record_tb.png)
 
@@ -28,7 +28,7 @@ python sim/run_module_tests.py --only board_monitor_record_tb board_monitor_syst
 
 用例源码：[board_monitor_system_tb.sv](../../sim/test_repairs/board_monitor_system_tb/board_monitor_system_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![board_monitor_system_tb](../../sim/images/board_monitor_system_tb.png)
 

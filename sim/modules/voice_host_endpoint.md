@@ -19,7 +19,7 @@ python sim/run_module_tests.py --only voice_host_endpoint_tb voice_interaction_s
 
 用例源码：[voice_host_endpoint_tb.sv](../../sim/sources/voice_interaction/voice_host_endpoint_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![voice_host_endpoint_tb](../../sim/images/voice_host_endpoint_tb.png)
 
@@ -27,6 +27,6 @@ python sim/run_module_tests.py --only voice_host_endpoint_tb voice_interaction_s
 
 用例源码：[voice_interaction_system_tb.sv](../../sim/sources/voice_interaction/voice_interaction_system_tb.sv), [wonderecho_wire_model.sv](../../sim/sources/voice_interaction/wonderecho_wire_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![voice_interaction_system_tb](../../sim/images/voice_interaction_system_tb.png)

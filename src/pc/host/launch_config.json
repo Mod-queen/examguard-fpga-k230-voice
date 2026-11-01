@@ -4,5 +4,6 @@
   "status_port": 5005,
   "downlink_port": 5006,
   "image_port": 6102,
-  "k230_runtime": "book_assist_20261030"
+  "k230_runtime": "book_assist_20261030",
+  "storage_root": "D:/fpga_real/证据回溯"
 }

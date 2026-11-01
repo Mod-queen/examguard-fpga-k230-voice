@@ -1,5 +1,11 @@
-# 数据范围
+# 数据与设计导航
 
-这里保留工程来源、模型训练曲线、日志、权重与既有运行环境记录。未收录现场相机图、个人face_db、私有密钥、网页密码或真实考生名册。运行时请在监考台产生自己的当前会话和证据目录。
+| 内容 | 入口 |
+| --- | --- |
+| FPGA和双摄像头 | [架构](architecture.md) · [通信](communication.md) |
+| 摄像头与识别算法 | [算法](algorithms.md) |
+| 数据集、训练曲线和框图 | [视觉记录](recognition.md) |
+| Agent、JoyCode与网页 | [复核应用](review_workflow.md) |
+| 原始训练记录 | [model_records](model_records) |
 
-原始日志和manifest中的D:/fpga_race路径用于说明旧记录来源，不是本包运行依赖。正式模型文件本体和SD目标映射见board/k230；同一模型哈希应与activation_manifest匹配。
+实物结构、训练标注和K230识别图见showcase，来源和变换另有索引。真实考场采集库、私有人脸库、API密钥和网页密码由使用者本机保存。

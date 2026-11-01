@@ -36,7 +36,7 @@ python sim/run_module_tests.py --only async_fifo_tb camera_evidence_axi_tb camer
 
 用例源码：[async_fifo_tb.sv](../../sim/sources/ddr3_test/async_fifo_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![async_fifo_tb](../../sim/images/async_fifo_tb.png)
 
@@ -44,7 +44,7 @@ python sim/run_module_tests.py --only async_fifo_tb camera_evidence_axi_tb camer
 
 用例源码：[camera_evidence_axi_tb.sv](../../sim/sources/ddr3_test/camera_evidence_axi_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_evidence_axi_tb](../../sim/images/camera_evidence_axi_tb.png)
 
@@ -52,7 +52,7 @@ python sim/run_module_tests.py --only async_fifo_tb camera_evidence_axi_tb camer
 
 用例源码：[camera_evidence_transport_tb.sv](../../sim/sources/ddr3_test/camera_evidence_transport_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_evidence_transport_tb](../../sim/images/camera_evidence_transport_tb.png)
 
@@ -60,7 +60,7 @@ python sim/run_module_tests.py --only async_fifo_tb camera_evidence_axi_tb camer
 
 用例源码：[camera_queued_evidence_tb.sv](../../sim/sources/ddr3_test/camera_queued_evidence_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_queued_evidence_tb](../../sim/images/camera_queued_evidence_tb.png)
 
@@ -68,7 +68,7 @@ python sim/run_module_tests.py --only async_fifo_tb camera_evidence_axi_tb camer
 
 用例源码：[ddr_evidence_axi_tb.sv](../../sim/sources/ddr3_test/ddr_evidence_axi_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![ddr_evidence_axi_tb](../../sim/images/ddr_evidence_axi_tb.png)
 
@@ -76,7 +76,7 @@ python sim/run_module_tests.py --only async_fifo_tb camera_evidence_axi_tb camer
 
 用例源码：[ddr_evidence_probe_tb.sv](../../sim/sources/ddr3_test/ddr_evidence_probe_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv), [ddr_evidence_probe.v](../../sim/sources/ddr3_test/ddr_evidence_probe.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![ddr_evidence_probe_tb](../../sim/images/ddr_evidence_probe_tb.png)
 
@@ -90,7 +90,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 [原始WDB](../../sim/native_databases/ddr_evidence_queued_tb/focus_snapshot.wdb)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![ddr_evidence_queued_tb](../../sim/images/ddr_evidence_queued_tb.png)
 
@@ -98,7 +98,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[event_cdc_evidence_tb.sv](../../sim/sources/ddr3_test/event_cdc_evidence_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![event_cdc_evidence_tb](../../sim/images/event_cdc_evidence_tb.png)
 
@@ -106,7 +106,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[evidence_capture_context_tb.sv](../../sim/sources/ddr3_test/evidence_capture_context_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv), [evidence_capture_context.v](../../sim/sources/ddr3_test/evidence_capture_context.v), [evidence_reset_epoch.v](../../sim/sources/event_identity/evidence_reset_epoch.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![evidence_capture_context_tb](../../sim/images/evidence_capture_context_tb.png)
 
@@ -114,7 +114,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[evidence_packet_cdc_tb.sv](../../sim/sources/ddr3_test/evidence_packet_cdc_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![evidence_packet_cdc_tb](../../sim/images/evidence_packet_cdc_tb.png)
 
@@ -122,7 +122,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[evidence_reset_epoch_tb.sv](../../sim/sources/event_identity/evidence_reset_epoch_tb.sv), [evidence_reset_epoch.v](../../sim/sources/event_identity/evidence_reset_epoch.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![evidence_reset_epoch_tb](../../sim/images/evidence_reset_epoch_tb.png)
 
@@ -130,7 +130,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[history_capture_client_tb.sv](../../sim/sources/ddr3_test/history_capture_client_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_capture_client_tb](../../sim/images/history_capture_client_tb.png)
 
@@ -138,7 +138,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[history_capture_pipeline_tb.sv](../../sim/sources/ddr3_test/history_capture_pipeline_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_capture_pipeline_tb](../../sim/images/history_capture_pipeline_tb.png)
 
@@ -146,7 +146,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[history_result_udp_cdc_tb.sv](../../sim/sources/ddr3_test/history_result_udp_cdc_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_result_udp_cdc_tb](../../sim/images/history_result_udp_cdc_tb.png)
 
@@ -154,7 +154,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[history_stream_cdc_tb.sv](../../sim/sources/ddr3_test/history_stream_cdc_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_stream_cdc_tb](../../sim/images/history_stream_cdc_tb.png)
 
@@ -162,7 +162,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[history_top_interconnect_tb.sv](../../sim/sources/ddr3_test/history_top_interconnect_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_top_interconnect_tb](../../sim/images/history_top_interconnect_tb.png)
 
@@ -170,7 +170,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[queued_window_packet_tb.sv](../../sim/sources/ddr3_test/queued_window_packet_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![queued_window_packet_tb](../../sim/images/queued_window_packet_tb.png)
 
@@ -178,7 +178,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[shared_evidence_axi_tb.sv](../../sim/sources/ddr3_test/shared_evidence_axi_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv), [video_fifo_path_source.sv](../../sim/sources/ddr3_test/video_fifo_path_source.sv), [axi_2client_arbiter_tb.sv](../../sim/sources/ddr3_test/axi_2client_arbiter_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![shared_evidence_axi_tb](../../sim/images/shared_evidence_axi_tb.png)
 
@@ -186,6 +186,6 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[video_memory_fabric_tb.sv](../../sim/sources/ddr3_test/video_memory_fabric_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![video_memory_fabric_tb](../../sim/images/video_memory_fabric_tb.png)

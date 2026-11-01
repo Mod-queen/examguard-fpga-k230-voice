@@ -23,7 +23,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb camera_sample
 
 用例源码：[camera_evidence_transport_tb.sv](../../sim/sources/ddr3_test/camera_evidence_transport_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_evidence_transport_tb](../../sim/images/camera_evidence_transport_tb.png)
 
@@ -31,7 +31,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb camera_sample
 
 用例源码：[camera_sample_guard_tb.sv](../../sim/sources/ddr3_test/camera_sample_guard_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_sample_guard_tb](../../sim/images/camera_sample_guard_tb.png)
 
@@ -39,7 +39,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb camera_sample
 
 用例源码：[camera_time_guard_tb.sv](../../sim/sources/ddr3_test/camera_time_guard_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_time_guard_tb](../../sim/images/camera_time_guard_tb.png)
 
@@ -47,7 +47,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb camera_sample
 
 用例源码：[event_cdc_evidence_tb.sv](../../sim/sources/ddr3_test/event_cdc_evidence_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![event_cdc_evidence_tb](../../sim/images/event_cdc_evidence_tb.png)
 
@@ -55,7 +55,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb camera_sample
 
 用例源码：[evidence_capture_context_tb.sv](../../sim/sources/ddr3_test/evidence_capture_context_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv), [evidence_capture_context.v](../../sim/sources/ddr3_test/evidence_capture_context.v), [evidence_reset_epoch.v](../../sim/sources/event_identity/evidence_reset_epoch.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![evidence_capture_context_tb](../../sim/images/evidence_capture_context_tb.png)
 
@@ -63,6 +63,6 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb camera_sample
 
 用例源码：[video_memory_fabric_tb.sv](../../sim/sources/ddr3_test/video_memory_fabric_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![video_memory_fabric_tb](../../sim/images/video_memory_fabric_tb.png)

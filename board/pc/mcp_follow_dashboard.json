@@ -2,12 +2,12 @@
   "mcpServers": {
     "examguard": {
       "type": "stdio",
-      "command": "D:\\fpga_real\\.venv\\Scripts\\python.exe",
+      "command": "D:/python/python.exe",
       "args": [
         "-u",
-        "D:\\fpga_real\\src\\pc\\start_agent_mcp.py",
+        "D:/examguard/src/pc/start_agent_mcp.py",
         "--current-session-file",
-        "D:\\fpga_real\\src\\pc\\host\\.private\\joycode_current_source.json"
+        "D:/examguard/src/pc/host/.private/joycode_current_source.json"
       ],
       "env": {
         "PYTHONUTF8": "1"

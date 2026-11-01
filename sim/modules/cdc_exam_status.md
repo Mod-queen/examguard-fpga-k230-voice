@@ -18,6 +18,6 @@ python sim/run_module_tests.py --only cdc_exam_status_tb --vivado-bin "$env:EXAM
 
 用例源码：[cdc_exam_status_tb.v](../../src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/exam_fsm/cdc_exam_status_tb.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![cdc_exam_status_tb](../../sim/images/cdc_exam_status_tb.png)

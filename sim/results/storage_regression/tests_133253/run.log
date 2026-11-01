@@ -1,0 +1,25 @@
+test_chinese_directory_survives_configuration_and_receiver_argv (app.test_storage_paths.StoragePathsTests.test_chinese_directory_survives_configuration_and_receiver_argv) ... ok
+test_dashboard_and_mcp_share_selected_evidence_root (app.test_storage_paths.StoragePathsTests.test_dashboard_and_mcp_share_selected_evidence_root) ... ok
+test_default_and_relative_paths_preserve_portability (app.test_storage_paths.StoragePathsTests.test_default_and_relative_paths_preserve_portability) ... ok
+test_invalid_roots_are_rejected (app.test_storage_paths.StoragePathsTests.test_invalid_roots_are_rejected) ... ok
+test_absolute_command_paths_no_cwd_and_config_validation (app.test_services.ServicesTests.test_absolute_command_paths_no_cwd_and_config_validation) ... ok
+test_actual_image_receiver_stop_file_and_exclusive_port (app.test_services.ServicesTests.test_actual_image_receiver_stop_file_and_exclusive_port) ... ok
+test_actual_serial_workers_observe_stop_and_release_owned_port (app.test_services.ServicesTests.test_actual_serial_workers_observe_stop_and_release_owned_port) ... ok
+test_dashboard_closes_owned_workers_and_persists_event (app.test_services.ServicesTests.test_dashboard_closes_owned_workers_and_persists_event) ... ok
+test_failure_is_visible_and_stop_only_owns_children (app.test_services.ServicesTests.test_failure_is_visible_and_stop_only_owns_children) ... ok
+test_image_save_has_separate_graceful_deadline (app.test_services.ServicesTests.test_image_save_has_separate_graceful_deadline) ... ok
+test_instance_and_udp_exclusive_release_without_stale_lock (app.test_services.ServicesTests.test_instance_and_udp_exclusive_release_without_stale_lock) ... ok
+test_k230_health_states_surface_distinct_recoverable_messages (app.test_services.ServicesTests.test_k230_health_states_surface_distinct_recoverable_messages) ... ok
+test_k230_reset_failure_closes_port_without_starting_models (app.test_services.ServicesTests.test_k230_reset_failure_closes_port_without_starting_models) ... ok
+test_k230_usb_read_failure_not_masked_by_stop_write_failure (app.test_services.ServicesTests.test_k230_usb_read_failure_not_masked_by_stop_write_failure) ... ok
+test_missing_device_manual_start_and_busy_udp_not_stolen (app.test_services.ServicesTests.test_missing_device_manual_start_and_busy_udp_not_stolen) ... ok
+test_receiver_emits_liveness_line_for_services_without_hardware (app.test_services.ServicesTests.test_receiver_emits_liveness_line_for_services_without_hardware) ... ok
+test_recognition_only_keeps_start_stop_and_does_not_create_evidence (app.test_services.ServicesTests.test_recognition_only_keeps_start_stop_and_does_not_create_evidence) ... ok
+test_restored_k230_frames_ready_without_evidence_and_fault_not_cleared (app.test_services.ServicesTests.test_restored_k230_frames_ready_without_evidence_and_fault_not_cleared) ... ok
+test_three_owned_children_ready_logs_duplicate_and_graceful_stop (app.test_services.ServicesTests.test_three_owned_children_ready_logs_duplicate_and_graceful_stop) ... ok
+test_unresponsive_owned_child_is_terminated_after_graceful_deadline (app.test_services.ServicesTests.test_unresponsive_owned_child_is_terminated_after_graceful_deadline) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 3.221s
+
+OK

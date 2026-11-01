@@ -19,7 +19,7 @@ python sim/run_module_tests.py --only image_evidence_capture_tb image_evidence_r
 
 用例源码：[image_evidence_capture_tb.v](../../src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/image_evidence_capture_tb.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![image_evidence_capture_tb](../../sim/images/image_evidence_capture_tb.png)
 
@@ -27,6 +27,6 @@ python sim/run_module_tests.py --only image_evidence_capture_tb image_evidence_r
 
 用例源码：[image_evidence_ring_tb.v](../../src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/image_evidence_ring/image_evidence_ring_tb.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![image_evidence_ring_tb](../../sim/images/image_evidence_ring_tb.png)

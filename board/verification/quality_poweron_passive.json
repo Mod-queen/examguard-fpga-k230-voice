@@ -1,0 +1,64 @@
+{
+  "started_utc": "2026-11-01T04:54:12.866790+00:00",
+  "completed_utc": "2026-11-01T04:54:24.104455+00:00",
+  "observations": [
+    {
+      "port": "COM5",
+      "bytes": 40960,
+      "sha256": "a6bdc85ba584caf7867653b110680e971b5250676f1628f331ebb3945fcf1e07",
+      "connection_changes": [
+        {
+          "at": "2026-11-01T04:54:12.868789+00:00",
+          "action": "opened"
+        }
+      ],
+      "serial_bytes_written": 0,
+      "status_frames": 111,
+      "first_status": {
+        "stage": 2,
+        "timestamp": 122300,
+        "health": 0
+      },
+      "last_status": {
+        "stage": 2,
+        "timestamp": 133300,
+        "health": 0
+      },
+      "boot_ids": [
+        108
+      ],
+      "board_monitor_frames": 11
+    },
+    {
+      "port": "COM12",
+      "bytes": 4260,
+      "sha256": "36d837eee15119627bbb468007169d3ad114b1cb60cecef56965b4aa3a36798c",
+      "connection_changes": [
+        {
+          "at": "2026-11-01T04:54:12.869789+00:00",
+          "action": "opened"
+        }
+      ],
+      "serial_bytes_written": 0,
+      "recognition_frames": 76,
+      "first": {
+        "cycle": 1014,
+        "mode": "FACE+PHONE",
+        "algorithm": 14,
+        "object": "none"
+      },
+      "last": {
+        "cycle": 1089,
+        "mode": "FACE+PHONE",
+        "algorithm": 14,
+        "object": "none"
+      },
+      "root_boot_marker_seen": false,
+      "book_runtime_marker_seen": false,
+      "traceback_seen": false,
+      "cleanup_error_seen": false
+    }
+  ],
+  "hardware_writes": false,
+  "notice": "Passive receipts only. Physical power cycle and screen/audio observations require user confirmation."
+}

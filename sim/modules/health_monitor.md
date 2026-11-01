@@ -18,6 +18,6 @@ python sim/run_module_tests.py --only health_monitor_tb --vivado-bin "$env:EXAMG
 
 用例源码：[health_monitor_tb.sv](../../sim/sources/health/health_monitor_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![health_monitor_tb](../../sim/images/health_monitor_tb.png)

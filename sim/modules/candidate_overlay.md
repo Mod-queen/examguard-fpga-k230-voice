@@ -20,7 +20,7 @@ python sim/run_module_tests.py --only candidate_overlay_tb compact_identity_tb v
 
 用例源码：[candidate_overlay_tb.sv](../../sim/sources/voice_interaction/candidate_overlay_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![candidate_overlay_tb](../../sim/images/candidate_overlay_tb.png)
 
@@ -28,7 +28,7 @@ python sim/run_module_tests.py --only candidate_overlay_tb compact_identity_tb v
 
 用例源码：[compact_identity_tb.sv](../../sim/sources/vision_guard/compact_identity_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![compact_identity_tb](../../sim/images/compact_identity_tb.png)
 
@@ -36,6 +36,6 @@ python sim/run_module_tests.py --only candidate_overlay_tb compact_identity_tb v
 
 用例源码：[voice_interaction_system_tb.sv](../../sim/sources/voice_interaction/voice_interaction_system_tb.sv), [wonderecho_wire_model.sv](../../sim/sources/voice_interaction/wonderecho_wire_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![voice_interaction_system_tb](../../sim/images/voice_interaction_system_tb.png)

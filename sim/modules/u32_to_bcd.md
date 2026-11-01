@@ -22,7 +22,7 @@ python sim/run_module_tests.py --only evidence_dump_tb history_health_stats_tb s
 
 用例源码：[evidence_dump_tb.v](../../src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/evidence_dump/evidence_dump_tb.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![evidence_dump_tb](../../sim/images/evidence_dump_tb.png)
 
@@ -30,7 +30,7 @@ python sim/run_module_tests.py --only evidence_dump_tb history_health_stats_tb s
 
 用例源码：[history_health_stats_tb.sv](../../sim/sources/health/history_health_stats_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_health_stats_tb](../../sim/images/history_health_stats_tb.png)
 
@@ -38,7 +38,7 @@ python sim/run_module_tests.py --only evidence_dump_tb history_health_stats_tb s
 
 用例源码：[status_uart_health_tb.sv](../../sim/sources/health/status_uart_health_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![status_uart_health_tb](../../sim/images/status_uart_health_tb.png)
 
@@ -46,7 +46,7 @@ python sim/run_module_tests.py --only evidence_dump_tb history_health_stats_tb s
 
 用例源码：[status_uart_timer_tb.sv](../../sim/sources/event_identity/status_uart_timer_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![status_uart_timer_tb](../../sim/images/status_uart_timer_tb.png)
 

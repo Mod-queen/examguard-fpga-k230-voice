@@ -18,6 +18,6 @@ python sim/run_module_tests.py --only history_health_stats_tb --vivado-bin "$env
 
 用例源码：[history_health_stats_tb.sv](../../sim/sources/health/history_health_stats_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_health_stats_tb](../../sim/images/history_health_stats_tb.png)

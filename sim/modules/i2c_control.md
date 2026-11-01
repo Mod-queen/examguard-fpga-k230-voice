@@ -30,6 +30,6 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 [原始WDB](../../sim/native_databases/camera_init_contract_tb/focus_snapshot.wdb)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_init_contract_tb](../../sim/images/camera_init_contract_tb.png)

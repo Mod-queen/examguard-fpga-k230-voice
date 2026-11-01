@@ -18,6 +18,6 @@ python sim/run_module_tests.py --only history_result_udp_cdc_tb --vivado-bin "$e
 
 用例源码：[history_result_udp_cdc_tb.sv](../../sim/sources/ddr3_test/history_result_udp_cdc_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_result_udp_cdc_tb](../../sim/images/history_result_udp_cdc_tb.png)

@@ -19,7 +19,7 @@ python sim/run_module_tests.py --only mdio_readback_tb phy_qualification_tb --vi
 
 用例源码：[mdio_readback_tb.sv](../../sim/sources/host_link/mdio_readback_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![mdio_readback_tb](../../sim/images/mdio_readback_tb.png)
 
@@ -27,6 +27,6 @@ python sim/run_module_tests.py --only mdio_readback_tb phy_qualification_tb --vi
 
 用例源码：[phy_qualification_tb.sv](../../sim/sources/host_link/phy_qualification_tb.sv), [rtl8211f_wire_model.sv](../../sim/sources/host_link/rtl8211f_wire_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![phy_qualification_tb](../../sim/images/phy_qualification_tb.png)

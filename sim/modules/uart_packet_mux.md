@@ -21,7 +21,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb transaction_u
 
 用例源码：[camera_evidence_transport_tb.sv](../../sim/sources/ddr3_test/camera_evidence_transport_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_evidence_transport_tb](../../sim/images/camera_evidence_transport_tb.png)
 
@@ -35,7 +35,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb transaction_u
 
 用例源码：[uart_packet_mux_tb.sv](../../sim/sources/host_link/uart_packet_mux_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![uart_packet_mux_tb](../../sim/images/uart_packet_mux_tb.png)
 
@@ -43,6 +43,6 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb transaction_u
 
 用例源码：[voice_uart_eight_tb.sv](../../sim/sources/voice_interaction/voice_uart_eight_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![voice_uart_eight_tb](../../sim/images/voice_uart_eight_tb.png)

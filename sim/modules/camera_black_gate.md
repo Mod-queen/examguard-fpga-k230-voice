@@ -22,7 +22,7 @@ python sim/run_module_tests.py --only camera_black_720p_tb camera_black_boundary
 
 用例源码：[camera_black_720p_tb.sv](../../sim/sources/vision_guard/camera_black_720p_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_black_720p_tb](../../sim/images/camera_black_720p_tb.png)
 
@@ -30,7 +30,7 @@ python sim/run_module_tests.py --only camera_black_720p_tb camera_black_boundary
 
 用例源码：[camera_black_boundary_tb.sv](../../sim/sources/vision_guard/camera_black_boundary_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_black_boundary_tb](../../sim/images/camera_black_boundary_tb.png)
 
@@ -38,7 +38,7 @@ python sim/run_module_tests.py --only camera_black_720p_tb camera_black_boundary
 
 用例源码：[camera_black_driver_tb.sv](../../sim/sources/vision_guard/camera_black_driver_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_black_driver_tb](../../sim/images/camera_black_driver_tb.png)
 
@@ -46,7 +46,7 @@ python sim/run_module_tests.py --only camera_black_720p_tb camera_black_boundary
 
 用例源码：[camera_black_noise_tb.sv](../../sim/sources/vision_guard/camera_black_noise_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_black_noise_tb](../../sim/images/camera_black_noise_tb.png)
 
@@ -54,6 +54,6 @@ python sim/run_module_tests.py --only camera_black_720p_tb camera_black_boundary
 
 用例源码：[scene_guard_tb.sv](../../sim/sources/vision_guard/scene_guard_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![scene_guard_tb](../../sim/images/scene_guard_tb.png)

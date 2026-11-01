@@ -35,7 +35,21 @@ def validate_config(config):
     ports = [result[key] for key in ('status_port', 'downlink_port', 'image_port')]
     if any(type(p) is not int or not 1 <= p <= 65535 for p in ports) or len(set(ports)) != 3:
         raise ValueError('UDP端口须为1–65535且互不相同')
+    if 'storage_root' in result:
+        value = result['storage_root']
+        if not isinstance(value, str) or not value.strip() or '\x00' in value:
+            raise ValueError('证据保存根目录不能为空')
+        result['storage_root'] = value.strip()
     return result
+
+
+def storage_paths(config, host=HOST):
+    """接收、事件存档、回放与智能体共享同一保存根目录。"""
+    base = Path(config.get('storage_root', str(host))).expanduser()
+    if not base.is_absolute():
+        base = Path(host) / base
+    base = base.resolve()
+    return {'sessions': base / 'sessions', 'evidence': base / 'evidence_out'}
 
 
 def load_config(path):
@@ -94,7 +108,7 @@ def worker_specs(config, stop_file, host=HOST):
                       '--forward-host', '127.0.0.1', '--forward-port', str(config['status_port']),
                       '--downlink-port', str(config['downlink_port'])] + common,
         'images': py + [str(host/'receive_evidence_udp.py'), '--port', str(config['image_port']),
-                        '--out', str(host/'evidence_out')] + common,
+                        '--out', str(storage_paths(config, host)['evidence'])] + common,
         'k230': py + [str(host/'capture_k230_evidence.py'), '--port', config['k230_port'], '--start',
                          '--recognition-only', '--attach-if-running'] +
                          ({'live290_act16': ['--live290'], 'scene_guard_20261030': ['--scene-guard'],

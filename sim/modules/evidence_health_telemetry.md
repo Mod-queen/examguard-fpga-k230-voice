@@ -20,7 +20,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb evidence_heal
 
 用例源码：[camera_evidence_transport_tb.sv](../../sim/sources/ddr3_test/camera_evidence_transport_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_evidence_transport_tb](../../sim/images/camera_evidence_transport_tb.png)
 
@@ -28,7 +28,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb evidence_heal
 
 用例源码：[evidence_health_telemetry_tb.sv](../../sim/sources/health/evidence_health_telemetry_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![evidence_health_telemetry_tb](../../sim/images/evidence_health_telemetry_tb.png)
 
@@ -36,6 +36,6 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb evidence_heal
 
 用例源码：[history_health_stats_tb.sv](../../sim/sources/health/history_health_stats_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_health_stats_tb](../../sim/images/history_health_stats_tb.png)

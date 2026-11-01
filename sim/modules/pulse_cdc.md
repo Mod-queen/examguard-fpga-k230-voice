@@ -18,6 +18,6 @@ python sim/run_module_tests.py --only history_top_interconnect_tb --vivado-bin "
 
 用例源码：[history_top_interconnect_tb.sv](../../sim/sources/ddr3_test/history_top_interconnect_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_top_interconnect_tb](../../sim/images/history_top_interconnect_tb.png)

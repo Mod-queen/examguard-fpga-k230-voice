@@ -1,0 +1,95 @@
+{
+  "assets": [
+    {
+      "file": "public_validation.png",
+      "csv": "deploy\\release_20261101\\examguard\\data\\model_records\\public_objects320_v2_20261026t112230194049z\\original_training\\results.csv",
+      "csv_sha256": "8afd872ce793ab3a2221eb7a379162127a68be2c8431896f4ffe058f5ec6297f",
+      "epochs": 30,
+      "last": {
+        "epoch": 30.0,
+        "train/box_loss": 1.5701,
+        "train/cls_loss": 1.6468,
+        "train/dfl_loss": 1.1436,
+        "metrics/precision(B)": 0.40568,
+        "metrics/recall(B)": 0.26752,
+        "metrics/mAP50(B)": 0.25611,
+        "metrics/mAP50-95(B)": 0.15383,
+        "val/box_loss": 1.6147,
+        "val/cls_loss": 1.8081,
+        "val/dfl_loss": 1.1363,
+        "lr/pg0": 7.1681e-05,
+        "lr/pg1": 7.1681e-05,
+        "lr/pg2": 7.1681e-05
+      },
+      "scope": "训练7706张 / 验证585张；图中为验证集指标，非板端准确率。",
+      "sha256": "e5bc3d4ac6a106b282d45ce01252d263ec7f7f9047c518cbdf761c136460f0f4"
+    },
+    {
+      "file": "field_fit.png",
+      "csv": "deploy\\release_20261101\\examguard\\data\\model_records\\field_six320_fit_v1_20261026t143703142303z\\original_training\\results.csv",
+      "csv_sha256": "a1d784d67ef381220a205b98a2a09aa76919cfddb7d8086dcf78380d87e72b68",
+      "epochs": 60,
+      "last": {
+        "epoch": 60.0,
+        "train/box_loss": 0.37928,
+        "train/cls_loss": 0.44717,
+        "train/dfl_loss": 0.85241,
+        "metrics/precision(B)": 0.99518,
+        "metrics/recall(B)": 0.9963,
+        "metrics/mAP50(B)": 0.995,
+        "metrics/mAP50-95(B)": 0.94679,
+        "val/box_loss": 0.35593,
+        "val/cls_loss": 0.34292,
+        "val/dfl_loss": 0.79481,
+        "lr/pg0": 5.75e-05,
+        "lr/pg1": 5.75e-05,
+        "lr/pg2": 5.75e-05
+      },
+      "scope": "同批277张图训练与验证；仅表示拟合，不能换算为现场准确率。",
+      "sha256": "60fcd1aa7a8698c9e0a5ebaeba1d52937134349d2cf7a3d665c2e2305caed3a4"
+    },
+    {
+      "file": "phone_training_annotation.png",
+      "source_sha256": "86b994fee68c56c7af9a2332675de281dcaf3e3b83654500b4c73bd422d68f7c",
+      "label_sha256": "36dc26d165729b78d5c026a081eef01c5861b36ebbc3af803c6cff6b3c0fd8d4",
+      "training_index_sha256": "61decc82b68f70d87fd96126c69fdf165eabb2e4d6d37e570b44c9e013d30279",
+      "original_box": [
+        234,
+        45,
+        631,
+        398
+      ],
+      "crop": [
+        218,
+        29,
+        640,
+        414
+      ],
+      "scale": 2,
+      "scope": "已有人工核实批次的训练标注框展示；不是模型预测",
+      "sha256": "ab456c74d74f9cf2d55408ac6e455bfdf2167f235f377551bc36721b82d6293e"
+    },
+    {
+      "file": "purple_book_detection.png",
+      "source_sha256": "979978f67444e2144be4b45b538f9b52e96816443e63ec4382efa9a76762f9c4",
+      "seq": 170,
+      "score": 0.6542969,
+      "source": "2026-10-30 K230同帧采样",
+      "scope": "真实板端采样输出框；UART在该采样中disabled，非本次现场报警记录",
+      "sha256": "979978f67444e2144be4b45b538f9b52e96816443e63ec4382efa9a76762f9c4"
+    },
+    {
+      "file": "prototype_overview.jpg",
+      "source_sha256": "0eff5976fd1abb99a629b21739d24f4587e0a92b48fa289440736ecdbd5770d6",
+      "scope": "用户提供的作品实物结构照片",
+      "sha256": "0eff5976fd1abb99a629b21739d24f4587e0a92b48fa289440736ecdbd5770d6"
+    },
+    {
+      "file": "fpga_detail.jpg",
+      "source_sha256": "504bfe55cee818834285416ed9416b89fbd578c0d602afeac61417b98e330a44",
+      "scope": "用户提供的作品实物结构照片",
+      "sha256": "504bfe55cee818834285416ed9416b89fbd578c0d602afeac61417b98e330a44"
+    }
+  ],
+  "raw_evidence_modified": false
+}

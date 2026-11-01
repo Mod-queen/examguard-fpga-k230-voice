@@ -7,7 +7,7 @@ from tkinter import messagebox
 HOST = Path(__file__).resolve().parent/'host'
 sys.path.insert(0, str(HOST))
 
-from app.services import InstanceLock, Services, check_udp_free, load_config, save_config
+from app.services import InstanceLock, Services, check_udp_free, load_config, save_config, storage_paths
 
 
 def main():
@@ -24,8 +24,9 @@ def main():
             save_config(config_path, config)
         from app.dashboard import Dashboard
         services = Services(config)
+        paths = storage_paths(config, HOST)
         app = Dashboard(host='0.0.0.0', port=config['status_port'], config_path=HOST/'regions.json',
-            downlink_port=config['downlink_port'], session_root=HOST/'sessions',
+            downlink_port=config['downlink_port'], session_root=paths['sessions'], evidence_root=paths['evidence'],
             services=services, launch_config_path=config_path)
 
         def launch():

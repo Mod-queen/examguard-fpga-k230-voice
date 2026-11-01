@@ -19,7 +19,7 @@ python sim/run_module_tests.py --only history_capture_client_tb history_startup_
 
 用例源码：[history_capture_client_tb.sv](../../sim/sources/ddr3_test/history_capture_client_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_capture_client_tb](../../sim/images/history_capture_client_tb.png)
 
@@ -27,6 +27,6 @@ python sim/run_module_tests.py --only history_capture_client_tb history_startup_
 
 用例源码：[history_startup_gate_tb.sv](../../sim/sources/ddr3_test/history_startup_gate_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_startup_gate_tb](../../sim/images/history_startup_gate_tb.png)

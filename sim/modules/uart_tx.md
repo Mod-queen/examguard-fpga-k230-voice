@@ -29,7 +29,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb config_ack_tx
 
 用例源码：[camera_evidence_transport_tb.sv](../../sim/sources/ddr3_test/camera_evidence_transport_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_evidence_transport_tb](../../sim/images/camera_evidence_transport_tb.png)
 
@@ -37,7 +37,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb config_ack_tx
 
 用例源码：[config_ack_tx_tb.v](../../src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/config_ack_tx_tb.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![config_ack_tx_tb](../../sim/images/config_ack_tx_tb.png)
 
@@ -45,7 +45,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb config_ack_tx
 
 用例源码：[ddr_evidence_probe_tb.sv](../../sim/sources/ddr3_test/ddr_evidence_probe_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv), [ddr_evidence_probe.v](../../sim/sources/ddr3_test/ddr_evidence_probe.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![ddr_evidence_probe_tb](../../sim/images/ddr_evidence_probe_tb.png)
 
@@ -53,7 +53,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb config_ack_tx
 
 用例源码：[evidence_dump_tb.v](../../src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/evidence_dump/evidence_dump_tb.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![evidence_dump_tb](../../sim/images/evidence_dump_tb.png)
 
@@ -61,7 +61,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb config_ack_tx
 
 用例源码：[history_health_stats_tb.sv](../../sim/sources/health/history_health_stats_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_health_stats_tb](../../sim/images/history_health_stats_tb.png)
 
@@ -69,7 +69,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb config_ack_tx
 
 用例源码：[i2c_register_master_tb.sv](../../sim/sources/persistence/i2c_register_master_tb.sv), [persistence_inventory_probe.sv](../../sim/sources/persistence/persistence_inventory_probe.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![i2c_register_master_tb](../../sim/images/i2c_register_master_tb.png)
 
@@ -77,7 +77,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb config_ack_tx
 
 用例源码：[persistent_boot_probe_tb.sv](../../sim/sources/persistence/persistent_boot_probe_tb.sv), [persistence_inventory_probe.sv](../../sim/sources/persistence/persistence_inventory_probe.sv), [persistent_boot_probe.sv](../../sim/sources/persistence/persistent_boot_probe.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![persistent_boot_probe_tb](../../sim/images/persistent_boot_probe_tb.png)
 
@@ -85,7 +85,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb config_ack_tx
 
 用例源码：[status_uart_health_tb.sv](../../sim/sources/health/status_uart_health_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![status_uart_health_tb](../../sim/images/status_uart_health_tb.png)
 
@@ -93,7 +93,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb config_ack_tx
 
 用例源码：[status_uart_timer_tb.sv](../../sim/sources/event_identity/status_uart_timer_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![status_uart_timer_tb](../../sim/images/status_uart_timer_tb.png)
 
@@ -107,7 +107,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb config_ack_tx
 
 用例源码：[uart_packet_mux_tb.sv](../../sim/sources/host_link/uart_packet_mux_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![uart_packet_mux_tb](../../sim/images/uart_packet_mux_tb.png)
 
@@ -115,6 +115,6 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb config_ack_tx
 
 用例源码：[voice_uart_eight_tb.sv](../../sim/sources/voice_interaction/voice_uart_eight_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![voice_uart_eight_tb](../../sim/images/voice_uart_eight_tb.png)

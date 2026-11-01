@@ -19,7 +19,7 @@ python sim/run_module_tests.py --only camera_init_audit_tb camera_init_contract_
 
 用例源码：[camera_init_audit_tb.sv](../../sim/sources/ddr3_test/camera_init_audit_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_init_audit_tb](../../sim/images/camera_init_audit_tb.png)
 
@@ -39,6 +39,6 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 [原始WDB](../../sim/native_databases/camera_init_contract_tb/focus_snapshot.wdb)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_init_contract_tb](../../sim/images/camera_init_contract_tb.png)

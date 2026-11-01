@@ -1,7 +1,13 @@
-# 报告与协作材料
+# 设计报告与协作材料
 
-design_report.docx为按原模板整理的现有正式报告，含优化、协作纠错、技能提炼和复原附录。用户要求暂停修订Word，因此其中部分数字、图片占位及路径仍待下一轮同步。当前准确指标见qa/quality/acceptance.json；不要用旧稿替代本轮实现报告。
+| 内容 | 文件 |
+| --- | --- |
+| 现有设计报告 | [design_report.docx](design_report.docx) |
+| 优化、协作与复原补充说明 | [design_appendix.md](design_appendix.md) |
+| 大模型协作与纠错节选 | [collaboration_record.md](collaboration_record.md) · [可见交互节选](llm_visible_excerpts.md) |
+| 系统与功能框图 | [总体架构](figures/system_architecture.png) · [证据流程](figures/evidence_flow.png) · [考试流程](figures/exam_flow.png) |
+| 中英文作品海报 | [amd_poster_zh_en.pptx](amd_poster_zh_en.pptx) |
 
-design_appendix.md、collaboration_record.md与llm_visible_excerpts.md保留协作过程和可见交互节选；不是完整平台原始日志或内部推理。正式系统PDF与演示视频须匿名；两页海报PPTX按补充通知可保留队伍信息。
+工程最新实现指标及板级版本见[当前版本](../board/current_release.json)与[实现报告](../build/reports/quality_current/timing.rpt)。设计报告内2026-10-30版的资源对比对应当时版本；本轮工程更新保留其原文件。
 
-AMD ROSS心得是可选项；没有实际使用证据的内容不写成使用经历。自用演示稿和讲解词按用户要求暂停修改。
+框图与算法入口：[双摄像头和FPGA架构](../data/architecture.md)、[通信链路](../data/communication.md)、[训练记录](../data/recognition.md)、[复核工作流](../data/review_workflow.md)。

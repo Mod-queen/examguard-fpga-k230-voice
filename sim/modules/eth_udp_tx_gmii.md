@@ -21,7 +21,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb network_isola
 
 用例源码：[camera_evidence_transport_tb.sv](../../sim/sources/ddr3_test/camera_evidence_transport_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_evidence_transport_tb](../../sim/images/camera_evidence_transport_tb.png)
 
@@ -29,7 +29,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb network_isola
 
 用例源码：[network_isolation_tb.sv](../../sim/sources/ddr3_test/network_isolation_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![network_isolation_tb](../../sim/images/network_isolation_tb.png)
 
@@ -37,7 +37,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb network_isola
 
 用例源码：[queued_window_packet_tb.sv](../../sim/sources/ddr3_test/queued_window_packet_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![queued_window_packet_tb](../../sim/images/queued_window_packet_tb.png)
 
@@ -45,6 +45,6 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb network_isola
 
 用例源码：[video_memory_fabric_tb.sv](../../sim/sources/ddr3_test/video_memory_fabric_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![video_memory_fabric_tb](../../sim/images/video_memory_fabric_tb.png)

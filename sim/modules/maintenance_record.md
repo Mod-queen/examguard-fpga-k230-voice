@@ -20,7 +20,7 @@ python sim/run_module_tests.py --only maintenance_endpoint_tb maintenance_system
 
 用例源码：[maintenance_endpoint_tb.sv](../../sim/test_repairs/maintenance_endpoint_tb/maintenance_endpoint_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![maintenance_endpoint_tb](../../sim/images/maintenance_endpoint_tb.png)
 
@@ -28,7 +28,7 @@ python sim/run_module_tests.py --only maintenance_endpoint_tb maintenance_system
 
 用例源码：[maintenance_system_tb.sv](../../sim/test_repairs/maintenance_system_tb/maintenance_system_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![maintenance_system_tb](../../sim/images/maintenance_system_tb.png)
 

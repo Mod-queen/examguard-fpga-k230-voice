@@ -23,7 +23,7 @@ python sim/run_module_tests.py --only history_capture_client_tb history_capture_
 
 用例源码：[history_capture_client_tb.sv](../../sim/sources/ddr3_test/history_capture_client_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_capture_client_tb](../../sim/images/history_capture_client_tb.png)
 
@@ -31,7 +31,7 @@ python sim/run_module_tests.py --only history_capture_client_tb history_capture_
 
 用例源码：[history_capture_full_tb.sv](../../sim/sources/ddr3_test/history_capture_full_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_capture_full_tb](../../sim/images/history_capture_full_tb.png)
 
@@ -39,7 +39,7 @@ python sim/run_module_tests.py --only history_capture_client_tb history_capture_
 
 用例源码：[history_capture_pipeline_tb.sv](../../sim/sources/ddr3_test/history_capture_pipeline_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_capture_pipeline_tb](../../sim/images/history_capture_pipeline_tb.png)
 
@@ -47,7 +47,7 @@ python sim/run_module_tests.py --only history_capture_client_tb history_capture_
 
 用例源码：[history_capture_source_tb.sv](../../sim/sources/ddr3_test/history_capture_source_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_capture_source_tb](../../sim/images/history_capture_source_tb.png)
 
@@ -55,7 +55,7 @@ python sim/run_module_tests.py --only history_capture_client_tb history_capture_
 
 用例源码：[history_real_display_tb.sv](../../sim/sources/ddr3_test/history_real_display_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_real_display_tb](../../sim/images/history_real_display_tb.png)
 
@@ -63,6 +63,6 @@ python sim/run_module_tests.py --only history_capture_client_tb history_capture_
 
 用例源码：[history_sample_source_tb.sv](../../sim/sources/ddr3_test/history_sample_source_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_sample_source_tb](../../sim/images/history_sample_source_tb.png)

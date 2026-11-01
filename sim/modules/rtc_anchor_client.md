@@ -22,7 +22,7 @@ python sim/run_module_tests.py --only i2c_register_master_tb maintenance_system_
 
 用例源码：[i2c_register_master_tb.sv](../../sim/sources/persistence/i2c_register_master_tb.sv), [persistence_inventory_probe.sv](../../sim/sources/persistence/persistence_inventory_probe.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![i2c_register_master_tb](../../sim/images/i2c_register_master_tb.png)
 
@@ -30,7 +30,7 @@ python sim/run_module_tests.py --only i2c_register_master_tb maintenance_system_
 
 用例源码：[maintenance_system_tb.sv](../../sim/test_repairs/maintenance_system_tb/maintenance_system_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![maintenance_system_tb](../../sim/images/maintenance_system_tb.png)
 
@@ -38,7 +38,7 @@ python sim/run_module_tests.py --only i2c_register_master_tb maintenance_system_
 
 用例源码：[persistent_boot_service_tb.sv](../../sim/sources/persistence/persistent_boot_service_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![persistent_boot_service_tb](../../sim/images/persistent_boot_service_tb.png)
 
@@ -46,7 +46,7 @@ python sim/run_module_tests.py --only i2c_register_master_tb maintenance_system_
 
 用例源码：[persistent_maintenance_service_tb.sv](../../sim/sources/persistence/persistent_maintenance_service_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![persistent_maintenance_service_tb](../../sim/images/persistent_maintenance_service_tb.png)
 
@@ -54,6 +54,6 @@ python sim/run_module_tests.py --only i2c_register_master_tb maintenance_system_
 
 用例源码：[rtc_anchor_client_tb.sv](../../sim/sources/persistence/rtc_anchor_client_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![rtc_anchor_client_tb](../../sim/images/rtc_anchor_client_tb.png)

@@ -1,0 +1,12 @@
+{
+  "free_after": 112181248,
+  "free_before": 90112,
+  "active_hashes_verified": 15,
+  "files_removed": 322,
+  "bytes_removed": 110240420,
+  "face_database_unchanged": true,
+  "utc": "2026-11-01T04:19:21.879539+00:00",
+  "root_autostart_restored": true,
+  "target_count": 33,
+  "new_backups_created": false
+}

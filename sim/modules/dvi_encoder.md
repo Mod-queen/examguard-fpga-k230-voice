@@ -18,6 +18,6 @@ python sim/run_module_tests.py --only dvi_encoder_contract_tb --vivado-bin "$env
 
 用例源码：[dvi_encoder_contract_tb.sv](../../sim/sources/verification_20261031/dvi_encoder_contract_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![dvi_encoder_contract_tb](../../sim/images/dvi_encoder_contract_tb.png)

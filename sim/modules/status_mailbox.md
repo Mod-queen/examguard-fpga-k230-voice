@@ -18,6 +18,6 @@ python sim/run_module_tests.py --only status_mailbox_contract_tb --vivado-bin "$
 
 用例源码：[status_mailbox_contract_tb.sv](../../sim/sources/verification_20261031/status_mailbox_contract_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![status_mailbox_contract_tb](../../sim/images/status_mailbox_contract_tb.png)

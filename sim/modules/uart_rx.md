@@ -18,6 +18,6 @@ python sim/run_module_tests.py --only uart_rx_tb --vivado-bin "$env:EXAMGUARD_VI
 
 用例源码：[uart_rx_tb.v](../../src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/uart_rx_tb.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![uart_rx_tb](../../sim/images/uart_rx_tb.png)

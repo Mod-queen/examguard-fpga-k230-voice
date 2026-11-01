@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "tests": 20,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "suites": [
+    "app.test_storage_paths",
+    "app.test_services"
+  ],
+  "hardware_access": false,
+  "cloud_requests": false
+}

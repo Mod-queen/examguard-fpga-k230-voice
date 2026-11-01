@@ -24,6 +24,6 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 [原始WDB](../../sim/native_databases/gmii_rgmii_contract_tb/focus_snapshot.wdb)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![gmii_rgmii_contract_tb](../../sim/images/gmii_rgmii_contract_tb.png)

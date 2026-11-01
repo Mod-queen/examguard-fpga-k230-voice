@@ -18,6 +18,6 @@ python sim/run_module_tests.py --only shared_xadc_monitor_tb --vivado-bin "$env:
 
 用例源码：[shared_xadc_monitor_tb.sv](../../sim/test_repairs/shared_xadc_monitor_tb/shared_xadc_monitor_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![shared_xadc_monitor_tb](../../sim/images/shared_xadc_monitor_tb.png)

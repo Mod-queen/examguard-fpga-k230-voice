@@ -26,7 +26,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb event_transac
 
 用例源码：[camera_evidence_transport_tb.sv](../../sim/sources/ddr3_test/camera_evidence_transport_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_evidence_transport_tb](../../sim/images/camera_evidence_transport_tb.png)
 
@@ -34,7 +34,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb event_transac
 
 用例源码：[event_transaction_queue_tb.sv](../../sim/sources/event_transaction_queue/event_transaction_queue_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![event_transaction_queue_tb](../../sim/images/event_transaction_queue_tb.png)
 
@@ -42,7 +42,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb event_transac
 
 用例源码：[exam_event_context_tb.sv](../../sim/sources/event_identity/exam_event_context_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![exam_event_context_tb](../../sim/images/exam_event_context_tb.png)
 
@@ -56,7 +56,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 [原始WDB](../../sim/native_databases/exam_fsm_tb/focus_snapshot.wdb)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![exam_fsm_tb](../../sim/images/exam_fsm_tb.png)
 
@@ -64,7 +64,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[maintenance_exam_tb.sv](../../sim/sources/persistence/maintenance_exam_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![maintenance_exam_tb](../../sim/images/maintenance_exam_tb.png)
 
@@ -72,7 +72,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[scene_guard_tb.sv](../../sim/sources/vision_guard/scene_guard_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![scene_guard_tb](../../sim/images/scene_guard_tb.png)
 
@@ -80,7 +80,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[status_uart_timer_tb.sv](../../sim/sources/event_identity/status_uart_timer_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![status_uart_timer_tb](../../sim/images/status_uart_timer_tb.png)
 
@@ -88,7 +88,7 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[voice_exam_interaction_tb.sv](../../sim/sources/voice_interaction/voice_exam_interaction_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![voice_exam_interaction_tb](../../sim/images/voice_exam_interaction_tb.png)
 
@@ -96,6 +96,6 @@ Vivado原生波形（与所列用例及WDB对应）：
 
 用例源码：[voice_interaction_system_tb.sv](../../sim/sources/voice_interaction/voice_interaction_system_tb.sv), [wonderecho_wire_model.sv](../../sim/sources/voice_interaction/wonderecho_wire_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![voice_interaction_system_tb](../../sim/images/voice_interaction_system_tb.png)

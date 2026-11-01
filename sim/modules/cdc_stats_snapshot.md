@@ -24,7 +24,7 @@ python sim/run_module_tests.py --only board_monitor_system_tb camera_evidence_tr
 
 用例源码：[board_monitor_system_tb.sv](../../sim/test_repairs/board_monitor_system_tb/board_monitor_system_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![board_monitor_system_tb](../../sim/images/board_monitor_system_tb.png)
 
@@ -32,7 +32,7 @@ python sim/run_module_tests.py --only board_monitor_system_tb camera_evidence_tr
 
 用例源码：[camera_evidence_transport_tb.sv](../../sim/sources/ddr3_test/camera_evidence_transport_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_evidence_transport_tb](../../sim/images/camera_evidence_transport_tb.png)
 
@@ -40,7 +40,7 @@ python sim/run_module_tests.py --only board_monitor_system_tb camera_evidence_tr
 
 用例源码：[cdc_stats_snapshot_tb.sv](../../sim/sources/health/cdc_stats_snapshot_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![cdc_stats_snapshot_tb](../../sim/images/cdc_stats_snapshot_tb.png)
 
@@ -48,7 +48,7 @@ python sim/run_module_tests.py --only board_monitor_system_tb camera_evidence_tr
 
 用例源码：[evidence_health_telemetry_tb.sv](../../sim/sources/health/evidence_health_telemetry_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![evidence_health_telemetry_tb](../../sim/images/evidence_health_telemetry_tb.png)
 
@@ -56,7 +56,7 @@ python sim/run_module_tests.py --only board_monitor_system_tb camera_evidence_tr
 
 用例源码：[history_health_stats_tb.sv](../../sim/sources/health/history_health_stats_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![history_health_stats_tb](../../sim/images/history_health_stats_tb.png)
 
@@ -64,7 +64,7 @@ python sim/run_module_tests.py --only board_monitor_system_tb camera_evidence_tr
 
 用例源码：[phy_health_snapshot_tb.sv](../../sim/sources/health/phy_health_snapshot_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![phy_health_snapshot_tb](../../sim/images/phy_health_snapshot_tb.png)
 
@@ -72,6 +72,6 @@ python sim/run_module_tests.py --only board_monitor_system_tb camera_evidence_tr
 
 用例源码：[voice_interaction_system_tb.sv](../../sim/sources/voice_interaction/voice_interaction_system_tb.sv), [wonderecho_wire_model.sv](../../sim/sources/voice_interaction/wonderecho_wire_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![voice_interaction_system_tb](../../sim/images/voice_interaction_system_tb.png)

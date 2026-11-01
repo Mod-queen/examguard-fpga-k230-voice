@@ -19,7 +19,7 @@ python sim/run_module_tests.py --only key_debounce_tb operator_alarm_contract_tb
 
 用例源码：[key_debounce_tb.v](../../src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/user_control/key_debounce_tb.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![key_debounce_tb](../../sim/images/key_debounce_tb.png)
 
@@ -27,6 +27,6 @@ python sim/run_module_tests.py --only key_debounce_tb operator_alarm_contract_tb
 
 用例源码：[operator_alarm_contract_tb.sv](../../sim/sources/verification_20261031/operator_alarm_contract_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![operator_alarm_contract_tb](../../sim/images/operator_alarm_contract_tb.png)

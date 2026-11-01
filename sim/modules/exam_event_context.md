@@ -20,7 +20,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb exam_event_co
 
 用例源码：[camera_evidence_transport_tb.sv](../../sim/sources/ddr3_test/camera_evidence_transport_tb.sv), [axi_frame_slave_model.sv](../../sim/sources/ddr3_test/axi_frame_slave_model.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![camera_evidence_transport_tb](../../sim/images/camera_evidence_transport_tb.png)
 
@@ -28,7 +28,7 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb exam_event_co
 
 用例源码：[exam_event_context_tb.sv](../../sim/sources/event_identity/exam_event_context_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![exam_event_context_tb](../../sim/images/exam_event_context_tb.png)
 
@@ -36,6 +36,6 @@ python sim/run_module_tests.py --only camera_evidence_transport_tb exam_event_co
 
 用例源码：[persistent_boot_service_tb.sv](../../sim/sources/persistence/persistent_boot_service_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![persistent_boot_service_tb](../../sim/images/persistent_boot_service_tb.png)

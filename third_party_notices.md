@@ -12,3 +12,5 @@ license.txt的MIT许可适用于团队原创贡献；不改变上游文件、厂
 | PC依赖 | Python标准库、pyserial | 依赖版本和取得方式见requirements.txt与复原说明 |
 
 不包含厂商固件镜像、Vivado安装包、个人face_db、API密钥、网页密码或真实采集数据库。硬件与软件原许可条件独立保留。
+
+训练数据来源与使用范围见[data/recognition.md](data/recognition.md)。COCO与Open Images遵循原始数据许可；自采素材只展示本项目已提供的目标裁图及书籍识别图。

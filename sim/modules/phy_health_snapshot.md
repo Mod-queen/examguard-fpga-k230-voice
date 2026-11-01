@@ -18,6 +18,6 @@ python sim/run_module_tests.py --only phy_health_snapshot_tb --vivado-bin "$env:
 
 用例源码：[phy_health_snapshot_tb.sv](../../sim/sources/health/phy_health_snapshot_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![phy_health_snapshot_tb](../../sim/images/phy_health_snapshot_tb.png)

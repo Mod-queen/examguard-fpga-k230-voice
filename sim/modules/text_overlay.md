@@ -19,7 +19,7 @@ python sim/run_module_tests.py --only compact_identity_tb overlay_status_contrac
 
 用例源码：[compact_identity_tb.sv](../../sim/sources/vision_guard/compact_identity_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![compact_identity_tb](../../sim/images/compact_identity_tb.png)
 
@@ -27,6 +27,6 @@ python sim/run_module_tests.py --only compact_identity_tb overlay_status_contrac
 
 用例源码：[overlay_status_contract_tb.sv](../../sim/sources/verification_20261031/overlay_status_contract_tb.sv)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![overlay_status_contract_tb](../../sim/images/overlay_status_contract_tb.png)

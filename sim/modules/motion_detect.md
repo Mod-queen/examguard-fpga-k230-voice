@@ -18,6 +18,6 @@ python sim/run_module_tests.py --only motion_detect_tb --vivado-bin "$env:EXAMGU
 
 用例源码：[motion_detect_tb.v](../../src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/motion_detect/motion_detect_tb.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![motion_detect_tb](../../sim/images/motion_detect_tb.png)

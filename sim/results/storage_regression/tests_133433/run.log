@@ -1,0 +1,15 @@
+test_query_select_visual_review_and_export_preserve_event_and_text_model (app.test_agent_vision.AgentDualPanelTests.test_query_select_visual_review_and_export_preserve_event_and_text_model) ... ok
+test_cancellation_and_malformed_reply_are_explicit_failures (app.test_agent_vision.AgentVisionTests.test_cancellation_and_malformed_reply_are_explicit_failures) ... ok
+test_dual_configuration_roundtrip_and_old_config_compatibility (app.test_agent_vision.AgentVisionTests.test_dual_configuration_roundtrip_and_old_config_compatibility) ... ok
+test_maximum_three_frames_and_no_paths_in_cloud_payload (app.test_agent_vision.AgentVisionTests.test_maximum_three_frames_and_no_paths_in_cloud_payload) ... ok
+test_modified_after_tool_verification_is_rejected (app.test_agent_vision.AgentVisionTests.test_modified_after_tool_verification_is_rejected) ... ok
+test_no_images_or_invalid_evidence_never_calls_model (app.test_agent_vision.AgentVisionTests.test_no_images_or_invalid_evidence_never_calls_model) ... ok
+test_service_busy_is_distinct_from_bad_key_and_does_not_echo_provider_text (app.test_agent_vision.AgentVisionTests.test_service_busy_is_distinct_from_bad_key_and_does_not_echo_provider_text) ... ok
+test_visual_probe_uses_only_a_synthetic_image (app.test_agent_vision.AgentVisionTests.test_visual_probe_uses_only_a_synthetic_image) ... ok
+test_visual_request_sends_verified_png_bytes_and_keeps_text_model (app.test_agent_vision.AgentVisionTests.test_visual_request_sends_verified_png_bytes_and_keeps_text_model) ... ok
+test_zhipu_http_uses_documented_auto_tools_and_disables_thinking (app.test_agent_vision.AgentVisionTests.test_zhipu_http_uses_documented_auto_tools_and_disables_thinking) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.398s
+
+OK

@@ -1,0 +1,25 @@
+{
+  "version": "accepted_quality_20261101",
+  "files": [
+    {
+      "path": "bit/examguard_current.bit",
+      "bytes": 9730769,
+      "sha256": "85409010f98b1366342ce31469322cef92069643d6a543b3555776076f761126"
+    },
+    {
+      "path": "bit/current_full16m.bin",
+      "bytes": 16777216,
+      "sha256": "18e7a8597baec9494259861ba345eb3aa52a37b728a6b37083eac3a522c58b59"
+    },
+    {
+      "path": "bit/current_full16m.mcs",
+      "bytes": 47190285,
+      "sha256": "48b8dbfb182bc0dd8deb31bcdb14a9d95f2d4ce889219d22d2a83d9497d6faec"
+    },
+    {
+      "path": "bit/current_spi1_payload.bin",
+      "bytes": 9730652,
+      "sha256": "d274ea13e2933c1b449a43f63b3f5f122ff7e3cefbff5df50c78347dbb9e2d85"
+    }
+  ]
+}

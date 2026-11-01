@@ -19,7 +19,7 @@ python sim/run_module_tests.py --only config_ack_tx_tb transaction_uart_integrat
 
 用例源码：[config_ack_tx_tb.v](../../src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/host_link/config_ack_tx_tb.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![config_ack_tx_tb](../../sim/images/config_ack_tx_tb.png)
 

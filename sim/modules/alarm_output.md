@@ -18,6 +18,6 @@ python sim/run_module_tests.py --only alarm_output_tb --vivado-bin "$env:EXAMGUA
 
 用例源码：[alarm_output_tb.v](../../src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/alarm_output/alarm_output_tb.v)
 
-历史VCD数据导出图（并非Vivado截图）：
+VCD仿真波形（来源批次见索引）：
 
 ![alarm_output_tb](../../sim/images/alarm_output_tb.png)

@@ -1,0 +1,22 @@
+{
+  "recorded_utc": "2026-11-01T05:11:02.605756+00:00",
+  "bit_sha256": "85409010f98b1366342ce31469322cef92069643d6a543b3555776076f761126",
+  "flash_sha256": "18e7a8597baec9494259861ba345eb3aa52a37b728a6b37083eac3a522c58b59",
+  "full_flash_readback_verified": true,
+  "physical_power_cycle_user_reply": "好了",
+  "post_poweron_boot": 108,
+  "poweron_passive_sha256": "a9499948be4eb67e6e1a857b3b3b18fe64a2007dca4f73d5df4bd8a44adf0fd7",
+  "user_reported_pass": true,
+  "user_reply": "我测试过没问题",
+  "checked_items": [
+    "身份核对显示",
+    "连续手机与不同报警语音",
+    "手机",
+    "紫书封面",
+    "左右扭头",
+    "证据回放",
+    "OV5640不透光遮挡提示与语音"
+  ],
+  "earlier_observation": "强光下全遮未触发；用户说明与光线有关，随后按不透光复测要求反馈通过",
+  "scope": "用户现场功能复测反馈，加独立Flash全读回和上电后双串口被动观察；不代表独立准确率、整场误报率或延迟统计。"
+}
