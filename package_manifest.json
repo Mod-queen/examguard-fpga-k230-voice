@@ -1,6 +1,6 @@
 {
   "scope": "public_fpga_k230_voice_source_reports_showcase",
-  "created_utc": "2026-11-01T05:46:47.219799+00:00",
+  "created_utc": "2026-11-01T07:30:38.918675+00:00",
   "files": [
     {
       "path": ".gitignore",
@@ -1603,6 +1603,11 @@
       "sha256": "0445acd4950e2b358abcc85ba724e5e1ccdbfb8d072222c3169ea946e4768ca8"
     },
     {
+      "path": "build/reproduction.md",
+      "bytes": 2726,
+      "sha256": "536d776d7016f8f7b67995f172da4a9ac25f2f1e725c70dda96106e805c8fd84"
+    },
+    {
       "path": "build/reproduction/bus_skew.rpt",
       "bytes": 148704,
       "sha256": "228e13751c14c785cba687147aaee7dabee131ac23b8e10f5acbec5fbae67cb8"
@@ -1661,11 +1666,6 @@
       "path": "build/reproduction/voice_sim.log",
       "bytes": 12860,
       "sha256": "48d853420765dd66dcb437ad34b9d5d89fa4a7b31a2b04a6049bcf627d69d943"
-    },
-    {
-      "path": "build/reproduction.md",
-      "bytes": 2726,
-      "sha256": "536d776d7016f8f7b67995f172da4a9ac25f2f1e725c70dda96106e805c8fd84"
     },
     {
       "path": "build/reproduction_status.json",
@@ -2489,13 +2489,18 @@
     },
     {
       "path": "report/design_appendix.md",
-      "bytes": 3909,
-      "sha256": "d2180a16d7f3fa525a5eb41ac37d82780d5c2006f95542a76f41c6a7bd10bd08"
+      "bytes": 424,
+      "sha256": "f6c215487a9a139d79e46bbe45e798ddcf3ee839f496ddb80c8cec6b7afd4c17"
     },
     {
       "path": "report/design_report.docx",
-      "bytes": 859279,
-      "sha256": "8c47838b0eeeeb57bb5222c55238bfa225a75587cd0be3772954638ac73e8322"
+      "bytes": 2007061,
+      "sha256": "b7a91015550f2281c17b78bffd7aac25c9424eabf5c63ef25bd045954077defb"
+    },
+    {
+      "path": "report/design_report.pdf",
+      "bytes": 952701,
+      "sha256": "ca8e2ac453ff507e9c585ae2a4218fe7a3b1320201d6da06a37427690108dda3"
     },
     {
       "path": "report/figures/evidence_flow.png",
@@ -2518,9 +2523,84 @@
       "sha256": "2d0ee2d8df86a6224625c30ade3970c14735d1bad57602433822c05dfb47f0d3"
     },
     {
+      "path": "report/figures/revised_20261101/agent.png",
+      "bytes": 40772,
+      "sha256": "3c0eb5df7b5a05aadb760c880248c15961825fca429fa4c65016592cdb366f89"
+    },
+    {
+      "path": "report/figures/revised_20261101/architecture.png",
+      "bytes": 223860,
+      "sha256": "bd9018da72832b96e2f53d9752ff85ce8d236c9cc1691df5c58ba93a80b3dad3"
+    },
+    {
+      "path": "report/figures/revised_20261101/camera_retry.png",
+      "bytes": 19179,
+      "sha256": "f68559b0148bb72e2bfa0384f0ab13d6f8c4b56cd6000bf851b5c4b9a4afd16f"
+    },
+    {
+      "path": "report/figures/revised_20261101/ddr_axi.png",
+      "bytes": 22168,
+      "sha256": "b05572b99af9ce07098ee0f6d4eb8122a2ae98bd186c444b9082b0dbf284f247"
+    },
+    {
+      "path": "report/figures/revised_20261101/ethernet.png",
+      "bytes": 15729,
+      "sha256": "22df2d3c77a6817c920cc744f8620b1df68a220d9ebb5920367c41db8ced212c"
+    },
+    {
+      "path": "report/figures/revised_20261101/evidence_flow.png",
+      "bytes": 75718,
+      "sha256": "8d3b8b2989d030875afed3a77f527ffa992c1b0f8ebc124d9e97a269d84a12d8"
+    },
+    {
+      "path": "report/figures/revised_20261101/exam_stages.png",
+      "bytes": 45493,
+      "sha256": "226d2ef87c540cff955bcd98fcce7991dcb21a50def7f612bfcaa1fcfceb9c40"
+    },
+    {
+      "path": "report/figures/revised_20261101/field_fit.png",
+      "bytes": 199113,
+      "sha256": "60fcd1aa7a8698c9e0a5ebaeba1d52937134349d2cf7a3d665c2e2305caed3a4"
+    },
+    {
+      "path": "report/figures/revised_20261101/prototype.png",
+      "bytes": 1064584,
+      "sha256": "2f65df68d32966c17b7b25dfaa641666a63ae40352d6b06741bfada493c1dc06"
+    },
+    {
+      "path": "report/figures/revised_20261101/prototype_front.png",
+      "bytes": 967400,
+      "sha256": "6dc8b840fe1ac7f00e219023ea0d9ae304c958d6c7c7ae5d6c350435396588b6"
+    },
+    {
+      "path": "report/figures/revised_20261101/prototype_side.png",
+      "bytes": 1345088,
+      "sha256": "90c18d526b95e5f24f7849632684c0e68bdf7bc3b2e7212233205f08e4976349"
+    },
+    {
+      "path": "report/figures/revised_20261101/purple.png",
+      "bytes": 213955,
+      "sha256": "2e99681d582e2b64773bbc4c3ebce3acacb341205ef8d7dafb6f7da18fd17d45"
+    },
+    {
+      "path": "report/figures/revised_20261101/resources.png",
+      "bytes": 12656,
+      "sha256": "ffa36034e832d3102563ec2254ffd2d683432d45c907305aa91b7ab1e43b72df"
+    },
+    {
+      "path": "report/figures/revised_20261101/timing.png",
+      "bytes": 15139,
+      "sha256": "2ec0da5418407ac85ebeb09a9d6781f4c20e3af63ef2cc01cdae4b0e36a15e43"
+    },
+    {
       "path": "report/figures/system_architecture.png",
       "bytes": 294984,
       "sha256": "ff685c7ae2b94fc01fca895dd0d6d3c6f1d25b12f621ed018ef142f3a5ce4415"
+    },
+    {
+      "path": "report/image_requirements.md",
+      "bytes": 422,
+      "sha256": "d7fa1e14ea190c52bfa1e9ebdc69d8e5b5d874a25b0240c7e5987c421899296d"
     },
     {
       "path": "report/llm_visible_excerpts.md",
@@ -2539,8 +2619,8 @@
     },
     {
       "path": "report/readme.md",
-      "bytes": 1072,
-      "sha256": "7230c521e35605119ad8c3dd17b1e0587adb97f1c3e6ea3327210db56a56f316"
+      "bytes": 1212,
+      "sha256": "ecb71a0720914cc311d0d8d66931aea9ababaedbcdabf2e57aac66a93f8448a3"
     },
     {
       "path": "report/third_party_notices.md",
@@ -19213,6 +19293,26 @@
       "sha256": "be681da14a0028b592bb12f1a6a65ec40b79d661e9c017767dc0456bee0fb90a"
     },
     {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp",
+      "bytes": 3792265,
+      "sha256": "e60f016f6319f79ef09eb48c446250590315c8633a3e242e7f89994b16c833f3"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0.veo",
+      "bytes": 9546,
+      "sha256": "5d1f9e92146c8301f52e36e71f5f2c43ede4ac65a52b1f258f2de1991347dc43"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci",
+      "bytes": 369825,
+      "sha256": "ce85befe50313a37e16a9d79a6e9a9c3df2cc66350e83c164895ca10398ce57c"
+    },
+    {
+      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xml",
+      "bytes": 6385789,
+      "sha256": "47157a0a01e38b3be687851633325439fa01eae64a4702461a7a35a9c9964fad"
+    },
+    {
       "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/datasheet.txt",
       "bytes": 2954,
       "sha256": "e71980eaba7282e71160598a74320be7d128a5942d095b6c7eae62af9386c953"
@@ -19841,26 +19941,6 @@
       "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_2_ui_wr_data.v",
       "bytes": 21860,
       "sha256": "4583a038acc6d3e09f14670d49e6f381c05bbd243980b3d74f14725b8b78f33e"
-    },
-    {
-      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp",
-      "bytes": 3792265,
-      "sha256": "e60f016f6319f79ef09eb48c446250590315c8633a3e242e7f89994b16c833f3"
-    },
-    {
-      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0.veo",
-      "bytes": 9546,
-      "sha256": "5d1f9e92146c8301f52e36e71f5f2c43ede4ac65a52b1f258f2de1991347dc43"
-    },
-    {
-      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci",
-      "bytes": 369825,
-      "sha256": "ce85befe50313a37e16a9d79a6e9a9c3df2cc66350e83c164895ca10398ce57c"
-    },
-    {
-      "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xml",
-      "bytes": 6385789,
-      "sha256": "47157a0a01e38b3be687851633325439fa01eae64a4702461a7a35a9c9964fad"
     },
     {
       "path": "src/fpga/ov5640_ddr3_hdmi_vga.srcs/sources_1/ip/mig_7series_0/mig_7series_0_sim_netlist.v",
