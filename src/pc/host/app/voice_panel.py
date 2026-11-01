@@ -38,6 +38,7 @@ class VoicePanel(ttk.Frame):
         self.roster_error = None
         self.presentation_sent = set()
         self.auto_configured = set()
+        self.configuration_pending = None
         self.display_sent = {}
         self._presentation_job = None
         self.summary = tk.StringVar(value='语音交互：尚未收到VI状态（需新候选位流）')
@@ -86,6 +87,24 @@ class VoicePanel(ttk.Frame):
         self._presentation_job = None
         p = self.current
         candidate = self.roster.get(p.face) if p else None
+        if self.configuration_pending:
+            token, binding, tag, started = self.configuration_pending
+            if p and (p.device, p.boot) != binding[:2]:
+                self.configuration_pending = None
+            elif (p and p.command_op == 3 and p.command_token == token and
+                  p.command_result == 1 and p.round_id == binding[2]+1 and p.info_tag == tag):
+                # Tag 1 is a valid roster revision. An accepted configuration
+                # with tag 1 must not be mistaken for another initial round.
+                self.auto_configured.add((p.device, p.boot, p.round_id))
+                self.configuration_pending = None
+            else:
+                if p and p.command_op == 3 and p.command_token == token and p.command_result > 1:
+                    self.result.set(f'FPGA未接受名册配置，结果码{p.command_result}；请核对后重新应用名册。')
+                elif time.monotonic()-started > 10:
+                    self.result.set('名册配置回执超时，结果未知；请核对连接后重新应用名册。')
+                # A send is not an acknowledgement. In particular, do not
+                # upload VC5 using the pre-configuration round/tag binding.
+                return
         initial = p and p.stage==2 and p.info_state==0 and p.exam_state==0 and p.info_tag==1
         initial_key = (p.device,p.boot,p.round_id) if p else None
         if (initial and candidate and self.fresh() and
@@ -152,10 +171,12 @@ class VoicePanel(ttk.Frame):
             self.result.set('未应用：需要当前核验状态与真实姓名/考号名册。')
             return
         try:
-            self.send_command(3, replace(p, info_tag=candidate[2]))
+            token = self.send_command(3, replace(p, info_tag=candidate[2]))
         except (ValueError, OSError) as exc:
             self.result.set(f'名册修订请求未发送：{exc}')
             return
+        self.auto_configured.add((p.device, p.boot, p.round_id))
+        self.configuration_pending = (token, p.binding, candidate[2], time.monotonic())
         self.result.set('名册修订请求已发送，等待FPGA换轮次；需重新核对与回复。')
 
     def handle_help(self):
@@ -228,7 +249,21 @@ class VoicePanel(ttk.Frame):
         available = self.fresh() and self.current.help_pending and self.pending is None
         self.button.state(['!disabled'] if available else ['disabled'])
         if self.current and not self.fresh():
-            self.summary.set('语音交互状态陈旧或属于旧启动，保留最后读数，禁止处理操作。')
+            status = snapshot.latest_status
+            health = status.evidence_health if status else None
+            if time.monotonic()-self.received_at > 3:
+                message = '超过3秒未收到新语音状态，请检查采集连接。'
+            elif health and health.identity[:2] != (self.current.device, self.current.boot):
+                message = '语音状态来自复位前的启动，等待本次板卡新状态。'
+            elif self.current.error == 1:
+                message = '语音模块通信尚未就绪，等待本轮语音状态。'
+            elif self.current.error == 2:
+                message = 'FPGA尚未确认上位机心跳，等待联动恢复。'
+            elif self.current.error == 3:
+                message = '核对轮次已用尽，需要重启板卡。'
+            else:
+                message = '语音交互尚未就绪，等待板端确认。'
+            self.summary.set(message + ' 当前暂停处理操作。')
         if self._presentation_job is None:
             self._presentation_job = self.after_idle(self.present_information)
         self._poll_job = self.after(100, self.poll)

@@ -1,6 +1,6 @@
 {
   "scope": "public_fpga_k230_voice_source_reports_showcase",
-  "created_utc": "2026-11-01T09:48:11.942003+00:00",
+  "created_utc": "2026-11-01T12:26:34.709413+00:00",
   "files": [
     {
       "path": ".gitignore",
@@ -20984,8 +20984,8 @@
     },
     {
       "path": "src/pc/host/app/test_voice_interaction.py",
-      "bytes": 16057,
-      "sha256": "af16af743fa7e8ca8a821423993afe456a395580fc6de11a8feabc0094c9daa5"
+      "bytes": 22915,
+      "sha256": "a29db3a68c784f188ecc6580848c5891414d7ce263abaef7030c447a3101c524"
     },
     {
       "path": "src/pc/host/app/transaction_protocol.py",
@@ -21004,8 +21004,8 @@
     },
     {
       "path": "src/pc/host/app/voice_panel.py",
-      "bytes": 13690,
-      "sha256": "e1aecc87f67c4b743505a370518fa1ef99f4e3682336fe2629f318333dda83db"
+      "bytes": 16012,
+      "sha256": "d98374a985dac849fb78446b6e2469bcdb8e37f72ca0fb4cf100520263786f70"
     },
     {
       "path": "src/pc/host/app/voice_protocol.py",

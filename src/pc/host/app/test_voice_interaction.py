@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import struct
 import tempfile
+import time
 import tkinter as tk
 import unittest
 from unittest.mock import patch
@@ -46,7 +47,9 @@ class VoiceInteractionTests(unittest.TestCase):
                                   round_id=2,info_state=0,exam_state=0)
                         model.apply(p);panel.poll();root.update_idletasks()
                         self.assertEqual(decode_voice_command(send.call_args.args[0])[0],3)
-                        bound=replace(p,sequence=2,round_id=3,info_tag=9)
+                        configured_token=decode_voice_command(send.call_args.args[0])[1]
+                        bound=replace(p,sequence=2,round_id=3,info_tag=9,
+                                      command_token=configured_token,command_op=3,command_result=1)
                         model.apply(bound);panel.poll();root.update_idletasks()
                         self.assertEqual(decode_voice_command(send.call_args.args[0])[0],5)
                         # Upload acceptance is NOT HDMI frame application. A
@@ -79,7 +82,9 @@ class VoiceInteractionTests(unittest.TestCase):
                     send=sock.return_value.__enter__.return_value.sendto
                     self.assertEqual(decode_voice_command(send.call_args.args[0])[0],3)
                     panel.poll();root.update_idletasks();self.assertEqual(send.call_count,1)
-                    bound=replace(p,sequence=2,round_id=p.round_id+1,info_tag=9)
+                    configured_token=decode_voice_command(send.call_args.args[0])[1]
+                    bound=replace(p,sequence=2,round_id=p.round_id+1,info_tag=9,
+                                  command_token=configured_token,command_op=3,command_result=1)
                     model.apply(bound);panel.poll();root.update_idletasks()
                     self.assertEqual(decode_voice_command(send.call_args.args[0])[0],5)
                     accepted=replace(bound,sequence=3,command_token=panel.display_sent[bound.binding],command_op=5,command_result=1)
@@ -88,6 +93,104 @@ class VoiceInteractionTests(unittest.TestCase):
                     self.assertIn('6024202258',panel.candidate_text.get())
             finally:
                 model.close();root.destroy();del panel;gc.collect()
+    def test_revision_one_waits_for_config_ack_and_does_not_reconfigure_new_round(self):
+        # Real boot112 used roster tag1. The tag stays 1 after VC3, while
+        # FPGA increments round_id. Repeated UI polls must not upload using
+        # the old round or mistake the accepted round for an initial state.
+        with tempfile.TemporaryDirectory() as directory:
+            path=Path(directory)/'roster.json'
+            path.write_text(json.dumps({'schema':1,'candidates':[{'face_id':1,
+                'name':'彭于晏','exam_number':'6024202258','info_tag':'0000000000000001'}]}),encoding='utf-8')
+            root=tk.Tk();root.withdraw();model=MonitorModel()
+            panel=VoicePanel(root,model,'127.0.0.1',5006,roster_path=path)
+            try:
+                p=replace(decode_packet(status_line(flags=1,ticket=0,tag=1,boot=112)),
+                          round_id=2,info_state=0,exam_state=0)
+                with patch('app.voice_panel.socket.socket') as sock:
+                    send=sock.return_value.__enter__.return_value.sendto
+                    model.apply(p);panel.poll();root.update_idletasks()
+                    token=decode_voice_command(send.call_args.args[0])[1]
+                    for _ in range(3):
+                        panel.poll();root.update_idletasks()
+                    self.assertEqual(send.call_count,1,'VC5 must wait for VC3 acknowledgement')
+                    bound=replace(p,sequence=2,round_id=3,command_token=token,
+                                  command_op=3,command_result=1)
+                    model.apply(bound);panel.poll();root.update_idletasks()
+                    commands=[decode_voice_command(c.args[0])[0] for c in send.call_args_list]
+                    self.assertEqual(commands,[3,5],'accepted tag1 must not configure a second time')
+                    display_token=panel.display_sent[bound.binding]
+                    applied=replace(bound,sequence=3,flags=65,command_token=display_token,
+                                    command_op=5,command_result=1)
+                    model.apply(applied);panel.poll();root.update_idletasks()
+                    commands=[decode_voice_command(c.args[0])[0] for c in send.call_args_list]
+                    self.assertEqual(commands,[3,5,1])
+                    for _ in range(8):
+                        panel.poll();root.update_idletasks()
+                    self.assertEqual(send.call_count,3)
+                    # A later examination in this same boot still configures.
+                    next_round=replace(p,sequence=4,round_id=4)
+                    model.apply(next_round);panel.poll();root.update_idletasks()
+                    self.assertEqual(decode_voice_command(send.call_args.args[0])[0],3)
+            finally:
+                model.close();root.destroy();del panel;gc.collect()
+
+    def test_configuration_timeout_and_rejection_never_upload_old_binding(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path=Path(directory)/'roster.json'
+            path.write_text(json.dumps({'schema':1,'candidates':[{'face_id':1,
+                'name':'彭于晏','exam_number':'6024202258','info_tag':'0000000000000001'}]}),encoding='utf-8')
+            root=tk.Tk();root.withdraw();model=MonitorModel()
+            panel=VoicePanel(root,model,'127.0.0.1',5006,roster_path=path)
+            try:
+                p=replace(decode_packet(status_line(flags=1,ticket=0,tag=1,boot=112)),
+                          round_id=2,info_state=0,exam_state=0)
+                with patch('app.voice_panel.socket.socket') as sock:
+                    send=sock.return_value.__enter__.return_value.sendto
+                    model.apply(p);panel.poll();root.update_idletasks()
+                    pending=panel.configuration_pending
+                    token=pending[0]
+                    # An unrelated/stale acknowledgement cannot authorize VC5.
+                    wrong=replace(p,sequence=2,round_id=3,command_token=token+1,
+                                  command_op=3,command_result=1)
+                    model.apply(wrong);panel.poll();root.update_idletasks()
+                    self.assertEqual(send.call_count,1)
+                    rejected=replace(wrong,sequence=3,command_token=token,command_result=2)
+                    model.apply(rejected);panel.poll();root.update_idletasks()
+                    self.assertIn('未接受名册配置',panel.result.get())
+                    self.assertEqual(send.call_count,1)
+                    panel.current=wrong
+                    panel.configuration_pending=(*pending[:3],time.monotonic()-11)
+                    panel.present_information()
+                    self.assertIn('回执超时',panel.result.get())
+                    self.assertEqual(send.call_count,1)
+                    # A real new boot may start a fresh configuration normally.
+                    reboot=replace(p,boot=113,sequence=1)
+                    model.apply(reboot);panel.poll();root.update_idletasks()
+                    self.assertEqual(send.call_count,2)
+                    self.assertEqual(decode_voice_command(send.call_args.args[0])[0],3)
+                    token=panel.configuration_pending[0]
+                    accepted=replace(reboot,sequence=2,round_id=3,command_token=token,
+                                     command_op=3,command_result=1)
+                    model.apply(accepted);panel.poll();root.update_idletasks()
+                    self.assertEqual(decode_voice_command(send.call_args.args[0])[0],5)
+            finally:
+                model.close();root.destroy();del panel;gc.collect()
+
+    def test_freshness_messages_distinguish_voice_heartbeat_and_missing_updates(self):
+        root=tk.Tk();root.withdraw();model=MonitorModel()
+        panel=VoicePanel(root,model,'127.0.0.1',5006)
+        try:
+            with patch('app.voice_panel.socket.socket'):
+                for seq,error,expected in ((1,1,'语音模块通信'),(2,2,'上位机心跳'),(3,3,'轮次已用尽')):
+                    p=replace(decode_packet(status_line(seq=seq,flags=0,ticket=0)),error=error)
+                    model.apply(p);panel.poll()
+                    self.assertIn(expected,panel.summary.get())
+                    self.assertNotIn('旧启动',panel.summary.get())
+                panel.received_at=0;panel.poll()
+                self.assertIn('超过3秒未收到',panel.summary.get())
+        finally:
+            model.close();root.destroy();del panel;gc.collect()
+
     def test_new_configuration_and_heartbeat_protocol(self):
         p = decode_packet(status_line(flags=0, ticket=0))
         config = encode_voice_command(3, 20, replace(p, info_tag=99))
