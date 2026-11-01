@@ -8,4 +8,4 @@
 
 当前硬件版本见[版本记录](../board/current_release.json)，原始实现数据见[实现报告](../build/reports/quality_current/timing.rpt)。[框图及选图](figures/revised_20261101/architecture.png)随报告保留。
 
-工程背景资料：[双摄分工](../data/architecture.md)、[通信链路](../data/communication.md)、[视觉训练记录](../data/recognition.md)、[复核工作流](../data/review_workflow.md)。协作的可见记录另见[交互节选](llm_visible_excerpts.md)。中英文海报单独保留为PPTX。
+工程背景资料：[双摄分工](../data/architecture.md)、[通信链路](../data/communication.md)、[视觉训练记录](../data/recognition.md)、[复核工作流](../data/review_workflow.md)。协作的可见记录另见[交互节选](llm_visible_excerpts.md)。[中英文海报](amd_poster_zh_en.pptx)共两页，直接填充AMD原模板，保留简介栏、竖排设计与结果栏目、圆角说明框和AMD标识。已加入学校校徽、真实样机、系统框图、资源时序表及测试汇总表。测试表区分163项RTL自检记录、122项PC本地回归、16 MiB Flash读回和现场功能复测。

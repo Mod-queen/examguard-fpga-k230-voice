@@ -1,6 +1,6 @@
 {
   "scope": "public_fpga_k230_voice_source_reports_showcase",
-  "created_utc": "2026-11-01T08:23:55.410602+00:00",
+  "created_utc": "2026-11-01T09:48:11.942003+00:00",
   "files": [
     {
       "path": ".gitignore",
@@ -2464,8 +2464,8 @@
     },
     {
       "path": "report/amd_poster_zh_en.pptx",
-      "bytes": 202248,
-      "sha256": "de8770f26e25d40ae1c98ae98a007e8e758af97d274fa6b8f731d18842931c61"
+      "bytes": 673300,
+      "sha256": "6d2166b947c942340b63fcf187407fdadda20d006dc7e29078a746e39a7e72d7"
     },
     {
       "path": "report/collaboration_record.md",
@@ -2619,8 +2619,8 @@
     },
     {
       "path": "report/readme.md",
-      "bytes": 1306,
-      "sha256": "485ec1fcee18821eb87a299f929831579ab6142ca2fab13298cada7ac78cc27e"
+      "bytes": 1620,
+      "sha256": "f3f94d18aa33bc451fbb145f579ea7197ec20ba313c837e84bd707c6ff6b1bb0"
     },
     {
       "path": "report/third_party_notices.md",
