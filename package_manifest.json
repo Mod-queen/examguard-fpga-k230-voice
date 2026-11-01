@@ -1,6 +1,6 @@
 {
   "scope": "public_fpga_k230_voice_source_reports_showcase",
-  "created_utc": "2026-11-01T07:30:38.918675+00:00",
+  "created_utc": "2026-11-01T07:48:39.571744+00:00",
   "files": [
     {
       "path": ".gitignore",
@@ -2489,18 +2489,18 @@
     },
     {
       "path": "report/design_appendix.md",
-      "bytes": 424,
-      "sha256": "f6c215487a9a139d79e46bbe45e798ddcf3ee839f496ddb80c8cec6b7afd4c17"
+      "bytes": 467,
+      "sha256": "54fbe8a6bb9be5b8a7e12583237b1dc994ac8db769473bcf1374bc4c85a4ee56"
     },
     {
       "path": "report/design_report.docx",
-      "bytes": 2007061,
-      "sha256": "b7a91015550f2281c17b78bffd7aac25c9424eabf5c63ef25bd045954077defb"
+      "bytes": 2006873,
+      "sha256": "cd85caf476ab468a935135bf91e843cf0eb658af8effe00913c8821c8b77e3df"
     },
     {
       "path": "report/design_report.pdf",
-      "bytes": 952701,
-      "sha256": "ca8e2ac453ff507e9c585ae2a4218fe7a3b1320201d6da06a37427690108dda3"
+      "bytes": 952120,
+      "sha256": "e733a9fd9447dadeaca89cd9d4d5ef2b19df35f91c3d5f361404be650022ec5b"
     },
     {
       "path": "report/figures/evidence_flow.png",
@@ -2619,8 +2619,8 @@
     },
     {
       "path": "report/readme.md",
-      "bytes": 1212,
-      "sha256": "ecb71a0720914cc311d0d8d66931aea9ababaedbcdabf2e57aac66a93f8448a3"
+      "bytes": 1306,
+      "sha256": "485ec1fcee18821eb87a299f929831579ab6142ca2fab13298cada7ac78cc27e"
     },
     {
       "path": "report/third_party_notices.md",
