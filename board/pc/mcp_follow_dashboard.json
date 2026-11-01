@@ -7,7 +7,7 @@
         "-u",
         "D:/examguard/src/pc/start_agent_mcp.py",
         "--current-session-file",
-        "D:/examguard/src/pc/host/.private/joycode_current_source.json"
+        "D:/fpga_real/证据回溯/.private/joycode_current_source.json"
       ],
       "env": {
         "PYTHONUTF8": "1"

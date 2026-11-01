@@ -1,6 +1,6 @@
 {
   "scope": "public_fpga_k230_voice_source_reports_showcase",
-  "created_utc": "2026-11-01T07:48:39.571744+00:00",
+  "created_utc": "2026-11-01T08:23:55.410602+00:00",
   "files": [
     {
       "path": ".gitignore",
@@ -94,8 +94,8 @@
     },
     {
       "path": "board/k230/readme.md",
-      "bytes": 667,
-      "sha256": "a16f7627357052e22255b30c1829cf294bd151ac89009d2050fbbf38ffc1a35e"
+      "bytes": 739,
+      "sha256": "b574fd4209236573e70dc98caf052d73e06fc85165062f0b8a6c7f557fdae8d4"
     },
     {
       "path": "board/k230/records/activation_manifest.json",
@@ -144,13 +144,13 @@
     },
     {
       "path": "board/pc/mcp_follow_dashboard.json",
-      "bytes": 374,
-      "sha256": "9d30ecb9ebf747c71526d3ec73063efa1a5757e8f21b3fae6bf85f08e775e9b7"
+      "bytes": 360,
+      "sha256": "0c90b761e0871848a8269a6fa1507f08024c4270a0be100a7dd463381191358f"
     },
     {
       "path": "board/pc/storage.md",
-      "bytes": 759,
-      "sha256": "57c4069b79e70d2d464da8fd640cdb32eb38f8da4e019964b3ca9df33059451d"
+      "bytes": 947,
+      "sha256": "e2576d7107bbeae9bdf1af5acb51c46fa645026bfbc2d3808db486d96017fa7d"
     },
     {
       "path": "board/records/build.jou",
@@ -259,8 +259,8 @@
     },
     {
       "path": "build/build_fpga.tcl",
-      "bytes": 5551,
-      "sha256": "7f073b9d54d958b32fe033a15bf76f50f5c2de273440d708841393c4e163680e"
+      "bytes": 5441,
+      "sha256": "eea2a296d54ab8fe0fd3c98f3b3c44ad2ca0aa4ca5c5e2e2a12274fd60a74bf8"
     },
     {
       "path": "build/check_project.tcl",
@@ -1604,8 +1604,8 @@
     },
     {
       "path": "build/reproduction.md",
-      "bytes": 2726,
-      "sha256": "536d776d7016f8f7b67995f172da4a9ac25f2f1e725c70dda96106e805c8fd84"
+      "bytes": 2975,
+      "sha256": "461442da06e6eb4a14405f9bd82c83ea66a37d3e0328b61d5a8fcc0d9abd6c7a"
     },
     {
       "path": "build/reproduction/bus_skew.rpt",
@@ -2469,8 +2469,8 @@
     },
     {
       "path": "report/collaboration_record.md",
-      "bytes": 5455,
-      "sha256": "365275c156f7ec837604f599041f41b6e692c5b30b97591742682fe20a1d2472"
+      "bytes": 5493,
+      "sha256": "c74216788455c389affb439b9c7dcee4877695c4f393a880b5ccfa37c6c4cb95"
     },
     {
       "path": "report/demo/copy_prompts.txt",
@@ -18279,13 +18279,13 @@
     },
     {
       "path": "skill/examguard_review/readme.md",
-      "bytes": 2973,
-      "sha256": "3805f90b18306e68d8e2cc5f3639f05d451f77b50e40b05ed29d2b20c8a2c927"
+      "bytes": 2306,
+      "sha256": "a5cdc67769a8d82c451888b104c50bed370e5f3de7b915b7df0bb865d78b5f5f"
     },
     {
       "path": "skill/examguard_review/references/tool_contract.md",
-      "bytes": 2699,
-      "sha256": "a40e17b5a28b669092e71a2da17eabfec7cd75b599529fc402738defc8b061b9"
+      "bytes": 2747,
+      "sha256": "b974cb9fdf33ec7613958027a7076b4e9fb810ac134feb95638698fed9964aeb"
     },
     {
       "path": "skill/examguard_review/skill.md",
@@ -18309,13 +18309,13 @@
     },
     {
       "path": "skill/report_evidence/manifest.json",
-      "bytes": 1643,
-      "sha256": "b8db8e9d2a8e7f7be08ecd554006d447eeaffcf0bc23d10cad0226096549520d"
+      "bytes": 2090,
+      "sha256": "b44fd3f87ffbead926eeb8ddf55eb8708bc4b4309dc0562ba82c00eab338e629"
     },
     {
       "path": "skill/report_evidence/readme.md",
-      "bytes": 1046,
-      "sha256": "8b3775a8394495562e26ad1706f854d0217d7a74bd06e752ccb4f5d482da912d"
+      "bytes": 1122,
+      "sha256": "ecfee9bb15a8d4584f1cbc55db0783923bedef6ab5d61ed1bddd9bc6cdf88c0f"
     },
     {
       "path": "skill/report_evidence/skill.md",
@@ -18324,8 +18324,8 @@
     },
     {
       "path": "skill/report_evidence/validation_result.json",
-      "bytes": 1904,
-      "sha256": "73c373a1de0cd047251c43261e01e977ec0c06f0b2cd893e3b8f800770d16a2d"
+      "bytes": 2184,
+      "sha256": "1b542b32a2b04bee80cb2fd9a735f5de2d09be82989d2d9f8accfcd2abbaa10e"
     },
     {
       "path": "src/fpga/local_sources/03405f991331/history_formal_reset_timing.xdc",
@@ -22509,8 +22509,8 @@
     },
     {
       "path": "tools/make_mcp_config.py",
-      "bytes": 501,
-      "sha256": "4b0cb222c2319d78312a485a8b04fc807930986f8b25e1186da5041e1e7e8001"
+      "bytes": 1372,
+      "sha256": "dfe91c388e69e26d3712043bc31b4e0441cff247e4462bbdb295b186147843c6"
     },
     {
       "path": "tools/prepare_sdcard.py",

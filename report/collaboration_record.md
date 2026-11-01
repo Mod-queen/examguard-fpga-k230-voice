@@ -20,7 +20,7 @@
 
 修正先改数据接口：两个证据工具新增event_uid、event_code、event_code_hex与事件名称；未知码保持未知。随后补SYSTEM_PROMPT、Rule和Skill，明确UID非类型。回归覆盖编号与类型不同、未知类型和完整引用，并运行真实MCP子进程查询。
 
-用户后续回传正确结果：UID102、event_code80、0x50疑似手机，不再误称扭头。本条平台复测通过，不推广为模型从此不会出错。原独立回归26项与MCP只读数据库前后SHA结果见verification_out/agent_20261030及docs/agent_upgrade_20261030/agent_collaboration_record.md。
+用户后续回传正确结果：UID102、event_code80、0x50疑似手机，不再误称扭头。本条平台复测通过，不推广为模型从此不会出错。原MCP只读数据库前后SHA结果见[子进程记录](../sim/original_logs/agent/mcp_event_metadata_result.json)，当前软件回归见[PC结果](../sim/results/quality_pc/result.json)。
 
 ## 4 无图像原因的过度推断与修正
 
@@ -46,6 +46,6 @@ rev03采用完整1280×720有效像素计数、RGB各通道不高于31、98%比�
 
 ## 7 技能提炼与可复用效果
 
-现有skill/examguard-review把上述来源、类型、无图和状态解释整理成工作流，README列出适用、用法、失效条件、观察和验证。随文skill/report_evidence再提炼报告核查流程：源文件清单、SHA256、报告关键字段和只读验证输出。后者可换到其他FPGA题目，不依赖监考工具名称。
+现有skill/examguard_review把上述来源、类型、无图和状态解释整理成工作流，README列出适用、用法、失效条件、观察和验证。随文skill/report_evidence再提炼报告核查流程：源文件清单、SHA256、报告关键字段和只读验证输出。后者可换到其他FPGA题目，不依赖监考工具名称。
 
 技能验证包括实际代码回归、真实MCP子进程、用户平台回传和报告清单校验，各按自身范围说明。没有PYNQ框架和跨板Overlay验证，因此不将这些技能写成通用PYNQ加分技能。

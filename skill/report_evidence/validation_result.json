@@ -2,55 +2,64 @@
   "passed": true,
   "files": [
     {
-      "path": "build/reports/baseline/utilization.rpt",
+      "path": "build/reports/accepted_current/utilization.rpt",
       "role": "baseline_resources",
       "exists": true,
-      "sha256": "471b19f14c7281fe400baf8c8f541edffcf515305fc6e7242d37c640f972f62e",
+      "sha256": "4ad99766c2d8458679a65f83f51a3808861cd1a21407e38e03e30da398c991ae",
       "hash_matches": true,
       "text_matches": true,
       "passed": true
     },
     {
-      "path": "build/reports/baseline/timing.rpt",
+      "path": "build/reports/accepted_current/timing.rpt",
       "role": "baseline_timing",
       "exists": true,
-      "sha256": "c4755a48a6569040c7fa429accb1e4b704f9094de14360f6d9954c1c1ea95f5e",
+      "sha256": "22c462eca5cd772107be73f732ccc3317dc473e20d9153733969412fbd89bbed",
       "hash_matches": true,
       "text_matches": true,
       "passed": true
     },
     {
-      "path": "build/reports/current/utilization.rpt",
+      "path": "build/reports/quality_current/utilization.rpt",
       "role": "current_resources",
       "exists": true,
-      "sha256": "f8d5a01d67119f986206be53f026d32d232d211f625a86e7afb6e18fdfa51f5c",
+      "sha256": "381fc7b1a882395320d2e11cadbff0aa529ee9f45be1b846748af707bc131dd1",
       "hash_matches": true,
       "text_matches": true,
       "passed": true
     },
     {
-      "path": "build/reports/current/timing.rpt",
+      "path": "build/reports/quality_current/timing.rpt",
       "role": "current_timing",
       "exists": true,
-      "sha256": "a978b6c51eaa55d28648519b8cded10be36946ce11344a0c772e3ef2fcfc530c",
+      "sha256": "d4e48ec4046a80ab50e758f470733b6c8db4fae110958d909b93b20db83f64b6",
       "hash_matches": true,
       "text_matches": true,
       "passed": true
     },
     {
-      "path": "board/flash_records/program_result_reaudit.json",
+      "path": "board/verification/quality_flash_readback.json",
       "role": "flash_readback",
       "exists": true,
-      "sha256": "4d343a32dd73120472056556c48ada3df87a6bd3e64d287b30c49f63e91890e6",
+      "sha256": "bb9e547d373b339fa1354ed308fd13bfbafa89201d8af17ea1194fd76b2e9324",
       "hash_matches": true,
       "text_matches": true,
       "passed": true
     },
     {
-      "path": "board/records/poweron_acceptance.json",
-      "role": "startup_user_and_passive",
+      "path": "board/verification/quality_poweron_passive.json",
+      "role": "post_poweron_observation",
       "exists": true,
-      "sha256": "cc5dabe38bf3a3ed84bbf723df8c80b8cc1f6498f5df9b3664b1b2653a1f0647",
+      "sha256": "a9499948be4eb67e6e1a857b3b3b18fe64a2007dca4f73d5df4bd8a44adf0fd7",
+      "hash_matches": true,
+      "text_matches": true,
+      "passed": true
+    },
+    {
+      "path": "board/verification/quality_field_acceptance.json",
+      "role": "user_field_feedback",
+      "exists": true,
+      "sha256": "edc9ba9b2975627ae75430128ae8190f66521b340f3cacf28bd2a671317fbc44",
       "hash_matches": true,
       "text_matches": true,
       "passed": true

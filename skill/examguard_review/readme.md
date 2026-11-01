@@ -1,29 +1,23 @@
-# ExamGuard Review Skill
+# 考场证据复核技能
 
-这是比赛工程内的可复用技能包，指导智能体通过四个只读MCP工具完成考场复核。它不修改FPGA/K230、训练模型或裁定作弊，也不属于PYNQ技能。
+适用场景：通过已连接的examguard MCP查询疑似事件、证据状态及最后系统状态，也可明确选择历史场次复核。该技能不修改硬件、不训练模型，最终由老师查看原始证据判断。
 
-## 适用范围和使用
+## 使用方法
 
-适用于已连接 examguard MCP 的老师查询和明确标记的历史场次复核。将 SKILL.md 导入平台技能配置并关联“智察考场·证据复核助手”；支持完整目录导入时同时保留 references。若仅支持粘贴一个技能正文，SKILL.md 已包含主要流程，工具契约可作为补充阅读材料。
+将[skill.md](skill.md)正文导入平台技能配置；完整目录导入时保留[工具契约](references/tool_contract.md)。仓库按指南使用小写文件名；本目录不是所有客户端都能自动发现的全局技能目录。
 
-项目内的 skill/ 是交付位置，并非所有客户端的自动发现目录。本轮没有把文件安装为全局技能，也未代替用户发布团队资产。Rule与Prompt内容分别位于 docs/agent_upgrade_20261030/agent_rule.md 和 agent_prompt.txt，应仅关联本复核助手。
+配套[Rule](../../board/pc/agent_rule.md)与[Prompt](../../board/pc/agent_prompt.txt)只关联本复核助手。先按[复现说明](../../build/reproduction.md)生成本机MCP配置，在平台导入并启用examguard，再由监考台选择会话。
 
 ## 来源观察与纠错
 
-2026年10月30日，用户回传了JoyCode对 get_system_health、check_evidence_status、get_image_path 的调用和回答：正确识别旧状态为stale，事件102返回not_received、0帧和空图像。该反馈表明平台已能调用服务；它是用户回传的文本，不是完整原始平台日志。
+已保留的可见交互发现两类问题：一是将UID102换算为0x66后误作事件类型，二是将所选范围没有图像扩大解释为设备从未采集或网络丢包。由此提炼先确认来源、只读类型字段、区分完整性与原因、区分列表和实际看图范围的查询流程。
 
-回答仍把“当前所选范围没有可关联证据”扩展为“PC尚未收到任何像素”，并无条件建议稍后等待。由此提炼本技能：限定查询范围、区分缺失与原因、静态存档不盲等。服务器工具结果也补充了来源和查询范围说明。
+[可见交互节选](../../report/llm_visible_excerpts.md)保留请求、回答与修正；[真实MCP子进程记录](../../sim/original_logs/agent/mcp_event_metadata_result.json)核对UID102对应80/0x50手机，数据库前后SHA一致。用户回传的平台答复和本地工具回归分别保留，不混作同一种测试。
 
-配置后用户回传已正确限制原因和拒绝直接裁定，但发生UID102→0x66→扭头的错误。实际只读事务解码为类型80/0x50手机；因此工具补充独立的编号、类型码和名称，技能强调不能将UID转换为类型。26项本地回归及原事件真实MCP子进程已通过，平台类型复测仍单列待验。
+## 验证效果和复现
 
-## 失效条件
+接口的范围、缺失、完整和冲突语义由[src/pc/host/app/test_agent.py](../../src/pc/host/app/test_agent.py)核对；JoyCode会话跟随由[test_agent_joycode.py](../../src/pc/host/app/test_agent_joycode.py)核对。已保存的122项PC回归结果见[result.json](../../sim/results/quality_pc/result.json)。从根目录运行`powershell -ExecutionPolicy Bypass -File tools/reproduce.ps1 -Mode pc`可重新检查本地软件，不访问云模型或板卡。
 
-MCP未连接、所选会话或目录错误、接口参数改变、证据身份冲突、归档损坏时不能给有效完整性结论。只有路径元数据且未实际读图时不能给视觉判断。缺少当前采集数据时不能证明设备在线。
+## 失效条件与迁移
 
-## 验证效果与复现
-
-SKILL.md 使用 skill-creator 的 quick_validate.py 检查结构；工具的选定目录边界、缺失/完整/冲突语义由 host/app/test_agent.py 回归。tools/check_agent_mcp.py 验证真实子进程读取指定旧场次，比较SQLite前后SHA。结果和限制记在 docs/agent_upgrade_20261030/agent_skill_acceptance.md。
-
-平台先前两次真实调用发生在本技能配置前，因此不当作新技能的行为验证。配置后需重新测试“没有图是不是一定丢包”和“历史正常是否等于现在在线”，保留平台调用记录后再标记模型行为通过。没有宣称修复识别精度或保证得分。
-
-提交副本入口与路径以根readme.md、board/pc/mcp_follow_dashboard.json为准。原技能契约和范围说明保留。
+MCP未连接、来源选择错误、接口参数变化或证据冲突时停止给出完整性结论。只有路径元数据时不能声称已经看图；历史状态不能证明当前在线。迁移到其他设备告警场景时，替换事件表与工具契约，重新检查查询范围和回归结果。本技能不是PYNQ专用技能。

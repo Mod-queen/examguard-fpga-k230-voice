@@ -28,7 +28,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tools/reproduce.ps1 -Mode fu
 也可用原入口`reproduce.cmd --full --vivado-bin <bin目录> --iverilog-bin <bin目录>`。单独PC检查用`-Mode pc`，单独SD准备用`-Mode sd`。
 
 5. 每次结果保存在新的build/reproduction_时间目录。脚本先核文件，再运行请求的步骤；任何失败停止并给出日志，不覆盖旧结果，不访问串口或自动烧板。日志内历史D:/fpga_race路径是当时来源，不是新机器依赖。
-6. 新板连接、加载位流、准备SD和登记身份见board/k230/readme.md及report附录。K230固件须匹配现有运行环境；固件与个人特征由使用者准备。PC模型连接使用自己的账户。生成实际MCP配置后重连JoyCode。
+6. 新板连接、加载位流、准备SD和登记身份见[板端说明](../board/k230/readme.md)及[报告](../report/design_report.pdf)第三部分3.5。K230固件须匹配现有运行环境；固件与个人特征由使用者准备。PC模型连接使用自己的账户。运行`python tools/make_mcp_config.py`，将生成的`board/pc/mcp_follow_dashboard.json`导入JoyCode并启用examguard。生成脚本读取与监考台相同的storage_root；更换仓库或证据保存位置后重新生成一次，日常切换会话不需要修改。
 
 ## 位流与保存位置
 

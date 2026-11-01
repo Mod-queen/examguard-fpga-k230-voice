@@ -1,5 +1,5 @@
 # K230正式包状态
 
-当前正式入口为examguard_book_assist_20261030。records/release_manifest.json保存最初候选封包原件，其中DIAGNOSTIC_ONLY_NOT_DEPLOYED是生成时状态，不是最终板端状态；后续activation_manifest.json逐文件记录实际部署SHA256，board/records/poweron_acceptance.json记录物理断电与只读启动反馈。为保留证据顺序，不改写旧记录。
+当前正式入口为examguard_book_assist_20261030。records/release_manifest.json保存最初候选封包原件，其中DIAGNOSTIC_ONLY_NOT_DEPLOYED是生成时状态，不是最终板端状态；后续activation_manifest.json逐文件记录实际部署SHA256，[当前上电与现场记录](../verification/readme.md)对应最新整机验证；board/records/poweron_acceptance.json保留早期断电与启动反馈。为保留证据顺序，不改写旧记录。
 
 sdcard_manifest.json列出本包文件到板端路径及SHA256，prepare_sdcard.py据此准备文件。个人face_db未打包，必须登记本人；厂商固件版本见data/model_records。源工程及演示板中的原身份数据未被改动。

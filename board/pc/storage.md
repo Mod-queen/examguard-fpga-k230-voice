@@ -10,4 +10,6 @@
 
 在`src/pc/host/launch_config.json`中修改`storage_root`可配置其他位置。绝对路径直接使用；相对路径以host目录为基准；省略则沿用host下默认位置。接收服务与桌面均读取同一配置，Agent和JoyCode沿用桌面当前选择。
 
+修改保存配置后，运行`python tools/make_mcp_config.py`重新生成本机MCP配置并导入JoyCode。该脚本与监考台共用保存路径计算方式，不会读取或覆盖已有会话。
+
 更换保存位置前正常退出监考台，完整复制已有sessions和evidence_out并核对后再启动。不要只更改回放选择而保留接收端旧路径。已有证据及个人资料不进入公开仓库和工程RAR。

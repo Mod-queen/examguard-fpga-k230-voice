@@ -1,4 +1,4 @@
-# Independent quality candidate; board release is unchanged. This script never connects to hardware.
+# Rebuild the accepted quality source into a new output directory. No hardware connection.
 set root [file normalize [file join [file dirname [info script]] ..]]
 set source [file join $root src fpga]
 set out [file join $root build reproduced]

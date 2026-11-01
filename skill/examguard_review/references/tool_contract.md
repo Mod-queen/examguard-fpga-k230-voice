@@ -1,6 +1,6 @@
 # examguard 工具契约
 
-本表对应工程 host/app/agent_tools.py 的四个只读工具。MCP客户端可能给工具名加服务器前缀，应选择实际列出的对应工具。
+本表对应工程[src/pc/host/app/agent_tools.py](../../../src/pc/host/app/agent_tools.py)的四个只读工具。MCP客户端可能给工具名加服务器前缀，应选择实际列出的对应工具。
 
 | 工具 | 参数 | 主要解释边界 |
 | --- | --- | --- |
