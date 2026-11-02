@@ -1,6 +1,6 @@
 {
   "scope": "public_fpga_k230_voice_source_reports_showcase",
-  "created_utc": "2026-11-01T12:26:34.709413+00:00",
+  "created_utc": "2026-11-02T03:51:38.432137+00:00",
   "files": [
     {
       "path": ".gitignore",
@@ -2469,8 +2469,8 @@
     },
     {
       "path": "report/collaboration_record.md",
-      "bytes": 5493,
-      "sha256": "c74216788455c389affb439b9c7dcee4877695c4f393a880b5ccfa37c6c4cb95"
+      "bytes": 4913,
+      "sha256": "60010a06c8ae8cc46fe6fa4ea8f7fb4b65fde4c5bb4e17231d282a8cbe0fde9e"
     },
     {
       "path": "report/demo/copy_prompts.txt",
@@ -2494,13 +2494,13 @@
     },
     {
       "path": "report/design_report.docx",
-      "bytes": 2006873,
-      "sha256": "cd85caf476ab468a935135bf91e843cf0eb658af8effe00913c8821c8b77e3df"
+      "bytes": 2006666,
+      "sha256": "80cb17c0094c21a953d4be34ac848ad5fcf25d9efe6a34da4af48dbad5fbc202"
     },
     {
       "path": "report/design_report.pdf",
-      "bytes": 952120,
-      "sha256": "e733a9fd9447dadeaca89cd9d4d5ef2b19df35f91c3d5f361404be650022ec5b"
+      "bytes": 950896,
+      "sha256": "8c32884de155b68c4cbffcad4b05c620a55bff3db6e57bb5a98702d8c80b5793"
     },
     {
       "path": "report/figures/evidence_flow.png",
@@ -2604,8 +2604,8 @@
     },
     {
       "path": "report/llm_visible_excerpts.md",
-      "bytes": 2847,
-      "sha256": "39ce0b8eff340211d3f417023b73f45c2cc5e3e34d57158c4af5ed3e5b76257b"
+      "bytes": 3306,
+      "sha256": "9d369f39a7059bbbcc51747e87a9d5584cba8e8248846b84807834580f064fc6"
     },
     {
       "path": "report/project_explained.docx",
@@ -2619,8 +2619,8 @@
     },
     {
       "path": "report/readme.md",
-      "bytes": 1620,
-      "sha256": "f3f94d18aa33bc451fbb145f579ea7197ec20ba313c837e84bd707c6ff6b1bb0"
+      "bytes": 1669,
+      "sha256": "f0020cee26de0b759c1df59b47c4bb6ff8e722b8891bc777f1c5a10b828bfadd"
     },
     {
       "path": "report/third_party_notices.md",
